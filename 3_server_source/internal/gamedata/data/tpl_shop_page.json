@@ -1,0 +1,985 @@
+{
+  "_meta": {
+    "source": "tpl_shop_page.lua",
+    "format": "keys_bodys",
+    "count": 24
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "LAB_SHOP_NAME_1",
+      "page_icon": "Shop[shop_tab_icon_01]",
+      "page_type": 1,
+      "sub_page": [
+        104,
+        101,
+        102,
+        103
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    {
+      "id": 2,
+      "name": "LAB_SHOP_NAME_2",
+      "page_icon": "Shop[shop_tab_icon_02]",
+      "page_type": 1,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 3,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_fullscreen_01.png",
+      "unselected_color": null,
+      "gifts": null
+    },
+    {
+      "id": 3,
+      "name": "LAB_SHOP_NAME_3",
+      "page_icon": "Shop[shop_tab_icon_03]",
+      "page_type": 1,
+      "sub_page": [
+        303,
+        301,
+        302
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    {
+      "id": 4,
+      "name": "LAB_SHOP_NAME_4",
+      "page_icon": "Shop[shop_tab_icon_05]",
+      "page_type": 1,
+      "sub_page": [
+        401,
+        402,
+        403
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 4,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    {
+      "id": 5,
+      "name": "LAB_SHOP_NAME_5",
+      "page_icon": "Shop[shop_tab_icon_06]",
+      "page_type": 1,
+      "sub_page": [
+        501,
+        502,
+        503
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 5,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    {
+      "id": 6,
+      "name": "LAB_SHOP_NAME_6",
+      "page_icon": "Shop[shop_tab_icon_04]",
+      "page_type": 1,
+      "sub_page": [
+        601,
+        602,
+        603,
+        604,
+        605
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 4,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    {
+      "id": 101,
+      "name": "LAB_SHOP_NAME_SUB_1",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10100001,
+        105003,
+        10200001,
+        105001,
+        10200002,
+        103001
+      ],
+      "shop_type": 1,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/shop_topup_bg.png",
+      "unselected_color": [
+        184,
+        187,
+        192
+      ],
+      "gifts": null
+    },
+    {
+      "id": 102,
+      "name": "LAB_SHOP_NAME_SUB_2",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10100001,
+        0,
+        10200001,
+        0
+      ],
+      "shop_type": 2,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 103,
+      "name": "LAB_SHOP_NAME_SUB_13",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": null,
+      "shop_type": 15,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/shop_newcomer_bg_01.png",
+      "unselected_color": [
+        169,
+        169,
+        169
+      ],
+      "gifts": null
+    },
+    {
+      "id": 104,
+      "name": "LAB_SHOP_NAME_SUB_18",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 20,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/Shop/shop_sayaka_bg.png",
+      "unselected_color": [
+        184,
+        187,
+        192
+      ],
+      "gifts": [
+        1001
+      ]
+    },
+    {
+      "id": 301,
+      "name": "LAB_SHOP_NAME_SUB_3",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10200002,
+        0
+      ],
+      "shop_type": 4,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 302,
+      "name": "LAB_SHOP_NAME_SUB_4",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": null,
+      "shop_type": 5,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 303,
+      "name": "LAB_SHOP_NAME_SUB_17",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": null,
+      "shop_type": 19,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 401,
+      "name": "LAB_SHOP_NAME_SUB_5",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10400001,
+        2001
+      ],
+      "shop_type": 6,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 402,
+      "name": "LAB_SHOP_NAME_SUB_14",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10500001,
+        6002
+      ],
+      "shop_type": 16,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 403,
+      "name": "LAB_SHOP_NAME_SUB_15",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10400002,
+        4010
+      ],
+      "shop_type": 17,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 501,
+      "name": "LAB_SHOP_NAME_SUB_6",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10200001,
+        0
+      ],
+      "shop_type": 7,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 502,
+      "name": "LAB_SHOP_NAME_SUB_7",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        0
+      ],
+      "shop_type": 8,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 503,
+      "name": "LAB_SHOP_NAME_SUB_8",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10100001,
+        0
+      ],
+      "shop_type": 9,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 601,
+      "name": "LAB_SHOP_NAME_SUB_9",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 11,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 602,
+      "name": "LAB_SHOP_NAME_SUB_10",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 12,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 603,
+      "name": "LAB_SHOP_NAME_SUB_11",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 13,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 604,
+      "name": "LAB_SHOP_NAME_SUB_12",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 14,
+      "order": 4,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    {
+      "id": 605,
+      "name": "LAB_SHOP_NAME_SUB_16",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 18,
+      "order": 5,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "name": "LAB_SHOP_NAME_1",
+      "page_icon": "Shop[shop_tab_icon_01]",
+      "page_type": 1,
+      "sub_page": [
+        104,
+        101,
+        102,
+        103
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    "2": {
+      "id": 2,
+      "name": "LAB_SHOP_NAME_2",
+      "page_icon": "Shop[shop_tab_icon_02]",
+      "page_type": 1,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 3,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_fullscreen_01.png",
+      "unselected_color": null,
+      "gifts": null
+    },
+    "3": {
+      "id": 3,
+      "name": "LAB_SHOP_NAME_3",
+      "page_icon": "Shop[shop_tab_icon_03]",
+      "page_type": 1,
+      "sub_page": [
+        303,
+        301,
+        302
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    "4": {
+      "id": 4,
+      "name": "LAB_SHOP_NAME_4",
+      "page_icon": "Shop[shop_tab_icon_05]",
+      "page_type": 1,
+      "sub_page": [
+        401,
+        402,
+        403
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 4,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    "5": {
+      "id": 5,
+      "name": "LAB_SHOP_NAME_5",
+      "page_icon": "Shop[shop_tab_icon_06]",
+      "page_type": 1,
+      "sub_page": [
+        501,
+        502,
+        503
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 5,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    "6": {
+      "id": 6,
+      "name": "LAB_SHOP_NAME_6",
+      "page_icon": "Shop[shop_tab_icon_04]",
+      "page_type": 1,
+      "sub_page": [
+        601,
+        602,
+        603,
+        604,
+        605
+      ],
+      "currency_bar": null,
+      "shop_type": 0,
+      "order": 4,
+      "is_hide": null,
+      "shop_bg": null,
+      "unselected_color": null,
+      "gifts": null
+    },
+    "101": {
+      "id": 101,
+      "name": "LAB_SHOP_NAME_SUB_1",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10100001,
+        105003,
+        10200001,
+        105001,
+        10200002,
+        103001
+      ],
+      "shop_type": 1,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/shop_topup_bg.png",
+      "unselected_color": [
+        184,
+        187,
+        192
+      ],
+      "gifts": null
+    },
+    "102": {
+      "id": 102,
+      "name": "LAB_SHOP_NAME_SUB_2",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10100001,
+        0,
+        10200001,
+        0
+      ],
+      "shop_type": 2,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "103": {
+      "id": 103,
+      "name": "LAB_SHOP_NAME_SUB_13",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": null,
+      "shop_type": 15,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/shop_newcomer_bg_01.png",
+      "unselected_color": [
+        169,
+        169,
+        169
+      ],
+      "gifts": null
+    },
+    "104": {
+      "id": 104,
+      "name": "LAB_SHOP_NAME_SUB_18",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 20,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/Shop/shop_sayaka_bg.png",
+      "unselected_color": [
+        184,
+        187,
+        192
+      ],
+      "gifts": [
+        1001
+      ]
+    },
+    "301": {
+      "id": 301,
+      "name": "LAB_SHOP_NAME_SUB_3",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10200002,
+        0
+      ],
+      "shop_type": 4,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "302": {
+      "id": 302,
+      "name": "LAB_SHOP_NAME_SUB_4",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": null,
+      "shop_type": 5,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "303": {
+      "id": 303,
+      "name": "LAB_SHOP_NAME_SUB_17",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": null,
+      "shop_type": 19,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "401": {
+      "id": 401,
+      "name": "LAB_SHOP_NAME_SUB_5",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10400001,
+        2001
+      ],
+      "shop_type": 6,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "402": {
+      "id": 402,
+      "name": "LAB_SHOP_NAME_SUB_14",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10500001,
+        6002
+      ],
+      "shop_type": 16,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "403": {
+      "id": 403,
+      "name": "LAB_SHOP_NAME_SUB_15",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10400002,
+        4010
+      ],
+      "shop_type": 17,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "501": {
+      "id": 501,
+      "name": "LAB_SHOP_NAME_SUB_6",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10200001,
+        0
+      ],
+      "shop_type": 7,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "502": {
+      "id": 502,
+      "name": "LAB_SHOP_NAME_SUB_7",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        0
+      ],
+      "shop_type": 8,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "503": {
+      "id": 503,
+      "name": "LAB_SHOP_NAME_SUB_8",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10100001,
+        0
+      ],
+      "shop_type": 9,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "601": {
+      "id": 601,
+      "name": "LAB_SHOP_NAME_SUB_9",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 11,
+      "order": 1,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "602": {
+      "id": 602,
+      "name": "LAB_SHOP_NAME_SUB_10",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 12,
+      "order": 2,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "603": {
+      "id": 603,
+      "name": "LAB_SHOP_NAME_SUB_11",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 13,
+      "order": 3,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "604": {
+      "id": 604,
+      "name": "LAB_SHOP_NAME_SUB_12",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 14,
+      "order": 4,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    },
+    "605": {
+      "id": 605,
+      "name": "LAB_SHOP_NAME_SUB_16",
+      "page_icon": null,
+      "page_type": 2,
+      "sub_page": null,
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 18,
+      "order": 5,
+      "is_hide": null,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "unselected_color": [
+        161,
+        151,
+        119
+      ],
+      "gifts": null
+    }
+  }
+}

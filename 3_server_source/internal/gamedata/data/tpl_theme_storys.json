@@ -1,0 +1,671 @@
+{
+  "_meta": {
+    "source": "tpl_theme_storys.lua",
+    "format": "keys_bodys",
+    "count": 21
+  },
+  "list": [
+    {
+      "id": 1,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_1",
+      "name": "LAB_STORY_NAME_S1_1",
+      "res": "story_1001",
+      "rewards": [
+        10410001,
+        80
+      ],
+      "unlock_time": 0,
+      "unlock_item": null,
+      "character": null
+    },
+    {
+      "id": 2,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_2",
+      "name": "LAB_STORY_NAME_S1_2",
+      "res": "story_1002",
+      "rewards": [
+        10410001,
+        90
+      ],
+      "unlock_time": 1,
+      "unlock_item": null,
+      "character": null
+    },
+    {
+      "id": 3,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_3",
+      "name": "LAB_STORY_NAME_S1_3",
+      "res": "story_1003",
+      "rewards": [
+        10410001,
+        100
+      ],
+      "unlock_time": 2,
+      "unlock_item": null,
+      "character": null
+    },
+    {
+      "id": 4,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_4",
+      "name": "LAB_STORY_NAME_S1_4",
+      "res": "story_1004",
+      "rewards": [
+        10410001,
+        110
+      ],
+      "unlock_time": 3,
+      "unlock_item": null,
+      "character": null
+    },
+    {
+      "id": 5,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_5",
+      "name": "LAB_STORY_NAME_S1_5",
+      "res": "story_1005",
+      "rewards": [
+        10410001,
+        120
+      ],
+      "unlock_time": 4,
+      "unlock_item": null,
+      "character": null
+    },
+    {
+      "id": 6,
+      "group": 10002,
+      "title": null,
+      "name": null,
+      "res": "story_2001",
+      "rewards": [
+        30300003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100401,
+        1
+      ],
+      "character": 1009
+    },
+    {
+      "id": 7,
+      "group": 10002,
+      "title": null,
+      "name": null,
+      "res": "story_2002",
+      "rewards": [
+        30300003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100402,
+        1
+      ],
+      "character": 1010
+    },
+    {
+      "id": 8,
+      "group": 10002,
+      "title": null,
+      "name": null,
+      "res": "story_2003",
+      "rewards": [
+        30300003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100403,
+        1
+      ],
+      "character": 1007
+    },
+    {
+      "id": 9,
+      "group": 10003,
+      "title": null,
+      "name": null,
+      "res": "story_3002",
+      "rewards": [
+        10603003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100404,
+        1
+      ],
+      "character": 1012
+    },
+    {
+      "id": 10,
+      "group": 10003,
+      "title": null,
+      "name": null,
+      "res": "story_3003",
+      "rewards": [
+        10603001,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100405,
+        1
+      ],
+      "character": 1013
+    },
+    {
+      "id": 11,
+      "group": 10003,
+      "title": null,
+      "name": null,
+      "res": "story_3001",
+      "rewards": [
+        10603006,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100406,
+        1
+      ],
+      "character": 1006
+    },
+    {
+      "id": 12,
+      "group": 10004,
+      "title": null,
+      "name": null,
+      "res": "story_4002",
+      "rewards": [
+        10603001,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100407,
+        1
+      ],
+      "character": 1001
+    },
+    {
+      "id": 13,
+      "group": 10004,
+      "title": null,
+      "name": null,
+      "res": "story_4001",
+      "rewards": [
+        10603004,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100408,
+        1
+      ],
+      "character": 1014
+    },
+    {
+      "id": 14,
+      "group": 10004,
+      "title": null,
+      "name": null,
+      "res": "story_4003",
+      "rewards": [
+        10603002,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100409,
+        1
+      ],
+      "character": 1002
+    },
+    {
+      "id": 15,
+      "group": 10005,
+      "title": null,
+      "name": null,
+      "res": "story_5001",
+      "rewards": [
+        10603006,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100411,
+        1
+      ],
+      "character": 1015
+    },
+    {
+      "id": 16,
+      "group": 10005,
+      "title": null,
+      "name": null,
+      "res": "story_5002",
+      "rewards": [
+        10603001,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100412,
+        1
+      ],
+      "character": 1016
+    },
+    {
+      "id": 17,
+      "group": 10005,
+      "title": null,
+      "name": null,
+      "res": "story_5003",
+      "rewards": [
+        10603005,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100410,
+        1
+      ],
+      "character": 1009
+    },
+    {
+      "id": 18,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_1",
+      "name": "LAB_STORY_NAME_S6_1",
+      "res": "story_6001",
+      "rewards": [
+        10603007,
+        1
+      ],
+      "unlock_time": 0,
+      "unlock_item": null,
+      "character": 1007
+    },
+    {
+      "id": 19,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_2",
+      "name": "LAB_STORY_NAME_S6_2",
+      "res": "story_6002",
+      "rewards": [
+        10603005,
+        1
+      ],
+      "unlock_time": 2,
+      "unlock_item": null,
+      "character": 1005
+    },
+    {
+      "id": 20,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_3",
+      "name": "LAB_STORY_NAME_S6_3",
+      "res": "story_6003",
+      "rewards": [
+        10603002,
+        1
+      ],
+      "unlock_time": 4,
+      "unlock_item": null,
+      "character": 1010
+    },
+    {
+      "id": 21,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_4",
+      "name": "LAB_STORY_NAME_S6_4",
+      "res": "story_6004",
+      "rewards": [
+        10603008,
+        1
+      ],
+      "unlock_time": 6,
+      "unlock_item": null,
+      "character": 3001
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_1",
+      "name": "LAB_STORY_NAME_S1_1",
+      "res": "story_1001",
+      "rewards": [
+        10410001,
+        80
+      ],
+      "unlock_time": 0,
+      "unlock_item": null,
+      "character": null
+    },
+    "2": {
+      "id": 2,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_2",
+      "name": "LAB_STORY_NAME_S1_2",
+      "res": "story_1002",
+      "rewards": [
+        10410001,
+        90
+      ],
+      "unlock_time": 1,
+      "unlock_item": null,
+      "character": null
+    },
+    "3": {
+      "id": 3,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_3",
+      "name": "LAB_STORY_NAME_S1_3",
+      "res": "story_1003",
+      "rewards": [
+        10410001,
+        100
+      ],
+      "unlock_time": 2,
+      "unlock_item": null,
+      "character": null
+    },
+    "4": {
+      "id": 4,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_4",
+      "name": "LAB_STORY_NAME_S1_4",
+      "res": "story_1004",
+      "rewards": [
+        10410001,
+        110
+      ],
+      "unlock_time": 3,
+      "unlock_item": null,
+      "character": null
+    },
+    "5": {
+      "id": 5,
+      "group": 10001,
+      "title": "LAB_THEME_STORYS_TITLE_5",
+      "name": "LAB_STORY_NAME_S1_5",
+      "res": "story_1005",
+      "rewards": [
+        10410001,
+        120
+      ],
+      "unlock_time": 4,
+      "unlock_item": null,
+      "character": null
+    },
+    "6": {
+      "id": 6,
+      "group": 10002,
+      "title": null,
+      "name": null,
+      "res": "story_2001",
+      "rewards": [
+        30300003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100401,
+        1
+      ],
+      "character": 1009
+    },
+    "7": {
+      "id": 7,
+      "group": 10002,
+      "title": null,
+      "name": null,
+      "res": "story_2002",
+      "rewards": [
+        30300003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100402,
+        1
+      ],
+      "character": 1010
+    },
+    "8": {
+      "id": 8,
+      "group": 10002,
+      "title": null,
+      "name": null,
+      "res": "story_2003",
+      "rewards": [
+        30300003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100403,
+        1
+      ],
+      "character": 1007
+    },
+    "9": {
+      "id": 9,
+      "group": 10003,
+      "title": null,
+      "name": null,
+      "res": "story_3002",
+      "rewards": [
+        10603003,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100404,
+        1
+      ],
+      "character": 1012
+    },
+    "10": {
+      "id": 10,
+      "group": 10003,
+      "title": null,
+      "name": null,
+      "res": "story_3003",
+      "rewards": [
+        10603001,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100405,
+        1
+      ],
+      "character": 1013
+    },
+    "11": {
+      "id": 11,
+      "group": 10003,
+      "title": null,
+      "name": null,
+      "res": "story_3001",
+      "rewards": [
+        10603006,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100406,
+        1
+      ],
+      "character": 1006
+    },
+    "12": {
+      "id": 12,
+      "group": 10004,
+      "title": null,
+      "name": null,
+      "res": "story_4002",
+      "rewards": [
+        10603001,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100407,
+        1
+      ],
+      "character": 1001
+    },
+    "13": {
+      "id": 13,
+      "group": 10004,
+      "title": null,
+      "name": null,
+      "res": "story_4001",
+      "rewards": [
+        10603004,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100408,
+        1
+      ],
+      "character": 1014
+    },
+    "14": {
+      "id": 14,
+      "group": 10004,
+      "title": null,
+      "name": null,
+      "res": "story_4003",
+      "rewards": [
+        10603002,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100409,
+        1
+      ],
+      "character": 1002
+    },
+    "15": {
+      "id": 15,
+      "group": 10005,
+      "title": null,
+      "name": null,
+      "res": "story_5001",
+      "rewards": [
+        10603006,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100411,
+        1
+      ],
+      "character": 1015
+    },
+    "16": {
+      "id": 16,
+      "group": 10005,
+      "title": null,
+      "name": null,
+      "res": "story_5002",
+      "rewards": [
+        10603001,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100412,
+        1
+      ],
+      "character": 1016
+    },
+    "17": {
+      "id": 17,
+      "group": 10005,
+      "title": null,
+      "name": null,
+      "res": "story_5003",
+      "rewards": [
+        10603005,
+        1
+      ],
+      "unlock_time": null,
+      "unlock_item": [
+        11100410,
+        1
+      ],
+      "character": 1009
+    },
+    "18": {
+      "id": 18,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_1",
+      "name": "LAB_STORY_NAME_S6_1",
+      "res": "story_6001",
+      "rewards": [
+        10603007,
+        1
+      ],
+      "unlock_time": 0,
+      "unlock_item": null,
+      "character": 1007
+    },
+    "19": {
+      "id": 19,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_2",
+      "name": "LAB_STORY_NAME_S6_2",
+      "res": "story_6002",
+      "rewards": [
+        10603005,
+        1
+      ],
+      "unlock_time": 2,
+      "unlock_item": null,
+      "character": 1005
+    },
+    "20": {
+      "id": 20,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_3",
+      "name": "LAB_STORY_NAME_S6_3",
+      "res": "story_6003",
+      "rewards": [
+        10603002,
+        1
+      ],
+      "unlock_time": 4,
+      "unlock_item": null,
+      "character": 1010
+    },
+    "21": {
+      "id": 21,
+      "group": 10006,
+      "title": "LAB_THEME_STORYS_TITLE_4",
+      "name": "LAB_STORY_NAME_S6_4",
+      "res": "story_6004",
+      "rewards": [
+        10603008,
+        1
+      ],
+      "unlock_time": 6,
+      "unlock_item": null,
+      "character": 3001
+    }
+  }
+}

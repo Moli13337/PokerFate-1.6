@@ -1,0 +1,1431 @@
+{
+  "_meta": {
+    "source": "tpl_leaderboard_rewards_old.lua",
+    "format": "keys_bodys",
+    "count": 55
+  },
+  "list": [
+    {
+      "id": 1,
+      "leaderboard_type": 1,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        1000
+      ]
+    },
+    {
+      "id": 2,
+      "leaderboard_type": 1,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        800
+      ]
+    },
+    {
+      "id": 3,
+      "leaderboard_type": 1,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        600
+      ]
+    },
+    {
+      "id": 4,
+      "leaderboard_type": 1,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    {
+      "id": 5,
+      "leaderboard_type": 1,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    {
+      "id": 6,
+      "leaderboard_type": 1,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    {
+      "id": 7,
+      "leaderboard_type": 1,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    {
+      "id": 8,
+      "leaderboard_type": 1,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    {
+      "id": 9,
+      "leaderboard_type": 1,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        30
+      ]
+    },
+    {
+      "id": 10,
+      "leaderboard_type": 1,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        10
+      ]
+    },
+    {
+      "id": 11,
+      "leaderboard_type": 1,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "leaderboard_type": 2,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    {
+      "id": 13,
+      "leaderboard_type": 2,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    {
+      "id": 14,
+      "leaderboard_type": 2,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    {
+      "id": 15,
+      "leaderboard_type": 2,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    {
+      "id": 16,
+      "leaderboard_type": 2,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    {
+      "id": 17,
+      "leaderboard_type": 2,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    {
+      "id": 18,
+      "leaderboard_type": 2,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    {
+      "id": 19,
+      "leaderboard_type": 2,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        25
+      ]
+    },
+    {
+      "id": 20,
+      "leaderboard_type": 2,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        15
+      ]
+    },
+    {
+      "id": 21,
+      "leaderboard_type": 2,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        10
+      ]
+    },
+    {
+      "id": 22,
+      "leaderboard_type": 2,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        5
+      ]
+    },
+    {
+      "id": 23,
+      "leaderboard_type": 3,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    {
+      "id": 24,
+      "leaderboard_type": 3,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    {
+      "id": 25,
+      "leaderboard_type": 3,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    {
+      "id": 26,
+      "leaderboard_type": 3,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    {
+      "id": 27,
+      "leaderboard_type": 3,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    {
+      "id": 28,
+      "leaderboard_type": 3,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    {
+      "id": 29,
+      "leaderboard_type": 3,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    {
+      "id": 30,
+      "leaderboard_type": 3,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        20
+      ]
+    },
+    {
+      "id": 31,
+      "leaderboard_type": 3,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        12
+      ]
+    },
+    {
+      "id": 32,
+      "leaderboard_type": 3,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        8
+      ]
+    },
+    {
+      "id": 33,
+      "leaderboard_type": 3,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        4
+      ]
+    },
+    {
+      "id": 34,
+      "leaderboard_type": 4,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    {
+      "id": 35,
+      "leaderboard_type": 4,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    {
+      "id": 36,
+      "leaderboard_type": 4,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    {
+      "id": 37,
+      "leaderboard_type": 4,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    {
+      "id": 38,
+      "leaderboard_type": 4,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    {
+      "id": 39,
+      "leaderboard_type": 4,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    {
+      "id": 40,
+      "leaderboard_type": 4,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    {
+      "id": 41,
+      "leaderboard_type": 4,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        20
+      ]
+    },
+    {
+      "id": 42,
+      "leaderboard_type": 4,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        12
+      ]
+    },
+    {
+      "id": 43,
+      "leaderboard_type": 4,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        8
+      ]
+    },
+    {
+      "id": 44,
+      "leaderboard_type": 4,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        4
+      ]
+    },
+    {
+      "id": 45,
+      "leaderboard_type": 5,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    {
+      "id": 46,
+      "leaderboard_type": 5,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    {
+      "id": 47,
+      "leaderboard_type": 5,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    {
+      "id": 48,
+      "leaderboard_type": 5,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    {
+      "id": 49,
+      "leaderboard_type": 5,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    {
+      "id": 50,
+      "leaderboard_type": 5,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    {
+      "id": 51,
+      "leaderboard_type": 5,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    {
+      "id": 52,
+      "leaderboard_type": 5,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        20
+      ]
+    },
+    {
+      "id": 53,
+      "leaderboard_type": 5,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        12
+      ]
+    },
+    {
+      "id": 54,
+      "leaderboard_type": 5,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        8
+      ]
+    },
+    {
+      "id": 55,
+      "leaderboard_type": 5,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        4
+      ]
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "leaderboard_type": 1,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        1000
+      ]
+    },
+    "2": {
+      "id": 2,
+      "leaderboard_type": 1,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        800
+      ]
+    },
+    "3": {
+      "id": 3,
+      "leaderboard_type": 1,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        600
+      ]
+    },
+    "4": {
+      "id": 4,
+      "leaderboard_type": 1,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    "5": {
+      "id": 5,
+      "leaderboard_type": 1,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    "6": {
+      "id": 6,
+      "leaderboard_type": 1,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    "7": {
+      "id": 7,
+      "leaderboard_type": 1,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    "8": {
+      "id": 8,
+      "leaderboard_type": 1,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    "9": {
+      "id": 9,
+      "leaderboard_type": 1,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        30
+      ]
+    },
+    "10": {
+      "id": 10,
+      "leaderboard_type": 1,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        10
+      ]
+    },
+    "11": {
+      "id": 11,
+      "leaderboard_type": 1,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        5
+      ]
+    },
+    "12": {
+      "id": 12,
+      "leaderboard_type": 2,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    "13": {
+      "id": 13,
+      "leaderboard_type": 2,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    "14": {
+      "id": 14,
+      "leaderboard_type": 2,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    "15": {
+      "id": 15,
+      "leaderboard_type": 2,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    "16": {
+      "id": 16,
+      "leaderboard_type": 2,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    "17": {
+      "id": 17,
+      "leaderboard_type": 2,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    "18": {
+      "id": 18,
+      "leaderboard_type": 2,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    "19": {
+      "id": 19,
+      "leaderboard_type": 2,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        25
+      ]
+    },
+    "20": {
+      "id": 20,
+      "leaderboard_type": 2,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        15
+      ]
+    },
+    "21": {
+      "id": 21,
+      "leaderboard_type": 2,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        10
+      ]
+    },
+    "22": {
+      "id": 22,
+      "leaderboard_type": 2,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        5
+      ]
+    },
+    "23": {
+      "id": 23,
+      "leaderboard_type": 3,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    "24": {
+      "id": 24,
+      "leaderboard_type": 3,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    "25": {
+      "id": 25,
+      "leaderboard_type": 3,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    "26": {
+      "id": 26,
+      "leaderboard_type": 3,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    "27": {
+      "id": 27,
+      "leaderboard_type": 3,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    "28": {
+      "id": 28,
+      "leaderboard_type": 3,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    "29": {
+      "id": 29,
+      "leaderboard_type": 3,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    "30": {
+      "id": 30,
+      "leaderboard_type": 3,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        20
+      ]
+    },
+    "31": {
+      "id": 31,
+      "leaderboard_type": 3,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        12
+      ]
+    },
+    "32": {
+      "id": 32,
+      "leaderboard_type": 3,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        8
+      ]
+    },
+    "33": {
+      "id": 33,
+      "leaderboard_type": 3,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        4
+      ]
+    },
+    "34": {
+      "id": 34,
+      "leaderboard_type": 4,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    "35": {
+      "id": 35,
+      "leaderboard_type": 4,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    "36": {
+      "id": 36,
+      "leaderboard_type": 4,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    "37": {
+      "id": 37,
+      "leaderboard_type": 4,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    "38": {
+      "id": 38,
+      "leaderboard_type": 4,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    "39": {
+      "id": 39,
+      "leaderboard_type": 4,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    "40": {
+      "id": 40,
+      "leaderboard_type": 4,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    "41": {
+      "id": 41,
+      "leaderboard_type": 4,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        20
+      ]
+    },
+    "42": {
+      "id": 42,
+      "leaderboard_type": 4,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        12
+      ]
+    },
+    "43": {
+      "id": 43,
+      "leaderboard_type": 4,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        8
+      ]
+    },
+    "44": {
+      "id": 44,
+      "leaderboard_type": 4,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        4
+      ]
+    },
+    "45": {
+      "id": 45,
+      "leaderboard_type": 5,
+      "ranking": [
+        1,
+        1
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        500
+      ]
+    },
+    "46": {
+      "id": 46,
+      "leaderboard_type": 5,
+      "ranking": [
+        2,
+        2
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        400
+      ]
+    },
+    "47": {
+      "id": 47,
+      "leaderboard_type": 5,
+      "ranking": [
+        3,
+        3
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        300
+      ]
+    },
+    "48": {
+      "id": 48,
+      "leaderboard_type": 5,
+      "ranking": [
+        4,
+        10
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        200
+      ]
+    },
+    "49": {
+      "id": 49,
+      "leaderboard_type": 5,
+      "ranking": [
+        11,
+        30
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        150
+      ]
+    },
+    "50": {
+      "id": 50,
+      "leaderboard_type": 5,
+      "ranking": [
+        31,
+        60
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        100
+      ]
+    },
+    "51": {
+      "id": 51,
+      "leaderboard_type": 5,
+      "ranking": [
+        61,
+        100
+      ],
+      "ranking_type": 0,
+      "rewards": [
+        10400002,
+        50
+      ]
+    },
+    "52": {
+      "id": 52,
+      "leaderboard_type": 5,
+      "ranking": [
+        101,
+        1000
+      ],
+      "ranking_type": 10,
+      "rewards": [
+        10400002,
+        20
+      ]
+    },
+    "53": {
+      "id": 53,
+      "leaderboard_type": 5,
+      "ranking": [
+        1001,
+        2500
+      ],
+      "ranking_type": 25,
+      "rewards": [
+        10400002,
+        12
+      ]
+    },
+    "54": {
+      "id": 54,
+      "leaderboard_type": 5,
+      "ranking": [
+        2501,
+        5000
+      ],
+      "ranking_type": 50,
+      "rewards": [
+        10400002,
+        8
+      ]
+    },
+    "55": {
+      "id": 55,
+      "leaderboard_type": 5,
+      "ranking": [
+        5001
+      ],
+      "ranking_type": 100,
+      "rewards": [
+        10400002,
+        4
+      ]
+    }
+  }
+}

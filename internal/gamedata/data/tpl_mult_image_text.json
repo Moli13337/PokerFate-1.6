@@ -1,0 +1,923 @@
+{
+  "_meta": {
+    "source": "tpl_mult_image_text.lua",
+    "format": "keys_bodys",
+    "count": 57
+  },
+  "list": [
+    {
+      "id": "Title_Settings",
+      "zh": "CommonNew[Title_Settings]",
+      "tw": "CommonNew[Title_Settings]",
+      "en": "CommonNew[Title_Settings]",
+      "jp": "CommonNew[Title_Settings]",
+      "ko": "CommonNew[Title_Settings]"
+    },
+    {
+      "id": "Preview_Name_1",
+      "zh": "Backpack[backpack_preview_scene_title_01_zh]",
+      "tw": "Backpack[backpack_preview_scene_title_01_zh]",
+      "en": "Backpack[backpack_preview_scene_title_01_zh]",
+      "jp": "Backpack[backpack_preview_scene_title_01_zh]",
+      "ko": "Backpack[backpack_preview_scene_title_01_zh]"
+    },
+    {
+      "id": "ingame_rules_title_1_cn",
+      "zh": "IngameRules[ingame_rules_title_1_zh]",
+      "tw": "IngameRules[ingame_rules_title_1_cn]",
+      "en": "IngameRules[ingame_rules_title_1_en]",
+      "jp": "IngameRules[ingame_rules_title_1_jp]",
+      "ko": "IngameRules[ingame_rules_title_1_ko]"
+    },
+    {
+      "id": "ingame_rules_title_2_cn",
+      "zh": "IngameRules[ingame_rules_title_2_zh]",
+      "tw": "IngameRules[ingame_rules_title_2_cn]",
+      "en": "IngameRules[ingame_rules_title_2_en]",
+      "jp": "IngameRules[ingame_rules_title_2_jp]",
+      "ko": "IngameRules[ingame_rules_title_2_ko]"
+    },
+    {
+      "id": "ingame_rules_title_3_cn",
+      "zh": "IngameRules[ingame_rules_title_3_zh]",
+      "tw": "IngameRules[ingame_rules_title_3_cn]",
+      "en": "IngameRules[ingame_rules_title_3_en]",
+      "jp": "IngameRules[ingame_rules_title_3_jp]",
+      "ko": "IngameRules[ingame_rules_title_3_ko]"
+    },
+    {
+      "id": "ingame_replay_lose_tw",
+      "zh": "InGame[ingame_replay_lose_zh]",
+      "tw": "InGame[ingame_replay_lose_tw]",
+      "en": "InGame[ingame_replay_lose_en]",
+      "jp": "InGame[ingame_replay_lose_jp]",
+      "ko": "InGame[ingame_replay_lose_ko]"
+    },
+    {
+      "id": "ingame_replay_win_tw",
+      "zh": "InGame[ingame_replay_win_zh]",
+      "tw": "InGame[ingame_replay_win_tw]",
+      "en": "InGame[ingame_replay_win_en]",
+      "jp": "InGame[ingame_replay_win_jp]",
+      "ko": "InGame[ingame_replay_win_ko]"
+    },
+    {
+      "id": "bg_activity_sign_in_tw",
+      "zh": "Activity[bg_activity_sign_in_zh]",
+      "tw": "Activity[bg_activity_sign_in_tw]",
+      "en": "Activity[bg_activity_sign_in_en]",
+      "jp": "Activity[bg_activity_sign_in_jp]",
+      "ko": "Activity[bg_activity_sign_in_ko]"
+    },
+    {
+      "id": "activity_sign_in_monthly_tw",
+      "zh": "Activity[activity_sign_in_monthly_zh]",
+      "tw": "Activity[activity_sign_in_monthly_tw]",
+      "en": "Activity[activity_sign_in_monthly_en]",
+      "jp": "Activity[activity_sign_in_monthly_jp]",
+      "ko": "Activity[activity_sign_in_monthly_ko]"
+    },
+    {
+      "id": "activity_sign_in_tag_expired_tw",
+      "zh": "Activity[activity_sign_in_tag_expired_zh]",
+      "tw": "Activity[activity_sign_in_tag_expired_tw]",
+      "en": "Activity[activity_sign_in_tag_expired_en]",
+      "jp": "Activity[activity_sign_in_tag_expired_jp]",
+      "ko": "Activity[activity_sign_in_tag_expired_ko]"
+    },
+    {
+      "id": "activity_sign_in_tag_resign_tw",
+      "zh": "Activity[activity_sign_in_tag_resign_zh]",
+      "tw": "Activity[activity_sign_in_tag_resign_tw]",
+      "en": "Activity[activity_sign_in_tag_resign_en]",
+      "jp": "Activity[activity_sign_in_tag_resign_jp]",
+      "ko": "Activity[activity_sign_in_tag_resign_ko]"
+    },
+    {
+      "id": "activity_reward_title_tw",
+      "zh": "Activity[activity_reward_title_zh]",
+      "tw": "Activity[activity_reward_title_tw]",
+      "en": "Activity[activity_reward_title_en]",
+      "jp": "Activity[activity_reward_title_jp]",
+      "ko": "Activity[activity_reward_title_ko]"
+    },
+    {
+      "id": "activity_sign_in_reward_title_01_tw",
+      "zh": "Activity[activity_sign_in_reward_title_01_zh]",
+      "tw": "Activity[activity_sign_in_reward_title_01_tw]",
+      "en": "Activity[activity_sign_in_reward_title_01_en]",
+      "jp": "Activity[activity_sign_in_reward_title_01_jp]",
+      "ko": "Activity[activity_sign_in_reward_title_01_ko]"
+    },
+    {
+      "id": "activity_sign_in_reward_title_02_tw",
+      "zh": "Activity[activity_sign_in_reward_title_02_zh]",
+      "tw": "Activity[activity_sign_in_reward_title_02_tw]",
+      "en": "Activity[activity_sign_in_reward_title_02_en]",
+      "jp": "Activity[activity_sign_in_reward_title_02_jp]",
+      "ko": "Activity[activity_sign_in_reward_title_02_ko]"
+    },
+    {
+      "id": "activity_sign_in_reward_title_03_tw",
+      "zh": "Activity[activity_sign_in_reward_title_03_zh]",
+      "tw": "Activity[activity_sign_in_reward_title_03_tw]",
+      "en": "Activity[activity_sign_in_reward_title_03_en]",
+      "jp": "Activity[activity_sign_in_reward_title_03_jp]",
+      "ko": "Activity[activity_sign_in_reward_title_03_ko]"
+    },
+    {
+      "id": "common_result_title_tw",
+      "zh": "Common[common_result_title_zh]",
+      "tw": "Common[common_result_title_tw]",
+      "en": "Common[common_result_title_en]",
+      "jp": "Common[common_result_title_jp]",
+      "ko": "Common[common_result_title_ko]"
+    },
+    {
+      "id": "common_result_title_01_tw",
+      "zh": "Common[common_result_title_01_zh]",
+      "tw": "Common[common_result_title_01_tw]",
+      "en": "Common[common_result_title_01_en]",
+      "jp": "Common[common_result_title_01_jp]",
+      "ko": "Common[common_result_title_01_ko]"
+    },
+    {
+      "id": "common_result_title_02_tw",
+      "zh": "Common[common_result_title_02_zh]",
+      "tw": "Common[common_result_title_02_tw]",
+      "en": "Common[common_result_title_02_en]",
+      "jp": "Common[common_result_title_02_jp]",
+      "ko": "Common[common_result_title_02_ko]"
+    },
+    {
+      "id": "common_result_title_03_tw",
+      "zh": "Common[common_result_title_03_zh]",
+      "tw": "Common[common_result_title_03_tw]",
+      "en": "Common[common_result_title_03_en]",
+      "jp": "Common[common_result_title_03_jp]",
+      "ko": "Common[common_result_title_03_ko]"
+    },
+    {
+      "id": "shop_mothly_card_title_01_tw",
+      "zh": "Shop[shop_mothly_card_title_01_zh]",
+      "tw": "Shop[shop_mothly_card_title_01_tw]",
+      "en": "Shop[shop_mothly_card_title_01_en]",
+      "jp": "Shop[shop_mothly_card_title_01_jp]",
+      "ko": "Shop[shop_mothly_card_title_01_ko]"
+    },
+    {
+      "id": "shop_mothly_card_title_02_tw",
+      "zh": "Shop[shop_mothly_card_title_02_zh]",
+      "tw": "Shop[shop_mothly_card_title_02_tw]",
+      "en": "Shop[shop_mothly_card_title_02_en]",
+      "jp": "Shop[shop_mothly_card_title_02_jp]",
+      "ko": "Shop[shop_mothly_card_title_02_ko]"
+    },
+    {
+      "id": "shop_mothly_card_privilege_off_tw",
+      "zh": "Shop[shop_mothly_card_privilege_off_zh]",
+      "tw": "Shop[shop_mothly_card_privilege_off_tw]",
+      "en": "Shop[shop_mothly_card_privilege_off_en]",
+      "jp": "Shop[shop_mothly_card_privilege_off_jp]",
+      "ko": "Shop[shop_mothly_card_privilege_off_ko]"
+    },
+    {
+      "id": "shop_monthly_card_reward_title_01_tw",
+      "zh": "Shop[shop_monthly_card_reward_title_01_zh]",
+      "tw": "Shop[shop_monthly_card_reward_title_01_tw]",
+      "en": "Shop[shop_monthly_card_reward_title_01_en]",
+      "jp": "Shop[shop_monthly_card_reward_title_01_jp]",
+      "ko": "Shop[shop_monthly_card_reward_title_01_ko]"
+    },
+    {
+      "id": "shop_monthly_card_reward_title_02_tw",
+      "zh": "Shop[shop_monthly_card_reward_title_02_zh]",
+      "tw": "Shop[shop_monthly_card_reward_title_02_tw]",
+      "en": "Shop[shop_monthly_card_reward_title_02_en]",
+      "jp": "Shop[shop_monthly_card_reward_title_02_jp]",
+      "ko": "Shop[shop_monthly_card_reward_title_02_ko]"
+    },
+    {
+      "id": "shop_monthly_card_reward_title_03_tw",
+      "zh": "Shop[shop_monthly_card_reward_title_03_zh]",
+      "tw": "Shop[shop_monthly_card_reward_title_03_tw]",
+      "en": "Shop[shop_monthly_card_reward_title_03_en]",
+      "jp": "Shop[shop_monthly_card_reward_title_03_jp]",
+      "ko": "Shop[shop_monthly_card_reward_title_03_ko]"
+    },
+    {
+      "id": "By_chips_ingame_1_cn",
+      "zh": "IngameBankrupt[By_chips_ingame_1_zh]",
+      "tw": "IngameBankrupt[By_chips_ingame_1_cn]",
+      "en": "IngameBankrupt[By_chips_ingame_1_en]",
+      "jp": "IngameBankrupt[By_chips_ingame_1_jp]",
+      "ko": "IngameBankrupt[By_chips_ingame_1_ko]"
+    },
+    {
+      "id": "By_chips_ingame_2_tw",
+      "zh": "IngameBankrupt[By_chips_ingame_2_zh]",
+      "tw": "IngameBankrupt[By_chips_ingame_2_tw]",
+      "en": "IngameBankrupt[By_chips_ingame_2_en]",
+      "jp": "IngameBankrupt[By_chips_ingame_2_jp]",
+      "ko": "IngameBankrupt[By_chips_ingame_2_ko]"
+    },
+    {
+      "id": "Bankruptcy_benefits_cn",
+      "zh": "IngameBankrupt[Bankruptcy_benefits_zh]",
+      "tw": "IngameBankrupt[Bankruptcy_benefits_cn]",
+      "en": "IngameBankrupt[Bankruptcy_benefits_en]",
+      "jp": "IngameBankrupt[Bankruptcy_benefits_jp]",
+      "ko": "IngameBankrupt[Bankruptcy_benefits_ko]"
+    },
+    {
+      "id": "bonds_up_title_tw",
+      "zh": "Bonds[bonds_up_title_zh]",
+      "tw": "Bonds[bonds_up_title_tw]",
+      "en": "Bonds[bonds_up_title_en]",
+      "jp": "Bonds[bonds_up_title_jp]",
+      "ko": "Bonds[bonds_up_title_ko]"
+    },
+    {
+      "id": "bonds_up_full_title_tw",
+      "zh": "Bonds[bonds_up_full_title_zh]",
+      "tw": "Bonds[bonds_up_full_title_tw]",
+      "en": "Bonds[bonds_up_full_title_en]",
+      "jp": "Bonds[bonds_up_full_title_jp]",
+      "ko": "Bonds[bonds_up_full_title_ko]"
+    },
+    {
+      "id": "sdt_quiz_title_en",
+      "zh": "Sdt[sdt_quiz_title_zh]",
+      "tw": "Sdt[sdt_quiz_title_tw]",
+      "en": "Sdt[sdt_quiz_title_en]",
+      "jp": "Sdt[sdt_quiz_title_jp]",
+      "ko": "Sdt[sdt_quiz_title_ko]"
+    },
+    {
+      "id": "sdt_reward_title_en",
+      "zh": "Sdt[sdt_reward_title_zh]",
+      "tw": "Sdt[sdt_reward_title_tw]",
+      "en": "Sdt[sdt_reward_title_en]",
+      "jp": "Sdt[sdt_reward_title_jp]",
+      "ko": "Sdt[sdt_reward_title_ko]"
+    },
+    {
+      "id": "sdt_reward_fg_01_en",
+      "zh": "Sdt[sdt_reward_fg_01_zh]",
+      "tw": "Sdt[sdt_reward_fg_01_tw]",
+      "en": "Sdt[sdt_reward_fg_01_en]",
+      "jp": "Sdt[sdt_reward_fg_01_jp]",
+      "ko": "Sdt[sdt_reward_fg_01_ko]"
+    },
+    {
+      "id": "sdt_reward_fg_02_en",
+      "zh": "Sdt[sdt_reward_fg_02_zh]",
+      "tw": "Sdt[sdt_reward_fg_02_tw]",
+      "en": "Sdt[sdt_reward_fg_02_en]",
+      "jp": "Sdt[sdt_reward_fg_02_jp]",
+      "ko": "Sdt[sdt_reward_fg_02_ko]"
+    },
+    {
+      "id": "sdt_reward_fg_03_en",
+      "zh": "Sdt[sdt_reward_fg_03_zh]",
+      "tw": "Sdt[sdt_reward_fg_03_tw]",
+      "en": "Sdt[sdt_reward_fg_03_en]",
+      "jp": "Sdt[sdt_reward_fg_03_jp]",
+      "ko": "Sdt[sdt_reward_fg_03_ko]"
+    },
+    {
+      "id": "sdt_certificate_title_en",
+      "zh": "Sdt[sdt_certificate_title_zh]",
+      "tw": "Sdt[sdt_certificate_title_tw]",
+      "en": "Sdt[sdt_certificate_title_en]",
+      "jp": "Sdt[sdt_certificate_title_jp]",
+      "ko": "Sdt[sdt_certificate_title_ko]"
+    },
+    {
+      "id": "lobby_enter_character_title_tw",
+      "zh": "Lobby[lobby_enter_character_title_zh]",
+      "tw": "Lobby[lobby_enter_character_title_tw]",
+      "en": "Lobby[lobby_enter_character_title_en]",
+      "jp": "Lobby[lobby_enter_character_title_jp]",
+      "ko": "Lobby[lobby_enter_character_title_ko]"
+    },
+    {
+      "id": "lobby_enter_friend_game_title_tw",
+      "zh": "Lobby[lobby_enter_friend_game_title_zh]",
+      "tw": "Lobby[lobby_enter_friend_game_title_tw]",
+      "en": "Lobby[lobby_enter_friend_game_title_en]",
+      "jp": "Lobby[lobby_enter_friend_game_title_jp]",
+      "ko": "Lobby[lobby_enter_friend_game_title_ko]"
+    },
+    {
+      "id": "lobby_enter_gacha_title_tw",
+      "zh": "Lobby[lobby_enter_gacha_title_zh]",
+      "tw": "Lobby[lobby_enter_gacha_title_tw]",
+      "en": "Lobby[lobby_enter_gacha_title_en]",
+      "jp": "Lobby[lobby_enter_gacha_title_jp]",
+      "ko": "Lobby[lobby_enter_gacha_title_ko]"
+    },
+    {
+      "id": "lobby_enter_omaha_title_tw",
+      "zh": "Lobby[lobby_enter_omaha_title_zh]",
+      "tw": "Lobby[lobby_enter_omaha_title_tw]",
+      "en": "Lobby[lobby_enter_omaha_title_en]",
+      "jp": "Lobby[lobby_enter_omaha_title_jp]",
+      "ko": "Lobby[lobby_enter_omaha_title_ko]"
+    },
+    {
+      "id": "lobby_enter_poker_title_tw",
+      "zh": "Lobby[lobby_enter_poker_title_zh]",
+      "tw": "Lobby[lobby_enter_poker_title_tw]",
+      "en": "Lobby[lobby_enter_poker_title_en]",
+      "jp": "Lobby[lobby_enter_poker_title_jp]",
+      "ko": "Lobby[lobby_enter_poker_title_ko]"
+    },
+    {
+      "id": "ingame_action_allin_tw",
+      "zh": "InGame[ingame_action_allin_zh]",
+      "tw": "InGame[ingame_action_allin_tw]",
+      "en": "InGame[ingame_action_allin_en]",
+      "jp": "InGame[ingame_action_allin_jp]",
+      "ko": "InGame[ingame_action_allin_ko]"
+    },
+    {
+      "id": "ingame_action_bb_tw",
+      "zh": "InGame[ingame_action_bb_zh]",
+      "tw": "InGame[ingame_action_bb_tw]",
+      "en": "InGame[ingame_action_bb_en]",
+      "jp": "InGame[ingame_action_bb_jp]",
+      "ko": "InGame[ingame_action_bb_ko]"
+    },
+    {
+      "id": "ingame_action_sb_tw",
+      "zh": "InGame[ingame_action_sb_zh]",
+      "tw": "InGame[ingame_action_sb_tw]",
+      "en": "InGame[ingame_action_sb_en]",
+      "jp": "InGame[ingame_action_sb_jp]",
+      "ko": "InGame[ingame_action_sb_ko]"
+    },
+    {
+      "id": "ingame_action_bet_tw",
+      "zh": "InGame[ingame_action_bet_zh]",
+      "tw": "InGame[ingame_action_bet_tw]",
+      "en": "InGame[ingame_action_bet_en]",
+      "jp": "InGame[ingame_action_bet_jp]",
+      "ko": "InGame[ingame_action_bet_ko]"
+    },
+    {
+      "id": "ingame_action_call_tw",
+      "zh": "InGame[ingame_action_call_zh]",
+      "tw": "InGame[ingame_action_call_tw]",
+      "en": "InGame[ingame_action_call_en]",
+      "jp": "InGame[ingame_action_call_jp]",
+      "ko": "InGame[ingame_action_call_ko]"
+    },
+    {
+      "id": "ingame_action_raise_tw",
+      "zh": "InGame[ingame_action_raise_zh]",
+      "tw": "InGame[ingame_action_raise_tw]",
+      "en": "InGame[ingame_action_raise_en]",
+      "jp": "InGame[ingame_action_raise_jp]",
+      "ko": "InGame[ingame_action_raise_ko]"
+    },
+    {
+      "id": "ingame_player_fold_tw",
+      "zh": "InGame[ingame_player_fold_zh]",
+      "tw": "InGame[ingame_player_fold_tw]",
+      "en": "InGame[ingame_player_fold_en]",
+      "jp": "InGame[ingame_player_fold_jp]",
+      "ko": "InGame[ingame_player_fold_ko]"
+    },
+    {
+      "id": "level_upgrade_title_tw",
+      "zh": "Level[level_upgrade_title_zh]",
+      "tw": "Level[level_upgrade_title_tw]",
+      "en": "Level[level_upgrade_title_en]",
+      "jp": "Level[level_upgrade_title_jp]",
+      "ko": "Level[level_upgrade_title_ko]"
+    },
+    {
+      "id": "shop_vipupgrade_img_title_en",
+      "zh": "Shop[shop_vipupgrade_img_title_zh]",
+      "tw": "Shop[shop_vipupgrade_img_title_tw]",
+      "en": "Shop[shop_vipupgrade_img_title_en]",
+      "jp": "Shop[shop_vipupgrade_img_title_jp]",
+      "ko": "Shop[shop_vipupgrade_img_title_ko]"
+    },
+    {
+      "id": "shop_topup_img_title_tw",
+      "zh": "Shop[shop_topup_img_title_zh]",
+      "tw": "Shop[shop_topup_img_title_tw]",
+      "en": "Shop[shop_topup_img_title_en]",
+      "jp": "Shop[shop_topup_img_title_jp]",
+      "ko": "Shop[shop_topup_img_title_ko]"
+    },
+    {
+      "id": "shop_topup_img_subtitle_en",
+      "zh": "Shop[shop_topup_img_subtitle_zh]",
+      "tw": "Shop[shop_topup_img_subtitle_tw]",
+      "en": "Shop[shop_topup_img_subtitle_en]",
+      "jp": "Shop[shop_topup_img_subtitle_jp]",
+      "ko": "Shop[shop_topup_img_subtitle_ko]"
+    },
+    {
+      "id": "shop_pledge_title_tw",
+      "zh": "Shop[shop_pledge_title_zh]",
+      "tw": "Shop[shop_pledge_title_tw]",
+      "en": "Shop[shop_pledge_title_en]",
+      "jp": "Shop[shop_pledge_title_jp]",
+      "ko": "Shop[shop_pledge_title_ko]"
+    },
+    {
+      "id": "shop_pledge_button_through_tw",
+      "zh": "Character[shop_pledge_button_through_zh]",
+      "tw": "Character[shop_pledge_button_through_tw]",
+      "en": "Character[shop_pledge_button_through_en]",
+      "jp": "Character[shop_pledge_button_through_jp]",
+      "ko": "Character[shop_pledge_button_through_ko]"
+    },
+    {
+      "id": "shop_newcomer_title_tw",
+      "zh": "Shop[shop_newcomer_title_zh]",
+      "tw": "Shop[shop_newcomer_title_tw]",
+      "en": "Shop[shop_newcomer_title_en]",
+      "jp": "Shop[shop_newcomer_title_jp]",
+      "ko": "Shop[shop_newcomer_title_ko]"
+    },
+    {
+      "id": "character_bond_title_tw",
+      "zh": "Character[character_bond_title_zh]",
+      "tw": "Character[character_bond_title_tw]",
+      "en": "Character[character_bond_title_en]",
+      "jp": "Character[character_bond_title_jp]",
+      "ko": "Character[character_bond_title_ko]"
+    },
+    {
+      "id": "avatartitle_non_01_tw",
+      "zh": "Avatartitle[avatartitle_non_01_zh]",
+      "tw": "Avatartitle[avatartitle_non_01_tw]",
+      "en": "Avatartitle[avatartitle_non_01_en]",
+      "jp": "Avatartitle[avatartitle_non_01_jp]",
+      "ko": "Avatartitle[avatartitle_non_01_tw]"
+    }
+  ],
+  "map": {
+    "Title_Settings": {
+      "id": "Title_Settings",
+      "zh": "CommonNew[Title_Settings]",
+      "tw": "CommonNew[Title_Settings]",
+      "en": "CommonNew[Title_Settings]",
+      "jp": "CommonNew[Title_Settings]",
+      "ko": "CommonNew[Title_Settings]"
+    },
+    "Preview_Name_1": {
+      "id": "Preview_Name_1",
+      "zh": "Backpack[backpack_preview_scene_title_01_zh]",
+      "tw": "Backpack[backpack_preview_scene_title_01_zh]",
+      "en": "Backpack[backpack_preview_scene_title_01_zh]",
+      "jp": "Backpack[backpack_preview_scene_title_01_zh]",
+      "ko": "Backpack[backpack_preview_scene_title_01_zh]"
+    },
+    "ingame_rules_title_1_cn": {
+      "id": "ingame_rules_title_1_cn",
+      "zh": "IngameRules[ingame_rules_title_1_zh]",
+      "tw": "IngameRules[ingame_rules_title_1_cn]",
+      "en": "IngameRules[ingame_rules_title_1_en]",
+      "jp": "IngameRules[ingame_rules_title_1_jp]",
+      "ko": "IngameRules[ingame_rules_title_1_ko]"
+    },
+    "ingame_rules_title_2_cn": {
+      "id": "ingame_rules_title_2_cn",
+      "zh": "IngameRules[ingame_rules_title_2_zh]",
+      "tw": "IngameRules[ingame_rules_title_2_cn]",
+      "en": "IngameRules[ingame_rules_title_2_en]",
+      "jp": "IngameRules[ingame_rules_title_2_jp]",
+      "ko": "IngameRules[ingame_rules_title_2_ko]"
+    },
+    "ingame_rules_title_3_cn": {
+      "id": "ingame_rules_title_3_cn",
+      "zh": "IngameRules[ingame_rules_title_3_zh]",
+      "tw": "IngameRules[ingame_rules_title_3_cn]",
+      "en": "IngameRules[ingame_rules_title_3_en]",
+      "jp": "IngameRules[ingame_rules_title_3_jp]",
+      "ko": "IngameRules[ingame_rules_title_3_ko]"
+    },
+    "ingame_replay_lose_tw": {
+      "id": "ingame_replay_lose_tw",
+      "zh": "InGame[ingame_replay_lose_zh]",
+      "tw": "InGame[ingame_replay_lose_tw]",
+      "en": "InGame[ingame_replay_lose_en]",
+      "jp": "InGame[ingame_replay_lose_jp]",
+      "ko": "InGame[ingame_replay_lose_ko]"
+    },
+    "ingame_replay_win_tw": {
+      "id": "ingame_replay_win_tw",
+      "zh": "InGame[ingame_replay_win_zh]",
+      "tw": "InGame[ingame_replay_win_tw]",
+      "en": "InGame[ingame_replay_win_en]",
+      "jp": "InGame[ingame_replay_win_jp]",
+      "ko": "InGame[ingame_replay_win_ko]"
+    },
+    "bg_activity_sign_in_tw": {
+      "id": "bg_activity_sign_in_tw",
+      "zh": "Activity[bg_activity_sign_in_zh]",
+      "tw": "Activity[bg_activity_sign_in_tw]",
+      "en": "Activity[bg_activity_sign_in_en]",
+      "jp": "Activity[bg_activity_sign_in_jp]",
+      "ko": "Activity[bg_activity_sign_in_ko]"
+    },
+    "activity_sign_in_monthly_tw": {
+      "id": "activity_sign_in_monthly_tw",
+      "zh": "Activity[activity_sign_in_monthly_zh]",
+      "tw": "Activity[activity_sign_in_monthly_tw]",
+      "en": "Activity[activity_sign_in_monthly_en]",
+      "jp": "Activity[activity_sign_in_monthly_jp]",
+      "ko": "Activity[activity_sign_in_monthly_ko]"
+    },
+    "activity_sign_in_tag_expired_tw": {
+      "id": "activity_sign_in_tag_expired_tw",
+      "zh": "Activity[activity_sign_in_tag_expired_zh]",
+      "tw": "Activity[activity_sign_in_tag_expired_tw]",
+      "en": "Activity[activity_sign_in_tag_expired_en]",
+      "jp": "Activity[activity_sign_in_tag_expired_jp]",
+      "ko": "Activity[activity_sign_in_tag_expired_ko]"
+    },
+    "activity_sign_in_tag_resign_tw": {
+      "id": "activity_sign_in_tag_resign_tw",
+      "zh": "Activity[activity_sign_in_tag_resign_zh]",
+      "tw": "Activity[activity_sign_in_tag_resign_tw]",
+      "en": "Activity[activity_sign_in_tag_resign_en]",
+      "jp": "Activity[activity_sign_in_tag_resign_jp]",
+      "ko": "Activity[activity_sign_in_tag_resign_ko]"
+    },
+    "activity_reward_title_tw": {
+      "id": "activity_reward_title_tw",
+      "zh": "Activity[activity_reward_title_zh]",
+      "tw": "Activity[activity_reward_title_tw]",
+      "en": "Activity[activity_reward_title_en]",
+      "jp": "Activity[activity_reward_title_jp]",
+      "ko": "Activity[activity_reward_title_ko]"
+    },
+    "activity_sign_in_reward_title_01_tw": {
+      "id": "activity_sign_in_reward_title_01_tw",
+      "zh": "Activity[activity_sign_in_reward_title_01_zh]",
+      "tw": "Activity[activity_sign_in_reward_title_01_tw]",
+      "en": "Activity[activity_sign_in_reward_title_01_en]",
+      "jp": "Activity[activity_sign_in_reward_title_01_jp]",
+      "ko": "Activity[activity_sign_in_reward_title_01_ko]"
+    },
+    "activity_sign_in_reward_title_02_tw": {
+      "id": "activity_sign_in_reward_title_02_tw",
+      "zh": "Activity[activity_sign_in_reward_title_02_zh]",
+      "tw": "Activity[activity_sign_in_reward_title_02_tw]",
+      "en": "Activity[activity_sign_in_reward_title_02_en]",
+      "jp": "Activity[activity_sign_in_reward_title_02_jp]",
+      "ko": "Activity[activity_sign_in_reward_title_02_ko]"
+    },
+    "activity_sign_in_reward_title_03_tw": {
+      "id": "activity_sign_in_reward_title_03_tw",
+      "zh": "Activity[activity_sign_in_reward_title_03_zh]",
+      "tw": "Activity[activity_sign_in_reward_title_03_tw]",
+      "en": "Activity[activity_sign_in_reward_title_03_en]",
+      "jp": "Activity[activity_sign_in_reward_title_03_jp]",
+      "ko": "Activity[activity_sign_in_reward_title_03_ko]"
+    },
+    "common_result_title_tw": {
+      "id": "common_result_title_tw",
+      "zh": "Common[common_result_title_zh]",
+      "tw": "Common[common_result_title_tw]",
+      "en": "Common[common_result_title_en]",
+      "jp": "Common[common_result_title_jp]",
+      "ko": "Common[common_result_title_ko]"
+    },
+    "common_result_title_01_tw": {
+      "id": "common_result_title_01_tw",
+      "zh": "Common[common_result_title_01_zh]",
+      "tw": "Common[common_result_title_01_tw]",
+      "en": "Common[common_result_title_01_en]",
+      "jp": "Common[common_result_title_01_jp]",
+      "ko": "Common[common_result_title_01_ko]"
+    },
+    "common_result_title_02_tw": {
+      "id": "common_result_title_02_tw",
+      "zh": "Common[common_result_title_02_zh]",
+      "tw": "Common[common_result_title_02_tw]",
+      "en": "Common[common_result_title_02_en]",
+      "jp": "Common[common_result_title_02_jp]",
+      "ko": "Common[common_result_title_02_ko]"
+    },
+    "common_result_title_03_tw": {
+      "id": "common_result_title_03_tw",
+      "zh": "Common[common_result_title_03_zh]",
+      "tw": "Common[common_result_title_03_tw]",
+      "en": "Common[common_result_title_03_en]",
+      "jp": "Common[common_result_title_03_jp]",
+      "ko": "Common[common_result_title_03_ko]"
+    },
+    "shop_mothly_card_title_01_tw": {
+      "id": "shop_mothly_card_title_01_tw",
+      "zh": "Shop[shop_mothly_card_title_01_zh]",
+      "tw": "Shop[shop_mothly_card_title_01_tw]",
+      "en": "Shop[shop_mothly_card_title_01_en]",
+      "jp": "Shop[shop_mothly_card_title_01_jp]",
+      "ko": "Shop[shop_mothly_card_title_01_ko]"
+    },
+    "shop_mothly_card_title_02_tw": {
+      "id": "shop_mothly_card_title_02_tw",
+      "zh": "Shop[shop_mothly_card_title_02_zh]",
+      "tw": "Shop[shop_mothly_card_title_02_tw]",
+      "en": "Shop[shop_mothly_card_title_02_en]",
+      "jp": "Shop[shop_mothly_card_title_02_jp]",
+      "ko": "Shop[shop_mothly_card_title_02_ko]"
+    },
+    "shop_mothly_card_privilege_off_tw": {
+      "id": "shop_mothly_card_privilege_off_tw",
+      "zh": "Shop[shop_mothly_card_privilege_off_zh]",
+      "tw": "Shop[shop_mothly_card_privilege_off_tw]",
+      "en": "Shop[shop_mothly_card_privilege_off_en]",
+      "jp": "Shop[shop_mothly_card_privilege_off_jp]",
+      "ko": "Shop[shop_mothly_card_privilege_off_ko]"
+    },
+    "shop_monthly_card_reward_title_01_tw": {
+      "id": "shop_monthly_card_reward_title_01_tw",
+      "zh": "Shop[shop_monthly_card_reward_title_01_zh]",
+      "tw": "Shop[shop_monthly_card_reward_title_01_tw]",
+      "en": "Shop[shop_monthly_card_reward_title_01_en]",
+      "jp": "Shop[shop_monthly_card_reward_title_01_jp]",
+      "ko": "Shop[shop_monthly_card_reward_title_01_ko]"
+    },
+    "shop_monthly_card_reward_title_02_tw": {
+      "id": "shop_monthly_card_reward_title_02_tw",
+      "zh": "Shop[shop_monthly_card_reward_title_02_zh]",
+      "tw": "Shop[shop_monthly_card_reward_title_02_tw]",
+      "en": "Shop[shop_monthly_card_reward_title_02_en]",
+      "jp": "Shop[shop_monthly_card_reward_title_02_jp]",
+      "ko": "Shop[shop_monthly_card_reward_title_02_ko]"
+    },
+    "shop_monthly_card_reward_title_03_tw": {
+      "id": "shop_monthly_card_reward_title_03_tw",
+      "zh": "Shop[shop_monthly_card_reward_title_03_zh]",
+      "tw": "Shop[shop_monthly_card_reward_title_03_tw]",
+      "en": "Shop[shop_monthly_card_reward_title_03_en]",
+      "jp": "Shop[shop_monthly_card_reward_title_03_jp]",
+      "ko": "Shop[shop_monthly_card_reward_title_03_ko]"
+    },
+    "By_chips_ingame_1_cn": {
+      "id": "By_chips_ingame_1_cn",
+      "zh": "IngameBankrupt[By_chips_ingame_1_zh]",
+      "tw": "IngameBankrupt[By_chips_ingame_1_cn]",
+      "en": "IngameBankrupt[By_chips_ingame_1_en]",
+      "jp": "IngameBankrupt[By_chips_ingame_1_jp]",
+      "ko": "IngameBankrupt[By_chips_ingame_1_ko]"
+    },
+    "By_chips_ingame_2_tw": {
+      "id": "By_chips_ingame_2_tw",
+      "zh": "IngameBankrupt[By_chips_ingame_2_zh]",
+      "tw": "IngameBankrupt[By_chips_ingame_2_tw]",
+      "en": "IngameBankrupt[By_chips_ingame_2_en]",
+      "jp": "IngameBankrupt[By_chips_ingame_2_jp]",
+      "ko": "IngameBankrupt[By_chips_ingame_2_ko]"
+    },
+    "Bankruptcy_benefits_cn": {
+      "id": "Bankruptcy_benefits_cn",
+      "zh": "IngameBankrupt[Bankruptcy_benefits_zh]",
+      "tw": "IngameBankrupt[Bankruptcy_benefits_cn]",
+      "en": "IngameBankrupt[Bankruptcy_benefits_en]",
+      "jp": "IngameBankrupt[Bankruptcy_benefits_jp]",
+      "ko": "IngameBankrupt[Bankruptcy_benefits_ko]"
+    },
+    "bonds_up_title_tw": {
+      "id": "bonds_up_title_tw",
+      "zh": "Bonds[bonds_up_title_zh]",
+      "tw": "Bonds[bonds_up_title_tw]",
+      "en": "Bonds[bonds_up_title_en]",
+      "jp": "Bonds[bonds_up_title_jp]",
+      "ko": "Bonds[bonds_up_title_ko]"
+    },
+    "bonds_up_full_title_tw": {
+      "id": "bonds_up_full_title_tw",
+      "zh": "Bonds[bonds_up_full_title_zh]",
+      "tw": "Bonds[bonds_up_full_title_tw]",
+      "en": "Bonds[bonds_up_full_title_en]",
+      "jp": "Bonds[bonds_up_full_title_jp]",
+      "ko": "Bonds[bonds_up_full_title_ko]"
+    },
+    "sdt_quiz_title_en": {
+      "id": "sdt_quiz_title_en",
+      "zh": "Sdt[sdt_quiz_title_zh]",
+      "tw": "Sdt[sdt_quiz_title_tw]",
+      "en": "Sdt[sdt_quiz_title_en]",
+      "jp": "Sdt[sdt_quiz_title_jp]",
+      "ko": "Sdt[sdt_quiz_title_ko]"
+    },
+    "sdt_reward_title_en": {
+      "id": "sdt_reward_title_en",
+      "zh": "Sdt[sdt_reward_title_zh]",
+      "tw": "Sdt[sdt_reward_title_tw]",
+      "en": "Sdt[sdt_reward_title_en]",
+      "jp": "Sdt[sdt_reward_title_jp]",
+      "ko": "Sdt[sdt_reward_title_ko]"
+    },
+    "sdt_reward_fg_01_en": {
+      "id": "sdt_reward_fg_01_en",
+      "zh": "Sdt[sdt_reward_fg_01_zh]",
+      "tw": "Sdt[sdt_reward_fg_01_tw]",
+      "en": "Sdt[sdt_reward_fg_01_en]",
+      "jp": "Sdt[sdt_reward_fg_01_jp]",
+      "ko": "Sdt[sdt_reward_fg_01_ko]"
+    },
+    "sdt_reward_fg_02_en": {
+      "id": "sdt_reward_fg_02_en",
+      "zh": "Sdt[sdt_reward_fg_02_zh]",
+      "tw": "Sdt[sdt_reward_fg_02_tw]",
+      "en": "Sdt[sdt_reward_fg_02_en]",
+      "jp": "Sdt[sdt_reward_fg_02_jp]",
+      "ko": "Sdt[sdt_reward_fg_02_ko]"
+    },
+    "sdt_reward_fg_03_en": {
+      "id": "sdt_reward_fg_03_en",
+      "zh": "Sdt[sdt_reward_fg_03_zh]",
+      "tw": "Sdt[sdt_reward_fg_03_tw]",
+      "en": "Sdt[sdt_reward_fg_03_en]",
+      "jp": "Sdt[sdt_reward_fg_03_jp]",
+      "ko": "Sdt[sdt_reward_fg_03_ko]"
+    },
+    "sdt_certificate_title_en": {
+      "id": "sdt_certificate_title_en",
+      "zh": "Sdt[sdt_certificate_title_zh]",
+      "tw": "Sdt[sdt_certificate_title_tw]",
+      "en": "Sdt[sdt_certificate_title_en]",
+      "jp": "Sdt[sdt_certificate_title_jp]",
+      "ko": "Sdt[sdt_certificate_title_ko]"
+    },
+    "lobby_enter_character_title_tw": {
+      "id": "lobby_enter_character_title_tw",
+      "zh": "Lobby[lobby_enter_character_title_zh]",
+      "tw": "Lobby[lobby_enter_character_title_tw]",
+      "en": "Lobby[lobby_enter_character_title_en]",
+      "jp": "Lobby[lobby_enter_character_title_jp]",
+      "ko": "Lobby[lobby_enter_character_title_ko]"
+    },
+    "lobby_enter_friend_game_title_tw": {
+      "id": "lobby_enter_friend_game_title_tw",
+      "zh": "Lobby[lobby_enter_friend_game_title_zh]",
+      "tw": "Lobby[lobby_enter_friend_game_title_tw]",
+      "en": "Lobby[lobby_enter_friend_game_title_en]",
+      "jp": "Lobby[lobby_enter_friend_game_title_jp]",
+      "ko": "Lobby[lobby_enter_friend_game_title_ko]"
+    },
+    "lobby_enter_gacha_title_tw": {
+      "id": "lobby_enter_gacha_title_tw",
+      "zh": "Lobby[lobby_enter_gacha_title_zh]",
+      "tw": "Lobby[lobby_enter_gacha_title_tw]",
+      "en": "Lobby[lobby_enter_gacha_title_en]",
+      "jp": "Lobby[lobby_enter_gacha_title_jp]",
+      "ko": "Lobby[lobby_enter_gacha_title_ko]"
+    },
+    "lobby_enter_omaha_title_tw": {
+      "id": "lobby_enter_omaha_title_tw",
+      "zh": "Lobby[lobby_enter_omaha_title_zh]",
+      "tw": "Lobby[lobby_enter_omaha_title_tw]",
+      "en": "Lobby[lobby_enter_omaha_title_en]",
+      "jp": "Lobby[lobby_enter_omaha_title_jp]",
+      "ko": "Lobby[lobby_enter_omaha_title_ko]"
+    },
+    "lobby_enter_poker_title_tw": {
+      "id": "lobby_enter_poker_title_tw",
+      "zh": "Lobby[lobby_enter_poker_title_zh]",
+      "tw": "Lobby[lobby_enter_poker_title_tw]",
+      "en": "Lobby[lobby_enter_poker_title_en]",
+      "jp": "Lobby[lobby_enter_poker_title_jp]",
+      "ko": "Lobby[lobby_enter_poker_title_ko]"
+    },
+    "ingame_action_allin_tw": {
+      "id": "ingame_action_allin_tw",
+      "zh": "InGame[ingame_action_allin_zh]",
+      "tw": "InGame[ingame_action_allin_tw]",
+      "en": "InGame[ingame_action_allin_en]",
+      "jp": "InGame[ingame_action_allin_jp]",
+      "ko": "InGame[ingame_action_allin_ko]"
+    },
+    "ingame_action_bb_tw": {
+      "id": "ingame_action_bb_tw",
+      "zh": "InGame[ingame_action_bb_zh]",
+      "tw": "InGame[ingame_action_bb_tw]",
+      "en": "InGame[ingame_action_bb_en]",
+      "jp": "InGame[ingame_action_bb_jp]",
+      "ko": "InGame[ingame_action_bb_ko]"
+    },
+    "ingame_action_sb_tw": {
+      "id": "ingame_action_sb_tw",
+      "zh": "InGame[ingame_action_sb_zh]",
+      "tw": "InGame[ingame_action_sb_tw]",
+      "en": "InGame[ingame_action_sb_en]",
+      "jp": "InGame[ingame_action_sb_jp]",
+      "ko": "InGame[ingame_action_sb_ko]"
+    },
+    "ingame_action_bet_tw": {
+      "id": "ingame_action_bet_tw",
+      "zh": "InGame[ingame_action_bet_zh]",
+      "tw": "InGame[ingame_action_bet_tw]",
+      "en": "InGame[ingame_action_bet_en]",
+      "jp": "InGame[ingame_action_bet_jp]",
+      "ko": "InGame[ingame_action_bet_ko]"
+    },
+    "ingame_action_call_tw": {
+      "id": "ingame_action_call_tw",
+      "zh": "InGame[ingame_action_call_zh]",
+      "tw": "InGame[ingame_action_call_tw]",
+      "en": "InGame[ingame_action_call_en]",
+      "jp": "InGame[ingame_action_call_jp]",
+      "ko": "InGame[ingame_action_call_ko]"
+    },
+    "ingame_action_raise_tw": {
+      "id": "ingame_action_raise_tw",
+      "zh": "InGame[ingame_action_raise_zh]",
+      "tw": "InGame[ingame_action_raise_tw]",
+      "en": "InGame[ingame_action_raise_en]",
+      "jp": "InGame[ingame_action_raise_jp]",
+      "ko": "InGame[ingame_action_raise_ko]"
+    },
+    "ingame_player_fold_tw": {
+      "id": "ingame_player_fold_tw",
+      "zh": "InGame[ingame_player_fold_zh]",
+      "tw": "InGame[ingame_player_fold_tw]",
+      "en": "InGame[ingame_player_fold_en]",
+      "jp": "InGame[ingame_player_fold_jp]",
+      "ko": "InGame[ingame_player_fold_ko]"
+    },
+    "level_upgrade_title_tw": {
+      "id": "level_upgrade_title_tw",
+      "zh": "Level[level_upgrade_title_zh]",
+      "tw": "Level[level_upgrade_title_tw]",
+      "en": "Level[level_upgrade_title_en]",
+      "jp": "Level[level_upgrade_title_jp]",
+      "ko": "Level[level_upgrade_title_ko]"
+    },
+    "shop_vipupgrade_img_title_en": {
+      "id": "shop_vipupgrade_img_title_en",
+      "zh": "Shop[shop_vipupgrade_img_title_zh]",
+      "tw": "Shop[shop_vipupgrade_img_title_tw]",
+      "en": "Shop[shop_vipupgrade_img_title_en]",
+      "jp": "Shop[shop_vipupgrade_img_title_jp]",
+      "ko": "Shop[shop_vipupgrade_img_title_ko]"
+    },
+    "shop_topup_img_title_tw": {
+      "id": "shop_topup_img_title_tw",
+      "zh": "Shop[shop_topup_img_title_zh]",
+      "tw": "Shop[shop_topup_img_title_tw]",
+      "en": "Shop[shop_topup_img_title_en]",
+      "jp": "Shop[shop_topup_img_title_jp]",
+      "ko": "Shop[shop_topup_img_title_ko]"
+    },
+    "shop_topup_img_subtitle_en": {
+      "id": "shop_topup_img_subtitle_en",
+      "zh": "Shop[shop_topup_img_subtitle_zh]",
+      "tw": "Shop[shop_topup_img_subtitle_tw]",
+      "en": "Shop[shop_topup_img_subtitle_en]",
+      "jp": "Shop[shop_topup_img_subtitle_jp]",
+      "ko": "Shop[shop_topup_img_subtitle_ko]"
+    },
+    "shop_pledge_title_tw": {
+      "id": "shop_pledge_title_tw",
+      "zh": "Shop[shop_pledge_title_zh]",
+      "tw": "Shop[shop_pledge_title_tw]",
+      "en": "Shop[shop_pledge_title_en]",
+      "jp": "Shop[shop_pledge_title_jp]",
+      "ko": "Shop[shop_pledge_title_ko]"
+    },
+    "shop_pledge_button_through_tw": {
+      "id": "shop_pledge_button_through_tw",
+      "zh": "Character[shop_pledge_button_through_zh]",
+      "tw": "Character[shop_pledge_button_through_tw]",
+      "en": "Character[shop_pledge_button_through_en]",
+      "jp": "Character[shop_pledge_button_through_jp]",
+      "ko": "Character[shop_pledge_button_through_ko]"
+    },
+    "shop_newcomer_title_tw": {
+      "id": "shop_newcomer_title_tw",
+      "zh": "Shop[shop_newcomer_title_zh]",
+      "tw": "Shop[shop_newcomer_title_tw]",
+      "en": "Shop[shop_newcomer_title_en]",
+      "jp": "Shop[shop_newcomer_title_jp]",
+      "ko": "Shop[shop_newcomer_title_ko]"
+    },
+    "character_bond_title_tw": {
+      "id": "character_bond_title_tw",
+      "zh": "Character[character_bond_title_zh]",
+      "tw": "Character[character_bond_title_tw]",
+      "en": "Character[character_bond_title_en]",
+      "jp": "Character[character_bond_title_jp]",
+      "ko": "Character[character_bond_title_ko]"
+    },
+    "avatartitle_non_01_tw": {
+      "id": "avatartitle_non_01_tw",
+      "zh": "Avatartitle[avatartitle_non_01_zh]",
+      "tw": "Avatartitle[avatartitle_non_01_tw]",
+      "en": "Avatartitle[avatartitle_non_01_en]",
+      "jp": "Avatartitle[avatartitle_non_01_jp]",
+      "ko": "Avatartitle[avatartitle_non_01_tw]"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "source": "tpl_medialink_config.lua",
+    "format": "keys_bodys",
+    "count": 11
+  },
+  "list": [
+    {
+      "id": 1,
+      "media_id": 1,
+      "lang": "en",
+      "link": "https://www.facebook.com/PokerFateEN/",
+      "copytext": null
+    },
+    {
+      "id": 2,
+      "media_id": 1,
+      "lang": "tw",
+      "link": "https://www.facebook.com/PokerFate/",
+      "copytext": null
+    },
+    {
+      "id": 3,
+      "media_id": 2,
+      "lang": "tw",
+      "link": "http://www.pokerfate.com/zh/linegroup",
+      "copytext": null
+    },
+    {
+      "id": 4,
+      "media_id": 3,
+      "lang": "jp",
+      "link": "https://discord.com/invite/acrfBjX8xT",
+      "copytext": null
+    },
+    {
+      "id": 5,
+      "media_id": 3,
+      "lang": "en",
+      "link": "https://discord.com/invite/acrfBjX8xT",
+      "copytext": null
+    },
+    {
+      "id": 6,
+      "media_id": 3,
+      "lang": "tw",
+      "link": "https://discord.com/invite/acrfBjX8xT",
+      "copytext": null
+    },
+    {
+      "id": 7,
+      "media_id": 4,
+      "lang": "jp",
+      "link": "https://x.com/PokerFate_JP",
+      "copytext": null
+    },
+    {
+      "id": 8,
+      "media_id": 4,
+      "lang": "en",
+      "link": "https://x.com/PokerFate_EN",
+      "copytext": null
+    },
+    {
+      "id": 9,
+      "media_id": 5,
+      "lang": "zh",
+      "link": "https://space.bilibili.com/3632315995523599",
+      "copytext": null
+    },
+    {
+      "id": 10,
+      "media_id": 6,
+      "lang": "zh",
+      "link": "https://weibo.com/u/8498066320",
+      "copytext": null
+    },
+    {
+      "id": 11,
+      "media_id": 7,
+      "lang": "zh",
+      "link": "https://qm.qq.com/q/6wiO6meUik",
+      "copytext": null
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "media_id": 1,
+      "lang": "en",
+      "link": "https://www.facebook.com/PokerFateEN/",
+      "copytext": null
+    },
+    "2": {
+      "id": 2,
+      "media_id": 1,
+      "lang": "tw",
+      "link": "https://www.facebook.com/PokerFate/",
+      "copytext": null
+    },
+    "3": {
+      "id": 3,
+      "media_id": 2,
+      "lang": "tw",
+      "link": "http://www.pokerfate.com/zh/linegroup",
+      "copytext": null
+    },
+    "4": {
+      "id": 4,
+      "media_id": 3,
+      "lang": "jp",
+      "link": "https://discord.com/invite/acrfBjX8xT",
+      "copytext": null
+    },
+    "5": {
+      "id": 5,
+      "media_id": 3,
+      "lang": "en",
+      "link": "https://discord.com/invite/acrfBjX8xT",
+      "copytext": null
+    },
+    "6": {
+      "id": 6,
+      "media_id": 3,
+      "lang": "tw",
+      "link": "https://discord.com/invite/acrfBjX8xT",
+      "copytext": null
+    },
+    "7": {
+      "id": 7,
+      "media_id": 4,
+      "lang": "jp",
+      "link": "https://x.com/PokerFate_JP",
+      "copytext": null
+    },
+    "8": {
+      "id": 8,
+      "media_id": 4,
+      "lang": "en",
+      "link": "https://x.com/PokerFate_EN",
+      "copytext": null
+    },
+    "9": {
+      "id": 9,
+      "media_id": 5,
+      "lang": "zh",
+      "link": "https://space.bilibili.com/3632315995523599",
+      "copytext": null
+    },
+    "10": {
+      "id": 10,
+      "media_id": 6,
+      "lang": "zh",
+      "link": "https://weibo.com/u/8498066320",
+      "copytext": null
+    },
+    "11": {
+      "id": 11,
+      "media_id": 7,
+      "lang": "zh",
+      "link": "https://qm.qq.com/q/6wiO6meUik",
+      "copytext": null
+    }
+  }
+}

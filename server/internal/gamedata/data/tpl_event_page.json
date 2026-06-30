@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "source": "tpl_event_page.lua",
+    "format": "keys_bodys",
+    "count": 4
+  },
+  "list": [
+    {
+      "page_id": 1,
+      "name": [
+        "LAB_EVENT_CHECK_IN_NAME_1"
+      ],
+      "icon": "activity_newman_icon_01",
+      "type": 2,
+      "event_id": 2001,
+      "index": 1
+    },
+    {
+      "page_id": 2,
+      "name": [
+        "LAB_DAILY_SIGN_IN"
+      ],
+      "icon": "activity_tab_icon_01",
+      "type": 1,
+      "event_id": 1001,
+      "index": 2
+    },
+    {
+      "page_id": 3,
+      "name": [
+        "LAB_EVENT_MEDIA"
+      ],
+      "icon": "activity_tab_icon_follow",
+      "type": 1,
+      "event_id": 1002,
+      "index": 3
+    },
+    {
+      "page_id": 4,
+      "name": [
+        "LAB_EVENT_LINKEMAIL"
+      ],
+      "icon": "activity_tab_icon_linkemail",
+      "type": 1,
+      "event_id": 1003,
+      "index": 4
+    }
+  ],
+  "map": {
+    "1": {
+      "page_id": 1,
+      "name": [
+        "LAB_EVENT_CHECK_IN_NAME_1"
+      ],
+      "icon": "activity_newman_icon_01",
+      "type": 2,
+      "event_id": 2001,
+      "index": 1
+    },
+    "2": {
+      "page_id": 2,
+      "name": [
+        "LAB_DAILY_SIGN_IN"
+      ],
+      "icon": "activity_tab_icon_01",
+      "type": 1,
+      "event_id": 1001,
+      "index": 2
+    },
+    "3": {
+      "page_id": 3,
+      "name": [
+        "LAB_EVENT_MEDIA"
+      ],
+      "icon": "activity_tab_icon_follow",
+      "type": 1,
+      "event_id": 1002,
+      "index": 3
+    },
+    "4": {
+      "page_id": 4,
+      "name": [
+        "LAB_EVENT_LINKEMAIL"
+      ],
+      "icon": "activity_tab_icon_linkemail",
+      "type": 1,
+      "event_id": 1003,
+      "index": 4
+    }
+  }
+}

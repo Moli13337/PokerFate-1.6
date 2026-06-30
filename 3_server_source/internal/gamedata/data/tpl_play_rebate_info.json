@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "source": "tpl_play_rebate_info.lua",
+    "format": "keys_bodys",
+    "count": 1
+  },
+  "list": [
+    {
+      "id": 1,
+      "start_time_1": "08:00:00",
+      "end_time_1": "19:59:59",
+      "start_time_2": "20:00:00",
+      "end_time_2": "07:59:59",
+      "participate_conditions": 500000,
+      "factor": 15000,
+      "effective_time": 1774569600
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "start_time_1": "08:00:00",
+      "end_time_1": "19:59:59",
+      "start_time_2": "20:00:00",
+      "end_time_2": "07:59:59",
+      "participate_conditions": 500000,
+      "factor": 15000,
+      "effective_time": 1774569600
+    }
+  }
+}

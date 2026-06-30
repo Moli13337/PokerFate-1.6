@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "source": "tpl_open_anim.lua",
+    "format": "keys_bodys",
+    "count": 2
+  },
+  "list": [
+    {
+      "id": 1001,
+      "eff": "Prefab/PKTable/Eff_poker_allin_sololight"
+    },
+    {
+      "id": 1002,
+      "eff": "views/table/Sayaka2026/SayakaShow"
+    }
+  ],
+  "map": {
+    "1001": {
+      "id": 1001,
+      "eff": "Prefab/PKTable/Eff_poker_allin_sololight"
+    },
+    "1002": {
+      "id": 1002,
+      "eff": "views/table/Sayaka2026/SayakaShow"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "source": "tpl_monthly_card.lua",
+    "format": "keys_bodys",
+    "count": 3
+  },
+  "list": [
+    {
+      "id": 1,
+      "shop_type": 2,
+      "name": "LAB_MONTHLY_CARD_30",
+      "icon": "Icon[icon_11100003]",
+      "activate_rewards": [
+        10200001,
+        100,
+        10100001,
+        850000
+      ],
+      "days": 30,
+      "exc_title": [
+        20400002,
+        1
+      ],
+      "exc_frame": [
+        20200002,
+        1
+      ],
+      "exc_emoji": [
+        40100006,
+        1
+      ],
+      "buy_id": 200001
+    },
+    {
+      "id": 2,
+      "shop_type": 2,
+      "name": "LAB_MONTHLY_CARD_31",
+      "icon": "Icon[icon_11100003]",
+      "activate_rewards": [
+        10200001,
+        400,
+        10100001,
+        3175000
+      ],
+      "days": 90,
+      "exc_title": [
+        20400002,
+        1
+      ],
+      "exc_frame": [
+        20200002,
+        1
+      ],
+      "exc_emoji": [
+        40100006,
+        1
+      ],
+      "buy_id": 200002
+    },
+    {
+      "id": 3,
+      "shop_type": 2,
+      "name": "LAB_MONTHLY_CARD_32",
+      "icon": "Icon[icon_11100003]",
+      "activate_rewards": [
+        10200001,
+        900,
+        10100001,
+        6975000
+      ],
+      "days": 180,
+      "exc_title": [
+        20400002,
+        1
+      ],
+      "exc_frame": [
+        20200002,
+        1
+      ],
+      "exc_emoji": [
+        40100006,
+        1
+      ],
+      "buy_id": 200003
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "shop_type": 2,
+      "name": "LAB_MONTHLY_CARD_30",
+      "icon": "Icon[icon_11100003]",
+      "activate_rewards": [
+        10200001,
+        100,
+        10100001,
+        850000
+      ],
+      "days": 30,
+      "exc_title": [
+        20400002,
+        1
+      ],
+      "exc_frame": [
+        20200002,
+        1
+      ],
+      "exc_emoji": [
+        40100006,
+        1
+      ],
+      "buy_id": 200001
+    },
+    "2": {
+      "id": 2,
+      "shop_type": 2,
+      "name": "LAB_MONTHLY_CARD_31",
+      "icon": "Icon[icon_11100003]",
+      "activate_rewards": [
+        10200001,
+        400,
+        10100001,
+        3175000
+      ],
+      "days": 90,
+      "exc_title": [
+        20400002,
+        1
+      ],
+      "exc_frame": [
+        20200002,
+        1
+      ],
+      "exc_emoji": [
+        40100006,
+        1
+      ],
+      "buy_id": 200002
+    },
+    "3": {
+      "id": 3,
+      "shop_type": 2,
+      "name": "LAB_MONTHLY_CARD_32",
+      "icon": "Icon[icon_11100003]",
+      "activate_rewards": [
+        10200001,
+        900,
+        10100001,
+        6975000
+      ],
+      "days": 180,
+      "exc_title": [
+        20400002,
+        1
+      ],
+      "exc_frame": [
+        20200002,
+        1
+      ],
+      "exc_emoji": [
+        40100006,
+        1
+      ],
+      "buy_id": 200003
+    }
+  }
+}

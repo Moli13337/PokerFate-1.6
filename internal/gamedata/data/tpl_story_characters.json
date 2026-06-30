@@ -1,0 +1,443 @@
+{
+  "_meta": {
+    "source": "tpl_story_characters.lua",
+    "format": "keys_bodys",
+    "count": 27
+  },
+  "list": [
+    {
+      "id": 0,
+      "name": null,
+      "sex": 3,
+      "spine_res": null,
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1001,
+      "name": "LAB_CHAR_NAME_1001",
+      "sex": 1,
+      "spine_res": "RoleSpine/1001_1/Role1001_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1002,
+      "name": "LAB_CHAR_NAME_1002",
+      "sex": 1,
+      "spine_res": "RoleSpine/1002_1/Role1002_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1003,
+      "name": "LAB_CHAR_NAME_1003",
+      "sex": 1,
+      "spine_res": "RoleSpine/1003_1/Role1003_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1004,
+      "name": "LAB_CHAR_NAME_1004",
+      "sex": 1,
+      "spine_res": "RoleSpine/1004_1/Role1004_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1005,
+      "name": "LAB_CHAR_NAME_1005",
+      "sex": 1,
+      "spine_res": "RoleSpine/1005_1/Role1005_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1006,
+      "name": "LAB_CHAR_NAME_1006",
+      "sex": 1,
+      "spine_res": "RoleSpine/1006_1/Role1006_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100605,
+      "name": "LAB_CHAR_NAME_1006",
+      "sex": 1,
+      "spine_res": "RoleSpine/1006_5/Role1006_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1007,
+      "name": "LAB_CHAR_NAME_1007",
+      "sex": 1,
+      "spine_res": "RoleSpine/1007_1/Role1007_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100705,
+      "name": "LAB_CHAR_NAME_1007",
+      "sex": 1,
+      "spine_res": "RoleSpine/1007_5/Role1007_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1008,
+      "name": "LAB_CHAR_NAME_1008",
+      "sex": 1,
+      "spine_res": "RoleSpine/1008_1/Role1008_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 5001,
+      "name": "LAB_STORY_ROLE_NAME_6",
+      "sex": 1,
+      "spine_res": null,
+      "avatar": "Hotspring[hotspring_npc]",
+      "Imagebg": null
+    },
+    {
+      "id": 100904,
+      "name": "LAB_CHAR_NAME_1009",
+      "sex": 1,
+      "spine_res": "RoleSpine/1009_5/Role1009_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 101005,
+      "name": "LAB_CHAR_NAME_1010",
+      "sex": 1,
+      "spine_res": "RoleSpine/1010_5/Role1010_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 101205,
+      "name": "LAB_CHAR_NAME_1012",
+      "sex": 1,
+      "spine_res": "RoleSpine/1012_5/Role1012_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 101305,
+      "name": "LAB_CHAR_NAME_1013",
+      "sex": 1,
+      "spine_res": "RoleSpine/1013_5/Role1013_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100205,
+      "name": "LAB_CHAR_NAME_1002",
+      "sex": 1,
+      "spine_res": "RoleSpine/1002_5/Role1002_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100105,
+      "name": "LAB_CHAR_NAME_1001",
+      "sex": 1,
+      "spine_res": "RoleSpine/1001_6/Role1001_6",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 101405,
+      "name": "LAB_CHAR_NAME_1014",
+      "sex": 1,
+      "spine_res": "RoleSpine/1014_5/Role1014_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100906,
+      "name": "LAB_CHAR_NAME_1009",
+      "sex": 1,
+      "spine_res": "RoleSpine/1009_6/Role1009_6",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 101505,
+      "name": "LAB_CHAR_NAME_1015",
+      "sex": 1,
+      "spine_res": "RoleSpine/1015_5/Role1015_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 101605,
+      "name": "LAB_CHAR_NAME_1016",
+      "sex": 1,
+      "spine_res": "RoleSpine/1016_5/Role1016_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 1016,
+      "name": "LAB_CHAR_NAME_1016",
+      "sex": 1,
+      "spine_res": "RoleSpine/1016_1/Role1016_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100506,
+      "name": "LAB_CHAR_NAME_1005",
+      "sex": 1,
+      "spine_res": "RoleSpine/1005_6/Role1005_6",
+      "avatar": null,
+      "Imagebg": null
+    },
+    {
+      "id": 100706,
+      "name": "LAB_CHAR_NAME_1007",
+      "sex": 1,
+      "spine_res": "RoleSpine/1007_6/Role1007_6",
+      "avatar": null,
+      "Imagebg": 1
+    },
+    {
+      "id": 101006,
+      "name": "LAB_CHAR_NAME_1010",
+      "sex": 1,
+      "spine_res": "RoleSpine/1010_6/Role1010_6",
+      "avatar": null,
+      "Imagebg": 1
+    },
+    {
+      "id": 300106,
+      "name": "LAB_CHAR_NAME_3001",
+      "sex": 1,
+      "spine_res": "RoleSpine/3001_6/Role3001_6",
+      "avatar": null,
+      "Imagebg": 1
+    }
+  ],
+  "map": {
+    "0": {
+      "id": 0,
+      "name": null,
+      "sex": 3,
+      "spine_res": null,
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1001": {
+      "id": 1001,
+      "name": "LAB_CHAR_NAME_1001",
+      "sex": 1,
+      "spine_res": "RoleSpine/1001_1/Role1001_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1002": {
+      "id": 1002,
+      "name": "LAB_CHAR_NAME_1002",
+      "sex": 1,
+      "spine_res": "RoleSpine/1002_1/Role1002_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1003": {
+      "id": 1003,
+      "name": "LAB_CHAR_NAME_1003",
+      "sex": 1,
+      "spine_res": "RoleSpine/1003_1/Role1003_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1004": {
+      "id": 1004,
+      "name": "LAB_CHAR_NAME_1004",
+      "sex": 1,
+      "spine_res": "RoleSpine/1004_1/Role1004_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1005": {
+      "id": 1005,
+      "name": "LAB_CHAR_NAME_1005",
+      "sex": 1,
+      "spine_res": "RoleSpine/1005_1/Role1005_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1006": {
+      "id": 1006,
+      "name": "LAB_CHAR_NAME_1006",
+      "sex": 1,
+      "spine_res": "RoleSpine/1006_1/Role1006_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100605": {
+      "id": 100605,
+      "name": "LAB_CHAR_NAME_1006",
+      "sex": 1,
+      "spine_res": "RoleSpine/1006_5/Role1006_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1007": {
+      "id": 1007,
+      "name": "LAB_CHAR_NAME_1007",
+      "sex": 1,
+      "spine_res": "RoleSpine/1007_1/Role1007_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100705": {
+      "id": 100705,
+      "name": "LAB_CHAR_NAME_1007",
+      "sex": 1,
+      "spine_res": "RoleSpine/1007_5/Role1007_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1008": {
+      "id": 1008,
+      "name": "LAB_CHAR_NAME_1008",
+      "sex": 1,
+      "spine_res": "RoleSpine/1008_1/Role1008_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "5001": {
+      "id": 5001,
+      "name": "LAB_STORY_ROLE_NAME_6",
+      "sex": 1,
+      "spine_res": null,
+      "avatar": "Hotspring[hotspring_npc]",
+      "Imagebg": null
+    },
+    "100904": {
+      "id": 100904,
+      "name": "LAB_CHAR_NAME_1009",
+      "sex": 1,
+      "spine_res": "RoleSpine/1009_5/Role1009_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "101005": {
+      "id": 101005,
+      "name": "LAB_CHAR_NAME_1010",
+      "sex": 1,
+      "spine_res": "RoleSpine/1010_5/Role1010_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "101205": {
+      "id": 101205,
+      "name": "LAB_CHAR_NAME_1012",
+      "sex": 1,
+      "spine_res": "RoleSpine/1012_5/Role1012_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "101305": {
+      "id": 101305,
+      "name": "LAB_CHAR_NAME_1013",
+      "sex": 1,
+      "spine_res": "RoleSpine/1013_5/Role1013_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100205": {
+      "id": 100205,
+      "name": "LAB_CHAR_NAME_1002",
+      "sex": 1,
+      "spine_res": "RoleSpine/1002_5/Role1002_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100105": {
+      "id": 100105,
+      "name": "LAB_CHAR_NAME_1001",
+      "sex": 1,
+      "spine_res": "RoleSpine/1001_6/Role1001_6",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "101405": {
+      "id": 101405,
+      "name": "LAB_CHAR_NAME_1014",
+      "sex": 1,
+      "spine_res": "RoleSpine/1014_5/Role1014_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100906": {
+      "id": 100906,
+      "name": "LAB_CHAR_NAME_1009",
+      "sex": 1,
+      "spine_res": "RoleSpine/1009_6/Role1009_6",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "101505": {
+      "id": 101505,
+      "name": "LAB_CHAR_NAME_1015",
+      "sex": 1,
+      "spine_res": "RoleSpine/1015_5/Role1015_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "101605": {
+      "id": 101605,
+      "name": "LAB_CHAR_NAME_1016",
+      "sex": 1,
+      "spine_res": "RoleSpine/1016_5/Role1016_5",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "1016": {
+      "id": 1016,
+      "name": "LAB_CHAR_NAME_1016",
+      "sex": 1,
+      "spine_res": "RoleSpine/1016_1/Role1016_1",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100506": {
+      "id": 100506,
+      "name": "LAB_CHAR_NAME_1005",
+      "sex": 1,
+      "spine_res": "RoleSpine/1005_6/Role1005_6",
+      "avatar": null,
+      "Imagebg": null
+    },
+    "100706": {
+      "id": 100706,
+      "name": "LAB_CHAR_NAME_1007",
+      "sex": 1,
+      "spine_res": "RoleSpine/1007_6/Role1007_6",
+      "avatar": null,
+      "Imagebg": 1
+    },
+    "101006": {
+      "id": 101006,
+      "name": "LAB_CHAR_NAME_1010",
+      "sex": 1,
+      "spine_res": "RoleSpine/1010_6/Role1010_6",
+      "avatar": null,
+      "Imagebg": 1
+    },
+    "300106": {
+      "id": 300106,
+      "name": "LAB_CHAR_NAME_3001",
+      "sex": 1,
+      "spine_res": "RoleSpine/3001_6/Role3001_6",
+      "avatar": null,
+      "Imagebg": 1
+    }
+  }
+}

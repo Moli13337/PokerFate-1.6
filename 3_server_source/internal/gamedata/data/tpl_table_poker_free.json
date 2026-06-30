@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "source": "tpl_table_poker_free.lua",
+    "format": "keys_bodys",
+    "count": 1
+  },
+  "list": [
+    {
+      "id": 1,
+      "gameType": 40010101,
+      "bg_color": 0,
+      "sb": 1,
+      "bb": 2,
+      "min_byin": 40,
+      "max_byin": 400,
+      "recommend": 0,
+      "fee": 0,
+      "room_add": -200,
+      "win_add": 200,
+      "bond_add": 1,
+      "firepower": 0,
+      "quick_buy": 0,
+      "level_limit": 0,
+      "unlock_id": null
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "gameType": 40010101,
+      "bg_color": 0,
+      "sb": 1,
+      "bb": 2,
+      "min_byin": 40,
+      "max_byin": 400,
+      "recommend": 0,
+      "fee": 0,
+      "room_add": -200,
+      "win_add": 200,
+      "bond_add": 1,
+      "firepower": 0,
+      "quick_buy": 0,
+      "level_limit": 0,
+      "unlock_id": null
+    }
+  }
+}

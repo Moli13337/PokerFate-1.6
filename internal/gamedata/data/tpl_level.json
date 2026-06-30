@@ -1,0 +1,2005 @@
+{
+  "_meta": {
+    "source": "tpl_level.lua",
+    "format": "keys_bodys",
+    "count": 100
+  },
+  "list": [
+    {
+      "id": 1,
+      "xp_up": 0,
+      "rewards": null,
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 2,
+      "xp_up": 430,
+      "rewards": [
+        10100001,
+        3000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 3,
+      "xp_up": 650,
+      "rewards": [
+        10100001,
+        5000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 4,
+      "xp_up": 860,
+      "rewards": [
+        10100001,
+        6000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 5,
+      "xp_up": 1080,
+      "rewards": [
+        10100001,
+        8000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 6,
+      "xp_up": 1890,
+      "rewards": [
+        10100001,
+        10000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 7,
+      "xp_up": 2210,
+      "rewards": [
+        10100001,
+        11000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 8,
+      "xp_up": 2520,
+      "rewards": [
+        10100001,
+        13000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 9,
+      "xp_up": 2840,
+      "rewards": [
+        10100001,
+        14000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    {
+      "id": 10,
+      "xp_up": 3150,
+      "rewards": [
+        10100001,
+        16000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 11,
+      "xp_up": 4570,
+      "rewards": [
+        10100001,
+        18000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 12,
+      "xp_up": 4980,
+      "rewards": [
+        10100001,
+        19000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 13,
+      "xp_up": 5400,
+      "rewards": [
+        10100001,
+        21000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 14,
+      "xp_up": 5810,
+      "rewards": [
+        10100001,
+        22000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 15,
+      "xp_up": 6230,
+      "rewards": [
+        10100001,
+        24000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 16,
+      "xp_up": 8240,
+      "rewards": [
+        10100001,
+        26000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 17,
+      "xp_up": 8760,
+      "rewards": [
+        10100001,
+        27000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 18,
+      "xp_up": 9270,
+      "rewards": [
+        10100001,
+        29000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 19,
+      "xp_up": 9790,
+      "rewards": [
+        10100001,
+        30000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    {
+      "id": 20,
+      "xp_up": 10300,
+      "rewards": [
+        10100001,
+        32000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 21,
+      "xp_up": 13220,
+      "rewards": [
+        10100001,
+        34000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 22,
+      "xp_up": 14150,
+      "rewards": [
+        10100001,
+        37000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 23,
+      "xp_up": 15070,
+      "rewards": [
+        10100001,
+        39000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 24,
+      "xp_up": 15990,
+      "rewards": [
+        10100001,
+        42000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 25,
+      "xp_up": 16910,
+      "rewards": [
+        10100001,
+        44000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 26,
+      "xp_up": 20740,
+      "rewards": [
+        10100001,
+        46000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 27,
+      "xp_up": 21810,
+      "rewards": [
+        10100001,
+        49000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 28,
+      "xp_up": 22880,
+      "rewards": [
+        10100001,
+        51000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 29,
+      "xp_up": 23950,
+      "rewards": [
+        10100001,
+        54000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    {
+      "id": 30,
+      "xp_up": 25030,
+      "rewards": [
+        10100001,
+        56000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 31,
+      "xp_up": 30160,
+      "rewards": [
+        10100001,
+        59000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 32,
+      "xp_up": 31790,
+      "rewards": [
+        10100001,
+        62000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 33,
+      "xp_up": 33420,
+      "rewards": [
+        10100001,
+        66000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 34,
+      "xp_up": 35050,
+      "rewards": [
+        10100001,
+        69000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 35,
+      "xp_up": 36680,
+      "rewards": [
+        10100001,
+        72000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 36,
+      "xp_up": 38310,
+      "rewards": [
+        10100001,
+        75000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 37,
+      "xp_up": 39940,
+      "rewards": [
+        10100001,
+        78000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 38,
+      "xp_up": 41570,
+      "rewards": [
+        10100001,
+        82000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 39,
+      "xp_up": 43200,
+      "rewards": [
+        10100001,
+        85000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    {
+      "id": 40,
+      "xp_up": 44830,
+      "rewards": [
+        10100001,
+        88000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 41,
+      "xp_up": 46860,
+      "rewards": [
+        10100001,
+        92000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 42,
+      "xp_up": 48900,
+      "rewards": [
+        10100001,
+        96000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 43,
+      "xp_up": 50940,
+      "rewards": [
+        10100001,
+        100000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 44,
+      "xp_up": 52980,
+      "rewards": [
+        10100001,
+        104000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 45,
+      "xp_up": 55010,
+      "rewards": [
+        10100001,
+        108000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 46,
+      "xp_up": 57050,
+      "rewards": [
+        10100001,
+        112000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 47,
+      "xp_up": 59090,
+      "rewards": [
+        10100001,
+        116000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 48,
+      "xp_up": 61130,
+      "rewards": [
+        10100001,
+        120000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 49,
+      "xp_up": 63160,
+      "rewards": [
+        10100001,
+        124000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    {
+      "id": 50,
+      "xp_up": 65200,
+      "rewards": [
+        10100001,
+        128000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 51,
+      "xp_up": 68050,
+      "rewards": [
+        10100001,
+        134000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 52,
+      "xp_up": 70910,
+      "rewards": [
+        10100001,
+        139000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 53,
+      "xp_up": 73760,
+      "rewards": [
+        10100001,
+        145000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 54,
+      "xp_up": 76610,
+      "rewards": [
+        10100001,
+        150000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 55,
+      "xp_up": 79460,
+      "rewards": [
+        10100001,
+        156000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 56,
+      "xp_up": 82320,
+      "rewards": [
+        10100001,
+        162000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 57,
+      "xp_up": 85170,
+      "rewards": [
+        10100001,
+        167000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 58,
+      "xp_up": 88020,
+      "rewards": [
+        10100001,
+        173000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 59,
+      "xp_up": 90870,
+      "rewards": [
+        10100001,
+        178000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    {
+      "id": 60,
+      "xp_up": 93730,
+      "rewards": [
+        10100001,
+        184000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 61,
+      "xp_up": 97800,
+      "rewards": [
+        10100001,
+        192000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 62,
+      "xp_up": 101880,
+      "rewards": [
+        10100001,
+        200000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 63,
+      "xp_up": 105950,
+      "rewards": [
+        10100001,
+        208000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 64,
+      "xp_up": 110030,
+      "rewards": [
+        10100001,
+        216000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 65,
+      "xp_up": 114100,
+      "rewards": [
+        10100001,
+        224000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 66,
+      "xp_up": 118180,
+      "rewards": [
+        10100001,
+        232000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 67,
+      "xp_up": 122250,
+      "rewards": [
+        10100001,
+        240000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 68,
+      "xp_up": 126330,
+      "rewards": [
+        10100001,
+        248000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 69,
+      "xp_up": 130400,
+      "rewards": [
+        10100001,
+        256000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    {
+      "id": 70,
+      "xp_up": 134480,
+      "rewards": [
+        10100001,
+        264000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 71,
+      "xp_up": 175090,
+      "rewards": [
+        10100001,
+        276000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 72,
+      "xp_up": 182700,
+      "rewards": [
+        10100001,
+        288000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 73,
+      "xp_up": 190310,
+      "rewards": [
+        10100001,
+        300000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 74,
+      "xp_up": 197930,
+      "rewards": [
+        10100001,
+        312000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 75,
+      "xp_up": 205540,
+      "rewards": [
+        10100001,
+        324000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 76,
+      "xp_up": 215690,
+      "rewards": [
+        10100001,
+        340000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 77,
+      "xp_up": 225840,
+      "rewards": [
+        10100001,
+        356000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 78,
+      "xp_up": 235990,
+      "rewards": [
+        10100001,
+        372000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 79,
+      "xp_up": 246140,
+      "rewards": [
+        10100001,
+        388000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    {
+      "id": 80,
+      "xp_up": 256290,
+      "rewards": [
+        10100001,
+        404000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 81,
+      "xp_up": 271510,
+      "rewards": [
+        10100001,
+        428000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 82,
+      "xp_up": 286740,
+      "rewards": [
+        10100001,
+        452000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 83,
+      "xp_up": 301960,
+      "rewards": [
+        10100001,
+        476000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 84,
+      "xp_up": 317190,
+      "rewards": [
+        10100001,
+        500000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 85,
+      "xp_up": 332410,
+      "rewards": [
+        10100001,
+        524000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 86,
+      "xp_up": 422210,
+      "rewards": [
+        10100001,
+        556000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 87,
+      "xp_up": 446510,
+      "rewards": [
+        10100001,
+        588000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 88,
+      "xp_up": 470810,
+      "rewards": [
+        10100001,
+        620000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 89,
+      "xp_up": 495110,
+      "rewards": [
+        10100001,
+        652000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    {
+      "id": 90,
+      "xp_up": 519410,
+      "rewards": [
+        10100001,
+        684000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 91,
+      "xp_up": 555860,
+      "rewards": [
+        10100001,
+        732000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 92,
+      "xp_up": 592310,
+      "rewards": [
+        10100001,
+        780000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 93,
+      "xp_up": 628760,
+      "rewards": [
+        10100001,
+        828000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 94,
+      "xp_up": 665210,
+      "rewards": [
+        10100001,
+        876000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 95,
+      "xp_up": 701660,
+      "rewards": [
+        10100001,
+        924000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 96,
+      "xp_up": 762410,
+      "rewards": [
+        10100001,
+        1004000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 97,
+      "xp_up": 823160,
+      "rewards": [
+        10100001,
+        1084000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 98,
+      "xp_up": 883910,
+      "rewards": [
+        10100001,
+        1164000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 99,
+      "xp_up": 944660,
+      "rewards": [
+        10100001,
+        1244000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    {
+      "id": 100,
+      "xp_up": 1005410,
+      "rewards": [
+        10100001,
+        1324000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "xp_up": 0,
+      "rewards": null,
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "2": {
+      "id": 2,
+      "xp_up": 430,
+      "rewards": [
+        10100001,
+        3000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "3": {
+      "id": 3,
+      "xp_up": 650,
+      "rewards": [
+        10100001,
+        5000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "4": {
+      "id": 4,
+      "xp_up": 860,
+      "rewards": [
+        10100001,
+        6000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "5": {
+      "id": 5,
+      "xp_up": 1080,
+      "rewards": [
+        10100001,
+        8000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "6": {
+      "id": 6,
+      "xp_up": 1890,
+      "rewards": [
+        10100001,
+        10000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "7": {
+      "id": 7,
+      "xp_up": 2210,
+      "rewards": [
+        10100001,
+        11000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "8": {
+      "id": 8,
+      "xp_up": 2520,
+      "rewards": [
+        10100001,
+        13000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "9": {
+      "id": 9,
+      "xp_up": 2840,
+      "rewards": [
+        10100001,
+        14000
+      ],
+      "icon": "Icon[icon_level_01]",
+      "name": "LAB_LEVEL_NAME_1"
+    },
+    "10": {
+      "id": 10,
+      "xp_up": 3150,
+      "rewards": [
+        10100001,
+        16000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "11": {
+      "id": 11,
+      "xp_up": 4570,
+      "rewards": [
+        10100001,
+        18000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "12": {
+      "id": 12,
+      "xp_up": 4980,
+      "rewards": [
+        10100001,
+        19000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "13": {
+      "id": 13,
+      "xp_up": 5400,
+      "rewards": [
+        10100001,
+        21000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "14": {
+      "id": 14,
+      "xp_up": 5810,
+      "rewards": [
+        10100001,
+        22000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "15": {
+      "id": 15,
+      "xp_up": 6230,
+      "rewards": [
+        10100001,
+        24000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "16": {
+      "id": 16,
+      "xp_up": 8240,
+      "rewards": [
+        10100001,
+        26000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "17": {
+      "id": 17,
+      "xp_up": 8760,
+      "rewards": [
+        10100001,
+        27000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "18": {
+      "id": 18,
+      "xp_up": 9270,
+      "rewards": [
+        10100001,
+        29000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "19": {
+      "id": 19,
+      "xp_up": 9790,
+      "rewards": [
+        10100001,
+        30000
+      ],
+      "icon": "Icon[icon_level_02]",
+      "name": "LAB_LEVEL_NAME_2"
+    },
+    "20": {
+      "id": 20,
+      "xp_up": 10300,
+      "rewards": [
+        10100001,
+        32000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "21": {
+      "id": 21,
+      "xp_up": 13220,
+      "rewards": [
+        10100001,
+        34000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "22": {
+      "id": 22,
+      "xp_up": 14150,
+      "rewards": [
+        10100001,
+        37000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "23": {
+      "id": 23,
+      "xp_up": 15070,
+      "rewards": [
+        10100001,
+        39000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "24": {
+      "id": 24,
+      "xp_up": 15990,
+      "rewards": [
+        10100001,
+        42000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "25": {
+      "id": 25,
+      "xp_up": 16910,
+      "rewards": [
+        10100001,
+        44000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "26": {
+      "id": 26,
+      "xp_up": 20740,
+      "rewards": [
+        10100001,
+        46000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "27": {
+      "id": 27,
+      "xp_up": 21810,
+      "rewards": [
+        10100001,
+        49000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "28": {
+      "id": 28,
+      "xp_up": 22880,
+      "rewards": [
+        10100001,
+        51000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "29": {
+      "id": 29,
+      "xp_up": 23950,
+      "rewards": [
+        10100001,
+        54000
+      ],
+      "icon": "Icon[icon_level_03]",
+      "name": "LAB_LEVEL_NAME_3"
+    },
+    "30": {
+      "id": 30,
+      "xp_up": 25030,
+      "rewards": [
+        10100001,
+        56000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "31": {
+      "id": 31,
+      "xp_up": 30160,
+      "rewards": [
+        10100001,
+        59000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "32": {
+      "id": 32,
+      "xp_up": 31790,
+      "rewards": [
+        10100001,
+        62000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "33": {
+      "id": 33,
+      "xp_up": 33420,
+      "rewards": [
+        10100001,
+        66000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "34": {
+      "id": 34,
+      "xp_up": 35050,
+      "rewards": [
+        10100001,
+        69000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "35": {
+      "id": 35,
+      "xp_up": 36680,
+      "rewards": [
+        10100001,
+        72000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "36": {
+      "id": 36,
+      "xp_up": 38310,
+      "rewards": [
+        10100001,
+        75000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "37": {
+      "id": 37,
+      "xp_up": 39940,
+      "rewards": [
+        10100001,
+        78000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "38": {
+      "id": 38,
+      "xp_up": 41570,
+      "rewards": [
+        10100001,
+        82000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "39": {
+      "id": 39,
+      "xp_up": 43200,
+      "rewards": [
+        10100001,
+        85000
+      ],
+      "icon": "Icon[icon_level_04]",
+      "name": "LAB_LEVEL_NAME_4"
+    },
+    "40": {
+      "id": 40,
+      "xp_up": 44830,
+      "rewards": [
+        10100001,
+        88000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "41": {
+      "id": 41,
+      "xp_up": 46860,
+      "rewards": [
+        10100001,
+        92000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "42": {
+      "id": 42,
+      "xp_up": 48900,
+      "rewards": [
+        10100001,
+        96000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "43": {
+      "id": 43,
+      "xp_up": 50940,
+      "rewards": [
+        10100001,
+        100000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "44": {
+      "id": 44,
+      "xp_up": 52980,
+      "rewards": [
+        10100001,
+        104000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "45": {
+      "id": 45,
+      "xp_up": 55010,
+      "rewards": [
+        10100001,
+        108000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "46": {
+      "id": 46,
+      "xp_up": 57050,
+      "rewards": [
+        10100001,
+        112000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "47": {
+      "id": 47,
+      "xp_up": 59090,
+      "rewards": [
+        10100001,
+        116000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "48": {
+      "id": 48,
+      "xp_up": 61130,
+      "rewards": [
+        10100001,
+        120000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "49": {
+      "id": 49,
+      "xp_up": 63160,
+      "rewards": [
+        10100001,
+        124000
+      ],
+      "icon": "Icon[icon_level_05]",
+      "name": "LAB_LEVEL_NAME_5"
+    },
+    "50": {
+      "id": 50,
+      "xp_up": 65200,
+      "rewards": [
+        10100001,
+        128000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "51": {
+      "id": 51,
+      "xp_up": 68050,
+      "rewards": [
+        10100001,
+        134000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "52": {
+      "id": 52,
+      "xp_up": 70910,
+      "rewards": [
+        10100001,
+        139000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "53": {
+      "id": 53,
+      "xp_up": 73760,
+      "rewards": [
+        10100001,
+        145000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "54": {
+      "id": 54,
+      "xp_up": 76610,
+      "rewards": [
+        10100001,
+        150000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "55": {
+      "id": 55,
+      "xp_up": 79460,
+      "rewards": [
+        10100001,
+        156000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "56": {
+      "id": 56,
+      "xp_up": 82320,
+      "rewards": [
+        10100001,
+        162000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "57": {
+      "id": 57,
+      "xp_up": 85170,
+      "rewards": [
+        10100001,
+        167000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "58": {
+      "id": 58,
+      "xp_up": 88020,
+      "rewards": [
+        10100001,
+        173000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "59": {
+      "id": 59,
+      "xp_up": 90870,
+      "rewards": [
+        10100001,
+        178000
+      ],
+      "icon": "Icon[icon_level_06]",
+      "name": "LAB_LEVEL_NAME_6"
+    },
+    "60": {
+      "id": 60,
+      "xp_up": 93730,
+      "rewards": [
+        10100001,
+        184000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "61": {
+      "id": 61,
+      "xp_up": 97800,
+      "rewards": [
+        10100001,
+        192000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "62": {
+      "id": 62,
+      "xp_up": 101880,
+      "rewards": [
+        10100001,
+        200000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "63": {
+      "id": 63,
+      "xp_up": 105950,
+      "rewards": [
+        10100001,
+        208000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "64": {
+      "id": 64,
+      "xp_up": 110030,
+      "rewards": [
+        10100001,
+        216000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "65": {
+      "id": 65,
+      "xp_up": 114100,
+      "rewards": [
+        10100001,
+        224000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "66": {
+      "id": 66,
+      "xp_up": 118180,
+      "rewards": [
+        10100001,
+        232000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "67": {
+      "id": 67,
+      "xp_up": 122250,
+      "rewards": [
+        10100001,
+        240000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "68": {
+      "id": 68,
+      "xp_up": 126330,
+      "rewards": [
+        10100001,
+        248000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "69": {
+      "id": 69,
+      "xp_up": 130400,
+      "rewards": [
+        10100001,
+        256000
+      ],
+      "icon": "Icon[icon_level_07]",
+      "name": "LAB_LEVEL_NAME_7"
+    },
+    "70": {
+      "id": 70,
+      "xp_up": 134480,
+      "rewards": [
+        10100001,
+        264000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "71": {
+      "id": 71,
+      "xp_up": 175090,
+      "rewards": [
+        10100001,
+        276000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "72": {
+      "id": 72,
+      "xp_up": 182700,
+      "rewards": [
+        10100001,
+        288000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "73": {
+      "id": 73,
+      "xp_up": 190310,
+      "rewards": [
+        10100001,
+        300000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "74": {
+      "id": 74,
+      "xp_up": 197930,
+      "rewards": [
+        10100001,
+        312000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "75": {
+      "id": 75,
+      "xp_up": 205540,
+      "rewards": [
+        10100001,
+        324000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "76": {
+      "id": 76,
+      "xp_up": 215690,
+      "rewards": [
+        10100001,
+        340000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "77": {
+      "id": 77,
+      "xp_up": 225840,
+      "rewards": [
+        10100001,
+        356000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "78": {
+      "id": 78,
+      "xp_up": 235990,
+      "rewards": [
+        10100001,
+        372000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "79": {
+      "id": 79,
+      "xp_up": 246140,
+      "rewards": [
+        10100001,
+        388000
+      ],
+      "icon": "Icon[icon_level_08]",
+      "name": "LAB_LEVEL_NAME_8"
+    },
+    "80": {
+      "id": 80,
+      "xp_up": 256290,
+      "rewards": [
+        10100001,
+        404000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "81": {
+      "id": 81,
+      "xp_up": 271510,
+      "rewards": [
+        10100001,
+        428000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "82": {
+      "id": 82,
+      "xp_up": 286740,
+      "rewards": [
+        10100001,
+        452000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "83": {
+      "id": 83,
+      "xp_up": 301960,
+      "rewards": [
+        10100001,
+        476000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "84": {
+      "id": 84,
+      "xp_up": 317190,
+      "rewards": [
+        10100001,
+        500000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "85": {
+      "id": 85,
+      "xp_up": 332410,
+      "rewards": [
+        10100001,
+        524000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "86": {
+      "id": 86,
+      "xp_up": 422210,
+      "rewards": [
+        10100001,
+        556000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "87": {
+      "id": 87,
+      "xp_up": 446510,
+      "rewards": [
+        10100001,
+        588000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "88": {
+      "id": 88,
+      "xp_up": 470810,
+      "rewards": [
+        10100001,
+        620000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "89": {
+      "id": 89,
+      "xp_up": 495110,
+      "rewards": [
+        10100001,
+        652000
+      ],
+      "icon": "Icon[icon_level_09]",
+      "name": "LAB_LEVEL_NAME_9"
+    },
+    "90": {
+      "id": 90,
+      "xp_up": 519410,
+      "rewards": [
+        10100001,
+        684000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "91": {
+      "id": 91,
+      "xp_up": 555860,
+      "rewards": [
+        10100001,
+        732000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "92": {
+      "id": 92,
+      "xp_up": 592310,
+      "rewards": [
+        10100001,
+        780000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "93": {
+      "id": 93,
+      "xp_up": 628760,
+      "rewards": [
+        10100001,
+        828000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "94": {
+      "id": 94,
+      "xp_up": 665210,
+      "rewards": [
+        10100001,
+        876000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "95": {
+      "id": 95,
+      "xp_up": 701660,
+      "rewards": [
+        10100001,
+        924000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "96": {
+      "id": 96,
+      "xp_up": 762410,
+      "rewards": [
+        10100001,
+        1004000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "97": {
+      "id": 97,
+      "xp_up": 823160,
+      "rewards": [
+        10100001,
+        1084000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "98": {
+      "id": 98,
+      "xp_up": 883910,
+      "rewards": [
+        10100001,
+        1164000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "99": {
+      "id": 99,
+      "xp_up": 944660,
+      "rewards": [
+        10100001,
+        1244000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    },
+    "100": {
+      "id": 100,
+      "xp_up": 1005410,
+      "rewards": [
+        10100001,
+        1324000
+      ],
+      "icon": "Icon[icon_level_10]",
+      "name": "LAB_LEVEL_NAME_10"
+    }
+  }
+}

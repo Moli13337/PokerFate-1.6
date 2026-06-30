@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "source": "tpl_shop_hot_sell.lua",
+    "format": "keys_bodys",
+    "count": 6
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "LAB_PROPS_NAME_111_3",
+      "currency_bar": [
+        10100001,
+        0,
+        10200001,
+        0
+      ],
+      "shop_type": 2,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_monthlycard]",
+      "tag_tips": "shop_tag_bestoffer",
+      "order": 1001,
+      "time_limited": null
+    },
+    {
+      "id": 2,
+      "name": "LAB_PROPS_NAME_102_1",
+      "currency_bar": [
+        10200001,
+        0
+      ],
+      "shop_type": 7,
+      "shop_bg": "BackGround/Shop/bg_shop_crystal_02.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_colorcrystal]",
+      "tag_tips": "shop_tag_welfare",
+      "order": 3001,
+      "time_limited": null
+    },
+    {
+      "id": 3,
+      "name": "LAB_SHOP_NAME_SUB_17",
+      "currency_bar": null,
+      "shop_type": 19,
+      "shop_bg": "BackGround/bg_shop_bestseller_01.png",
+      "gifts": null,
+      "activity_id": 10006,
+      "tag_image": "Shop[shop_tab_summer]",
+      "tag_tips": null,
+      "order": 4001,
+      "time_limited": 1
+    },
+    {
+      "id": 4,
+      "name": "LAB_SHOP_NAME_SUB_1",
+      "currency_bar": [
+        10100001,
+        105003,
+        10200001,
+        105001,
+        10200002,
+        103001
+      ],
+      "shop_type": 1,
+      "shop_bg": "BackGround/shop_topup_bg.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_recharge]",
+      "tag_tips": null,
+      "order": 5001,
+      "time_limited": null
+    },
+    {
+      "id": 5,
+      "name": "TAB_ICEBREAKER_PACK_2",
+      "currency_bar": null,
+      "shop_type": 15,
+      "shop_bg": "BackGround/shop_newcomer_bg_01.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_newcomer]",
+      "tag_tips": null,
+      "order": 6001,
+      "time_limited": null
+    },
+    {
+      "id": 10001,
+      "name": "LAB_SHOP_NAME_SUB_18",
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 20,
+      "shop_bg": "BackGround/Shop/shop_sayaka_bg.png",
+      "gifts": [
+        1001
+      ],
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_sayaka]",
+      "tag_tips": "shop_tag_hot",
+      "order": 2001,
+      "time_limited": 1
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "name": "LAB_PROPS_NAME_111_3",
+      "currency_bar": [
+        10100001,
+        0,
+        10200001,
+        0
+      ],
+      "shop_type": 2,
+      "shop_bg": "BackGround/bg_shop_01.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_monthlycard]",
+      "tag_tips": "shop_tag_bestoffer",
+      "order": 1001,
+      "time_limited": null
+    },
+    "2": {
+      "id": 2,
+      "name": "LAB_PROPS_NAME_102_1",
+      "currency_bar": [
+        10200001,
+        0
+      ],
+      "shop_type": 7,
+      "shop_bg": "BackGround/Shop/bg_shop_crystal_02.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_colorcrystal]",
+      "tag_tips": "shop_tag_welfare",
+      "order": 3001,
+      "time_limited": null
+    },
+    "3": {
+      "id": 3,
+      "name": "LAB_SHOP_NAME_SUB_17",
+      "currency_bar": null,
+      "shop_type": 19,
+      "shop_bg": "BackGround/bg_shop_bestseller_01.png",
+      "gifts": null,
+      "activity_id": 10006,
+      "tag_image": "Shop[shop_tab_summer]",
+      "tag_tips": null,
+      "order": 4001,
+      "time_limited": 1
+    },
+    "4": {
+      "id": 4,
+      "name": "LAB_SHOP_NAME_SUB_1",
+      "currency_bar": [
+        10100001,
+        105003,
+        10200001,
+        105001,
+        10200002,
+        103001
+      ],
+      "shop_type": 1,
+      "shop_bg": "BackGround/shop_topup_bg.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_recharge]",
+      "tag_tips": null,
+      "order": 5001,
+      "time_limited": null
+    },
+    "5": {
+      "id": 5,
+      "name": "TAB_ICEBREAKER_PACK_2",
+      "currency_bar": null,
+      "shop_type": 15,
+      "shop_bg": "BackGround/shop_newcomer_bg_01.png",
+      "gifts": null,
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_newcomer]",
+      "tag_tips": null,
+      "order": 6001,
+      "time_limited": null
+    },
+    "10001": {
+      "id": 10001,
+      "name": "LAB_SHOP_NAME_SUB_18",
+      "currency_bar": [
+        10300001,
+        105002
+      ],
+      "shop_type": 20,
+      "shop_bg": "BackGround/Shop/shop_sayaka_bg.png",
+      "gifts": [
+        1001
+      ],
+      "activity_id": null,
+      "tag_image": "Shop[shop_tab_sayaka]",
+      "tag_tips": "shop_tag_hot",
+      "order": 2001,
+      "time_limited": 1
+    }
+  }
+}

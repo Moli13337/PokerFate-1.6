@@ -1,0 +1,433 @@
+syntax = "proto2";
+package pb;
+option go_package = "poker-fate-server/internal/proto/gen";
+
+message ItemIdUnit
+{
+    optional int32 item_id = 1; // 道具id(也可以是金币)
+    optional int64 item_num = 2; // 道具数量
+}
+message ItemIdUnitExpire
+{
+    optional int32 item_id = 1; // 道具id(也可以是金币)
+    optional int64 item_num = 2; // 道具数量
+    optional int64 expire_time = 3;//过期时间
+}
+//动效信息
+message AnimationInfo 
+{
+    optional int32 ftype = 1;//1 all in动效 2 明牌动效
+    optional int32 item_id = 2;// 0是无动效 >1 则需播放指定动效
+}
+//可以公开的用户信息
+message UserBrief
+{
+    optional int64 uid = 1 [default = -1];
+    optional string name = 2;
+    optional int32 avatar = 3; // 头像id(即道具表中的配置id)
+    optional int32 frame = 4; // 头像框id(即道具表中的配置id)
+    optional int32 level = 5; // 玩家等级
+    optional int32 title = 6; // 称号id(即道具表中的配置id)
+    optional int32 role_id = 7; // 玩家当前使用的角色id
+    optional int32 skin_id = 8; // 当前使用的角色皮肤id
+    optional int32 user_type = 9; // 玩家类型, 0:普通玩家, 1:开发者, 2:主播
+    repeated  AnimationInfo animations = 10; //玩家动效
+}
+
+message ItemInfo
+{
+    optional int32 item_id = 1; //物品的配置id
+    optional string item_uniq_id = 2; //物品的唯一id
+    optional int64 num = 3; //物品数量
+    optional int64 deadline = 4[default = 0]; //到期时间,秒级时间戳,0表示无限期
+}
+
+message TextItem
+{
+    optional string lang = 1; //语言, 取值:zh/tw/en/jp/ko
+    optional string text = 2; //文本内容
+}
+
+message RewardItemInfo
+{
+    optional ItemInfo org_item = 1; //奖励的原始物品
+    optional bool is_decompose = 2; //是否被分解
+    optional ItemInfo decompose_item = 3; //分解产生的物品
+    optional bool is_mail = 4; //是否通过邮件发送
+}
+
+message RoleSkinInfo
+{
+    optional int32 skin_id = 1; // 使用中的皮肤id
+    repeated int32 owned_skin_ids = 2; // 已拥有的皮肤id列表
+}
+
+message RoleLevelInfo
+{
+    optional int32 level = 1; //角色等级
+    optional int32 bond_exp = 2; //角色升级到下一等级已累积的好感度
+}
+
+// 角色信息
+message RoleInfo
+{
+    optional int32 role_id = 1; //角色id
+    optional RoleSkinInfo skin_info = 2; //角色皮肤信息
+    optional RoleLevelInfo level_info = 3; //角色等级信息
+    optional string name = 4; //角色名称
+    optional bool is_star = 5; //是否标星
+}
+
+message PlaySummary
+{
+    optional int64 profit = 1[default = 0];
+}
+
+// poker房间详情
+message RoomInfo
+{
+    optional int32 roomid = 1;
+    optional int64 sb = 2;  //小盲
+    optional int64 bb = 3;  //大盲
+    optional int64 ante = 4;  //前注
+    optional int64 min_byin = 5;  //最小买入
+    optional int32 action_time = 6; //BET时间
+    optional int32 seat_num = 7;  //房间座位数
+    optional int32 feetype = 8 [default = 1]; //fee类型， 1 买入收取服务费  2 每局fee
+    optional int32 feepoint = 9 [default = 5]; //fee比例，3代表%3
+    optional int64 default_byin = 10; //默认买入
+    optional int32 cap = 11; //fee封頂
+    optional bool pool_limit = 12 [default = false]; //底池限注
+    optional int64 max_byin = 13;  //最大买入
+    optional int32 room_mode = 14;
+    optional int32 room_type = 15;
+    optional int32 room_sub_type = 16;
+    optional int32 game_type = 17;
+    // optional int32 lobby_type = 16[default = 0];		// 0: Normal   1: Anti-cheating
+    optional int32 lobby_coin = 18;
+    optional int32 lobby_room_lvl = 19[default = 1];		// 大厅场次等级
+}
+
+message FriendRoomInfo
+{
+    optional bool is_private = 1; // 是否为私人房, true:私人房，false:公共的好友房
+    optional int64 owner_uid = 2; // 房主uid
+    optional string owner_name = 3; // 房主名称
+    optional string owner_avatar = 4; // 房主头像
+    optional int32 owner_frame = 5; // 房主头像框id
+    optional bool is_forbid_chat = 6; // 是否禁止聊天, true:禁止聊天，false:允许聊天
+    optional int32 blind_id = 7; //盲注id
+    optional int32 up_blind_time = 8;//涨盲时间
+    optional bool open_observer  = 9 ;//明牌围观 true 明牌围观 false不明牌围观
+    optional int32 think_time = 10;//思考时间(时间银行)
+    optional int32 begin_chips = 11;//起始筹码
+}
+
+// SNG与MTT盲注结构项
+message TourBlindItem
+{
+    optional int32 blind_level = 1; // 盲注级别
+    optional int64 small_blind = 2; // 小盲注
+    optional int64 big_blind = 3; // 大盲注
+    optional int64 ante = 4; // 前注
+    optional int32 duration = 5; // 本级别持续时间，单位:秒
+}
+
+// 赛事奖励项
+message TourRewardItem
+{
+    optional int32 rank_start = 1; // 奖励起始排名
+    optional int32 rank_end = 2; // 奖励结束排名
+    repeated ItemIdUnit reward_list = 3; // 奖励列表
+}
+
+message SngRoomInfo
+{
+    optional int32 roomid = 1;
+    repeated TextItem room_name = 2; //房间名称
+    repeated TourBlindItem blind_list = 3; //盲注结构列表
+    optional int32 seat_num = 4; // 最大参赛人数
+    optional int64 begin_chips = 5; // 初始筹码
+    optional int32 action_time = 6; //BET时间
+    optional int64 total_reward = 7; // 总奖池(金币数量)
+    optional int32 champion_points = 8; // 冠军积分
+    optional int32 bond_add = 9; // 好感度加成基础值
+    optional int32 exp_room_add = 10; // 经验的房间加成系数, 千分比,即100表示0.1
+    optional int32 game_type = 11;
+    optional int32 feetype = 12 [default = 1]; //fee类型， 1 买入收取服务费  2 每局fee
+    optional int32 feepoint = 13 [default = 5]; //fee比例，3代表%3
+    optional int32 cap = 14; //fee封頂
+    optional bool pool_limit = 15 [default = false]; //底池限注
+    optional bool ip_limit = 16[default = false];
+    optional int64 sb = 17;  //当前小盲
+    optional int64 bb = 18;  //当前大盲
+    optional int64 ante = 19;  //当前前注
+    optional int64 bust_threshold = 20; // 爆衣阈值
+    repeated TourRewardItem reward_structure = 21; // 奖励结构
+    optional int32 tour_id = 22; // 赛事唯一ID
+    repeated ItemIdUnit sign_item_list = 23; // 报名道具列表
+    optional int64 byin_chips = 24; // 报名消耗的筹码价值
+    repeated ItemIdUnit event_reward_list = 25; // 产出的活动道具
+    optional int32 event_id = 26; // 赛事活动ID
+    optional int32 upblind_time = 27; // 涨盲剩余时间,单位:秒
+    optional bool is_sng_start = 28; // SNG是否已经开始
+    optional int32 blind_level = 29; // 当前盲注级别
+    optional string room_stage = 30; // sng房间阶段 Wait/PreStart/Starting/Spin/Play/Finish
+}
+
+message MttRoomInfo
+{
+    optional int32 roomid = 1;
+    repeated TextItem name = 2; // 赛事名称
+    repeated TourBlindItem blind_list = 3; // 盲注结构列表
+    optional int32 seat_num = 4; // 每桌座位数量
+    optional int64 begin_chips = 5; // 初始筹码
+    optional int32 action_time = 6; // 行动的基础时间，单位:秒
+    optional int64 total_reward = 7; // 总奖池(金币数量)
+    optional int32 champion_points = 8; // 冠军积分（废弃字段）
+    optional int32 bond_add = 9; // 好感度加成基础值
+    optional int32 exp_room_add = 10; // 经验的房间加成系数, 千分比,即100表示0.1
+    optional int32 game_type = 11;
+    optional int32 feetype = 12 [default = 1]; //fee类型， 1 买入收取服务费  2 每局fee
+    optional int32 feepoint = 13 [default = 0]; //fee比例，3代表%3
+    optional int32 cap = 14; //fee封頂
+    optional bool pool_limit = 15 [default = false]; //底池限注
+    optional bool ip_limit = 16[default = false];
+    optional int64 sb = 17;  //当前小盲
+    optional int64 bb = 18;  //当前大盲
+    optional int64 ante = 19;  //当前前注
+    optional int64 bust_threshold = 20; // 爆衣阈值
+    // repeated TourRewardItem reward_structure = 21; // 奖励结构
+    optional int32 tour_id = 22; // 赛事唯一ID
+    repeated ItemIdUnit sign_item_list = 23; // 报名道具列表
+    optional int64 byin_chips = 24; // 报名消耗的筹码价值
+    repeated ItemIdUnit event_reward_list = 25; // 产出的活动道具
+    optional int32 event_id = 26; // 赛事活动ID
+    optional int64 gtd = 27; // GTD奖池(保底奖池)
+    optional int32 late_reg_level = 28; // 延迟报名的盲注等级
+    optional int32 break_interval = 29; // 休息的时间间隔，单位:秒，0表示不休息
+    optional int32 break_duration = 30; // 休息时长，单位:秒，0表示不休息
+    optional int32 max_player_num = 31; // 最大参赛人数
+    optional int32 min_player_num = 32; // 最小开赛人数
+    optional int32 upblind_time = 33; // 涨盲剩余时间,单位:秒
+    optional int32 blind_level = 34; // 当前盲注级别
+    optional int32 break_left_time = 35[default = 0]; // MTT休息剩余时间
+    optional bool is_mtt_start = 36; // MTT是否已经开始
+    optional int32 mtt_round = 37; // MTT当前轮次，0:初始阶段 1:泡沫圈 2:钱圈
+    optional bool is_in_final_table = 38; // 是否已经进入决赛桌
+}
+
+//水上水下数据
+message ProfitInfo
+{
+    optional string user_name = 1;
+    optional int64 byin = 2; // 买入
+    optional int64 profit = 3;
+    optional int64 uid = 4;
+    optional int32 handsnum = 6; //玩家本局手牌数
+    optional int64 fee = 7; //被fee
+    optional int64 jackpot_fee = 20[default = 0];
+    optional int64 jackpot_reward = 21[default = 0];
+}
+
+message SeatStatus
+{
+    optional int32 seatid = 1;
+    optional int32 action_type = 2;
+    optional UserBrief player = 3;
+    optional int64 hand_chips = 4;
+    optional int64 destop_chips = 5;
+    optional bool has_card = 6;
+    optional bool seat_reserve = 7;
+    optional bool wait_blind = 10 [default = false]; //是否等待大盲位再加入poker牌局 false:支付大盲立刻加入  true:等到大盲位再加入（旧字段已废弃）
+    optional int32 reby_left_time = 11; //等待reby剩余时间,单位:秒
+    optional int32 card1 = 18; // 比牌时才填
+    optional int32 card2 = 19;
+    optional int32 card3 = 20;
+    optional int32 card4 = 21;
+    optional int32 default_byin = 22[default = 0]; //玩家坐下时或补码时买入的数量
+    optional int64 begin_chips = 23; // 手牌开始时的筹码数量
+    optional int32 last_action_type = 24; // 本轮上一次行动类型，用于断线重连后显示
+    optional int32 wait_blind_type = 25; // 是否需要等待大盲位再加入牌局 0:支付大盲立刻加入 1:等到大盲位再加入 2:不等待(不需要支付大盲)
+    optional bool is_allin = 26; // 是否allin, 用于断线重连后显示玩家的allin状态
+    optional int32 seat_index = 27; // sng等于seatid，mtt从0开始增长
+}
+
+message ShowMyCardInfo
+{
+    optional int32 seatid = 1;
+    repeated int32 hand_cards = 2; // 手牌展示信息，值为0表示未展示, hand_cards[0]表示左边第一张牌, hand_cards[1]表示左边第二张牌, ...
+}
+
+message PoolUser
+{
+    optional int64 uid = 1;
+    optional int64 chips = 2;   // 玩家在该底池投入的筹码数量
+    optional string name = 3; // 玩家昵称
+    optional int32 seatid = 4;
+}
+
+message PoolRD
+{
+    optional int32 poolid = 1;  // 底池ID，主底池为0，边池依次递增
+    optional int64 pot = 2;     // 底池筹码总数
+    repeated PoolUser users = 3;
+}
+
+message ActionRD
+{
+    optional int64 uid = 1;
+    optional int32 seatid = 2;
+    optional int32 action_type = 3;
+    optional int64 action_chips = 4;
+    optional bool is_allin = 5;
+    optional int64 left_hand_chips = 6; //行动后玩家手上剩余的筹码数量
+    optional string name = 7; // 玩家昵称
+}
+
+message RoundRD
+{
+    optional int32 stage = 1; // 1:preflop 2:flop 3:turn 4:river
+    repeated ActionRD action = 2;
+    optional int64 pot = 3[default = 0]; //本轮开始时,底池筹码数量
+}
+
+// 比牌阶段的信息
+message ShowRoundItem
+{
+    optional int32 seatid = 1;
+    optional int64 uid = 2;
+    optional int32 hand_type = 3; // 牌型,取值参考game_def.md中的holdem_hand_type
+    optional int64 profit = 4;
+    repeated int32 hand_cards = 5; // 手牌展示信息，值为0表示未展示, hand_cards[0]表示左边第一张牌, hand_cards[1]表示左边第二张牌, ...
+    repeated int32 show_type_list = 6; // 手牌展示类型: 0-未show牌 1-比牌 2-主动show，索引与hand_cards一一对应, 即hand_cards[0]表示左边第一张牌
+    optional string name = 7; // 玩家昵称
+}
+
+message ShowRoundRD
+{
+    optional int64 pot = 1; // 底池筹码数量
+    repeated ShowRoundItem items = 2; // 比牌阶段的玩家信息
+}
+
+message TableHisDetail
+{
+    repeated PoolRD pool_rd = 1; // 底池信息
+    repeated RoundRD round_rd = 2; // 每回合数据
+    optional ShowRoundRD show_round_rd = 3; // show阶段信息
+}
+
+message TableStatus
+{
+    optional bool is_playing = 1;  //桌子是否在玩
+    optional int32 action_idx = 2;
+    optional int32 d_idx = 3;
+    optional int32 sb_idx = 4;
+    optional int32 bb_idx = 5;
+    repeated SeatStatus seat = 6;
+    repeated int64 pool = 7; //奖池
+    optional int32 stage = 8;
+    repeated int32 board = 9; //公共牌
+    optional int32 tid = 10;
+    optional string hand_id = 11; // 当前手牌id 没在玩就传0
+    optional bool is_show_card = 12[default = false]; // 是否比牌阶段
+    optional string gameid = 13;
+    optional int32 wait_sync = 14; // 等待同步发牌的类型，0:未等待，1:等待泡沫圈发牌，2:等待决赛圈发牌
+    optional TableHisDetail his_detail = 15; // 牌局历史详情，断线重连时使用
+}
+
+message RoomStatus
+{
+    repeated ProfitInfo profit = 1;
+    optional bool is_jackpot_open = 3;
+}
+
+message PlayingStatus
+{
+    optional int32 card1 = 1;
+    optional int32 card2 = 2;
+    optional int32 action_seatid = 3; // 这个没用
+    optional int64 call_need_chips = 4;
+    optional int64 min_chipin = 5;
+    optional int64 max_chipin = 6;
+    optional int32 action_time = 7; //还剩下的行动时间 
+    optional int32 card3 = 8;
+    optional int32 card4 = 9;
+    optional int32 pre_action_type = 10;
+    optional int64 pre_action_chips = 11;
+    repeated int32 show_card_info = 12; // 玩家设置的show牌信息(断线重连后展示) show_card_info[0]表示左起第一张牌是否show，0表示不show，1表示show
+    optional bool delay_leave_flag = 13; // 延时离开房间标志，true表示设置了下一手牌离开房间
+    optional int64 delay_reby_chips = 14; // 下一手牌补码的筹码数量
+    optional int32 think_time = 15;       //还剩下的思考时间
+}
+
+// 玩家的战绩
+message UserAchievements
+{
+    optional int32 holdem_firepower = 1; // 德州扑克火力值
+    optional int32 sng_champion = 2; // SNG冠军积分
+    optional int32 mtt_champion = 3; // MTT冠军积分
+    optional int32 omaha_firepower = 4; // 奥马哈火力值
+}
+
+// 玩家的收藏
+message UserCollections
+{
+    optional int32 characters = 1; // 收藏的角色数量
+    optional int32 outfits = 2; // 收藏的皮肤数量
+    optional int32 decorations = 3; // 收藏的装饰数量
+    optional int32 titles = 4; // 收藏的称号数量
+}
+
+message UserFavoriteRole
+{
+    optional int32 skin_id = 1;
+    optional int32 bond_level = 2; // 好感度等级
+}
+
+message BlockChatItem
+{
+    optional int64 uid = 1; // 被屏蔽的用户id
+    optional int64 block_end_time = 2; // 屏蔽结束时间,秒级时间戳
+}
+
+// 好感度结算信息
+message BondSettleInfo
+{
+    optional int32 role_id = 1; // 角色id
+    optional int32 bond_inc = 2; // 增加的好感度
+    optional int32 cur_bond_level = 3; // 当前好感度等级
+    optional int32 old_bond_level = 4; // 进房间时的好感度等级
+    optional int32 win_hands = 5; // 赢牌次数
+    optional int32 skin_id = 6; // 角色id
+}
+// 好感度溢出结算信息
+message OverBondSettleInfo
+{
+    optional int32 add_over_bond_inc = 1; // 增加的溢出好感度
+    optional int32 over_bond_inc = 2;     //当前溢出的好感度累计
+    optional int32 start_over_bond_inc =3;//进入房间前的溢出好感度累计
+    optional int32 tpl_over_bond_inc = 4; //满了所需好感度 常量表配置的
+    optional int32 role_id = 5; // 角色id
+    optional int32 skin_id = 6; // 角色id
+}
+
+//装饰方案局内信息
+message DCSchemeRoomItem
+{
+    optional string scheme_id = 1; // 方案ID
+    optional string name = 2;      // 方案名称
+    optional int32 create_at = 3;  // 方案创建的时间戳
+    optional int32 rand = 4;       // 2进制 是否随机 0-不随机 1-随机 ROOM_RAND_DECORATION_TYPE 0音乐 1 all in 2 铭牌动效 3牌面 4 牌桌 5 牌背
+    repeated int32 emojis = 5;    // 表情
+    optional int32 title = 6;     // 称号
+    optional int32 table = 7;     // 牌桌
+    optional int32 card_back = 8; // 牌背
+    optional int32 card_front = 9; // 牌面
+    optional int32 all_in_animation = 10; // all in动效
+    repeated int32 bgm_list = 11; // 背景音乐列表
+    optional int32 skin_id = 12;  //皮肤列表
+    optional int32 show_card = 13;//铭牌动效
+    optional int32 role_id = 14;//只用于切桌时前端传给后端
+    optional int32 open_card = 15;//开牌特效
+}

@@ -1,0 +1,931 @@
+{
+  "_meta": {
+    "source": "tpl_table_emoji.lua",
+    "format": "keys_bodys",
+    "count": 13
+  },
+  "list": [
+    {
+      "id": 1,
+      "mask": "比心",
+      "type": 1,
+      "name": "EmojiHeart[emoji_heart_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        16
+      ],
+      "flys": [
+        17,
+        23
+      ],
+      "receives": [
+        24,
+        40
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 1,
+      "send_offset": [
+        100,
+        70
+      ],
+      "receive_offset": [
+        35,
+        20
+      ]
+    },
+    {
+      "id": 2,
+      "mask": "干杯",
+      "type": 1,
+      "name": "EmojiCheers[emoji_cheers_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        15
+      ],
+      "flys": [
+        16,
+        22
+      ],
+      "receives": [
+        23,
+        45
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 2,
+      "send_offset": [
+        100,
+        70
+      ],
+      "receive_offset": [
+        35,
+        100
+      ]
+    },
+    {
+      "id": 3,
+      "mask": "送花",
+      "type": 1,
+      "name": "EmojiFlower[emoji_flower_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        12
+      ],
+      "flys": [
+        13,
+        19
+      ],
+      "receives": [
+        20,
+        33
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 3,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        25,
+        80
+      ]
+    },
+    {
+      "id": 4,
+      "mask": "泼水",
+      "type": 1,
+      "name": "EmojiWater[emoji_water_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": null,
+      "receives": [
+        7,
+        37
+      ],
+      "receive_loop": null,
+      "fly_type_img": "emoji_water_06",
+      "fly_time": 300,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 4,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        70,
+        95
+      ]
+    },
+    {
+      "id": 5,
+      "mask": "抓鸡",
+      "type": 1,
+      "name": "EmojiChick[emoji_chick_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        8
+      ],
+      "flys": null,
+      "receives": [
+        10,
+        39
+      ],
+      "receive_loop": null,
+      "fly_type_img": "emoji_chick_09",
+      "fly_time": 300,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 5,
+      "send_offset": [
+        80,
+        50
+      ],
+      "receive_offset": [
+        80,
+        80
+      ]
+    },
+    {
+      "id": 6,
+      "mask": "捕食",
+      "type": 1,
+      "name": "EmojiShark[emoji_shark_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        26
+      ],
+      "flys": [
+        27,
+        32
+      ],
+      "receives": [
+        33,
+        45
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 6,
+      "send_offset": [
+        47,
+        50
+      ],
+      "receive_offset": [
+        20,
+        115
+      ]
+    },
+    {
+      "id": 7,
+      "mask": "长草",
+      "type": 1,
+      "name": "EmojiGrass[emoji_grass_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        4
+      ],
+      "flys": null,
+      "receives": [
+        6,
+        39
+      ],
+      "receive_loop": null,
+      "fly_type_img": "emoji_grass_05",
+      "fly_time": 300,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 7,
+      "send_offset": [
+        30,
+        30
+      ],
+      "receive_offset": [
+        50,
+        85
+      ]
+    },
+    {
+      "id": 8,
+      "mask": "猫猫拳",
+      "type": 2,
+      "name": "EmojiCatPunchA[emoji_cat_punch_a_01]",
+      "name2": "EmojiCatPunchB[emoji_cat_punch_b_01]",
+      "interval": 80,
+      "sends": [
+        1,
+        29
+      ],
+      "flys": null,
+      "receives": [
+        1,
+        26
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": 600,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 8,
+      "send_offset": [
+        120,
+        60
+      ],
+      "receive_offset": [
+        120,
+        80
+      ]
+    },
+    {
+      "id": 9,
+      "mask": "咸鱼寿司",
+      "type": 1,
+      "name": "EmojiFish[emoji_fish_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        8
+      ],
+      "flys": [
+        9,
+        15
+      ],
+      "receives": [
+        16,
+        30
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 9,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        30,
+        90
+      ]
+    },
+    {
+      "id": 10,
+      "mask": "哑弹",
+      "type": 1,
+      "name": "EmojiBomb[emoji_bomb_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        10
+      ],
+      "receives": [
+        11,
+        22
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 10,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        40,
+        90
+      ]
+    },
+    {
+      "id": 11,
+      "mask": "闹钟",
+      "type": 1,
+      "name": "EmojiClock[emoji_clock_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        9
+      ],
+      "receives": [
+        10,
+        27
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 11,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        10,
+        80
+      ]
+    },
+    {
+      "id": 12,
+      "mask": "应援",
+      "type": 1,
+      "name": "EmojiCall[emoji_call_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        10
+      ],
+      "receives": [
+        11,
+        12
+      ],
+      "receive_loop": [
+        1,
+        12,
+        2
+      ],
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 12,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        35,
+        90
+      ]
+    },
+    {
+      "id": 13,
+      "mask": "汽水",
+      "type": 1,
+      "name": "EmojiCola[emoji_cola_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        12
+      ],
+      "receives": [
+        13,
+        47
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 13,
+      "send_offset": [
+        150,
+        120
+      ],
+      "receive_offset": [
+        140,
+        120
+      ]
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "mask": "比心",
+      "type": 1,
+      "name": "EmojiHeart[emoji_heart_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        16
+      ],
+      "flys": [
+        17,
+        23
+      ],
+      "receives": [
+        24,
+        40
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 1,
+      "send_offset": [
+        100,
+        70
+      ],
+      "receive_offset": [
+        35,
+        20
+      ]
+    },
+    "2": {
+      "id": 2,
+      "mask": "干杯",
+      "type": 1,
+      "name": "EmojiCheers[emoji_cheers_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        15
+      ],
+      "flys": [
+        16,
+        22
+      ],
+      "receives": [
+        23,
+        45
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 2,
+      "send_offset": [
+        100,
+        70
+      ],
+      "receive_offset": [
+        35,
+        100
+      ]
+    },
+    "3": {
+      "id": 3,
+      "mask": "送花",
+      "type": 1,
+      "name": "EmojiFlower[emoji_flower_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        12
+      ],
+      "flys": [
+        13,
+        19
+      ],
+      "receives": [
+        20,
+        33
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 3,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        25,
+        80
+      ]
+    },
+    "4": {
+      "id": 4,
+      "mask": "泼水",
+      "type": 1,
+      "name": "EmojiWater[emoji_water_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": null,
+      "receives": [
+        7,
+        37
+      ],
+      "receive_loop": null,
+      "fly_type_img": "emoji_water_06",
+      "fly_time": 300,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 4,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        70,
+        95
+      ]
+    },
+    "5": {
+      "id": 5,
+      "mask": "抓鸡",
+      "type": 1,
+      "name": "EmojiChick[emoji_chick_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        8
+      ],
+      "flys": null,
+      "receives": [
+        10,
+        39
+      ],
+      "receive_loop": null,
+      "fly_type_img": "emoji_chick_09",
+      "fly_time": 300,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 5,
+      "send_offset": [
+        80,
+        50
+      ],
+      "receive_offset": [
+        80,
+        80
+      ]
+    },
+    "6": {
+      "id": 6,
+      "mask": "捕食",
+      "type": 1,
+      "name": "EmojiShark[emoji_shark_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        26
+      ],
+      "flys": [
+        27,
+        32
+      ],
+      "receives": [
+        33,
+        45
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 6,
+      "send_offset": [
+        47,
+        50
+      ],
+      "receive_offset": [
+        20,
+        115
+      ]
+    },
+    "7": {
+      "id": 7,
+      "mask": "长草",
+      "type": 1,
+      "name": "EmojiGrass[emoji_grass_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        4
+      ],
+      "flys": null,
+      "receives": [
+        6,
+        39
+      ],
+      "receive_loop": null,
+      "fly_type_img": "emoji_grass_05",
+      "fly_time": 300,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 7,
+      "send_offset": [
+        30,
+        30
+      ],
+      "receive_offset": [
+        50,
+        85
+      ]
+    },
+    "8": {
+      "id": 8,
+      "mask": "猫猫拳",
+      "type": 2,
+      "name": "EmojiCatPunchA[emoji_cat_punch_a_01]",
+      "name2": "EmojiCatPunchB[emoji_cat_punch_b_01]",
+      "interval": 80,
+      "sends": [
+        1,
+        29
+      ],
+      "flys": null,
+      "receives": [
+        1,
+        26
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": 600,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 8,
+      "send_offset": [
+        120,
+        60
+      ],
+      "receive_offset": [
+        120,
+        80
+      ]
+    },
+    "9": {
+      "id": 9,
+      "mask": "咸鱼寿司",
+      "type": 1,
+      "name": "EmojiFish[emoji_fish_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        8
+      ],
+      "flys": [
+        9,
+        15
+      ],
+      "receives": [
+        16,
+        30
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 9,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        30,
+        90
+      ]
+    },
+    "10": {
+      "id": 10,
+      "mask": "哑弹",
+      "type": 1,
+      "name": "EmojiBomb[emoji_bomb_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        10
+      ],
+      "receives": [
+        11,
+        22
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 10,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        40,
+        90
+      ]
+    },
+    "11": {
+      "id": 11,
+      "mask": "闹钟",
+      "type": 1,
+      "name": "EmojiClock[emoji_clock_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        9
+      ],
+      "receives": [
+        10,
+        27
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 11,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        10,
+        80
+      ]
+    },
+    "12": {
+      "id": 12,
+      "mask": "应援",
+      "type": 1,
+      "name": "EmojiCall[emoji_call_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        10
+      ],
+      "receives": [
+        11,
+        12
+      ],
+      "receive_loop": [
+        1,
+        12,
+        2
+      ],
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 12,
+      "send_offset": [
+        40,
+        40
+      ],
+      "receive_offset": [
+        35,
+        90
+      ]
+    },
+    "13": {
+      "id": 13,
+      "mask": "汽水",
+      "type": 1,
+      "name": "EmojiCola[emoji_cola_01]",
+      "name2": null,
+      "interval": 80,
+      "sends": [
+        1,
+        5
+      ],
+      "flys": [
+        6,
+        12
+      ],
+      "receives": [
+        13,
+        47
+      ],
+      "receive_loop": null,
+      "fly_type_img": null,
+      "fly_time": null,
+      "item": [
+        11400001,
+        1
+      ],
+      "sort": 13,
+      "send_offset": [
+        150,
+        120
+      ],
+      "receive_offset": [
+        140,
+        120
+      ]
+    }
+  }
+}

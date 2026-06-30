@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "source": "tpl_color_game.lua",
+    "format": "keys_bodys",
+    "count": 5
+  },
+  "list": [
+    {
+      "id": 1,
+      "balance": 0,
+      "chips1": 1000,
+      "chips2": 3000,
+      "chips3": 10000,
+      "maxbet": 256000000,
+      "push_balance": 30000,
+      "quick_buy": 1
+    },
+    {
+      "id": 2,
+      "balance": 1000000,
+      "chips1": 1000,
+      "chips2": 3000,
+      "chips3": 10000,
+      "maxbet": 256000000,
+      "push_balance": 1000000,
+      "quick_buy": 2
+    },
+    {
+      "id": 3,
+      "balance": 10000000,
+      "chips1": 10000,
+      "chips2": 30000,
+      "chips3": 100000,
+      "maxbet": 256000000,
+      "push_balance": 10000000,
+      "quick_buy": 5
+    },
+    {
+      "id": 4,
+      "balance": 100000000,
+      "chips1": 100000,
+      "chips2": 300000,
+      "chips3": 1000000,
+      "maxbet": 256000000,
+      "push_balance": 100000000,
+      "quick_buy": 8
+    },
+    {
+      "id": 5,
+      "balance": 1000000000,
+      "chips1": 1000000,
+      "chips2": 3000000,
+      "chips3": 10000000,
+      "maxbet": 256000000,
+      "push_balance": 100000000,
+      "quick_buy": 8
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "balance": 0,
+      "chips1": 1000,
+      "chips2": 3000,
+      "chips3": 10000,
+      "maxbet": 256000000,
+      "push_balance": 30000,
+      "quick_buy": 1
+    },
+    "2": {
+      "id": 2,
+      "balance": 1000000,
+      "chips1": 1000,
+      "chips2": 3000,
+      "chips3": 10000,
+      "maxbet": 256000000,
+      "push_balance": 1000000,
+      "quick_buy": 2
+    },
+    "3": {
+      "id": 3,
+      "balance": 10000000,
+      "chips1": 10000,
+      "chips2": 30000,
+      "chips3": 100000,
+      "maxbet": 256000000,
+      "push_balance": 10000000,
+      "quick_buy": 5
+    },
+    "4": {
+      "id": 4,
+      "balance": 100000000,
+      "chips1": 100000,
+      "chips2": 300000,
+      "chips3": 1000000,
+      "maxbet": 256000000,
+      "push_balance": 100000000,
+      "quick_buy": 8
+    },
+    "5": {
+      "id": 5,
+      "balance": 1000000000,
+      "chips1": 1000000,
+      "chips2": 3000000,
+      "chips3": 10000000,
+      "maxbet": 256000000,
+      "push_balance": 100000000,
+      "quick_buy": 8
+    }
+  }
+}

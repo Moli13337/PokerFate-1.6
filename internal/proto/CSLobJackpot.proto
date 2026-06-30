@@ -1,0 +1,42 @@
+syntax = "proto2";
+package pb;
+option go_package = "poker-fate-server/internal/proto/gen";
+import "CSGameDef.proto";
+
+
+message LobJackPotREQ
+{
+    optional int64 blind = 1;
+    optional int32 game_type = 2;
+}
+
+message LobJackPotRSP
+{
+    optional int64 blind = 1;
+    optional int64 jackpot_chips = 2; // 当前jackpot奖池
+    optional int32 game_type = 3;
+}
+
+// 房间通知奖励
+message LobJackPotPrizeBRC
+{
+    optional int64 uid = 1;
+    repeated int32 cards = 2;
+    optional int64 prize = 3;
+    optional int64 jackpot_chips = 4;       // 奖励后jackpot奖池
+    optional int32 type = 5;                        //   poker 中奖牌型 7 full house  8 quads 9 stragiht flush 10 royal flush
+}
+
+
+message LobJackPotConfigREQ
+{
+    optional int64 blind = 1;
+    optional int32 game_type = 2;
+}
+// 牌型奖励比例，依次对应：皇同，同花顺，4条，葫芦
+message LobJackPotConfigRSP
+{
+    optional int64 blind = 1;
+    repeated int32 rate = 2;   // 万分比，如4000，1800，500，50
+    optional int32 game_type = 3;
+}

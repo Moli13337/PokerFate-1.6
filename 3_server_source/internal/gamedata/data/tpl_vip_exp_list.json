@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "source": "tpl_vip_exp_list.lua",
+    "format": "keys_bodys",
+    "count": 5
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "LAB_PROPS_NAME_102_1",
+      "type": 2
+    },
+    {
+      "id": 2,
+      "name": "LAB_PROPS_NAME_103_1",
+      "type": 2
+    },
+    {
+      "id": 3,
+      "name": "LAB_PROPS_NAME_101_1",
+      "type": 2
+    },
+    {
+      "id": 4,
+      "name": "LAB_PROPS_NAME_111_3",
+      "type": 2
+    },
+    {
+      "id": 5,
+      "name": "LAB_VIP_TEXT_20",
+      "type": 1
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "name": "LAB_PROPS_NAME_102_1",
+      "type": 2
+    },
+    "2": {
+      "id": 2,
+      "name": "LAB_PROPS_NAME_103_1",
+      "type": 2
+    },
+    "3": {
+      "id": 3,
+      "name": "LAB_PROPS_NAME_101_1",
+      "type": 2
+    },
+    "4": {
+      "id": 4,
+      "name": "LAB_PROPS_NAME_111_3",
+      "type": 2
+    },
+    "5": {
+      "id": 5,
+      "name": "LAB_VIP_TEXT_20",
+      "type": 1
+    }
+  }
+}

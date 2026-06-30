@@ -1,0 +1,1971 @@
+{
+  "_meta": {
+    "source": "tpl_HttpCode.lua",
+    "format": "keys_bodys",
+    "count": 98
+  },
+  "list": [
+    {
+      "id": "HTTP_RET_OK",
+      "code": 0,
+      "tip": null,
+      "zh": null,
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    {
+      "id": "HTTP_ERR",
+      "code": -1,
+      "tip": null,
+      "zh": "系统默认错误(包含未知错误)",
+      "tw": "系統預設錯誤（包含未知錯誤）",
+      "en": "System error (including unknown errors)",
+      "jp": "システムデフォルトエラー（未知のエラーを含む）",
+      "ko": "시스템 기본 오류입니다 (알 수 없는 오류 포함)"
+    },
+    {
+      "id": "HTTP_AUTHENTICATION_FAILED",
+      "code": -2,
+      "tip": null,
+      "zh": "login.authorization 验证失败",
+      "tw": "login.authorization 驗證失敗",
+      "en": "login.authorization verification failed",
+      "jp": "login.authorization 認証失敗",
+      "ko": "login.authorization 인증 실패입니다"
+    },
+    {
+      "id": "HTTP_INVALID_PARAM",
+      "code": -3,
+      "tip": null,
+      "zh": "参数错误",
+      "tw": "參數錯誤",
+      "en": "Invalid parameters",
+      "jp": "パラメータエラー",
+      "ko": "매개변수 오류입니다"
+    },
+    {
+      "id": "HTTP_CONCURRENCY_LIMIT",
+      "code": -4,
+      "tip": 0,
+      "zh": null,
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    {
+      "id": "HTTP_THIRD_RISK_VERIFY_FAILED",
+      "code": -5,
+      "tip": null,
+      "zh": "抱歉，当前设备存在安全隐患，如有疑问，请联系客服",
+      "tw": "抱歉，當前裝置存在安全隱患，如有疑問，請聯絡客服。",
+      "en": "Login failed. This device is not secure. Please contact Support for assistance.",
+      "jp": "申し訳ございません。現在お使いの端末にセキュリティ上の問題が検出されました。ご不明な点がございましたら、カスタマーサポートまでお問い合わせください。",
+      "ko": "抱歉，当前设备存在安全隐患，如有疑问，请联系客服"
+    },
+    {
+      "id": "HTTP_SERVER_STOP",
+      "code": -50,
+      "tip": null,
+      "zh": "服务器停服",
+      "tw": "伺服器維護中",
+      "en": "Server under maintenance",
+      "jp": "サーバーメンテナンス",
+      "ko": "서버 점검 중입니다"
+    },
+    {
+      "id": "HTTP_REGION_NOT_SUPPORTED",
+      "code": -51,
+      "tip": null,
+      "zh": "地区未支持",
+      "tw": "目前地區不可用",
+      "en": "Service not available in current region",
+      "jp": "現在の地域では利用できません",
+      "ko": "서비스 지역이 아닙니다"
+    },
+    {
+      "id": "HTTP_IP_BLOCKED",
+      "code": -52,
+      "tip": null,
+      "zh": "账号被封禁，有任何反馈建议可联系客服",
+      "tw": "帳號已被封禁，如有任何回饋或建議，請聯絡客服",
+      "en": "Your account has been banned. Please contact Customer Support for assistance",
+      "jp": "アカウントが利用停止となっています。ご不明な点がございましたら、カスタマーサポートまでご連絡ください",
+      "ko": "계정이 차단되었습니다"
+    },
+    {
+      "id": "HTTP_IMEI_BLOCKED",
+      "code": -53,
+      "tip": null,
+      "zh": "设备号被封禁",
+      "tw": "裝置禁止存取",
+      "en": "Device access denied",
+      "jp": "デバイスのアクセスが禁止されています",
+      "ko": "기기가 차단되었습니다"
+    },
+    {
+      "id": "HTTP_ACCOUNT_BLOCKED",
+      "code": -54,
+      "tip": null,
+      "zh": "账号被封禁",
+      "tw": "帳號已被封鎖",
+      "en": "Account banned",
+      "jp": "アカウント停止中",
+      "ko": "계정이 차단되었습니다"
+    },
+    {
+      "id": "HTTP_ACCOUNT_REGISTERED",
+      "code": -55,
+      "tip": null,
+      "zh": "账号已经注册",
+      "tw": "帳號已存在",
+      "en": "Account already exists",
+      "jp": "アカウントは既に存在します",
+      "ko": "이미 등록된 계정입니다"
+    },
+    {
+      "id": "HTTP_ACCOUNT_NOT_FOUND",
+      "code": -56,
+      "tip": null,
+      "zh": "账号不存在",
+      "tw": "帳號未註冊",
+      "en": "Account not registered",
+      "jp": "アカウントが未登録です",
+      "ko": "존재하지 않은 계정입니다"
+    },
+    {
+      "id": "HTTP_INVALID_EMAIL",
+      "code": -65,
+      "tip": null,
+      "zh": "邮箱格式不对",
+      "tw": "信箱格式錯誤",
+      "en": "Invalid email format",
+      "jp": "メール形式が正しくありません",
+      "ko": "이메일 형식이 틀렸습니다"
+    },
+    {
+      "id": "HTTP_INVALID_EMAIL_PASSWORD",
+      "code": -66,
+      "tip": null,
+      "zh": "密码不对",
+      "tw": "密碼錯誤",
+      "en": "Incorrect password",
+      "jp": "パスワードが間違っています",
+      "ko": "비밀번호가 틀렸습니다"
+    },
+    {
+      "id": "HTTP_INVALID_EMAIL_PASSWORD_FORMAT",
+      "code": -67,
+      "tip": null,
+      "zh": "密码格式不对。\n6-12位数字、字母或符号。",
+      "tw": "密碼格式錯誤。\n6～12 位數字、英文字母或符號。",
+      "en": "Invalid password format.\n6–12 characters (numbers, letters, and/or symbols).",
+      "jp": "パスワード形式が正しくありません!\n6〜12文字の英数字または記号.",
+      "ko": "비밀번호 형식이 틀렸습니다"
+    },
+    {
+      "id": "HTTP_INVALID_EMAIL_CAPTCHA",
+      "code": -68,
+      "tip": null,
+      "zh": "验证码不正确",
+      "tw": "驗證碼錯誤",
+      "en": "Invalid verification code",
+      "jp": "確認コードが間違っています",
+      "ko": "인증코드가 올바르지 않습니다"
+    },
+    {
+      "id": "HTTP_REGISTER_CAPTCHA_LIMIT",
+      "code": -69,
+      "tip": null,
+      "zh": "验证码发送限制",
+      "tw": "驗證碼發送次數已達上限",
+      "en": "Verification code sending limit reached",
+      "jp": "確認コード送信回数が上限に達しました",
+      "ko": "인증코드 발송이 제한되었습니다"
+    },
+    {
+      "id": "HTTP_EMAIL_VERIFICATION_FAILED",
+      "code": -70,
+      "tip": null,
+      "zh": "邮箱账号验证失败",
+      "tw": "信箱驗證失敗",
+      "en": "Email verification failed",
+      "jp": "メール認証に失敗しました",
+      "ko": "이메일 계정 인증이 실패했습니다"
+    },
+    {
+      "id": "HTTP_ACCOUNT_NO_EMAIL",
+      "code": -71,
+      "tip": null,
+      "zh": "账号未绑定邮箱",
+      "tw": "未綁定信箱",
+      "en": "Email not linked",
+      "jp": "メールが連携されていません",
+      "ko": "계정에 이메일이 연결되지 않았습니다"
+    },
+    {
+      "id": "HTTP_EMAIL_HAS_ACCOUNT",
+      "code": -72,
+      "tip": null,
+      "zh": "邮箱已绑定账号",
+      "tw": "信箱已被使用",
+      "en": "Email already in use",
+      "jp": "メールアドレスはすでに使用されています",
+      "ko": "이미 계정이 연결된 이메일입니다"
+    },
+    {
+      "id": "HTTP_CAPTCHA_TIMEOUT",
+      "code": -73,
+      "tip": null,
+      "zh": "验证码超时",
+      "tw": "驗證碼已失效",
+      "en": "Verification code expired",
+      "jp": "確認コードの有効期限が切れています",
+      "ko": "인증코드 시간이 초과되었습니다"
+    },
+    {
+      "id": "HTTP_REGISTER_LIMIT",
+      "code": -74,
+      "tip": null,
+      "zh": "登录排队中 无法注册",
+      "tw": "登入失敗，伺服器繁忙，請稍後再試",
+      "en": "Login failed. The server is busy. Please try again later",
+      "jp": "サーバーが混雑しているため、ログインに失敗しました。後ほどお試しください",
+      "ko": "注册失败，服务器繁忙，请稍后再试\","
+    },
+    {
+      "id": "HTTP_STOVE_HAS_ACCOUNT",
+      "code": -75,
+      "tip": null,
+      "zh": "Stvoe账号已被使用",
+      "tw": "Stvoe帳號已被使用",
+      "en": "Stvoe account already in use",
+      "jp": "Stvoeアカウントはすでに使用されています",
+      "ko": "Stvoe账号已被使用"
+    },
+    {
+      "id": "HTTP_ACCOUNT_DELETED",
+      "code": -76,
+      "tip": null,
+      "zh": "账号不存在",
+      "tw": "帳號未註冊",
+      "en": "Account not registered",
+      "jp": "アカウントが未登録です",
+      "ko": "존재하지 않은 계정입니다"
+    },
+    {
+      "id": "HTTP_IMEI_LOGIN_NUM_LIMIT",
+      "code": -77,
+      "tip": null,
+      "zh": "进入游戏失败，本设备登录账号个数已超上限。",
+      "tw": "登入失敗，此裝置已達可登入帳號上限",
+      "en": "Failed. This device has reached the max number of accounts",
+      "jp": "本端末でログイン可能なアカウント数の上限に達しています",
+      "ko": "imei当天登录设备数量超过限制"
+    },
+    {
+      "id": "HTTP_STEAM_OFFLINE_ERR",
+      "code": -78,
+      "tip": null,
+      "zh": "Steam登录已过期，请重新登录后重试",
+      "tw": "Steam登入已過期，請重新登入後重試",
+      "en": "Your Steam session has expired. Please log in again",
+      "jp": "Steamのセッションが切れました。再ログインしてください",
+      "ko": "steam处于离线状态"
+    },
+    {
+      "id": "HTTP_STEAM_IP_LIMIT_ERR",
+      "code": -79,
+      "tip": null,
+      "zh": "服务器繁忙，请稍后再试",
+      "tw": "伺服器繁忙，請稍後再試",
+      "en": "The server is busy. Please try again later",
+      "jp": "サーバーが混雑しています。しばらくしてから再度お試しください",
+      "ko": "steam请求限制ip中"
+    },
+    {
+      "id": "HTTP_STEAM_LOGIN_TIME_OUT_ERR",
+      "code": -80,
+      "tip": null,
+      "zh": "Steam登录已过期，请重新登录后重试",
+      "tw": "Steam登入已過期，請重新登入後重試",
+      "en": "Your Steam session has expired. Please log in again",
+      "jp": "Steamのセッションが切れました。再ログインしてください",
+      "ko": "steam处于离线状态"
+    },
+    {
+      "id": "HTTP_STEAM_CREATE_ORDER_TIME_OUT_ERR",
+      "code": -81,
+      "tip": null,
+      "zh": "服务器繁忙，请稍后再试",
+      "tw": "伺服器繁忙，請稍後再試",
+      "en": "The server is busy. Please try again later",
+      "jp": "サーバーが混雑しています。しばらくしてから再度お試しください",
+      "ko": "steam请求限制ip中"
+    },
+    {
+      "id": "HTTP_STEAM_FINISH_ORDER_TIME_OUT_ERR",
+      "code": -82,
+      "tip": null,
+      "zh": "订单处理中，请稍候…",
+      "tw": "訂單處理中，請稍候…",
+      "en": "Processing order. Please wait...",
+      "jp": "注文を処理しています。しばらくお待ちください",
+      "ko": "steam完成订单请求超时"
+    },
+    {
+      "id": "HTTP_COLL_CARD_LIMIT",
+      "code": -150,
+      "tip": null,
+      "zh": "收藏达上限",
+      "tw": "收藏已達上限",
+      "en": "Hand Replay limit reached",
+      "jp": "コレクション数が上限に達しました",
+      "ko": "수집 한도에 도달했습니다"
+    },
+    {
+      "id": "HTTP_COLL_CARD_DETAIL_ERR",
+      "code": -151,
+      "tip": null,
+      "zh": "牌局正在结算，请稍等...",
+      "tw": "牌局正在結算，請稍候...",
+      "en": "The game is being settled, please wait...",
+      "jp": "試合を決着させようとしています。お待ちください...",
+      "ko": "牌局正在结算，请稍等..."
+    },
+    {
+      "id": "HTTP_NICKNAME_INVALID_LENGTH",
+      "code": -200,
+      "tip": null,
+      "zh": "昵称长度不符合",
+      "tw": "暱稱長度不符合要求",
+      "en": "Nickname length requirement not met",
+      "jp": "ニックネームの長さが要件を満たしていません",
+      "ko": "닉네임 길이가 올바르지 않습니다"
+    },
+    {
+      "id": "HTTP_NICKNAME_NOT_ALL_NUMERIC",
+      "code": -201,
+      "tip": null,
+      "zh": "昵称不可为纯数字",
+      "tw": "暱稱不可為純數字",
+      "en": "Nickname cannot contain only numbers",
+      "jp": "数字のみのニックネームは使用できません",
+      "ko": "닉네임은 숫자만으로 설정할 수 없습니다"
+    },
+    {
+      "id": "HTTP_NICKNAME_CANNOT_BE_EMAIL",
+      "code": -202,
+      "tip": null,
+      "zh": "昵称不可为邮箱格式",
+      "tw": "暱稱不可為信箱格式",
+      "en": "Nickname cannot be in email format",
+      "jp": "メールアドレスをニックネームにすることはできません",
+      "ko": "닉네임은 이메일 형식일 수 없습니다"
+    },
+    {
+      "id": "HTTP_NICKNAME_ALREADY_EXISTS",
+      "code": -203,
+      "tip": null,
+      "zh": "昵称已被占用",
+      "tw": "暱稱已被使用",
+      "en": "Nickname already taken",
+      "jp": "このニックネームはすでに使用されています",
+      "ko": "이미 사용 중인 닉네임입니다"
+    },
+    {
+      "id": "HTTP_NICKNAME_INVALID_CHARACTERS",
+      "code": -204,
+      "tip": null,
+      "zh": "昵称包含敏感词",
+      "tw": "暱稱含違規內容",
+      "en": "Nickname contains inappropriate content",
+      "jp": "ニックネームに不適切な内容が含まれています",
+      "ko": "닉네임에 금칙어가 포함되어 있습니다"
+    },
+    {
+      "id": "HTTP_NICKNAME_INSUFFICIENT_ITEM",
+      "code": -205,
+      "tip": null,
+      "zh": "昵称修改道具不足",
+      "tw": "改名道具不足",
+      "en": "Insufficient rename items",
+      "jp": "名前変更用アイテムが足りません",
+      "ko": "닉네임 변경 아이템이 부족합니다"
+    },
+    {
+      "id": "HTTP_NICKNAME_UNCHANGED",
+      "code": -206,
+      "tip": null,
+      "zh": "昵称无修改",
+      "tw": "暱稱未作修改",
+      "en": "No changes made to nickname",
+      "jp": "ニックネームは変更されていません",
+      "ko": "닉네임 변경사항이 없습니다"
+    },
+    {
+      "id": "HTTP_DECLARATION_INVALID_LENGTH",
+      "code": -207,
+      "tip": null,
+      "zh": "个人宣言长度不符合",
+      "tw": "個人狀態長度不符合要求",
+      "en": "Bio length requirement not met",
+      "jp": "ステータスの長さが要件を満たしていません",
+      "ko": "개인 상태메시지 길이가 올바르지 않습니다"
+    },
+    {
+      "id": "HTTP_DECLARATION_INVALID_CHARACTERS",
+      "code": -208,
+      "tip": null,
+      "zh": "个人宣言包含非法字符",
+      "tw": "個人狀態包含非法字元",
+      "en": "Bio contains illegal characters",
+      "jp": "ステータスに使用できない文字が含まれています",
+      "ko": "개인 상태메시지에 유효하지 않은 문자가 포함되었습니다"
+    },
+    {
+      "id": "HTTP_ROLE_NICKNAME_INVALID_LENGTH",
+      "code": -209,
+      "tip": null,
+      "zh": "牌手昵称长度不符合",
+      "tw": "牌手暱稱長度不符合要求",
+      "en": "Character nickname length requirement not met",
+      "jp": "キャラクターニックネームの長さが要件を満たしていません",
+      "ko": "캐릭터 닉네임 길이가 올바르지 않습니다"
+    },
+    {
+      "id": "HTTP_ROLE_NICKNAME_INVALID_CHARACTERS",
+      "code": -210,
+      "tip": null,
+      "zh": "牌手昵称包含非法字符",
+      "tw": "牌手暱稱包含非法字元",
+      "en": "Character nickname contains illegal characters",
+      "jp": "キャラクターニックネームに使用できない文字が含まれています",
+      "ko": "캐릭터 닉네임에 허용되지 않는 문자가 포함되어 있습니다"
+    },
+    {
+      "id": "HTTP_DRAW_WEIGHTS_LACK",
+      "code": -300,
+      "tip": null,
+      "zh": "全类别权重数组为空",
+      "tw": "All weight arrays are empty",
+      "en": "All weight arrays are empty",
+      "jp": "All weight arrays are empty",
+      "ko": "전체 카테고리 가중치 배열이 비어있습니다"
+    },
+    {
+      "id": "HTTP_DRAW_CHARACTER_WEIGHTS_LACK",
+      "code": -301,
+      "tip": null,
+      "zh": "牌手类别权重数组为空",
+      "tw": "Character weight array is empty",
+      "en": "Character weight array is empty",
+      "jp": "Character weight array is empty",
+      "ko": "캐릭터 카테고리 가중치 배열이 비어있습니다"
+    },
+    {
+      "id": "HTTP_DRAW_UP_CHARACTER_WEIGHTS_LACK",
+      "code": -302,
+      "tip": null,
+      "zh": "up牌手类别权重数组为空",
+      "tw": "UP character weight array is empty",
+      "en": "UP character weight array is empty",
+      "jp": "UP character weight array is empty",
+      "ko": "up 캐릭터 카테고리 가중치 배열이 비어있습니다"
+    },
+    {
+      "id": "HTTP_DRAW_OTHER_WEIGHTS_LACK",
+      "code": -303,
+      "tip": null,
+      "zh": "非牌手类别权重数组为空",
+      "tw": "Non-character weight array is empty",
+      "en": "Non-character weight array is empty",
+      "jp": "Non-character weight array is empty",
+      "ko": "비캐릭터 카테고리 가중치 배열이 비어있습니다"
+    },
+    {
+      "id": "HTTP_DRAW_WEIGHTS_RAND_LACK",
+      "code": -304,
+      "tip": null,
+      "zh": "全类别权重数组随机失败",
+      "tw": "Failed to randomize all weight arrays",
+      "en": "Failed to randomize all weight arrays",
+      "jp": "Failed to randomize all weight arrays",
+      "ko": "전체 카테고리 가중치 배열이 랜덤으로 실패했습니다"
+    },
+    {
+      "id": "HTTP_DRAW_SERVER_LIMIT",
+      "code": -305,
+      "tip": null,
+      "zh": "服务器繁忙",
+      "tw": "伺服器繁忙",
+      "en": "Server busy",
+      "jp": "サーバーが混雑しています",
+      "ko": "서버가 혼잡합니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_LIMIT",
+      "code": -350,
+      "tip": null,
+      "zh": "对方好友数量达上限",
+      "tw": "對方好友數量已達上限",
+      "en": "The other player's friend list is full",
+      "jp": "相手のフレンド数が上限に達しています",
+      "ko": "상대방의 친구 수가 최대치에 도달했습니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_MARk_ERR",
+      "code": -351,
+      "tip": null,
+      "zh": "备注失败",
+      "tw": "備註失敗",
+      "en": "Failed to add remark",
+      "jp": "備考を設定できません",
+      "ko": "메모 실패입니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_DEL_ERR",
+      "code": -352,
+      "tip": null,
+      "zh": "删除失败",
+      "tw": "刪除好友失敗",
+      "en": "Failed to remove friend",
+      "jp": "フレンド削除に失敗しました",
+      "ko": "삭제 실패입니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_UNBLOCKED_DEL_ERR",
+      "code": -353,
+      "tip": null,
+      "zh": "移除拉黑互删失败",
+      "tw": "解除黑名單並刪除好友失敗",
+      "en": "Failed to remove from blacklist and delete friend",
+      "jp": "ブラックリスト解除およびフレンド削除に失敗しました",
+      "ko": "차단 해제 및 상호 삭제 실패입니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_UNBLOCKED_ERR",
+      "code": -354,
+      "tip": null,
+      "zh": "移除拉黑失败",
+      "tw": "移除黑名單失敗",
+      "en": "Failed to remove from blacklist",
+      "jp": "ブラックリスト解除に失敗しました",
+      "ko": "차단 해제 실패입니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_BLOCKED_ERR",
+      "code": -355,
+      "tip": null,
+      "zh": "拉黑失败",
+      "tw": "加入黑名單失敗",
+      "en": "Failed to add to blacklist",
+      "jp": "ブラックリスト追加できませんでした",
+      "ko": "차단 실패입니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_SELF_LIMIT",
+      "code": -356,
+      "tip": null,
+      "zh": "好友数量达上限",
+      "tw": "好友數量已達上限",
+      "en": "Friend list is full",
+      "jp": "フレンド数が上限に達しています",
+      "ko": "친구 수가 최대치에 도달했습니다"
+    },
+    {
+      "id": "HTTP_FRIENDS_BLOCKED_LIMIT",
+      "code": -357,
+      "tip": null,
+      "zh": "黑名单数量已达上限！",
+      "tw": "你的黑名单數已達上限！",
+      "en": "Blacklist is full!",
+      "jp": "ブラックリスト数が上限に達しました",
+      "ko": "친구 목록이 가득찼습니다!"
+    },
+    {
+      "id": "HTTP_SHOP_CONFIG_NOT_EXIST",
+      "code": -400,
+      "tip": null,
+      "zh": "商品配置无效",
+      "tw": "商品不存在",
+      "en": "Item does not exist",
+      "jp": "商品が存在しません",
+      "ko": "상품 설정이 유효하지 않습니다"
+    },
+    {
+      "id": "HTTP_SHOP_RECHARGE_FAILED",
+      "code": -401,
+      "tip": null,
+      "zh": "购买失败",
+      "tw": "購買失敗",
+      "en": "Purchase failed",
+      "jp": "購入できませんでした",
+      "ko": "구매 실패입니다"
+    },
+    {
+      "id": "HTTP_SHOP_REPEAT_REFUND",
+      "code": -402,
+      "tip": null,
+      "zh": "限购商品重复购买，自动退款",
+      "tw": "重複購買的商品已退款",
+      "en": "Duplicate purchase refunded",
+      "jp": "重複購入した商品は返金されました",
+      "ko": "한정 상품 중복 구매로 자동 환불됩니다"
+    },
+    {
+      "id": "HTTP_SHOP_PURCHASE_LIMIT",
+      "code": -403,
+      "tip": null,
+      "zh": "商品已售罄！",
+      "tw": "商品已售罄！",
+      "en": "Already sold out!",
+      "jp": "商品は完売しました",
+      "ko": "商品已售罄！"
+    },
+    {
+      "id": "HTTP_SHOP_COST_NOT_ENOUGH",
+      "code": -404,
+      "tip": null,
+      "zh": "购买消耗的道具不足",
+      "tw": "購買所需消耗的道具不足",
+      "en": "Insufficient items to purchase",
+      "jp": "購入に必要な消費アイテムが足りません",
+      "ko": "구매에 필요한 아이템이 부족합니다"
+    },
+    {
+      "id": "HTTP_SHOP_REWARD_CLAIMED",
+      "code": -405,
+      "tip": null,
+      "zh": "奖励在限制时间内已领取",
+      "tw": "獎勵已領取",
+      "en": "Reward already claimed",
+      "jp": "報酬はすでに受け取り済みです",
+      "ko": "제한 시간 내에 이미 보상을 받았습니다"
+    },
+    {
+      "id": "HTTP_SHOP_UNAVAILABLE",
+      "code": -406,
+      "tip": null,
+      "zh": "商品已下架！",
+      "tw": "商品已下架！",
+      "en": "Currently unavailable!",
+      "jp": "商品は販売停止しました",
+      "ko": "商品已下架！"
+    },
+    {
+      "id": "HTTP_SHOP_PAYMENT_METHOD_UNAVAILABLE",
+      "code": -407,
+      "tip": null,
+      "zh": "支付方式不可用",
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    {
+      "id": "HTTP_SHOP_MONTHLY_CARD_BUY_LIMIT",
+      "code": -408,
+      "tip": null,
+      "zh": "月卡购买限制",
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    {
+      "id": "HTTP_MAIL_PACK_FULL_ERR",
+      "code": -500,
+      "tip": null,
+      "zh": "背包已满",
+      "tw": "背包已滿",
+      "en": "Backpack is full",
+      "jp": "バッグがいっぱいです",
+      "ko": "가방이 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_MISS_FULL_ERR",
+      "code": -550,
+      "tip": null,
+      "zh": "补签次数已满",
+      "tw": "補簽次數已用盡",
+      "en": "No remaining make-up attempts",
+      "jp": "補填回数を使い果たしました",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_MONTHLY_REWARD_ERR",
+      "code": -551,
+      "tip": null,
+      "zh": "月卡签到奖励配置错误",
+      "tw": "月卡簽到獎勵不存在",
+      "en": "Shark Pass check-in reward does not exist",
+      "jp": "月間パスログイン報酬が存在しません",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_UPDATE_REWARD_ERR",
+      "code": -552,
+      "tip": null,
+      "zh": "月卡签到奖励更新失败错误",
+      "tw": "月卡簽到獎勵更新失敗",
+      "en": "Failed to update Shark Pass check-in rewards",
+      "jp": "月間パスログイン報酬を更新できませんででした",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_CONF_ERR",
+      "code": -553,
+      "tip": null,
+      "zh": "签到配置错误",
+      "tw": "簽到設定異常",
+      "en": "Check-in configuration error",
+      "jp": "ログイン設定エラー",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_CONF_REWARD_ERR",
+      "code": -554,
+      "tip": null,
+      "zh": "签到奖励配置错误",
+      "tw": "簽到獎勵不存在",
+      "en": "Check-in reward does not exist",
+      "jp": "ログイン報酬が存在しません",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_TOTAL_REWARD_ERR",
+      "code": -555,
+      "tip": null,
+      "zh": "签到累计奖励配置错误",
+      "tw": "簽到累計獎勵不存在",
+      "en": "Cumulative check-in reward does not exist",
+      "jp": "累計ログイン報酬が存在しません",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_CREATE_ERR",
+      "code": -556,
+      "tip": null,
+      "zh": "签到记录新增失败错误",
+      "tw": "簽到記錄更新失敗",
+      "en": "Failed to update check-in record",
+      "jp": "ログイン記録を更新できませんでした",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_EXIST_ERR",
+      "code": -557,
+      "tip": null,
+      "zh": "已存在签到错误",
+      "tw": "簽到錯誤",
+      "en": "Check-in error",
+      "jp": "ログインエラー",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    {
+      "id": "HTTP_SEVEN_SIGN_EXPIRED_ERR",
+      "code": -558,
+      "tip": null,
+      "zh": "月卡已过期",
+      "tw": "月卡已過期",
+      "en": "Shark Pass has expired",
+      "jp": "月間パスは期限切れです",
+      "ko": "Shark Pass has expired"
+    },
+    {
+      "id": "HTTP_NEWBIE_NICKNAME_ERR",
+      "code": -600,
+      "tip": null,
+      "zh": "暂无可用昵称，请自行输入。",
+      "tw": "暫無可用暱稱，請自行輸入。",
+      "en": "No nickname available. Please enter one.",
+      "jp": "使用できるニックネームが見つからないため、ご自身で入力してください",
+      "ko": "사용 가능한 닉네임이 없습니다. 직접 입력해 주세요."
+    },
+    {
+      "id": "HTTP_VIP_REWARD_CLAIMED",
+      "code": -650,
+      "tip": null,
+      "zh": "VIP奖励已领取",
+      "tw": "VIP獎勵已領取",
+      "en": "VIP Reward already claimed",
+      "jp": "VIP報酬は受け取り済みです",
+      "ko": "VIP Reward already claimed"
+    },
+    {
+      "id": "REDEMPTION_CODE_EX_ERR",
+      "code": -700,
+      "tip": 0,
+      "zh": "礼品码有误，请再次确认",
+      "tw": "禮品碼錯誤，請再次確認",
+      "en": "Invalid code. Please check and try again",
+      "jp": "ギフトコードが正しくありません。コードを確かめ、もう一度お試しください。",
+      "ko": "Invalid code, please check again"
+    },
+    {
+      "id": "REDEMPTION_CODE_EXPIRED_ERR",
+      "code": -701,
+      "tip": 0,
+      "zh": "礼品码已过期",
+      "tw": "禮品碼已過期",
+      "en": "Gift code has expired",
+      "jp": "ギフトコードは期限切れです",
+      "ko": "Gift code has expired"
+    },
+    {
+      "id": "REDEMPTION_CODE_NOT_FOUND_ERR",
+      "code": -702,
+      "tip": 0,
+      "zh": "礼品码有误，请再次确认",
+      "tw": "禮品碼錯誤，請再次確認",
+      "en": "Invalid code. Please check and try again",
+      "jp": "ギフトコードが正しくありません。コードを確かめ、もう一度お試しください。",
+      "ko": "Invalid code, please check again"
+    },
+    {
+      "id": "REDEMPTION_CODE_USED_ERR",
+      "code": -703,
+      "tip": 0,
+      "zh": "礼品码已兑换",
+      "tw": "禮品碼已兌換",
+      "en": "Gift code has been redeemed",
+      "jp": "ギフトコードはすでに使用済みです",
+      "ko": "Gift code has been redeemed"
+    },
+    {
+      "id": "REDEMPTION_CODE_LIMIT_ERR",
+      "code": -704,
+      "tip": 0,
+      "zh": "兑换次数已达上限",
+      "tw": "禮品碼兌換次數已達上限",
+      "en": "Gift code redemption limit reached",
+      "jp": "ギフトコードの引き換え回数が上限に達しました",
+      "ko": "Gift code redemption limit reached"
+    },
+    {
+      "id": "REDEMPTION_CODE_CON_ERR",
+      "code": -705,
+      "tip": 0,
+      "zh": "抱歉，您不符合领取条件！",
+      "tw": "抱歉，您不符合領取條件！",
+      "en": "Not eligible to redeem this gift.",
+      "jp": "利用条件を満たしていません。",
+      "ko": "Not eligible to redeem this gift."
+    },
+    {
+      "id": "HTTP_ASSOC_USER_CHNL_ERR",
+      "code": -750,
+      "tip": null,
+      "zh": "渠道错误 不是符合条件的渠道",
+      "tw": "渠道錯誤 不是符合條件的渠道",
+      "en": "Channel error: Not an eligible channel",
+      "jp": "チャネルエラー 適格なチャネルではありません",
+      "ko": "渠道错误 不是符合条件的渠道"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_ALREADY_BIND",
+      "code": -751,
+      "tip": null,
+      "zh": "账号已绑定过关联账号",
+      "tw": "賬號已綁定過關聯賬號",
+      "en": "Account has already bound a linked account",
+      "jp": "アカウントは既に関連アカウントをバインド済みです",
+      "ko": "账号已绑定过关联账号"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_ERR_NUM_LIMIT",
+      "code": -752,
+      "tip": null,
+      "zh": "错误次数超过限制",
+      "tw": "錯誤次數超過限制",
+      "en": "Number of errors exceeds limit",
+      "jp": "エラー回数が制限を超えました",
+      "ko": "错误次数超过限制"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_HAS_EMAIL",
+      "code": -753,
+      "tip": null,
+      "zh": "账号绑定了邮箱 无法关联其他账号",
+      "tw": "賬號綁定了郵箱 無法關聯其他賬號",
+      "en": "Account is bound to email; cannot link other accounts",
+      "jp": "アカウントはメールにバインドされているため、他のアカウントを関連付けできません",
+      "ko": "账号绑定了邮箱 无法关联其他账号"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_NOT_STOVE",
+      "code": -754,
+      "tip": null,
+      "zh": "账号不是stove类型 无法关联其他账号",
+      "tw": "賬號不是stove類型 無法關聯其他賬號",
+      "en": "Account is not a Stove type; cannot link other accounts",
+      "jp": "アカウントはStoveタイプではないため、他のアカウントを関連付けできません",
+      "ko": "账号不是stove类型 无法关联其他账号"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_NOT_EMAIL",
+      "code": -755,
+      "tip": null,
+      "zh": "账号不是邮箱类型 无法生成关联密码",
+      "tw": "賬號不是郵箱類型 無法生成關聯密碼",
+      "en": "Account is not an email type; cannot generate link password",
+      "jp": "アカウントはメールタイプではないため、関連パスワードを生成できません",
+      "ko": "账号不是邮箱类型 无法生成关联密码"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_NOT_EXIST",
+      "code": -756,
+      "tip": null,
+      "zh": "关联的账号不存在",
+      "tw": "關聯的賬號不存在",
+      "en": "Linked account does not exist",
+      "jp": "関連するアカウントが存在しません",
+      "ko": "关联的账号不存在"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_PWD_ERR",
+      "code": -757,
+      "tip": null,
+      "zh": "关联的账号密码错误",
+      "tw": "關聯的賬號密碼錯誤",
+      "en": "Linked account password is incorrect",
+      "jp": "関連するアカウントのパスワードが間違っています",
+      "ko": "关联的账号密码错误"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_PWD_INVALID",
+      "code": -758,
+      "tip": null,
+      "zh": "设置关联密码格式错误",
+      "tw": "設置關聯密碼格式錯誤",
+      "en": "Link password format error",
+      "jp": "関連パスワードのフォーマットエラー",
+      "ko": "设置关联密码格式错误"
+    },
+    {
+      "id": "HTTP_ASSOC_USER_FAIL",
+      "code": -759,
+      "tip": null,
+      "zh": "关联失败",
+      "tw": "關聯失敗",
+      "en": "Link failed",
+      "jp": "関連付けに失敗しました",
+      "ko": "关联失败"
+    },
+    {
+      "id": "HTTP_INSUFFICIENT_ITEM",
+      "code": -800,
+      "tip": null,
+      "zh": "开启红包道具不足",
+      "tw": "开启红包道具不足",
+      "en": "开启红包道具不足",
+      "jp": "开启红包道具不足",
+      "ko": "开启红包道具不足"
+    },
+    {
+      "id": "HTTP_FOOTBALL_BET_REMOVED",
+      "code": -801,
+      "tip": null,
+      "zh": "比赛已下架！",
+      "tw": "比賽已下架！",
+      "en": "This match is no longer available!",
+      "jp": "この試合の掲載は終了しました！",
+      "ko": "This match is no longer available!"
+    },
+    {
+      "id": "HTTP_FOOTBALL_BET_PAUSE",
+      "code": -802,
+      "tip": null,
+      "zh": "下注已锁定！",
+      "tw": "下注已鎖定！",
+      "en": "Betting closed",
+      "jp": "ベット受付は終了しました！",
+      "ko": "Betting closed"
+    }
+  ],
+  "map": {
+    "HTTP_RET_OK": {
+      "id": "HTTP_RET_OK",
+      "code": 0,
+      "tip": null,
+      "zh": null,
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    "HTTP_ERR": {
+      "id": "HTTP_ERR",
+      "code": -1,
+      "tip": null,
+      "zh": "系统默认错误(包含未知错误)",
+      "tw": "系統預設錯誤（包含未知錯誤）",
+      "en": "System error (including unknown errors)",
+      "jp": "システムデフォルトエラー（未知のエラーを含む）",
+      "ko": "시스템 기본 오류입니다 (알 수 없는 오류 포함)"
+    },
+    "HTTP_AUTHENTICATION_FAILED": {
+      "id": "HTTP_AUTHENTICATION_FAILED",
+      "code": -2,
+      "tip": null,
+      "zh": "login.authorization 验证失败",
+      "tw": "login.authorization 驗證失敗",
+      "en": "login.authorization verification failed",
+      "jp": "login.authorization 認証失敗",
+      "ko": "login.authorization 인증 실패입니다"
+    },
+    "HTTP_INVALID_PARAM": {
+      "id": "HTTP_INVALID_PARAM",
+      "code": -3,
+      "tip": null,
+      "zh": "参数错误",
+      "tw": "參數錯誤",
+      "en": "Invalid parameters",
+      "jp": "パラメータエラー",
+      "ko": "매개변수 오류입니다"
+    },
+    "HTTP_CONCURRENCY_LIMIT": {
+      "id": "HTTP_CONCURRENCY_LIMIT",
+      "code": -4,
+      "tip": 0,
+      "zh": null,
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    "HTTP_THIRD_RISK_VERIFY_FAILED": {
+      "id": "HTTP_THIRD_RISK_VERIFY_FAILED",
+      "code": -5,
+      "tip": null,
+      "zh": "抱歉，当前设备存在安全隐患，如有疑问，请联系客服",
+      "tw": "抱歉，當前裝置存在安全隱患，如有疑問，請聯絡客服。",
+      "en": "Login failed. This device is not secure. Please contact Support for assistance.",
+      "jp": "申し訳ございません。現在お使いの端末にセキュリティ上の問題が検出されました。ご不明な点がございましたら、カスタマーサポートまでお問い合わせください。",
+      "ko": "抱歉，当前设备存在安全隐患，如有疑问，请联系客服"
+    },
+    "HTTP_SERVER_STOP": {
+      "id": "HTTP_SERVER_STOP",
+      "code": -50,
+      "tip": null,
+      "zh": "服务器停服",
+      "tw": "伺服器維護中",
+      "en": "Server under maintenance",
+      "jp": "サーバーメンテナンス",
+      "ko": "서버 점검 중입니다"
+    },
+    "HTTP_REGION_NOT_SUPPORTED": {
+      "id": "HTTP_REGION_NOT_SUPPORTED",
+      "code": -51,
+      "tip": null,
+      "zh": "地区未支持",
+      "tw": "目前地區不可用",
+      "en": "Service not available in current region",
+      "jp": "現在の地域では利用できません",
+      "ko": "서비스 지역이 아닙니다"
+    },
+    "HTTP_IP_BLOCKED": {
+      "id": "HTTP_IP_BLOCKED",
+      "code": -52,
+      "tip": null,
+      "zh": "账号被封禁，有任何反馈建议可联系客服",
+      "tw": "帳號已被封禁，如有任何回饋或建議，請聯絡客服",
+      "en": "Your account has been banned. Please contact Customer Support for assistance",
+      "jp": "アカウントが利用停止となっています。ご不明な点がございましたら、カスタマーサポートまでご連絡ください",
+      "ko": "계정이 차단되었습니다"
+    },
+    "HTTP_IMEI_BLOCKED": {
+      "id": "HTTP_IMEI_BLOCKED",
+      "code": -53,
+      "tip": null,
+      "zh": "设备号被封禁",
+      "tw": "裝置禁止存取",
+      "en": "Device access denied",
+      "jp": "デバイスのアクセスが禁止されています",
+      "ko": "기기가 차단되었습니다"
+    },
+    "HTTP_ACCOUNT_BLOCKED": {
+      "id": "HTTP_ACCOUNT_BLOCKED",
+      "code": -54,
+      "tip": null,
+      "zh": "账号被封禁",
+      "tw": "帳號已被封鎖",
+      "en": "Account banned",
+      "jp": "アカウント停止中",
+      "ko": "계정이 차단되었습니다"
+    },
+    "HTTP_ACCOUNT_REGISTERED": {
+      "id": "HTTP_ACCOUNT_REGISTERED",
+      "code": -55,
+      "tip": null,
+      "zh": "账号已经注册",
+      "tw": "帳號已存在",
+      "en": "Account already exists",
+      "jp": "アカウントは既に存在します",
+      "ko": "이미 등록된 계정입니다"
+    },
+    "HTTP_ACCOUNT_NOT_FOUND": {
+      "id": "HTTP_ACCOUNT_NOT_FOUND",
+      "code": -56,
+      "tip": null,
+      "zh": "账号不存在",
+      "tw": "帳號未註冊",
+      "en": "Account not registered",
+      "jp": "アカウントが未登録です",
+      "ko": "존재하지 않은 계정입니다"
+    },
+    "HTTP_INVALID_EMAIL": {
+      "id": "HTTP_INVALID_EMAIL",
+      "code": -65,
+      "tip": null,
+      "zh": "邮箱格式不对",
+      "tw": "信箱格式錯誤",
+      "en": "Invalid email format",
+      "jp": "メール形式が正しくありません",
+      "ko": "이메일 형식이 틀렸습니다"
+    },
+    "HTTP_INVALID_EMAIL_PASSWORD": {
+      "id": "HTTP_INVALID_EMAIL_PASSWORD",
+      "code": -66,
+      "tip": null,
+      "zh": "密码不对",
+      "tw": "密碼錯誤",
+      "en": "Incorrect password",
+      "jp": "パスワードが間違っています",
+      "ko": "비밀번호가 틀렸습니다"
+    },
+    "HTTP_INVALID_EMAIL_PASSWORD_FORMAT": {
+      "id": "HTTP_INVALID_EMAIL_PASSWORD_FORMAT",
+      "code": -67,
+      "tip": null,
+      "zh": "密码格式不对。\n6-12位数字、字母或符号。",
+      "tw": "密碼格式錯誤。\n6～12 位數字、英文字母或符號。",
+      "en": "Invalid password format.\n6–12 characters (numbers, letters, and/or symbols).",
+      "jp": "パスワード形式が正しくありません!\n6〜12文字の英数字または記号.",
+      "ko": "비밀번호 형식이 틀렸습니다"
+    },
+    "HTTP_INVALID_EMAIL_CAPTCHA": {
+      "id": "HTTP_INVALID_EMAIL_CAPTCHA",
+      "code": -68,
+      "tip": null,
+      "zh": "验证码不正确",
+      "tw": "驗證碼錯誤",
+      "en": "Invalid verification code",
+      "jp": "確認コードが間違っています",
+      "ko": "인증코드가 올바르지 않습니다"
+    },
+    "HTTP_REGISTER_CAPTCHA_LIMIT": {
+      "id": "HTTP_REGISTER_CAPTCHA_LIMIT",
+      "code": -69,
+      "tip": null,
+      "zh": "验证码发送限制",
+      "tw": "驗證碼發送次數已達上限",
+      "en": "Verification code sending limit reached",
+      "jp": "確認コード送信回数が上限に達しました",
+      "ko": "인증코드 발송이 제한되었습니다"
+    },
+    "HTTP_EMAIL_VERIFICATION_FAILED": {
+      "id": "HTTP_EMAIL_VERIFICATION_FAILED",
+      "code": -70,
+      "tip": null,
+      "zh": "邮箱账号验证失败",
+      "tw": "信箱驗證失敗",
+      "en": "Email verification failed",
+      "jp": "メール認証に失敗しました",
+      "ko": "이메일 계정 인증이 실패했습니다"
+    },
+    "HTTP_ACCOUNT_NO_EMAIL": {
+      "id": "HTTP_ACCOUNT_NO_EMAIL",
+      "code": -71,
+      "tip": null,
+      "zh": "账号未绑定邮箱",
+      "tw": "未綁定信箱",
+      "en": "Email not linked",
+      "jp": "メールが連携されていません",
+      "ko": "계정에 이메일이 연결되지 않았습니다"
+    },
+    "HTTP_EMAIL_HAS_ACCOUNT": {
+      "id": "HTTP_EMAIL_HAS_ACCOUNT",
+      "code": -72,
+      "tip": null,
+      "zh": "邮箱已绑定账号",
+      "tw": "信箱已被使用",
+      "en": "Email already in use",
+      "jp": "メールアドレスはすでに使用されています",
+      "ko": "이미 계정이 연결된 이메일입니다"
+    },
+    "HTTP_CAPTCHA_TIMEOUT": {
+      "id": "HTTP_CAPTCHA_TIMEOUT",
+      "code": -73,
+      "tip": null,
+      "zh": "验证码超时",
+      "tw": "驗證碼已失效",
+      "en": "Verification code expired",
+      "jp": "確認コードの有効期限が切れています",
+      "ko": "인증코드 시간이 초과되었습니다"
+    },
+    "HTTP_REGISTER_LIMIT": {
+      "id": "HTTP_REGISTER_LIMIT",
+      "code": -74,
+      "tip": null,
+      "zh": "登录排队中 无法注册",
+      "tw": "登入失敗，伺服器繁忙，請稍後再試",
+      "en": "Login failed. The server is busy. Please try again later",
+      "jp": "サーバーが混雑しているため、ログインに失敗しました。後ほどお試しください",
+      "ko": "注册失败，服务器繁忙，请稍后再试\","
+    },
+    "HTTP_STOVE_HAS_ACCOUNT": {
+      "id": "HTTP_STOVE_HAS_ACCOUNT",
+      "code": -75,
+      "tip": null,
+      "zh": "Stvoe账号已被使用",
+      "tw": "Stvoe帳號已被使用",
+      "en": "Stvoe account already in use",
+      "jp": "Stvoeアカウントはすでに使用されています",
+      "ko": "Stvoe账号已被使用"
+    },
+    "HTTP_ACCOUNT_DELETED": {
+      "id": "HTTP_ACCOUNT_DELETED",
+      "code": -76,
+      "tip": null,
+      "zh": "账号不存在",
+      "tw": "帳號未註冊",
+      "en": "Account not registered",
+      "jp": "アカウントが未登録です",
+      "ko": "존재하지 않은 계정입니다"
+    },
+    "HTTP_IMEI_LOGIN_NUM_LIMIT": {
+      "id": "HTTP_IMEI_LOGIN_NUM_LIMIT",
+      "code": -77,
+      "tip": null,
+      "zh": "进入游戏失败，本设备登录账号个数已超上限。",
+      "tw": "登入失敗，此裝置已達可登入帳號上限",
+      "en": "Failed. This device has reached the max number of accounts",
+      "jp": "本端末でログイン可能なアカウント数の上限に達しています",
+      "ko": "imei当天登录设备数量超过限制"
+    },
+    "HTTP_STEAM_OFFLINE_ERR": {
+      "id": "HTTP_STEAM_OFFLINE_ERR",
+      "code": -78,
+      "tip": null,
+      "zh": "Steam登录已过期，请重新登录后重试",
+      "tw": "Steam登入已過期，請重新登入後重試",
+      "en": "Your Steam session has expired. Please log in again",
+      "jp": "Steamのセッションが切れました。再ログインしてください",
+      "ko": "steam处于离线状态"
+    },
+    "HTTP_STEAM_IP_LIMIT_ERR": {
+      "id": "HTTP_STEAM_IP_LIMIT_ERR",
+      "code": -79,
+      "tip": null,
+      "zh": "服务器繁忙，请稍后再试",
+      "tw": "伺服器繁忙，請稍後再試",
+      "en": "The server is busy. Please try again later",
+      "jp": "サーバーが混雑しています。しばらくしてから再度お試しください",
+      "ko": "steam请求限制ip中"
+    },
+    "HTTP_STEAM_LOGIN_TIME_OUT_ERR": {
+      "id": "HTTP_STEAM_LOGIN_TIME_OUT_ERR",
+      "code": -80,
+      "tip": null,
+      "zh": "Steam登录已过期，请重新登录后重试",
+      "tw": "Steam登入已過期，請重新登入後重試",
+      "en": "Your Steam session has expired. Please log in again",
+      "jp": "Steamのセッションが切れました。再ログインしてください",
+      "ko": "steam处于离线状态"
+    },
+    "HTTP_STEAM_CREATE_ORDER_TIME_OUT_ERR": {
+      "id": "HTTP_STEAM_CREATE_ORDER_TIME_OUT_ERR",
+      "code": -81,
+      "tip": null,
+      "zh": "服务器繁忙，请稍后再试",
+      "tw": "伺服器繁忙，請稍後再試",
+      "en": "The server is busy. Please try again later",
+      "jp": "サーバーが混雑しています。しばらくしてから再度お試しください",
+      "ko": "steam请求限制ip中"
+    },
+    "HTTP_STEAM_FINISH_ORDER_TIME_OUT_ERR": {
+      "id": "HTTP_STEAM_FINISH_ORDER_TIME_OUT_ERR",
+      "code": -82,
+      "tip": null,
+      "zh": "订单处理中，请稍候…",
+      "tw": "訂單處理中，請稍候…",
+      "en": "Processing order. Please wait...",
+      "jp": "注文を処理しています。しばらくお待ちください",
+      "ko": "steam完成订单请求超时"
+    },
+    "HTTP_COLL_CARD_LIMIT": {
+      "id": "HTTP_COLL_CARD_LIMIT",
+      "code": -150,
+      "tip": null,
+      "zh": "收藏达上限",
+      "tw": "收藏已達上限",
+      "en": "Hand Replay limit reached",
+      "jp": "コレクション数が上限に達しました",
+      "ko": "수집 한도에 도달했습니다"
+    },
+    "HTTP_COLL_CARD_DETAIL_ERR": {
+      "id": "HTTP_COLL_CARD_DETAIL_ERR",
+      "code": -151,
+      "tip": null,
+      "zh": "牌局正在结算，请稍等...",
+      "tw": "牌局正在結算，請稍候...",
+      "en": "The game is being settled, please wait...",
+      "jp": "試合を決着させようとしています。お待ちください...",
+      "ko": "牌局正在结算，请稍等..."
+    },
+    "HTTP_NICKNAME_INVALID_LENGTH": {
+      "id": "HTTP_NICKNAME_INVALID_LENGTH",
+      "code": -200,
+      "tip": null,
+      "zh": "昵称长度不符合",
+      "tw": "暱稱長度不符合要求",
+      "en": "Nickname length requirement not met",
+      "jp": "ニックネームの長さが要件を満たしていません",
+      "ko": "닉네임 길이가 올바르지 않습니다"
+    },
+    "HTTP_NICKNAME_NOT_ALL_NUMERIC": {
+      "id": "HTTP_NICKNAME_NOT_ALL_NUMERIC",
+      "code": -201,
+      "tip": null,
+      "zh": "昵称不可为纯数字",
+      "tw": "暱稱不可為純數字",
+      "en": "Nickname cannot contain only numbers",
+      "jp": "数字のみのニックネームは使用できません",
+      "ko": "닉네임은 숫자만으로 설정할 수 없습니다"
+    },
+    "HTTP_NICKNAME_CANNOT_BE_EMAIL": {
+      "id": "HTTP_NICKNAME_CANNOT_BE_EMAIL",
+      "code": -202,
+      "tip": null,
+      "zh": "昵称不可为邮箱格式",
+      "tw": "暱稱不可為信箱格式",
+      "en": "Nickname cannot be in email format",
+      "jp": "メールアドレスをニックネームにすることはできません",
+      "ko": "닉네임은 이메일 형식일 수 없습니다"
+    },
+    "HTTP_NICKNAME_ALREADY_EXISTS": {
+      "id": "HTTP_NICKNAME_ALREADY_EXISTS",
+      "code": -203,
+      "tip": null,
+      "zh": "昵称已被占用",
+      "tw": "暱稱已被使用",
+      "en": "Nickname already taken",
+      "jp": "このニックネームはすでに使用されています",
+      "ko": "이미 사용 중인 닉네임입니다"
+    },
+    "HTTP_NICKNAME_INVALID_CHARACTERS": {
+      "id": "HTTP_NICKNAME_INVALID_CHARACTERS",
+      "code": -204,
+      "tip": null,
+      "zh": "昵称包含敏感词",
+      "tw": "暱稱含違規內容",
+      "en": "Nickname contains inappropriate content",
+      "jp": "ニックネームに不適切な内容が含まれています",
+      "ko": "닉네임에 금칙어가 포함되어 있습니다"
+    },
+    "HTTP_NICKNAME_INSUFFICIENT_ITEM": {
+      "id": "HTTP_NICKNAME_INSUFFICIENT_ITEM",
+      "code": -205,
+      "tip": null,
+      "zh": "昵称修改道具不足",
+      "tw": "改名道具不足",
+      "en": "Insufficient rename items",
+      "jp": "名前変更用アイテムが足りません",
+      "ko": "닉네임 변경 아이템이 부족합니다"
+    },
+    "HTTP_NICKNAME_UNCHANGED": {
+      "id": "HTTP_NICKNAME_UNCHANGED",
+      "code": -206,
+      "tip": null,
+      "zh": "昵称无修改",
+      "tw": "暱稱未作修改",
+      "en": "No changes made to nickname",
+      "jp": "ニックネームは変更されていません",
+      "ko": "닉네임 변경사항이 없습니다"
+    },
+    "HTTP_DECLARATION_INVALID_LENGTH": {
+      "id": "HTTP_DECLARATION_INVALID_LENGTH",
+      "code": -207,
+      "tip": null,
+      "zh": "个人宣言长度不符合",
+      "tw": "個人狀態長度不符合要求",
+      "en": "Bio length requirement not met",
+      "jp": "ステータスの長さが要件を満たしていません",
+      "ko": "개인 상태메시지 길이가 올바르지 않습니다"
+    },
+    "HTTP_DECLARATION_INVALID_CHARACTERS": {
+      "id": "HTTP_DECLARATION_INVALID_CHARACTERS",
+      "code": -208,
+      "tip": null,
+      "zh": "个人宣言包含非法字符",
+      "tw": "個人狀態包含非法字元",
+      "en": "Bio contains illegal characters",
+      "jp": "ステータスに使用できない文字が含まれています",
+      "ko": "개인 상태메시지에 유효하지 않은 문자가 포함되었습니다"
+    },
+    "HTTP_ROLE_NICKNAME_INVALID_LENGTH": {
+      "id": "HTTP_ROLE_NICKNAME_INVALID_LENGTH",
+      "code": -209,
+      "tip": null,
+      "zh": "牌手昵称长度不符合",
+      "tw": "牌手暱稱長度不符合要求",
+      "en": "Character nickname length requirement not met",
+      "jp": "キャラクターニックネームの長さが要件を満たしていません",
+      "ko": "캐릭터 닉네임 길이가 올바르지 않습니다"
+    },
+    "HTTP_ROLE_NICKNAME_INVALID_CHARACTERS": {
+      "id": "HTTP_ROLE_NICKNAME_INVALID_CHARACTERS",
+      "code": -210,
+      "tip": null,
+      "zh": "牌手昵称包含非法字符",
+      "tw": "牌手暱稱包含非法字元",
+      "en": "Character nickname contains illegal characters",
+      "jp": "キャラクターニックネームに使用できない文字が含まれています",
+      "ko": "캐릭터 닉네임에 허용되지 않는 문자가 포함되어 있습니다"
+    },
+    "HTTP_DRAW_WEIGHTS_LACK": {
+      "id": "HTTP_DRAW_WEIGHTS_LACK",
+      "code": -300,
+      "tip": null,
+      "zh": "全类别权重数组为空",
+      "tw": "All weight arrays are empty",
+      "en": "All weight arrays are empty",
+      "jp": "All weight arrays are empty",
+      "ko": "전체 카테고리 가중치 배열이 비어있습니다"
+    },
+    "HTTP_DRAW_CHARACTER_WEIGHTS_LACK": {
+      "id": "HTTP_DRAW_CHARACTER_WEIGHTS_LACK",
+      "code": -301,
+      "tip": null,
+      "zh": "牌手类别权重数组为空",
+      "tw": "Character weight array is empty",
+      "en": "Character weight array is empty",
+      "jp": "Character weight array is empty",
+      "ko": "캐릭터 카테고리 가중치 배열이 비어있습니다"
+    },
+    "HTTP_DRAW_UP_CHARACTER_WEIGHTS_LACK": {
+      "id": "HTTP_DRAW_UP_CHARACTER_WEIGHTS_LACK",
+      "code": -302,
+      "tip": null,
+      "zh": "up牌手类别权重数组为空",
+      "tw": "UP character weight array is empty",
+      "en": "UP character weight array is empty",
+      "jp": "UP character weight array is empty",
+      "ko": "up 캐릭터 카테고리 가중치 배열이 비어있습니다"
+    },
+    "HTTP_DRAW_OTHER_WEIGHTS_LACK": {
+      "id": "HTTP_DRAW_OTHER_WEIGHTS_LACK",
+      "code": -303,
+      "tip": null,
+      "zh": "非牌手类别权重数组为空",
+      "tw": "Non-character weight array is empty",
+      "en": "Non-character weight array is empty",
+      "jp": "Non-character weight array is empty",
+      "ko": "비캐릭터 카테고리 가중치 배열이 비어있습니다"
+    },
+    "HTTP_DRAW_WEIGHTS_RAND_LACK": {
+      "id": "HTTP_DRAW_WEIGHTS_RAND_LACK",
+      "code": -304,
+      "tip": null,
+      "zh": "全类别权重数组随机失败",
+      "tw": "Failed to randomize all weight arrays",
+      "en": "Failed to randomize all weight arrays",
+      "jp": "Failed to randomize all weight arrays",
+      "ko": "전체 카테고리 가중치 배열이 랜덤으로 실패했습니다"
+    },
+    "HTTP_DRAW_SERVER_LIMIT": {
+      "id": "HTTP_DRAW_SERVER_LIMIT",
+      "code": -305,
+      "tip": null,
+      "zh": "服务器繁忙",
+      "tw": "伺服器繁忙",
+      "en": "Server busy",
+      "jp": "サーバーが混雑しています",
+      "ko": "서버가 혼잡합니다"
+    },
+    "HTTP_FRIENDS_LIMIT": {
+      "id": "HTTP_FRIENDS_LIMIT",
+      "code": -350,
+      "tip": null,
+      "zh": "对方好友数量达上限",
+      "tw": "對方好友數量已達上限",
+      "en": "The other player's friend list is full",
+      "jp": "相手のフレンド数が上限に達しています",
+      "ko": "상대방의 친구 수가 최대치에 도달했습니다"
+    },
+    "HTTP_FRIENDS_MARk_ERR": {
+      "id": "HTTP_FRIENDS_MARk_ERR",
+      "code": -351,
+      "tip": null,
+      "zh": "备注失败",
+      "tw": "備註失敗",
+      "en": "Failed to add remark",
+      "jp": "備考を設定できません",
+      "ko": "메모 실패입니다"
+    },
+    "HTTP_FRIENDS_DEL_ERR": {
+      "id": "HTTP_FRIENDS_DEL_ERR",
+      "code": -352,
+      "tip": null,
+      "zh": "删除失败",
+      "tw": "刪除好友失敗",
+      "en": "Failed to remove friend",
+      "jp": "フレンド削除に失敗しました",
+      "ko": "삭제 실패입니다"
+    },
+    "HTTP_FRIENDS_UNBLOCKED_DEL_ERR": {
+      "id": "HTTP_FRIENDS_UNBLOCKED_DEL_ERR",
+      "code": -353,
+      "tip": null,
+      "zh": "移除拉黑互删失败",
+      "tw": "解除黑名單並刪除好友失敗",
+      "en": "Failed to remove from blacklist and delete friend",
+      "jp": "ブラックリスト解除およびフレンド削除に失敗しました",
+      "ko": "차단 해제 및 상호 삭제 실패입니다"
+    },
+    "HTTP_FRIENDS_UNBLOCKED_ERR": {
+      "id": "HTTP_FRIENDS_UNBLOCKED_ERR",
+      "code": -354,
+      "tip": null,
+      "zh": "移除拉黑失败",
+      "tw": "移除黑名單失敗",
+      "en": "Failed to remove from blacklist",
+      "jp": "ブラックリスト解除に失敗しました",
+      "ko": "차단 해제 실패입니다"
+    },
+    "HTTP_FRIENDS_BLOCKED_ERR": {
+      "id": "HTTP_FRIENDS_BLOCKED_ERR",
+      "code": -355,
+      "tip": null,
+      "zh": "拉黑失败",
+      "tw": "加入黑名單失敗",
+      "en": "Failed to add to blacklist",
+      "jp": "ブラックリスト追加できませんでした",
+      "ko": "차단 실패입니다"
+    },
+    "HTTP_FRIENDS_SELF_LIMIT": {
+      "id": "HTTP_FRIENDS_SELF_LIMIT",
+      "code": -356,
+      "tip": null,
+      "zh": "好友数量达上限",
+      "tw": "好友數量已達上限",
+      "en": "Friend list is full",
+      "jp": "フレンド数が上限に達しています",
+      "ko": "친구 수가 최대치에 도달했습니다"
+    },
+    "HTTP_FRIENDS_BLOCKED_LIMIT": {
+      "id": "HTTP_FRIENDS_BLOCKED_LIMIT",
+      "code": -357,
+      "tip": null,
+      "zh": "黑名单数量已达上限！",
+      "tw": "你的黑名单數已達上限！",
+      "en": "Blacklist is full!",
+      "jp": "ブラックリスト数が上限に達しました",
+      "ko": "친구 목록이 가득찼습니다!"
+    },
+    "HTTP_SHOP_CONFIG_NOT_EXIST": {
+      "id": "HTTP_SHOP_CONFIG_NOT_EXIST",
+      "code": -400,
+      "tip": null,
+      "zh": "商品配置无效",
+      "tw": "商品不存在",
+      "en": "Item does not exist",
+      "jp": "商品が存在しません",
+      "ko": "상품 설정이 유효하지 않습니다"
+    },
+    "HTTP_SHOP_RECHARGE_FAILED": {
+      "id": "HTTP_SHOP_RECHARGE_FAILED",
+      "code": -401,
+      "tip": null,
+      "zh": "购买失败",
+      "tw": "購買失敗",
+      "en": "Purchase failed",
+      "jp": "購入できませんでした",
+      "ko": "구매 실패입니다"
+    },
+    "HTTP_SHOP_REPEAT_REFUND": {
+      "id": "HTTP_SHOP_REPEAT_REFUND",
+      "code": -402,
+      "tip": null,
+      "zh": "限购商品重复购买，自动退款",
+      "tw": "重複購買的商品已退款",
+      "en": "Duplicate purchase refunded",
+      "jp": "重複購入した商品は返金されました",
+      "ko": "한정 상품 중복 구매로 자동 환불됩니다"
+    },
+    "HTTP_SHOP_PURCHASE_LIMIT": {
+      "id": "HTTP_SHOP_PURCHASE_LIMIT",
+      "code": -403,
+      "tip": null,
+      "zh": "商品已售罄！",
+      "tw": "商品已售罄！",
+      "en": "Already sold out!",
+      "jp": "商品は完売しました",
+      "ko": "商品已售罄！"
+    },
+    "HTTP_SHOP_COST_NOT_ENOUGH": {
+      "id": "HTTP_SHOP_COST_NOT_ENOUGH",
+      "code": -404,
+      "tip": null,
+      "zh": "购买消耗的道具不足",
+      "tw": "購買所需消耗的道具不足",
+      "en": "Insufficient items to purchase",
+      "jp": "購入に必要な消費アイテムが足りません",
+      "ko": "구매에 필요한 아이템이 부족합니다"
+    },
+    "HTTP_SHOP_REWARD_CLAIMED": {
+      "id": "HTTP_SHOP_REWARD_CLAIMED",
+      "code": -405,
+      "tip": null,
+      "zh": "奖励在限制时间内已领取",
+      "tw": "獎勵已領取",
+      "en": "Reward already claimed",
+      "jp": "報酬はすでに受け取り済みです",
+      "ko": "제한 시간 내에 이미 보상을 받았습니다"
+    },
+    "HTTP_SHOP_UNAVAILABLE": {
+      "id": "HTTP_SHOP_UNAVAILABLE",
+      "code": -406,
+      "tip": null,
+      "zh": "商品已下架！",
+      "tw": "商品已下架！",
+      "en": "Currently unavailable!",
+      "jp": "商品は販売停止しました",
+      "ko": "商品已下架！"
+    },
+    "HTTP_SHOP_PAYMENT_METHOD_UNAVAILABLE": {
+      "id": "HTTP_SHOP_PAYMENT_METHOD_UNAVAILABLE",
+      "code": -407,
+      "tip": null,
+      "zh": "支付方式不可用",
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    "HTTP_SHOP_MONTHLY_CARD_BUY_LIMIT": {
+      "id": "HTTP_SHOP_MONTHLY_CARD_BUY_LIMIT",
+      "code": -408,
+      "tip": null,
+      "zh": "月卡购买限制",
+      "tw": null,
+      "en": null,
+      "jp": null,
+      "ko": null
+    },
+    "HTTP_MAIL_PACK_FULL_ERR": {
+      "id": "HTTP_MAIL_PACK_FULL_ERR",
+      "code": -500,
+      "tip": null,
+      "zh": "背包已满",
+      "tw": "背包已滿",
+      "en": "Backpack is full",
+      "jp": "バッグがいっぱいです",
+      "ko": "가방이 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_MISS_FULL_ERR": {
+      "id": "HTTP_SEVEN_SIGN_MISS_FULL_ERR",
+      "code": -550,
+      "tip": null,
+      "zh": "补签次数已满",
+      "tw": "補簽次數已用盡",
+      "en": "No remaining make-up attempts",
+      "jp": "補填回数を使い果たしました",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_MONTHLY_REWARD_ERR": {
+      "id": "HTTP_SEVEN_SIGN_MONTHLY_REWARD_ERR",
+      "code": -551,
+      "tip": null,
+      "zh": "月卡签到奖励配置错误",
+      "tw": "月卡簽到獎勵不存在",
+      "en": "Shark Pass check-in reward does not exist",
+      "jp": "月間パスログイン報酬が存在しません",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_UPDATE_REWARD_ERR": {
+      "id": "HTTP_SEVEN_SIGN_UPDATE_REWARD_ERR",
+      "code": -552,
+      "tip": null,
+      "zh": "月卡签到奖励更新失败错误",
+      "tw": "月卡簽到獎勵更新失敗",
+      "en": "Failed to update Shark Pass check-in rewards",
+      "jp": "月間パスログイン報酬を更新できませんででした",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_CONF_ERR": {
+      "id": "HTTP_SEVEN_SIGN_CONF_ERR",
+      "code": -553,
+      "tip": null,
+      "zh": "签到配置错误",
+      "tw": "簽到設定異常",
+      "en": "Check-in configuration error",
+      "jp": "ログイン設定エラー",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_CONF_REWARD_ERR": {
+      "id": "HTTP_SEVEN_SIGN_CONF_REWARD_ERR",
+      "code": -554,
+      "tip": null,
+      "zh": "签到奖励配置错误",
+      "tw": "簽到獎勵不存在",
+      "en": "Check-in reward does not exist",
+      "jp": "ログイン報酬が存在しません",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_TOTAL_REWARD_ERR": {
+      "id": "HTTP_SEVEN_SIGN_TOTAL_REWARD_ERR",
+      "code": -555,
+      "tip": null,
+      "zh": "签到累计奖励配置错误",
+      "tw": "簽到累計獎勵不存在",
+      "en": "Cumulative check-in reward does not exist",
+      "jp": "累計ログイン報酬が存在しません",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_CREATE_ERR": {
+      "id": "HTTP_SEVEN_SIGN_CREATE_ERR",
+      "code": -556,
+      "tip": null,
+      "zh": "签到记录新增失败错误",
+      "tw": "簽到記錄更新失敗",
+      "en": "Failed to update check-in record",
+      "jp": "ログイン記録を更新できませんでした",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_EXIST_ERR": {
+      "id": "HTTP_SEVEN_SIGN_EXIST_ERR",
+      "code": -557,
+      "tip": null,
+      "zh": "已存在签到错误",
+      "tw": "簽到錯誤",
+      "en": "Check-in error",
+      "jp": "ログインエラー",
+      "ko": "보충 출석 횟수가 가득찼습니다"
+    },
+    "HTTP_SEVEN_SIGN_EXPIRED_ERR": {
+      "id": "HTTP_SEVEN_SIGN_EXPIRED_ERR",
+      "code": -558,
+      "tip": null,
+      "zh": "月卡已过期",
+      "tw": "月卡已過期",
+      "en": "Shark Pass has expired",
+      "jp": "月間パスは期限切れです",
+      "ko": "Shark Pass has expired"
+    },
+    "HTTP_NEWBIE_NICKNAME_ERR": {
+      "id": "HTTP_NEWBIE_NICKNAME_ERR",
+      "code": -600,
+      "tip": null,
+      "zh": "暂无可用昵称，请自行输入。",
+      "tw": "暫無可用暱稱，請自行輸入。",
+      "en": "No nickname available. Please enter one.",
+      "jp": "使用できるニックネームが見つからないため、ご自身で入力してください",
+      "ko": "사용 가능한 닉네임이 없습니다. 직접 입력해 주세요."
+    },
+    "HTTP_VIP_REWARD_CLAIMED": {
+      "id": "HTTP_VIP_REWARD_CLAIMED",
+      "code": -650,
+      "tip": null,
+      "zh": "VIP奖励已领取",
+      "tw": "VIP獎勵已領取",
+      "en": "VIP Reward already claimed",
+      "jp": "VIP報酬は受け取り済みです",
+      "ko": "VIP Reward already claimed"
+    },
+    "REDEMPTION_CODE_EX_ERR": {
+      "id": "REDEMPTION_CODE_EX_ERR",
+      "code": -700,
+      "tip": 0,
+      "zh": "礼品码有误，请再次确认",
+      "tw": "禮品碼錯誤，請再次確認",
+      "en": "Invalid code. Please check and try again",
+      "jp": "ギフトコードが正しくありません。コードを確かめ、もう一度お試しください。",
+      "ko": "Invalid code, please check again"
+    },
+    "REDEMPTION_CODE_EXPIRED_ERR": {
+      "id": "REDEMPTION_CODE_EXPIRED_ERR",
+      "code": -701,
+      "tip": 0,
+      "zh": "礼品码已过期",
+      "tw": "禮品碼已過期",
+      "en": "Gift code has expired",
+      "jp": "ギフトコードは期限切れです",
+      "ko": "Gift code has expired"
+    },
+    "REDEMPTION_CODE_NOT_FOUND_ERR": {
+      "id": "REDEMPTION_CODE_NOT_FOUND_ERR",
+      "code": -702,
+      "tip": 0,
+      "zh": "礼品码有误，请再次确认",
+      "tw": "禮品碼錯誤，請再次確認",
+      "en": "Invalid code. Please check and try again",
+      "jp": "ギフトコードが正しくありません。コードを確かめ、もう一度お試しください。",
+      "ko": "Invalid code, please check again"
+    },
+    "REDEMPTION_CODE_USED_ERR": {
+      "id": "REDEMPTION_CODE_USED_ERR",
+      "code": -703,
+      "tip": 0,
+      "zh": "礼品码已兑换",
+      "tw": "禮品碼已兌換",
+      "en": "Gift code has been redeemed",
+      "jp": "ギフトコードはすでに使用済みです",
+      "ko": "Gift code has been redeemed"
+    },
+    "REDEMPTION_CODE_LIMIT_ERR": {
+      "id": "REDEMPTION_CODE_LIMIT_ERR",
+      "code": -704,
+      "tip": 0,
+      "zh": "兑换次数已达上限",
+      "tw": "禮品碼兌換次數已達上限",
+      "en": "Gift code redemption limit reached",
+      "jp": "ギフトコードの引き換え回数が上限に達しました",
+      "ko": "Gift code redemption limit reached"
+    },
+    "REDEMPTION_CODE_CON_ERR": {
+      "id": "REDEMPTION_CODE_CON_ERR",
+      "code": -705,
+      "tip": 0,
+      "zh": "抱歉，您不符合领取条件！",
+      "tw": "抱歉，您不符合領取條件！",
+      "en": "Not eligible to redeem this gift.",
+      "jp": "利用条件を満たしていません。",
+      "ko": "Not eligible to redeem this gift."
+    },
+    "HTTP_ASSOC_USER_CHNL_ERR": {
+      "id": "HTTP_ASSOC_USER_CHNL_ERR",
+      "code": -750,
+      "tip": null,
+      "zh": "渠道错误 不是符合条件的渠道",
+      "tw": "渠道錯誤 不是符合條件的渠道",
+      "en": "Channel error: Not an eligible channel",
+      "jp": "チャネルエラー 適格なチャネルではありません",
+      "ko": "渠道错误 不是符合条件的渠道"
+    },
+    "HTTP_ASSOC_USER_ALREADY_BIND": {
+      "id": "HTTP_ASSOC_USER_ALREADY_BIND",
+      "code": -751,
+      "tip": null,
+      "zh": "账号已绑定过关联账号",
+      "tw": "賬號已綁定過關聯賬號",
+      "en": "Account has already bound a linked account",
+      "jp": "アカウントは既に関連アカウントをバインド済みです",
+      "ko": "账号已绑定过关联账号"
+    },
+    "HTTP_ASSOC_USER_ERR_NUM_LIMIT": {
+      "id": "HTTP_ASSOC_USER_ERR_NUM_LIMIT",
+      "code": -752,
+      "tip": null,
+      "zh": "错误次数超过限制",
+      "tw": "錯誤次數超過限制",
+      "en": "Number of errors exceeds limit",
+      "jp": "エラー回数が制限を超えました",
+      "ko": "错误次数超过限制"
+    },
+    "HTTP_ASSOC_USER_HAS_EMAIL": {
+      "id": "HTTP_ASSOC_USER_HAS_EMAIL",
+      "code": -753,
+      "tip": null,
+      "zh": "账号绑定了邮箱 无法关联其他账号",
+      "tw": "賬號綁定了郵箱 無法關聯其他賬號",
+      "en": "Account is bound to email; cannot link other accounts",
+      "jp": "アカウントはメールにバインドされているため、他のアカウントを関連付けできません",
+      "ko": "账号绑定了邮箱 无法关联其他账号"
+    },
+    "HTTP_ASSOC_USER_NOT_STOVE": {
+      "id": "HTTP_ASSOC_USER_NOT_STOVE",
+      "code": -754,
+      "tip": null,
+      "zh": "账号不是stove类型 无法关联其他账号",
+      "tw": "賬號不是stove類型 無法關聯其他賬號",
+      "en": "Account is not a Stove type; cannot link other accounts",
+      "jp": "アカウントはStoveタイプではないため、他のアカウントを関連付けできません",
+      "ko": "账号不是stove类型 无法关联其他账号"
+    },
+    "HTTP_ASSOC_USER_NOT_EMAIL": {
+      "id": "HTTP_ASSOC_USER_NOT_EMAIL",
+      "code": -755,
+      "tip": null,
+      "zh": "账号不是邮箱类型 无法生成关联密码",
+      "tw": "賬號不是郵箱類型 無法生成關聯密碼",
+      "en": "Account is not an email type; cannot generate link password",
+      "jp": "アカウントはメールタイプではないため、関連パスワードを生成できません",
+      "ko": "账号不是邮箱类型 无法生成关联密码"
+    },
+    "HTTP_ASSOC_USER_NOT_EXIST": {
+      "id": "HTTP_ASSOC_USER_NOT_EXIST",
+      "code": -756,
+      "tip": null,
+      "zh": "关联的账号不存在",
+      "tw": "關聯的賬號不存在",
+      "en": "Linked account does not exist",
+      "jp": "関連するアカウントが存在しません",
+      "ko": "关联的账号不存在"
+    },
+    "HTTP_ASSOC_USER_PWD_ERR": {
+      "id": "HTTP_ASSOC_USER_PWD_ERR",
+      "code": -757,
+      "tip": null,
+      "zh": "关联的账号密码错误",
+      "tw": "關聯的賬號密碼錯誤",
+      "en": "Linked account password is incorrect",
+      "jp": "関連するアカウントのパスワードが間違っています",
+      "ko": "关联的账号密码错误"
+    },
+    "HTTP_ASSOC_USER_PWD_INVALID": {
+      "id": "HTTP_ASSOC_USER_PWD_INVALID",
+      "code": -758,
+      "tip": null,
+      "zh": "设置关联密码格式错误",
+      "tw": "設置關聯密碼格式錯誤",
+      "en": "Link password format error",
+      "jp": "関連パスワードのフォーマットエラー",
+      "ko": "设置关联密码格式错误"
+    },
+    "HTTP_ASSOC_USER_FAIL": {
+      "id": "HTTP_ASSOC_USER_FAIL",
+      "code": -759,
+      "tip": null,
+      "zh": "关联失败",
+      "tw": "關聯失敗",
+      "en": "Link failed",
+      "jp": "関連付けに失敗しました",
+      "ko": "关联失败"
+    },
+    "HTTP_INSUFFICIENT_ITEM": {
+      "id": "HTTP_INSUFFICIENT_ITEM",
+      "code": -800,
+      "tip": null,
+      "zh": "开启红包道具不足",
+      "tw": "开启红包道具不足",
+      "en": "开启红包道具不足",
+      "jp": "开启红包道具不足",
+      "ko": "开启红包道具不足"
+    },
+    "HTTP_FOOTBALL_BET_REMOVED": {
+      "id": "HTTP_FOOTBALL_BET_REMOVED",
+      "code": -801,
+      "tip": null,
+      "zh": "比赛已下架！",
+      "tw": "比賽已下架！",
+      "en": "This match is no longer available!",
+      "jp": "この試合の掲載は終了しました！",
+      "ko": "This match is no longer available!"
+    },
+    "HTTP_FOOTBALL_BET_PAUSE": {
+      "id": "HTTP_FOOTBALL_BET_PAUSE",
+      "code": -802,
+      "tip": null,
+      "zh": "下注已锁定！",
+      "tw": "下注已鎖定！",
+      "en": "Betting closed",
+      "jp": "ベット受付は終了しました！",
+      "ko": "Betting closed"
+    }
+  }
+}

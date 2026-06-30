@@ -1,0 +1,179 @@
+{
+  "_meta": {
+    "source": "tpl_task_type_info.lua",
+    "format": "keys_bodys",
+    "count": 21
+  },
+  "list": [
+    {
+      "id": 10010101,
+      "name": "LAB_POKER_GAME"
+    },
+    {
+      "id": 10040101,
+      "name": "LAB_ALLIN_01"
+    },
+    {
+      "id": 10010202,
+      "name": "LAB_POKER_JP"
+    },
+    {
+      "id": 10020101,
+      "name": "LAB_OMAHA"
+    },
+    {
+      "id": 20010103,
+      "name": "LAB_FRIROOM_001"
+    },
+    {
+      "id": 30030101,
+      "name": "LAB_COLORGAME_001"
+    },
+    {
+      "id": 30080101,
+      "name": "LAB_PINBALL_1"
+    },
+    {
+      "id": 101,
+      "name": "LAB_SHOP"
+    },
+    {
+      "id": 102,
+      "name": "LAB_TASKS_VIEWS_NAME_1"
+    },
+    {
+      "id": 103,
+      "name": "LAB_SHOP_NAME_2"
+    },
+    {
+      "id": 201,
+      "name": "LAB_CHAR_001"
+    },
+    {
+      "id": 301,
+      "name": "LAB_INFO_043"
+    },
+    {
+      "id": 302,
+      "name": "LAB_INFO_043"
+    },
+    {
+      "id": 303,
+      "name": "LAB_TASKS_VIEWS_NAME_2"
+    },
+    {
+      "id": 401,
+      "name": "LAB_GACHA_NAME"
+    },
+    {
+      "id": 501,
+      "name": "LAB_TASKS_VIEWS_NAME_3"
+    },
+    {
+      "id": 601,
+      "name": "LAB_CARD_REPORT"
+    },
+    {
+      "id": 701,
+      "name": "LAB_TOURNAMENT"
+    },
+    {
+      "id": 10001,
+      "name": "LAB_THEME_ACTIVITY1_NAME_1"
+    },
+    {
+      "id": 1,
+      "name": "LAB_TASKS_VIEWS_NAME_4"
+    },
+    {
+      "id": 2,
+      "name": "LAB_TASKS_VIEWS_NAME_5"
+    }
+  ],
+  "map": {
+    "10010101": {
+      "id": 10010101,
+      "name": "LAB_POKER_GAME"
+    },
+    "10040101": {
+      "id": 10040101,
+      "name": "LAB_ALLIN_01"
+    },
+    "10010202": {
+      "id": 10010202,
+      "name": "LAB_POKER_JP"
+    },
+    "10020101": {
+      "id": 10020101,
+      "name": "LAB_OMAHA"
+    },
+    "20010103": {
+      "id": 20010103,
+      "name": "LAB_FRIROOM_001"
+    },
+    "30030101": {
+      "id": 30030101,
+      "name": "LAB_COLORGAME_001"
+    },
+    "30080101": {
+      "id": 30080101,
+      "name": "LAB_PINBALL_1"
+    },
+    "101": {
+      "id": 101,
+      "name": "LAB_SHOP"
+    },
+    "102": {
+      "id": 102,
+      "name": "LAB_TASKS_VIEWS_NAME_1"
+    },
+    "103": {
+      "id": 103,
+      "name": "LAB_SHOP_NAME_2"
+    },
+    "201": {
+      "id": 201,
+      "name": "LAB_CHAR_001"
+    },
+    "301": {
+      "id": 301,
+      "name": "LAB_INFO_043"
+    },
+    "302": {
+      "id": 302,
+      "name": "LAB_INFO_043"
+    },
+    "303": {
+      "id": 303,
+      "name": "LAB_TASKS_VIEWS_NAME_2"
+    },
+    "401": {
+      "id": 401,
+      "name": "LAB_GACHA_NAME"
+    },
+    "501": {
+      "id": 501,
+      "name": "LAB_TASKS_VIEWS_NAME_3"
+    },
+    "601": {
+      "id": 601,
+      "name": "LAB_CARD_REPORT"
+    },
+    "701": {
+      "id": 701,
+      "name": "LAB_TOURNAMENT"
+    },
+    "10001": {
+      "id": 10001,
+      "name": "LAB_THEME_ACTIVITY1_NAME_1"
+    },
+    "1": {
+      "id": 1,
+      "name": "LAB_TASKS_VIEWS_NAME_4"
+    },
+    "2": {
+      "id": 2,
+      "name": "LAB_TASKS_VIEWS_NAME_5"
+    }
+  }
+}

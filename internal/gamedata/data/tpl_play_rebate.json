@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "source": "tpl_play_rebate.lua",
+    "format": "keys_bodys",
+    "count": 3
+  },
+  "list": [
+    {
+      "id": 1,
+      "level": 1,
+      "to_ser": 0,
+      "bg": "Development[development_fund_bg_01]",
+      "rebate_ratio": 1200,
+      "rewards_lower_ratio": 80,
+      "rewards_upper_ratio": 800,
+      "effective_time": 1774569600
+    },
+    {
+      "id": 2,
+      "level": 2,
+      "to_ser": 8000000000,
+      "bg": "Development[development_fund_bg_01]",
+      "rebate_ratio": 1600,
+      "rewards_lower_ratio": 100,
+      "rewards_upper_ratio": 1000,
+      "effective_time": 1774569600
+    },
+    {
+      "id": 3,
+      "level": 3,
+      "to_ser": 12000000000,
+      "bg": "Development[development_fund_bg_02]",
+      "rebate_ratio": 2000,
+      "rewards_lower_ratio": 120,
+      "rewards_upper_ratio": 1200,
+      "effective_time": 1774569600
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "level": 1,
+      "to_ser": 0,
+      "bg": "Development[development_fund_bg_01]",
+      "rebate_ratio": 1200,
+      "rewards_lower_ratio": 80,
+      "rewards_upper_ratio": 800,
+      "effective_time": 1774569600
+    },
+    "2": {
+      "id": 2,
+      "level": 2,
+      "to_ser": 8000000000,
+      "bg": "Development[development_fund_bg_01]",
+      "rebate_ratio": 1600,
+      "rewards_lower_ratio": 100,
+      "rewards_upper_ratio": 1000,
+      "effective_time": 1774569600
+    },
+    "3": {
+      "id": 3,
+      "level": 3,
+      "to_ser": 12000000000,
+      "bg": "Development[development_fund_bg_02]",
+      "rebate_ratio": 2000,
+      "rewards_lower_ratio": 120,
+      "rewards_upper_ratio": 1200,
+      "effective_time": 1774569600
+    }
+  }
+}

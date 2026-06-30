@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "source": "tpl_festival_activity.lua",
+    "format": "keys_bodys",
+    "count": 1
+  },
+  "list": [
+    {
+      "id": 20001,
+      "name": "LAB_FESTIVAL_ACTIVITY1_NAME_1",
+      "time_start": 1771034400,
+      "time_end": 1771873200,
+      "activity_item": 10420001,
+      "task": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012
+      ],
+      "gifts": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ],
+      "cost": [
+        10420001,
+        100
+      ],
+      "vip_points": 50,
+      "white_list_start": 1772121600,
+      "white_list_end": 1773280800
+    }
+  ],
+  "map": {
+    "20001": {
+      "id": 20001,
+      "name": "LAB_FESTIVAL_ACTIVITY1_NAME_1",
+      "time_start": 1771034400,
+      "time_end": 1771873200,
+      "activity_item": 10420001,
+      "task": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012
+      ],
+      "gifts": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ],
+      "cost": [
+        10420001,
+        100
+      ],
+      "vip_points": 50,
+      "white_list_start": 1772121600,
+      "white_list_end": 1773280800
+    }
+  }
+}

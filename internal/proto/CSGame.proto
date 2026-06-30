@@ -1,0 +1,1141 @@
+syntax = "proto2";
+package pb;
+option go_package = "poker-fate-server/internal/proto/gen";
+
+import "CSGameDef.proto";
+
+
+message UserLoginREQ
+{
+    optional int64 uid = 1;
+    optional string key = 2;
+    optional string ver = 3;
+    optional int32 chnl = 4; // 渠道id
+}
+
+message UserLoginRSP
+{
+    optional int32 code = 1;
+    optional string reason = 2; //失败原因
+    optional int32 server_timestamp = 3;
+
+    optional int32 pos = 4; // 当前排队位置(仅code=1002时有效)
+    optional int32 est_wait_time = 5; // 预计等待时间(仅code=1002时有效)，单位秒
+}
+
+message UserLogoutREQ
+{
+}
+
+message UserLogoutRSP
+{
+    optional int32 code = 1;
+    optional string reason = 2;
+}
+
+//请求自己用户信息，返回UserBrief
+message SelfUserInfoREQ
+{
+}
+
+message SelfUserInfoRSP
+{
+    optional UserBrief brief = 1;
+    optional string country = 2;
+    optional string sex = 3;
+    optional string plat = 4; // 平台
+    optional int32 exp = 5; // 升级到下一个等级积累的经验值
+    repeated int32 unlock_modules = 6; // 已解锁模块列表
+    repeated UserFavoriteRole favorite_roles = 7; // 喜爱的角色
+    optional string declaration = 8; // 个人宣言
+    optional int32 using_card_back = 9; // 当前使用中的牌背
+    optional int32 using_table = 10; // 当前使用中的牌桌
+    optional int32 using_lobby_music = 11; // 当前使用中的大厅音乐
+    optional int32 using_battle_music = 12; // 当前使用中的战斗音乐
+    optional int32 using_lobby_scene = 13; // 当前使用中的大厅场景
+    optional string auth_cert_url = 14; // 七日任务的证书图片url
+    optional int32 newer_guide_step = 15; // 新手引导进度
+    optional int64 register_time = 16; // 注册时间，秒级时间戳
+    optional int64 auth_cert_time = 17; // 七日任务的认证时间，秒级时间戳
+    optional int32 vip_level = 18; // vip等级
+    optional string using_decoration_scheme = 19; // 当前使用的装饰方案ID, 已废弃
+    optional int32 rand_dc_scheme_flag = 20; // 是否随机装饰方案 0:不随机 1:随机, 已废弃
+    optional string client_def_str = 21;     //前端自身定义数据
+    optional int32 monthly_card_exp = 22; // 月卡过期时间戳
+    optional int32 emoji_free_times = 23;//免费互动表情剩余次数
+}
+//请求自己用户信息，返回UserBrief
+message SetClientDefStrREQ
+{
+    optional string client_def_str = 1;     //前端自身定义数据
+}
+message SetClientDefStrRSP
+{
+    optional int32 code = 1;     
+}
+
+// 请求自己的战绩信息
+message SelfAchievementsREQ
+{
+}
+message SelfAchievementsRSP
+{
+    optional UserAchievements achievements = 1; // 战绩信息
+}
+
+// 请求其他人的个人信息
+message GetOtherDetailInfoREQ
+{
+    optional int64 the_uid = 1; // 要查询的用户id
+}
+
+message AchievementCount
+{
+    optional int32 level = 1;//成就等级
+    optional int32 num = 2;//成就数量
+}
+
+message GetOtherDetailInfoRSP
+{
+    optional int32 code = 1;
+    optional UserBrief brief = 2; // 用户简要信息
+    optional string declaration = 3; // 个人宣言
+    repeated UserFavoriteRole favorite_roles = 4; // 喜爱的角色
+    optional UserAchievements achievements = 5; // 用户战绩信息
+    optional UserCollections collections = 6; // 用户收藏信息
+    optional int32 skin_id = 7; // 当前使用的角色皮肤id
+    optional string auth_cert_url = 8;
+    optional int64 register_time = 9; // 注册时间，秒级时间戳
+    optional int64 auth_cert_time = 10; // 七日任务的认证时间，秒级时间戳
+    repeated AchievementCount counts = 11;//成就统计
+}
+
+message HeartBeatREQ
+{
+}
+
+message HeartBeatRSP
+{
+    optional int32 server_timestamp = 1;
+}
+
+message GetServerTimeREQ
+{
+}
+message GetServerTimeRSP
+{
+    optional int32 server_timestamp = 1;
+}
+
+message ServerStopBRC
+{
+}
+
+message NoticeBRC
+{
+    optional string message = 1;
+    optional int32 type = 2; // 消息类型，参考《客户端推送常量.xlsx》
+    repeated int64 to_uids = 3; //限制uid, 内部用
+}
+
+message UserLocationRSP
+{
+    optional int32 roomid = 1;
+    optional int32 game_type = 2;
+}
+
+//座位状态广播
+message SeatStatusBRC
+{
+	optional int32 seatid = 1;
+	optional bool seat_reserve = 2;  // 留座
+}
+
+message ReserveSeatREQ
+{
+	optional bool reserve = 1; // false表示回到座位
+}
+
+message ReserveSeatRSP
+{
+	optional int32 code = 1;  //失败 -1
+	optional bool reserve = 2; //当前状态
+}
+
+message EnterRoomREQ  //进入房间
+{
+    optional int32 roomid = 1;
+    optional int32 tid = 2 [default = 1]; //mtt可以指定tid
+    optional int64 uid = 3;
+    optional int64 byin_chips = 4[default = 0]; // 坐下时带入的筹码
+    optional string client_str = 5; //客户端请求携带的信息
+    optional int64 default_byin = 6; // 默认买入, 用于自动补码
+    optional bool is_observer = 7; // 是否以围观身份进入, true:围观进入  false:正常进入
+    optional int64 uid_being_observed = 8[default = 0]; // 指定围观玩家的视角
+}
+
+message EnterRoomRSP
+{
+    optional int32 code = 1[default = 0];
+    optional string reason = 2[default = ""];
+    optional int32 roomid = 3[default = 0];
+    optional int32 user_num = 4; // 房间人数
+    optional int32 game_type = 5;
+    optional int32 old_room_id = 6[default = 0];
+    optional TableStatus table_status = 7;
+    optional RoomStatus room_status = 8;
+    optional PlayingStatus playing_status = 9;
+    optional RoomInfo room_info = 10;
+    optional FriendRoomInfo friend_room_info = 11; // 好友房信息
+    optional string client_str = 12; //客户端请求携带的信息
+    optional SngRoomInfo sngroom_info = 13;
+    optional MttRoomInfo mttroom_info = 14;
+    optional int32 seatid_being_observed = 15; // 被围观的玩家座位id, -1表示正常进入，>=0表示围观
+    optional DCSchemeRoomItem scheme = 16;//局内装饰方案
+}
+
+message OtherEnterRoomBRC   //其他玩家进入房间
+{
+    optional UserBrief user = 1;
+    optional int32 num = 2;
+    optional int32 player = 3;		// 总在玩数量
+    optional int32 rb_num = 4[default = 0];
+}
+
+message ChangeTableRSP
+{
+    optional int32 code = 1;
+    optional TableStatus table_status = 2;
+    optional RoomStatus room_status = 3;
+    optional PlayingStatus playing_status = 4; //玩家在坐会发
+    optional MttRoomInfo mttroom_info = 5; // mtt房间信息
+    optional int32 seatid_being_observed = 6; // 被围观的玩家座位id, -1表示正常进入，>=0表示围观
+    optional bool is_assign_table = 7; // 是否重新分配牌桌
+}
+
+// 切换围观视角
+message ChangeObserveViewREQ
+{
+    optional int32 tid = 1; // 牌桌ID, MTT使用, 其他玩法忽略
+    optional int32 seatid_being_observed = 2; // 要切换的围观目标座位id, -1表示由服务端确定视角(MTT使用)
+}
+message ChangeObserveViewRSP
+{
+    optional int32 code = 1;
+    optional int32 tid = 2; // 牌桌ID
+    optional int32 seatid_being_observed = 3; // 当前的围观目标座位id
+}
+
+// 用于客户端从后台切换回来后重新拉取房间数据
+message GetRoomDataREQ
+{
+    optional int32 roomid = 1;
+}
+message GetRoomDataRSP
+{
+    optional int32 code = 1;
+    optional int32 roomid = 2;
+    optional int32 game_type = 3;
+    optional TableStatus table_status = 4;
+    optional RoomStatus room_status = 5;
+    optional PlayingStatus playing_status = 6;
+    optional RoomInfo room_info = 7;
+    optional FriendRoomInfo friend_room_info = 8; // 好友房信息
+    optional SngRoomInfo sngroom_info = 9;
+    optional int32 seatid_being_observed = 10; // 被围观的玩家座位id, -1表示正常进入，>=0表示围观
+    optional MttRoomInfo mttroom_info = 11;
+}
+
+message OtherLeaveRoomBRC
+{
+    optional int64 uid = 1;
+    optional int32 num = 2;
+    optional int32 player = 3;		// 总在玩数量
+    optional int32 roomid = 4;
+    optional int32 rb_num = 5[default = 0];  // 机器人数量
+}
+
+message LeaveRoomREQ //离开房间
+{
+    optional bool seat_reserve = 1 [default = false]; // false、不留座    true、留座
+    optional string client_str = 2; //客户端请求携带的信息
+    optional bool back_wait  =  3; //sgn专用,是否返回大厅等待 true 返回
+}
+
+message LeaveRoomRSP
+{
+    optional int32 code = 1;
+    optional string reason = 2;
+    optional int32 roomid = 3;
+    optional BondSettleInfo bond_settle_info = 4; // 好感度结算信息
+    optional string client_str = 5; //客户端请求携带的信息
+    optional PlaySummary summary = 6;
+    optional int32 game_type = 7;
+    optional OverBondSettleInfo over_bond_settle_info = 8;//超出好感度结算信息
+    optional bool back_wait  =  9; //sgn专用,是否返回大厅等待 true 返回
+}
+
+message StandUpREQ
+{
+}
+
+message StandUpRSP
+{
+    optional int32 code = 1;
+    optional string reason = 2;
+    optional int32 duration = 3; // 游戏时长
+}
+
+message StandUpBRC
+{
+    optional int32 seatid = 1;
+}
+
+// 设置或取消下一轮离开房间
+message DelayLeaveRoomREQ
+{
+    optional bool flag = 1; // true:设置下一手牌离开  false:取消下一手牌离开
+}
+
+message DelayLeaveRoomRSP
+{
+    optional int32 code = 1;
+    optional bool flag = 2; // 当前设置状态
+}
+
+message SitDownREQ //坐下
+{
+    optional int32 seatid = 1;
+    optional int64 chips = 2;  // 玩家请求带入的筹码
+    optional bool wait_blind = 7[default = false];   //是否等待大盲位再加入poker牌局 false:支付大盲立刻加入  true:等到大盲位再加入
+}
+
+message SitDownRSP
+{
+    optional int32 code = 1;
+    optional int32 seatid = 2 [default = -1];
+    optional int64 chips = 3 [default = 0];
+}
+
+message SitDownBRC
+{
+    optional SeatStatus status = 4;
+}
+
+message FaceREQ  //发表情
+{
+    optional int32 id = 1; // 表情id
+}
+
+message FaceBRC
+{
+    optional int32 code = 1;
+    optional int32 seatid = 2;
+    optional int32 id = 3;
+}
+
+message TextREQ
+{
+    optional int32 id = 1; // 快捷聊天id
+}
+
+message TextRSP
+{
+    optional int32 code = 1;
+}
+
+message TextBRC
+{
+    optional int32 seatid = 1;
+    optional int32 id = 2;
+}
+
+message CustomTextREQ
+{
+    optional string text = 1; // 自定义聊天内容
+}
+message CustomTextBRC
+{
+    optional int32 seatid = 1; // 发送者座位号
+    optional string text = 2; // 自定义聊天内容
+}
+
+message TableInfoREQ
+{
+    optional int64 uid = 1;
+}
+
+message TableInfoRSP
+{
+    optional int64 uid = 1;
+    optional int64 coin = 2[default = 0]; // 玩家剩余金币
+    optional int64 chips = 3[default = 0];// 玩家剩余筹码
+}
+
+message QuickStartREQ
+{
+    optional int64 boot = 1; // poker bb
+    optional int32 game_type = 2;
+    optional int32 lobby_coin = 3;
+    optional int64 byin_chips = 4[default = 0]; // 坐下时带入的筹码
+    optional bool wait_blind = 5[default = false]; //是否等待大盲位再加入poker牌局 false:支付大盲立刻加入  true:等到大盲位再加入
+    optional string ip = 6;
+    optional int64 default_byin = 7; // 默认买入, 用于自动补码
+    optional DCSchemeRoomItem scheme = 8;//切桌的时候使用
+}
+
+message QuickStartRSP
+{
+    optional int32 code = 1[default = 0];
+    optional int32 game_type = 2;
+    optional int64 boot = 3;
+    optional int32 lobby_coin = 4;
+}
+
+// 申请解锁新模块
+message UnlockNewModuleREQ
+{
+    repeated int32 ids = 1; // 模块id列表
+}
+message UnlockNewModuleRSP
+{
+    repeated int32 success_ids = 1; // 本次成功解锁的模块id列表
+    repeated int32 fail_ids = 2; // 本次失败解锁的模块id列表
+}
+
+message ExpChangeRSP
+{
+    optional uint32 level = 1;      // 当前等级
+    optional uint32 exp = 2;        // 当前经验
+    optional uint32 exp_inc = 3;    // 经验增长
+    optional int64 reward = 4;      // 升级奖励
+}
+
+message LevelUpBRC
+{
+    optional int64 uid = 1;
+    optional uint32 level = 2;      // 当前等级
+}
+
+// 设置牌桌标志的请求
+message SetTableFlagREQ
+{
+    optional int32 is_auto_byin = 1[default = 0]; //是否自动买入 0:未不设置 1:不自动买入 2:自动买入
+}
+message SetTableFlagRSP
+{
+    optional int32 code = 1;
+}
+
+// 屏蔽聊天请求和响应
+message SetBlockChatREQ
+{
+    optional int64 the_uid = 1; // 被操作的uid
+    optional bool is_block = 2; // 是否屏蔽，true-屏蔽，false-取消屏蔽
+}
+message SetBlockChatRSP
+{
+    optional int32 code = 1;
+    optional bool is_block = 2; // 是否被屏蔽，true-被屏蔽，false-未被屏蔽
+    optional int64 the_uid = 3; // 被操作的uid
+    optional int64 block_end_time = 4; // 屏蔽结束时间,秒级时间戳
+}
+message GetBlockChatListREQ
+{
+}
+message GetBlockChatListRSP
+{
+    repeated BlockChatItem list = 1; // 被屏蔽的玩家列表
+}
+
+// 获取房间买入界面展示的获胜奖励
+message RoomWinnerRewardsItem
+{
+    optional int32 room_lvl = 1;
+    optional int32 fire_power = 2[default = 0]; // 火力值
+    optional int32 win_exp = 3[default = 0]; // 胜利经验
+    optional int32 bond_add = 4[default = 0]; // 好感度
+}
+message RoomWinnerRewardsInfoREQ
+{
+    optional int32 game_type = 1;
+}
+message RoomWinnerRewardsInfoRSP
+{
+    optional int32 code = 1;
+    optional int32 game_type = 2;
+    repeated RoomWinnerRewardsItem reward_list = 3; // 房间奖励列表
+}
+
+// 获取破产保护信息
+message BustProtectInfoREQ
+{
+}
+message BustProtectInfoRSP
+{
+    optional int32 code = 1;
+    optional int32 left_times = 2; // 剩余破产保护次数
+    optional int64 reward_chips = 3; // 破产保护奖励筹码, 0表示没有奖励, 大于0表示有可领取的奖励
+}
+
+// 领取破产保护奖励
+message BustProtectRewardREQ
+{
+}
+message BustProtectRewardRSP
+{
+    optional int32 code = 1;
+    optional int64 reward_chips = 2; // 破产保护奖励筹码
+}
+
+//////////////////////////////////////////////////////
+// 好友房相关
+message CreateFriendRoomREQ
+{
+    optional int32 game_type = 1;
+    optional int32 seat_num = 2; // 座位数
+    optional int64 bb = 3; // 大盲
+    optional int64 min_byin = 4; // 最小买入
+    optional int64 max_byin = 5; // 最大买入
+    optional int32 action_time = 6; // 行动时间
+    optional bool is_forbid_chat = 7; // 是否禁止聊天, true:禁止聊天，false:允许聊天
+    optional bool is_private = 8; // 是否为私人房, true:私人房，false:公共的好友房 
+    optional int32 blind_id = 9; //盲注id
+    optional int32 up_blind_time = 10;//涨盲时间
+    optional bool open_observer  = 11 ;//明牌围观 true 明牌围观 false不明牌围观
+    optional int32 think_time = 12;//思考时间(时间银行)
+    optional int32 begin_chips = 13;//起始筹码
+}
+
+message CreateFriendRoomRSP
+{
+    optional int32 code = 1;
+}
+
+// 请求加入好友房,返回消息是EnterRoomRSP
+message JoinFriendRoomREQ
+{
+    optional int32 roomid = 1; // 房间id
+    optional bool is_observer = 2; // 是否以围观身份进入, true:围观进入  false:正常进入
+}
+
+message FriendRoomItem
+{
+    optional int32 roomid = 1;
+    optional int32 game_type = 2;
+    optional int32 seat_num = 3; // 座位数
+    optional int32 sited_num = 4; // 已坐人数
+    optional int64 bb = 5; // 大盲
+    optional int64 min_byin = 6; // 最小买入
+    optional int64 max_byin = 7; // 最大买入
+    optional UserBrief owner = 8; // 房主信息
+    optional int32 begin_chips = 9;//起始筹码
+    optional bool open_observer  = 10 ;//明牌围观 true 明牌围观 false不明牌围观
+    optional int32 blind_id = 11; //盲注id
+    optional bool is_in_room = 12; //true是在房间、false不在
+}
+message FriendRoomListREQ
+{
+}
+message FriendRoomListRSP
+{
+    repeated FriendRoomItem room_list = 1; // 好友房列表
+}
+
+// 好友房即将解散的广播
+message FriendRoomWillDisbandBRC
+{
+}
+// 好友房解散的广播
+message FriendRoomDisbandBRC
+{
+}
+
+message InvitePlayREQ
+{
+    optional int64 to_uid = 1; // 被邀请者uid
+}
+
+message InvitePlayRSP
+{
+    optional int32 code = 1;
+    optional int64 to_uid = 2; // 被邀请者uid
+}
+
+message InvitePlayBRC
+{
+    optional string inviter_name = 1; // 邀请者昵称
+    optional int32 roomid = 2; // 房间id
+    optional int32 game_type = 3; // 游戏类型
+    optional int64 inviter_uid = 4; // 邀请者的uid
+}
+message FriendRoomOwnerChangeBRC 
+{
+    optional UserBrief owner = 1; // 房主信息
+}
+//////////////////////////////////////////////////////
+
+// 获取Allin玩法的开始与结束时间
+message GetAllinGameTimeREQ
+{
+}
+message GetAllinGameTimeRSP
+{
+    optional int32 start_time = 2; // 开放时间，秒级时间戳
+    optional int32 end_time = 3; // 结束时间，秒级时间戳
+}
+
+message SetNewerGuideStepREQ
+{
+    optional int32 step = 1; // 新手引导进度
+}
+message SetNewerGuideStepRSP
+{
+    optional int32 code = 1;
+    optional int32 step = 2; // 当前新手引导进度
+}
+
+//////////////////////////////////////////////////////
+message GetUserLevelInfoREQ
+{
+}
+message GetUserLevelInfoRSP
+{
+    optional int32 code = 1;
+    optional int32 hands = 2; // 今日已增加经验的手牌数量
+    optional int32 reset_time = 3; // 手牌数量重置时间，秒级时间戳
+    optional int32 sng_hands = 4; // 今日已增加经验的sng场次
+    optional int32 mtt_hands = 5; // 今日已增加经验的mtt场次
+}
+
+message GetUserBondInfoREQ
+{
+}
+message GetUserBondInfoRSP
+{
+    optional int32 code = 1;
+    optional int32 hands = 2; // 今日已增加好感度的手牌数量
+    optional int32 sng_hands = 3; // 今日已增加好感度的sng场次
+    optional int32 mtt_hands = 4; // 今日已增加好感度的mtt场次
+}
+
+//////////////////////////////////////////////////////
+// 登录排队相关
+// 取消登录排队
+message CancelLoginQueueREQ
+{
+}
+message CancelLoginQueueRSP
+{
+    optional int32 code = 1;
+}
+
+// 登录排队状态变更广播
+message LoginQueueStatusChangeBRC
+{
+    optional int32 pos = 1; // 当前排队位置
+    optional int32 est_wait_time = 2; // 预计等待时间，单位秒
+}
+//////////////////////////////////////////////////////
+// 比赛相关
+// 比赛排名项
+message TourRankItem
+{
+    optional int32 rank = 1; // 排名
+    repeated ItemIdUnit reward_item_list = 2; // 奖励道具列表
+    optional UserBrief brief = 3; // 玩家简要信息
+    optional int64 chips = 4; // 玩家剩余筹码
+    optional int32 seat_index = 5; // sng等于seatid，mtt从0开始增长
+}
+
+message SngListItem
+{
+    optional int32 tour_id = 1;
+    optional string tour_name = 2; // 赛事名称
+    optional int32 style_id = 3; // 赛事图标样式ID
+    repeated ItemIdUnit sign_item_list = 4; // 可选择的报名道具列表
+    optional int32 seat_num = 5; // 最大参赛人数
+    optional int32 roomid = 6; // 比赛房间ID, tour_status为2、4时有效
+    optional int32 tour_status = 7; // 赛事状态, 0:未报名 1:已报名等待开赛 2:进行中 3:已结束 4:比赛进行中且玩家已被淘汰
+    optional int32 cur_sign_num = 8; // 当前报名人数
+    optional int32 game_type = 9;
+    optional int32 room_start_time = 10; // sng房间游戏开始时间, 秒级时间戳, 用于排序, tour_status为3时有效
+    optional int32 event_id = 11; // 赛事活动ID
+    repeated ItemIdUnit event_reward_list = 12; // 赛事活动道具奖励
+    optional int32 my_rank = 13; // 我的排名, tour_status为3时有效
+    optional string setid = 14; // 用于查询已结束的比赛
+    optional int64 byin_chips = 15; // 报名消耗的筹码价值
+    optional int32 level = 16;      //限制等级
+    optional int32 sort_value = 17; // 排序值
+}
+
+// 请求赛事列表
+message TourListREQ
+{
+    optional int32 req_type = 1; // 请求类型 1:我的比赛 2:sng 3:mtt
+    optional string lang = 2; // 语言
+}
+message TourListRSP
+{
+    optional int32 code = 1;
+    optional int32 req_type = 2;
+    repeated SngListItem sng_list = 3; // sng列表, 不包含历史比赛
+    repeated MttListItem mtt_list = 4; // mtt列表, 不包含历史比赛
+}
+
+message TourHistoryListREQ
+{
+    optional int32 req_type = 1; // 请求类型 1-所有比赛 2:sng 3:mtt
+    optional int32 room_start_time = 2; // sng房间游戏开始时间(秒级时间戳), 用于分页查询, 查询start_time之前的比赛(不包含start_time), 0表示从最新的比赛开始查询
+    optional string lang = 3; // 语言
+}
+message TourHistoryListRSP
+{
+    optional int32 code = 1;
+    repeated SngListItem history_sng_list = 2; // 历史sng比赛列表
+    optional int32 req_type = 3;
+    repeated MttListItem history_mtt_list = 4; // 历史mtt比赛列表
+}
+
+message SngDetailInfo
+{
+    optional int32 tour_id = 1; // 赛事唯一ID
+    optional string tour_name = 2; // 赛事名称
+    optional int32 style_id = 3; // 赛事图标样式ID
+    repeated ItemIdUnit sign_item_list = 4; // 可选择的报名道具列表
+    optional int32 seat_num = 5; // 最大参赛人数
+    optional int64 begin_chips = 6; // 初始筹码
+    repeated TourBlindItem blind_list = 7; // 盲注结构列表
+    optional int64 total_reward = 8; // 总奖池(金币数量)
+    optional int32 champion_points = 9; // 冠军积分
+    optional int32 cur_sign_num = 10; // 当前报名人数
+    optional int32 tour_status = 11; // 赛事状态, 0:未报名 1:已报名等待开赛 2:进行中 3:已结束
+    optional int32 roomid = 12; // 比赛房间ID, tour_status为2时有效
+    repeated TourRankItem rank_list = 13; // 赛事排名列表, tour_status为3时有效
+    optional int32 event_id = 14; // 赛事活动ID
+    repeated ItemIdUnit event_reward_list = 15; // 赛事活动道具奖励
+    optional int32 win_exp = 16[default = 0]; // 胜利经验
+    optional int32 bond_add = 17[default = 0]; // 好感度
+}
+
+message SelfSngInfo
+{
+    optional ItemIdUnit sign_item = 1; // 报名道具
+    optional int32 my_rank = 2; // 我的排名, tour_status为3时有效
+}
+
+// 查询赛事详情信息
+message TourDetailInfoREQ
+{
+    optional string setid = 1;
+    optional int32 game_type = 2;
+    optional string lang = 3; // 语言
+    optional int32 tour_id = 4;
+    optional int32 roomid = 5;
+}
+message TourDetailInfoRSP
+{
+    optional int32 code = 1;
+    optional SngDetailInfo sng_info = 2;
+    optional SelfSngInfo self_sng_info = 3;
+    optional int32 level = 4;                  //限制等级
+    optional MttDetailInfo mtt_info = 5;
+    optional SelfMttInfo self_mtt_info = 6;
+}
+
+// 报名sng
+message SngSignREQ
+{
+    optional int32 tour_id = 1;
+    optional int32 sign_item_id = 2; // 报名道具ID
+    optional int32 game_type = 3;
+    optional string ip = 4;
+}
+message SngSignRSP
+{
+    optional int32 code = 1;
+    optional int32 tour_id = 2;
+}
+
+message SngSpinBRC
+{
+    optional int32 rate = 1; // 奖池倍数, 报名消耗的筹码价值的倍数, 需要除以100, 即150表示1.5倍
+    optional int64 total_reward = 2; // 总奖池(金币数量)
+}
+
+message UserSngOverRSP
+{
+    optional int32 rank = 1;
+    repeated ItemIdUnit reward = 2; // 奖励列表
+    optional int32 champion_points = 3; // 获得的冠军积分
+    optional int32 bond_inc = 4; // 增加的好感度
+    optional int32 exp_inc = 5; // 增加的经验值
+    optional int32 tour_id = 6; // 赛事唯一ID
+    repeated ItemIdUnit sign_item_list = 7; // 报名道具列表
+    repeated TextItem tour_name = 8; // 赛事名称
+    optional int32 skin_id = 9; // 比赛中使用的皮肤ID
+    optional int32 shop_id = 10;//后台配置的快速补码id
+    repeated ItemIdUnit act_reward_list = 11; // 获得的活动奖励
+}
+
+// sng房间游戏开始广播
+message SngRoomStartBRC
+{
+}
+
+//sng通知返回大厅等待玩家有其他玩家进入
+message SngWaitingOtherEnterBRC 
+{
+    optional int32 num = 1;//玩家数量
+    repeated TextItem name = 2;//比赛名称
+    optional int32 roomid = 3; // 比赛房间ID
+    optional int32 tour_id = 4;//比赛id
+}
+
+//sng匹配玩家数量请求
+message SngMatchPlayerNumREQ
+{
+
+}
+message SngMatchPlayerNumRSP
+{
+    optional int32 num = 1;//玩家数量
+    repeated TextItem name = 2;//比赛名称
+    optional int32 roomid = 3; // 比赛房间ID
+    optional int32 tour_id = 4;//比赛id
+}
+
+// 请求牌局趋势信息
+message TourRoomDetailREQ
+{
+}
+message TourRoomDetailRSP
+{
+    optional int32 code = 1;
+    repeated TourRankItem rank_list = 2; // 赛事排名列表
+    optional int32 my_rank = 3; // 我的排名
+    optional int64 total_reward = 4; // 总奖池金额
+    optional int32 champion_points = 5; // 冠军积分
+    optional ItemIdUnit sign_item = 6; // 报名道具
+    optional int32 win_exp = 7[default = 0]; // 胜利经验
+    optional int32 bond_add = 8[default = 0]; // 好感度
+}
+
+message TourRoomRankRefreshBRC
+{
+    repeated TourRankItem rank_list = 1; // 赛事排名列表
+}
+
+message MttListItem
+{
+    optional int32 tour_id = 1;
+    optional string tour_name = 2; // 赛事名称
+    optional int32 style_id = 3; // 赛事图标样式ID
+    repeated ItemIdUnit sign_item_list = 4; // 可选择的报名道具列表
+    optional int32 game_type = 5;
+    optional int32 max_player_num = 6; // 最大参赛人数
+    optional int32 cur_sign_num = 7; // 当前报名人数
+    optional int32 roomid = 8; // 比赛房间ID
+    optional int32 my_rank = 9; // 我的排名, tour_status为3时有效
+    optional int32 mtt_start_time = 10; // MTT比赛开始时间,秒级时间戳
+    optional int32 sign_end_time = 11; // MTT报名截止时间,秒级时间戳
+    optional int32 event_id = 12; // 赛事活动ID
+    repeated ItemIdUnit event_reward_list = 13; // 赛事活动道具奖励
+    optional string setid = 14; // 用于查询已结束的比赛
+    optional int64 byin_chips = 15; // 报名消耗的筹码价值
+    optional int32 tour_status = 16; // 赛事状态, -1：未开赛 2 开始 3 结束
+    optional int32 player_status = 17; // 玩家状态 0：未报名  1：已报名 2已淘汰
+    optional int32 sign_status = 18;   //比赛报名状态  -1:未开放报名、0:报名中、1:延迟报名中、2:报名已截止
+    optional int32 level = 19;      //限制等级, 预留字段,目前未使用
+    optional int32 sort_value = 20; // 排序值
+    optional int32 late_reg_level = 21;//延迟报名盲注等级
+    optional int32 sign_start_time = 22; // MTT报名开始时间,秒级时间戳
+    optional int32 enter_room_time = 23; // MTT允许进房间的时间,秒级时间戳
+    optional int32 left_players = 24; // 当前剩余的参赛人数
+    optional bool is_in_final_table = 25; // 是否已经进入决赛桌
+    optional ItemIdUnit sign_item = 26; // 已报名玩家消耗的报名道具
+}
+
+message MttDetailInfo
+{
+    optional int32 tour_id = 1; // 赛事唯一ID
+    optional string tour_name = 2; // 赛事名称
+    optional int32 style_id = 3; // 赛事图标样式ID
+    repeated ItemIdUnit sign_item_list = 4; // 可选择的报名道具列表
+    optional int32 max_player_num = 5; // 最大参赛人数
+    optional int32 cur_sign_num = 6; // 报名人数
+    optional int64 begin_chips = 7; // 初始筹码
+    repeated TourBlindItem blind_list = 8; // 盲注结构列表
+    optional int64 total_reward = 9; // 当前奖池(金币数量)
+    optional int32 roomid = 10; // 比赛房间ID
+    // repeated TourRankItem rank_list = 11; // 赛事排名列表
+    optional int32 break_interval = 12; // 休息的时间间隔，单位:秒，0表示不休息
+    optional int32 break_duration = 13; // 休息时长，单位:秒，0表示不休息
+    optional int32 late_reg_level = 14; // 延迟报名的盲注等级
+    optional int32 event_id = 15; // 赛事活动ID
+    repeated ItemIdUnit event_reward_list = 16; // 赛事活动道具奖励
+    optional int32 sign_end_time = 17; // MTT报名截止时间,秒级时间戳
+
+    optional int32 tour_status = 18; // 赛事状态, -1：未开赛 2 开始 3 结束
+    optional int32 sign_status = 19;   //比赛报名状态  -1:未开放报名、0:报名中、1:延迟报名中、2:报名已截止
+    optional int32 left_players = 20; // 当前剩余的参赛人数
+    optional bool is_in_final_table = 21; // 是否已经进入决赛桌
+    optional int32 blind_level = 22; // 当前盲注级别
+    optional int32 win_exp = 23[default = 0]; // 胜利经验
+    optional int32 bond_add = 24[default = 0]; // 好感度
+    optional int64 gtd = 25; // GTD奖池(保底奖池)
+}
+
+message SelfMttInfo
+{
+    optional ItemIdUnit sign_item = 1; // 报名道具
+    optional int32 my_rank = 2; // 我的排名, tour_status为3时有效
+    optional int32 player_status = 3; // 玩家状态 0：未报名  1：已报名 2已淘汰
+}
+
+// 获取MTT排行榜信息
+message MttRankREQ
+{
+    optional int32 tour_id = 1; // 赛事id
+}
+
+message MttRankRSP
+{
+    optional int32 code = 1;
+    repeated TourRankItem rank_list = 2; // 赛事排名列表
+}
+
+message MttRankRewardItem
+{
+    optional int32 rank = 1; // 排名
+    repeated ItemIdUnit reward_item_list = 2; // 奖励道具列表
+}
+
+// 获取MTT排名奖励
+message MttRankRewardREQ
+{
+    optional int32 tour_id = 1; // 赛事id
+}
+
+message MttRankRewardRSP
+{
+    optional int32 code = 1;
+    repeated MttRankRewardItem rank_reward_list = 2; // 赛事排名奖励列表(包含固定奖励与奖池奖励)
+}
+
+message MttPotRewardRateItem
+{
+    optional int32 rank_start = 1; // 奖励起始排名
+    optional int32 rank_end = 2; // 奖励结束排名
+    optional int32 rate = 3; // 奖励占比，例如：7000表示占比70%
+}
+
+message MttPotRewardStructureItem
+{
+    optional int32 min_cnt = 1; // 最小参赛人次, 闭区间
+    optional int32 max_cnt = 2; // 最大参赛人次, 闭区间
+    repeated MttPotRewardRateItem reward_list = 3;
+}
+
+// 获取MTT奖池奖励结构
+message MttPotRewardStructureREQ
+{
+    optional int32 tour_id = 1; // 赛事id
+}
+
+message MttPotRewardStructureRSP
+{
+    optional int32 code = 1;
+    repeated MttPotRewardStructureItem reward_structure = 2; // 奖励结构列表
+}
+
+// mtt报名
+message MttSignREQ
+{
+    optional int32 tour_id = 1; // 赛事id
+    optional int32 sign_item_id = 2; // 报名道具ID
+}
+message MttSignRSP
+{
+    optional int32 code = 1;
+    optional int32 tour_id = 2;
+}
+
+// mtt取消报名
+message MttCancelSignREQ
+{
+    optional int32 tour_id = 1; // 赛事id
+}
+message MttCancelSignRSP
+{
+    optional int32 code = 1;
+    optional int32 tour_id = 2;
+}
+
+// MTT即将休息通知
+message MttBreakSoonBRC
+{
+    optional int32 left_time = 1; // 距离休息的剩余时间，单位:秒
+    optional int32 break_duration = 2; // 休息时长，单位:秒
+}
+
+//中场休息剩余时间
+message MttBreakTimeBRC
+{
+    optional int32 break_left_time = 1; //剩余时间，秒
+}
+
+// MTT比赛未开始通知
+// message MttNotStartBRC
+// {
+//     optional int32 reason = 1; // 0:报名人数不足
+// }
+
+// MTT泡沫圈通知
+message MttBubbleRoundBRC
+{
+    optional int32 reward_num = 1; // 奖圈人数
+}
+
+// MTT同步发牌通知
+message MttSyncDealBRC
+{
+    optional int32 type = 1; // 1:泡沫圈同步发牌 2:决赛圈同步发牌
+}
+
+// MTT进入钱圈通知
+message MttWinRoundBRC
+{
+    optional int32 my_rank = 1; // 我的排名
+    optional int32 reward_num = 2; // 奖圈人数
+}
+
+// MTT决赛圈通知
+message MttFinalRoundBRC
+{
+    optional int32 my_rank = 1; // 我的排名
+    optional int32 player_num = 2; // 决赛圈人数
+}
+
+message UserMttOverRSP
+{
+    optional int32 rank = 1;
+    repeated ItemIdUnit reward = 2; // 奖励列表
+    optional int32 champion_points = 3; // 获得的冠军积分
+    optional int32 bond_inc = 4; // 增加的好感度
+    optional int32 exp_inc = 5; // 增加的经验值
+    optional int32 tour_id = 6; // 赛事唯一ID
+    repeated ItemIdUnit sign_item_list = 7; // 报名道具列表
+    repeated TextItem tour_name = 8; // 赛事名称
+    optional int32 skin_id = 9; // 比赛中使用的皮肤ID
+    optional bool is_enter_win_round = 10; // 是否进入钱圈
+    optional UserBrief winner_brief = 11; // 冠军的个人信息，仅围观玩家使用
+    optional int32 winner_seat_index = 12; // 仅围观玩家使用
+    repeated ItemIdUnit act_reward_list = 13; // 获得的活动奖励
+}
+
+message MttTableSheet
+{
+    optional int32 tid = 1;
+    optional int32 player_num = 2; // 本桌剩余参赛玩家数量
+    optional int64 total_chips = 3; // 牌桌上所有玩家的总筹码量(手上的筹码+底池+已下注未入池的筹码)
+    optional int64 max_chips = 4; // 牌桌玩家的最大筹码
+    optional int64 min_chips = 5; // 牌桌玩家的最小筹码
+}
+
+// 请求赛事进程信息
+message MttRoomDetailREQ
+{
+}
+message MttRoomDetailRSP
+{
+    optional int32 code = 1;
+    optional int32 my_rank = 2; // 我的排名
+    optional int64 avg_chips = 3; // 平均筹码
+    optional int64 min_chips = 4; // 最小筹码
+    optional int64 max_chips = 5; // 最大筹码
+    optional int32 game_time = 6; // MTT游戏时长，单位:秒, 不包含休息时间
+    optional int64 total_reward = 7; // 总奖池
+    repeated MttTableSheet table_list = 8;
+    optional int32 left_players = 9; // 剩余参赛人数
+    optional int32 cur_sign_num = 10; // 当前报名人数
+    optional int32 win_exp = 11[default = 0]; // 胜利经验
+    optional int32 bond_add = 12[default = 0]; // 好感度
+}
+
+// 获取MTT比赛对应的房间ID
+message GetMttRoomREQ
+{
+    repeated int32 tour_id_list = 1; // 赛事id列表
+}
+
+message MttRoomItem
+{
+    optional int32 tour_id = 1; // 赛事id
+    optional int32 roomid = 2[default = 0]; // 房间id
+}
+
+message GetMttRoomRSP
+{
+    repeated MttRoomItem mtt_room_list = 1;
+}
+message MttTourBrief
+{
+    optional int32 tour_id = 1;//赛事id
+    optional int32 sign_num = 2;//报名人数
+    optional int32 sign_status = 3;//比赛报名状态  -1:未开放报名、0:报名中、1:延迟报名中、2:报名已截止
+    optional int32 tour_status = 4;// 赛事状态, -1：未开赛 2 开始 3 结束
+}
+//客户端定时刷新mtt比赛列表信息请求
+message GetMttTourBriefInfoREQ
+{
+    repeated int32 tour_id_list = 1; //比赛id列表
+}
+message GetMttTourBriefInfoRSP
+{
+    optional int32 code = 1;
+    repeated MttTourBrief briefs = 2; //比赛简要信息
+}
+
+// MTT参赛人数变化后的通知
+message MttPlayerNumChangeBRC
+{
+    optional int32 left_players = 1; // 剩余参赛人数
+    optional int32 cur_sign_num = 2; // 当前报名人数
+}
+
+//////////////////////////////////////////////////////
+
+// SNG 取消报名（参考 MttCancelSignREQ/RSP 结构）
+message SngCancelSignREQ
+{
+    optional int32 tour_id = 1;
+}
+message SngCancelSignRSP
+{
+    optional int32 code = 1;
+    optional int32 tour_id = 2;
+}
+
+// 好友房历史记录
+message GetFriendHisRecordREQ
+{
+    optional int32 roomid = 1;
+    optional int32 page = 2;
+}
+message GetFriendHisRecordRSP
+{
+    optional int32 code = 1;
+    repeated int32 list = 2;
+}
+
+// 好友房记分牌
+message GetScoreboardREQ
+{
+    optional int32 roomid = 1;
+}
+message GetScoreboardRSP
+{
+    optional int32 code = 1;
+    repeated int32 list = 2;
+}

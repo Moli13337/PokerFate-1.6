@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "source": "tpl_character_ingame.lua",
+    "format": "keys_bodys",
+    "count": 3
+  },
+  "list": [
+    {
+      "id": 101401,
+      "flip_index6": [
+        4,
+        5
+      ],
+      "flip_index3": [
+        3
+      ],
+      "my_offset": [
+        0,
+        -45
+      ]
+    },
+    {
+      "id": 101404,
+      "flip_index6": [
+        4,
+        5
+      ],
+      "flip_index3": [
+        3
+      ],
+      "my_offset": null
+    },
+    {
+      "id": 100706,
+      "flip_index6": [
+        4,
+        5
+      ],
+      "flip_index3": [
+        3
+      ],
+      "my_offset": null
+    }
+  ],
+  "map": {
+    "101401": {
+      "id": 101401,
+      "flip_index6": [
+        4,
+        5
+      ],
+      "flip_index3": [
+        3
+      ],
+      "my_offset": [
+        0,
+        -45
+      ]
+    },
+    "101404": {
+      "id": 101404,
+      "flip_index6": [
+        4,
+        5
+      ],
+      "flip_index3": [
+        3
+      ],
+      "my_offset": null
+    },
+    "100706": {
+      "id": 100706,
+      "flip_index6": [
+        4,
+        5
+      ],
+      "flip_index3": [
+        3
+      ],
+      "my_offset": null
+    }
+  }
+}

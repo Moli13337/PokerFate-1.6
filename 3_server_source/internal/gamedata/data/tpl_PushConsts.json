@@ -1,0 +1,291 @@
+{
+  "_meta": {
+    "source": "tpl_PushConsts.lua",
+    "format": "keys_bodys",
+    "count": 28
+  },
+  "list": [
+    {
+      "id": "APPLY_FRIEND",
+      "code": 10000,
+      "tip": null
+    },
+    {
+      "id": "NEW_FRIEND",
+      "code": 10001,
+      "tip": null
+    },
+    {
+      "id": "DRAW_CARD_CONF",
+      "code": 10010,
+      "tip": null
+    },
+    {
+      "id": "NOTICE_CONF",
+      "code": 10020,
+      "tip": null
+    },
+    {
+      "id": "TASK_REFRESH",
+      "code": 10030,
+      "tip": null
+    },
+    {
+      "id": "SEVEN_TASK_REFRESH",
+      "code": 10031,
+      "tip": null
+    },
+    {
+      "id": "THEME_ACTIVITY_TASK_REFRESH",
+      "code": 10032,
+      "tip": null
+    },
+    {
+      "id": "FESTIVAL_ACTIVITY_TASK_REFRESH",
+      "code": 10033,
+      "tip": null
+    },
+    {
+      "id": "CHALLENGE_TASK_REFRESH",
+      "code": 10034,
+      "tip": null
+    },
+    {
+      "id": "ACHIEVEMENT_TASK_REFRESH",
+      "code": 10035,
+      "tip": null
+    },
+    {
+      "id": "ROLE_TASK_REFRESH",
+      "code": 10036,
+      "tip": null
+    },
+    {
+      "id": "MAIL_REFRESH",
+      "code": 10040,
+      "tip": null
+    },
+    {
+      "id": "VIP_LEVEL_UP",
+      "code": 10050,
+      "tip": null
+    },
+    {
+      "id": "SERVER_MAINTAIN_NORMAL",
+      "code": 10060,
+      "tip": null
+    },
+    {
+      "id": "SERVER_MAINTAIN_AFTER_FIVE_MIN",
+      "code": 10061,
+      "tip": null
+    },
+    {
+      "id": "SERVER_UPDATE_PUSH",
+      "code": 10062,
+      "tip": null
+    },
+    {
+      "id": "STOVE_BUY_SUC",
+      "code": 10070,
+      "tip": null
+    },
+    {
+      "id": "THEME_ACTIVITY_START",
+      "code": 10080,
+      "tip": null
+    },
+    {
+      "id": "FESTIVAL_ACTIVITY_START",
+      "code": 10081,
+      "tip": null
+    },
+    {
+      "id": "GAME_REBATE_SETTLE",
+      "code": 10082,
+      "tip": null
+    },
+    {
+      "id": "FOOTBALL_BET_START",
+      "code": 10083,
+      "tip": null
+    },
+    {
+      "id": "PAYPAL_BUY_SUC",
+      "code": 10091,
+      "tip": null
+    },
+    {
+      "id": "XSOLLA_BUY_SUC",
+      "code": 10092,
+      "tip": null
+    },
+    {
+      "id": "STEAM_BUY_SUC",
+      "code": 10093,
+      "tip": null
+    },
+    {
+      "id": "AIRWALLEX_BUY_SUC",
+      "code": 10094,
+      "tip": null
+    },
+    {
+      "id": "BACKEND_PRICE_CONFIG_UPDATED",
+      "code": 10095,
+      "tip": null
+    },
+    {
+      "id": "MTT_START",
+      "code": 10110,
+      "tip": null
+    },
+    {
+      "id": "MTT_CANCEL",
+      "code": 10111,
+      "tip": null
+    }
+  ],
+  "map": {
+    "APPLY_FRIEND": {
+      "id": "APPLY_FRIEND",
+      "code": 10000,
+      "tip": null
+    },
+    "NEW_FRIEND": {
+      "id": "NEW_FRIEND",
+      "code": 10001,
+      "tip": null
+    },
+    "DRAW_CARD_CONF": {
+      "id": "DRAW_CARD_CONF",
+      "code": 10010,
+      "tip": null
+    },
+    "NOTICE_CONF": {
+      "id": "NOTICE_CONF",
+      "code": 10020,
+      "tip": null
+    },
+    "TASK_REFRESH": {
+      "id": "TASK_REFRESH",
+      "code": 10030,
+      "tip": null
+    },
+    "SEVEN_TASK_REFRESH": {
+      "id": "SEVEN_TASK_REFRESH",
+      "code": 10031,
+      "tip": null
+    },
+    "THEME_ACTIVITY_TASK_REFRESH": {
+      "id": "THEME_ACTIVITY_TASK_REFRESH",
+      "code": 10032,
+      "tip": null
+    },
+    "FESTIVAL_ACTIVITY_TASK_REFRESH": {
+      "id": "FESTIVAL_ACTIVITY_TASK_REFRESH",
+      "code": 10033,
+      "tip": null
+    },
+    "CHALLENGE_TASK_REFRESH": {
+      "id": "CHALLENGE_TASK_REFRESH",
+      "code": 10034,
+      "tip": null
+    },
+    "ACHIEVEMENT_TASK_REFRESH": {
+      "id": "ACHIEVEMENT_TASK_REFRESH",
+      "code": 10035,
+      "tip": null
+    },
+    "ROLE_TASK_REFRESH": {
+      "id": "ROLE_TASK_REFRESH",
+      "code": 10036,
+      "tip": null
+    },
+    "MAIL_REFRESH": {
+      "id": "MAIL_REFRESH",
+      "code": 10040,
+      "tip": null
+    },
+    "VIP_LEVEL_UP": {
+      "id": "VIP_LEVEL_UP",
+      "code": 10050,
+      "tip": null
+    },
+    "SERVER_MAINTAIN_NORMAL": {
+      "id": "SERVER_MAINTAIN_NORMAL",
+      "code": 10060,
+      "tip": null
+    },
+    "SERVER_MAINTAIN_AFTER_FIVE_MIN": {
+      "id": "SERVER_MAINTAIN_AFTER_FIVE_MIN",
+      "code": 10061,
+      "tip": null
+    },
+    "SERVER_UPDATE_PUSH": {
+      "id": "SERVER_UPDATE_PUSH",
+      "code": 10062,
+      "tip": null
+    },
+    "STOVE_BUY_SUC": {
+      "id": "STOVE_BUY_SUC",
+      "code": 10070,
+      "tip": null
+    },
+    "THEME_ACTIVITY_START": {
+      "id": "THEME_ACTIVITY_START",
+      "code": 10080,
+      "tip": null
+    },
+    "FESTIVAL_ACTIVITY_START": {
+      "id": "FESTIVAL_ACTIVITY_START",
+      "code": 10081,
+      "tip": null
+    },
+    "GAME_REBATE_SETTLE": {
+      "id": "GAME_REBATE_SETTLE",
+      "code": 10082,
+      "tip": null
+    },
+    "FOOTBALL_BET_START": {
+      "id": "FOOTBALL_BET_START",
+      "code": 10083,
+      "tip": null
+    },
+    "PAYPAL_BUY_SUC": {
+      "id": "PAYPAL_BUY_SUC",
+      "code": 10091,
+      "tip": null
+    },
+    "XSOLLA_BUY_SUC": {
+      "id": "XSOLLA_BUY_SUC",
+      "code": 10092,
+      "tip": null
+    },
+    "STEAM_BUY_SUC": {
+      "id": "STEAM_BUY_SUC",
+      "code": 10093,
+      "tip": null
+    },
+    "AIRWALLEX_BUY_SUC": {
+      "id": "AIRWALLEX_BUY_SUC",
+      "code": 10094,
+      "tip": null
+    },
+    "BACKEND_PRICE_CONFIG_UPDATED": {
+      "id": "BACKEND_PRICE_CONFIG_UPDATED",
+      "code": 10095,
+      "tip": null
+    },
+    "MTT_START": {
+      "id": "MTT_START",
+      "code": 10110,
+      "tip": null
+    },
+    "MTT_CANCEL": {
+      "id": "MTT_CANCEL",
+      "code": 10111,
+      "tip": null
+    }
+  }
+}

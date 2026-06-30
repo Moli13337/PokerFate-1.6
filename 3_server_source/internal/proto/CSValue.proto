@@ -1,0 +1,15 @@
+syntax = "proto2";
+package pb;
+option go_package = "poker-fate-server/internal/proto/gen";
+
+message UserValueREQ
+{
+	optional int32 type = 1; 		 // 10100001:金币
+}
+
+message UserValueRSP
+{
+	optional int32 type = 1; 		 // 10100001:金币
+	optional int64 value = 2;
+}
+

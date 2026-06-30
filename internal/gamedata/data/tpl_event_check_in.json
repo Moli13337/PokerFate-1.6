@@ -1,0 +1,467 @@
+{
+  "_meta": {
+    "source": "tpl_event_check_in.lua",
+    "format": "keys_bodys",
+    "count": 6
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "LAB_EVENT_CHECK_IN_NAME_1",
+      "time_start": 1766023200,
+      "time_end": 1767121200,
+      "rewards1": [
+        10100001,
+        25000
+      ],
+      "rewards2": [
+        30200001,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        25000
+      ],
+      "rewards4": [
+        30200002,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        25000
+      ],
+      "rewards6": [
+        30200003,
+        1
+      ],
+      "rewards7": [
+        30200004,
+        1,
+        10100001,
+        25000
+      ],
+      "white_list_start": null,
+      "white_list_end": null
+    },
+    {
+      "id": 2,
+      "name": "LAB_EVENT_CHECK_IN_NAME_2",
+      "time_start": 1769911200,
+      "time_end": 1771095600,
+      "rewards1": [
+        10100001,
+        25000
+      ],
+      "rewards2": [
+        30200001,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        25000
+      ],
+      "rewards4": [
+        30200002,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        25000
+      ],
+      "rewards6": [
+        30200003,
+        1
+      ],
+      "rewards7": [
+        30200004,
+        1,
+        10100001,
+        25000
+      ],
+      "white_list_start": null,
+      "white_list_end": null
+    },
+    {
+      "id": 3,
+      "name": "LAB_EVENT_CHECK_IN_NAME_3",
+      "time_start": 1772676000,
+      "time_end": 1773774000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200001,
+        10,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1772121600,
+      "white_list_end": 1773280800
+    },
+    {
+      "id": 4,
+      "name": "LAB_EVENT_CHECK_IN_NAME_4",
+      "time_start": 1775700000,
+      "time_end": 1776798000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200001,
+        10,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1775095200,
+      "white_list_end": 1775700000
+    },
+    {
+      "id": 5,
+      "name": "LAB_EVENT_CHECK_IN_NAME_5",
+      "time_start": 1778724000,
+      "time_end": 1779822000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200001,
+        10,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1778119200,
+      "white_list_end": 1778724000
+    },
+    {
+      "id": 6,
+      "name": "LAB_EVENT_CHECK_IN_NAME_6",
+      "time_start": 1781748000,
+      "time_end": 1782846000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200002,
+        1,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1779181200,
+      "white_list_end": 1781748000
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "name": "LAB_EVENT_CHECK_IN_NAME_1",
+      "time_start": 1766023200,
+      "time_end": 1767121200,
+      "rewards1": [
+        10100001,
+        25000
+      ],
+      "rewards2": [
+        30200001,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        25000
+      ],
+      "rewards4": [
+        30200002,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        25000
+      ],
+      "rewards6": [
+        30200003,
+        1
+      ],
+      "rewards7": [
+        30200004,
+        1,
+        10100001,
+        25000
+      ],
+      "white_list_start": null,
+      "white_list_end": null
+    },
+    "2": {
+      "id": 2,
+      "name": "LAB_EVENT_CHECK_IN_NAME_2",
+      "time_start": 1769911200,
+      "time_end": 1771095600,
+      "rewards1": [
+        10100001,
+        25000
+      ],
+      "rewards2": [
+        30200001,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        25000
+      ],
+      "rewards4": [
+        30200002,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        25000
+      ],
+      "rewards6": [
+        30200003,
+        1
+      ],
+      "rewards7": [
+        30200004,
+        1,
+        10100001,
+        25000
+      ],
+      "white_list_start": null,
+      "white_list_end": null
+    },
+    "3": {
+      "id": 3,
+      "name": "LAB_EVENT_CHECK_IN_NAME_3",
+      "time_start": 1772676000,
+      "time_end": 1773774000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200001,
+        10,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1772121600,
+      "white_list_end": 1773280800
+    },
+    "4": {
+      "id": 4,
+      "name": "LAB_EVENT_CHECK_IN_NAME_4",
+      "time_start": 1775700000,
+      "time_end": 1776798000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200001,
+        10,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1775095200,
+      "white_list_end": 1775700000
+    },
+    "5": {
+      "id": 5,
+      "name": "LAB_EVENT_CHECK_IN_NAME_5",
+      "time_start": 1778724000,
+      "time_end": 1779822000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200001,
+        10,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1778119200,
+      "white_list_end": 1778724000
+    },
+    "6": {
+      "id": 6,
+      "name": "LAB_EVENT_CHECK_IN_NAME_6",
+      "time_start": 1781748000,
+      "time_end": 1782846000,
+      "rewards1": [
+        10100001,
+        30000
+      ],
+      "rewards2": [
+        30200002,
+        1
+      ],
+      "rewards3": [
+        10100001,
+        30000
+      ],
+      "rewards4": [
+        30200003,
+        1
+      ],
+      "rewards5": [
+        10100001,
+        30000
+      ],
+      "rewards6": [
+        30200004,
+        1
+      ],
+      "rewards7": [
+        10200002,
+        1,
+        10100001,
+        30000
+      ],
+      "white_list_start": 1779181200,
+      "white_list_end": 1781748000
+    }
+  }
+}

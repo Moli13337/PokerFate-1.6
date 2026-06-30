@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "source": "tpl_limitview.lua",
+    "format": "keys_bodys",
+    "count": 2
+  },
+  "list": [
+    {
+      "id": "LoginSpineKV",
+      "path1": "views/Login/LoginSpineKV2.prefab",
+      "path2": "views/Login/LoginSpineKV.prefab",
+      "avenues": null
+    },
+    {
+      "id": "avatar_1004_01_full",
+      "path1": "RoleSpine/1004_1/avatar_1004_01_full.png",
+      "path2": "RoleSpine/1004_1/avatar_1004_01_full_18.png",
+      "avenues": null
+    }
+  ],
+  "map": {
+    "LoginSpineKV": {
+      "id": "LoginSpineKV",
+      "path1": "views/Login/LoginSpineKV2.prefab",
+      "path2": "views/Login/LoginSpineKV.prefab",
+      "avenues": null
+    },
+    "avatar_1004_01_full": {
+      "id": "avatar_1004_01_full",
+      "path1": "RoleSpine/1004_1/avatar_1004_01_full.png",
+      "path2": "RoleSpine/1004_1/avatar_1004_01_full_18.png",
+      "avenues": null
+    }
+  }
+}

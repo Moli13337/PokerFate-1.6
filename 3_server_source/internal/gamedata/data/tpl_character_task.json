@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "source": "tpl_character_task.lua",
+    "format": "keys_bodys",
+    "count": 4
+  },
+  "list": [
+    {
+      "task_id": 100101,
+      "group": 1001,
+      "task_type": 108,
+      "value": [
+        3001,
+        300
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_1",
+      "jump": 5001,
+      "sort": 1
+    },
+    {
+      "task_id": 100102,
+      "group": 1001,
+      "task_type": 126,
+      "value": [
+        3001,
+        30
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_2",
+      "jump": 11001,
+      "sort": 2
+    },
+    {
+      "task_id": 100103,
+      "group": 1001,
+      "task_type": 119,
+      "value": [
+        3001,
+        12,
+        12,
+        1
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_3",
+      "jump": 5001,
+      "sort": 3
+    },
+    {
+      "task_id": 100104,
+      "group": 1001,
+      "task_type": 128,
+      "value": [
+        3001,
+        7,
+        1
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_4",
+      "jump": 5001,
+      "sort": 4
+    }
+  ],
+  "map": {
+    "100101": {
+      "task_id": 100101,
+      "group": 1001,
+      "task_type": 108,
+      "value": [
+        3001,
+        300
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_1",
+      "jump": 5001,
+      "sort": 1
+    },
+    "100102": {
+      "task_id": 100102,
+      "group": 1001,
+      "task_type": 126,
+      "value": [
+        3001,
+        30
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_2",
+      "jump": 11001,
+      "sort": 2
+    },
+    "100103": {
+      "task_id": 100103,
+      "group": 1001,
+      "task_type": 119,
+      "value": [
+        3001,
+        12,
+        12,
+        1
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_3",
+      "jump": 5001,
+      "sort": 3
+    },
+    "100104": {
+      "task_id": 100104,
+      "group": 1001,
+      "task_type": 128,
+      "value": [
+        3001,
+        7,
+        1
+      ],
+      "dec": "LAB_CHAR_TASKS_3001_4",
+      "jump": 5001,
+      "sort": 4
+    }
+  }
+}

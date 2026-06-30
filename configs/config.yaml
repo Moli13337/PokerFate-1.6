@@ -1,0 +1,19 @@
+server:
+  http_addr: ":8888"
+  ws_addr: ":9012"
+  host: "127.0.0.1"
+
+database:
+  postgres: "host=127.0.0.1 port=5432 user=poker password=poker dbname=pokerfate sslmode=disable"
+  redis: "redis://127.0.0.1:6379/0"
+
+game:
+  initial_gold: 100000
+  heartbeat_interval: 5
+  max_reconnect_wait: 15
+  ai_opponent_enabled: false
+
+auth:
+  http_salt: "Z3r0w0nd3rd3!3z4jz89z9DLbg&8Gjt("
+  guest_salt: "ba2798edafa12a3ae08822a3203158cb"
+  jwt_secret: "poker-fate-private-server-secret-key"

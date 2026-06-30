@@ -1,0 +1,4099 @@
+{
+  "_meta": {
+    "source": "tpl_ui_config.lua",
+    "format": "keys_bodys",
+    "count": 292
+  },
+  "list": [
+    {
+      "id": "GameDebugUI",
+      "view": "views/GameDebugUI",
+      "src": "app.views.GameDebugUI",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonItemTip",
+      "view": "views/Common/CommonItemTip",
+      "src": "app.views.Common.CommonItemTip",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonItemTipLR",
+      "view": "views/Common/CommonItemTipLR",
+      "src": "app.views.Common.CommonItemTipLR",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonNotice",
+      "view": "views/Common/CommonNotice",
+      "src": "app.views.Common.CommonNotice",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonNoticeSmall",
+      "view": "views/Common/CommonNoticeSmall",
+      "src": "app.views.Common.CommonNoticeSmall",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonNoticeSmall2",
+      "view": "views/Common/CommonNoticeSmall2",
+      "src": "app.views.Common.CommonNoticeSmall2",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonNewRewards",
+      "view": "views/Common/CommonNewRewards",
+      "src": "app.views.Common.CommonNewRewards",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonTextTipRL",
+      "view": "views/Common/CommonTextTipRL",
+      "src": "app.views.Common.CommonTextTipRL",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonTextTipBigRL",
+      "view": "views/Common/CommonTextTipBigRL",
+      "src": "app.views.Common.CommonTextTipRL",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonTextTipUD",
+      "view": "views/Common/CommonTextTipUD",
+      "src": "app.views.Common.CommonTextTipUD",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonIconTextTipUD",
+      "view": "views/Common/CommonIconTextTipUD",
+      "src": "app.views.Common.CommonIconTextTipUD",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonRules",
+      "view": "views/Common/CommonRules",
+      "src": "app.views.Common.CommonRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CommonPackageTip",
+      "view": "views/Common/CommonPackageTip",
+      "src": "app.views.Common.CommonPackageTip",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoadingLayer",
+      "view": "views/Loading/LoadingLayer",
+      "src": "app.views.Loading.LoadingLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LoadingMask",
+      "view": "views/LoadingMask",
+      "src": "app.views.LoadingMask",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginLayer",
+      "view": "views/Login/LoginLayer",
+      "src": "app.views.Login.LoginLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LoginForgotDialog",
+      "view": "views/Login/LoginForgotDialog",
+      "src": "app.views.Login.LoginForgotDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginRegisterDialog",
+      "view": "views/Login/LoginRegisterDialog",
+      "src": "app.views.Login.LoginRegisterDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginSetPasswordDialog",
+      "view": "views/Login/LoginSetPasswordDialog",
+      "src": "app.views.Login.LoginSetPasswordDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginStartLayer",
+      "view": "views/Login/LoginStartLayer",
+      "src": "app.views.Login.LoginStartLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LoginUpdateDialog",
+      "view": "views/Login/LoginUpdateDialog",
+      "src": "app.views.Login.LoginUpdateDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginNoNetwordDialog",
+      "view": "views/Login/LoginNoNetwordDialog",
+      "src": "app.views.Login.LoginNoNetwordDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginSetLanguage",
+      "view": "views/Login/LoginSetLanguage",
+      "src": "app.views.Login.LoginSetLanguage",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginQueue",
+      "view": "views/Login/LoginQueue",
+      "src": "app.views.Login.LoginQueue",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LoginBanTipDialog",
+      "view": "views/Login/LoginBanTipDialog",
+      "src": "app.views.Login.LoginBanTipDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Loginrepair",
+      "view": "views/Login/Loginrepair",
+      "src": "app.views.Login.Loginrepair",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Loginline",
+      "view": "views/Login/Loginline",
+      "src": "app.views.Login.Loginline",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LobbyLayer",
+      "view": "views/Lobby/LobbyLayer",
+      "src": "app.views.Lobby.LobbyLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LobbyByinDialog",
+      "view": "views/Lobby/LobbyByinDialog",
+      "src": "app.views.Lobby.LobbyByinDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LobbyEnterDialog",
+      "view": "views/Lobby/LobbyEnterDialog",
+      "src": "app.views.Lobby.LobbyEnterDialog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LobbyUnlockLayer",
+      "view": "views/Lobby/LobbyUnlockLayer",
+      "src": "app.views.Lobby.LobbyUnlockLayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameBankrupt",
+      "view": "views/Lobby/IngameBankrupt",
+      "src": "app.views.Lobby.IngameBankrupt",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameBondsUp",
+      "view": "views/Lobby/IngameBondsUp",
+      "src": "app.views.Lobby.IngameBondsUp",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameFeedback",
+      "view": "views/Lobby/IngameFeedback",
+      "src": "app.views.Lobby.IngameFeedback",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "OmahaBlinds",
+      "view": "views/Lobby/OmahaBlinds",
+      "src": "app.views.Lobby.OmahaBlinds",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LobbyAdjustment",
+      "view": "views/Lobby/LobbyAdjustment",
+      "src": "app.views.Lobby.LobbyAdjustment",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LobbyCustomization",
+      "view": "views/Lobby/LobbyCustomization",
+      "src": "app.views.Lobby.LobbyCustomization",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LobbyDecorationSelect",
+      "view": "views/Lobby/LobbyDecorationSelect",
+      "src": "app.views.Lobby.LobbyDecorationSelect",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LobbySkinSelect",
+      "view": "views/Lobby/LobbySkinSelect",
+      "src": "app.views.Lobby.LobbySkinSelect",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "MusicSelect",
+      "view": "views/Lobby/MusicSelect",
+      "src": "app.views.Lobby.MusicSelect",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LobbySkinNotice",
+      "view": "views/Lobby/LobbySkinNotice",
+      "src": "app.views.Lobby.LobbySkinNotice",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BackpackMain",
+      "view": "views/Backpack/BackpackMain",
+      "src": "app.views.Backpack.BackpackMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BackpackMusic",
+      "view": "views/Backpack/BackpackMusic",
+      "src": "app.views.Backpack.BackpackMusic",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BackpackClaim",
+      "view": "views/Backpack/BackpackClaim",
+      "src": "app.views.Backpack.BackpackClaim",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BackpackClaimResult",
+      "view": "views/Backpack/BackpackClaimResult",
+      "src": "app.views.Backpack.BackpackClaimResult",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BackpackDetail",
+      "view": "views/Backpack/BackpackDetail",
+      "src": "app.views.Backpack.BackpackDetail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BackpackPreview",
+      "view": "views/Backpack/BackpackPreview",
+      "src": "app.views.Backpack.BackpackPreview",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BackpackGift",
+      "view": "views/Backpack/BackpackGift",
+      "src": "app.views.Backpack.BackpackGift",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BackpackLobbyPreview",
+      "view": "views/Backpack/BackpackLobbyPreview",
+      "src": "app.views.Backpack.BackpackLobbyPreview",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BackpackRecycle",
+      "view": "views/Backpack/BackpackRecycle",
+      "src": "app.views.Backpack.BackpackRecycle",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "TableChatLayer",
+      "view": "views/table/TableChatLayer",
+      "src": "app.table.TableChatLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKTable3D",
+      "view": "views/table/PK/PKTable3D",
+      "src": "app.table.PK.PKTable",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKTable3DSNG",
+      "view": "views/table/PK/PKTable3D",
+      "src": "app.table.PK.PKTable3DSNG",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKTable3DMTT",
+      "view": "views/table/PK/PKTable3D",
+      "src": "app.table.PK.PKTable3DMTT",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKUILayer",
+      "view": "views/table/PK/PKUILayer",
+      "src": "app.table.PK.PKUILayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKUIRecordLayer",
+      "view": "views/table/PK/PKUIRecordLayer",
+      "src": "app.table.PK.PKUIRecordLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKMenu",
+      "view": "views/table/PK/PKMenu",
+      "src": "app.table.PK.PKMenu",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKActionLayer",
+      "view": "views/table/PK/PKActionLayer",
+      "src": "app.table.PK.PKActionLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKActionAllinLayer",
+      "view": "views/table/PK/PKActionAllinLayer",
+      "src": "app.table.PK.PKActionAllinLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameAllin",
+      "view": "views/table/IngameAllin",
+      "src": "app.table.IngameAllin",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaAllin",
+      "view": "views/table/Sayaka2026/SayakaAllin",
+      "src": "app.table.IngameAllin",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameResult",
+      "view": "views/table/IngameResult",
+      "src": "app.table.IngameResult",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameHistory",
+      "view": "views/table/IngameHistory",
+      "src": "app.table.IngameHistory",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameReplay",
+      "view": "views/table/IngameReplay",
+      "src": "app.table.IngameReplay",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameRules",
+      "view": "views/table/IngameRules",
+      "src": "app.table.IngameRules",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameNoticeSave",
+      "view": "views/table/IngameNoticeSave",
+      "src": "app.table.IngameNoticeSave",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameSettings",
+      "view": "views/table/IngameSettings",
+      "src": "app.table.IngameSettings",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameQuickBy",
+      "view": "views/table/IngameQuickBy",
+      "src": "app.table.IngameQuickBy",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "IngameInvite",
+      "view": "views/table/IngameInvite",
+      "src": "app.table.IngameInvite",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameSpectate",
+      "view": "views/table/IngameSpectate",
+      "src": "app.table.IngameSpectate",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameAssistant",
+      "view": "views/table/IngameAssistant",
+      "src": "app.table.IngameAssistant",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "IngameEmoji",
+      "view": "views/table/IngameEmoji",
+      "src": "app.table.IngameEmoji",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ColorGame",
+      "view": "views/ColorGame/ColorGame",
+      "src": "app.views.ColorGame.ColorGame",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SideGameView",
+      "view": "views/SideGame/SideGameView",
+      "src": "app.views.SideGame.SideGameView",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterChangeName",
+      "view": "views/Character/CharacterChangeName",
+      "src": "app.views.Character.CharacterChangeName",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterMain",
+      "view": "views/Character/CharacterMain",
+      "src": "app.views.Character.CharacterMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainBonds",
+      "view": "views/Character/CharacterMainBonds",
+      "src": "app.views.Character.CharacterMainBonds",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainBondsUp",
+      "view": "views/Character/CharacterMainBondsUp",
+      "src": "app.views.Character.CharacterMainBondsUp",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainGarments",
+      "view": "views/Character/CharacterMainGarments",
+      "src": "app.views.Character.CharacterMainGarments",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainProfile",
+      "view": "views/Character/CharacterMainProfile",
+      "src": "app.views.Character.CharacterMainProfile",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainProfileDetail",
+      "view": "views/Character/CharacterMainProfileDetail",
+      "src": "app.views.Character.CharacterMainProfileDetail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterAwaken",
+      "view": "views/Character/CharacterAwaken",
+      "src": "app.views.Character.CharacterAwaken",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterGiftResult",
+      "view": "views/Character/CharacterGiftResult",
+      "src": "app.views.Character.CharacterGiftResult",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterView",
+      "view": "views/Character/CharacterView",
+      "src": "app.views.Character.CharacterView",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterViewVictory",
+      "view": "views/Character/CharacterViewVictory",
+      "src": "app.views.Character.CharacterViewVictory",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterItemTip",
+      "view": "views/Character/CharacterItemTip",
+      "src": "app.views.Character.CharacterItemTip",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterOathFulfilled",
+      "view": "views/Character/CharacterOathFulfilled",
+      "src": "app.views.Character.CharacterOathFulfilled",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterItemsUnlocked",
+      "view": "views/Character/CharacterItemsUnlocked",
+      "src": "app.views.Character.CharacterItemsUnlocked",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterCollectCharacters",
+      "view": "views/Character/CharacterCollectCharacters",
+      "src": "app.views.Character.CharacterCollectCharacters",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainPrompt",
+      "view": "views/Character/CharacterMainPrompt",
+      "src": "app.views.Character.CharacterMainPrompt",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterRoleCanvas",
+      "view": "views/Character/CharacterRoleCanvas",
+      "src": "app.views.Character.CharacterRoleCanvas",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "CharacterMainIntroduction",
+      "view": "views/Character/CharacterMainIntroduction",
+      "src": "app.views.Character.CharacterMainIntroduction",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "CharacterSecondOathSAYAKA",
+      "view": "views/Character/CharacterSecondOathSAYAKA",
+      "src": "app.views.Character.CharacterSecondOathBase",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GachaMain",
+      "view": "views/Gacha/GachaMain",
+      "src": "app.views.Gacha.GachaMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GachaMainDetail",
+      "view": "views/Gacha/GachaMainDetail",
+      "src": "app.views.Gacha.GachaMainDetail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GachaResult",
+      "view": "views/Gacha/GachaResult",
+      "src": "app.views.Gacha.GachaResult",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GachaResultShow",
+      "view": "views/Gacha/GachaResultShow",
+      "src": "app.views.Gacha.GachaResultShow",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GachaWheelMask",
+      "view": "views/Gacha/GachaWheelMask",
+      "src": "app.views.Gacha.GachaWheelMask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "InformationAvatar",
+      "view": "views/Info/InformationAvatar",
+      "src": "app.views.Info.InformationAvatar",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "InformationAvatarDetail",
+      "view": "views/Info/InformationAvatarDetail",
+      "src": "app.views.Info.InformationAvatarDetail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "InformationMain",
+      "view": "views/Info/InformationMain",
+      "src": "app.views.Info.InformationMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "InformationMainNew",
+      "view": "views/Info/InformationMainNew",
+      "src": "app.views.Info.InformationMainNew",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "InformationRename",
+      "view": "views/Info/InformationRename",
+      "src": "app.views.Info.InformationRename",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "InformationManifesto",
+      "view": "views/Info/InformationManifesto",
+      "src": "app.views.Info.InformationManifesto",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Friend",
+      "view": "views/Friend/Friend",
+      "src": "app.views.Friend.Friend",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "FriendRemark",
+      "view": "views/Friend/FriendRemark",
+      "src": "app.views.Friend.FriendRemark",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoom",
+      "view": "views/FriendsRoom/FriendsRoom",
+      "src": "app.views.FriendsRoom.FriendsRoom",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoomBlindStructure",
+      "view": "views/FriendsRoom/FriendsRoomBlindStructure",
+      "src": "app.views.FriendsRoom.FriendsRoomBlindStructure",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoomByin",
+      "view": "views/FriendsRoom/FriendsRoomByin",
+      "src": "app.views.FriendsRoom.FriendsRoomByin",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoomCreate",
+      "view": "views/FriendsRoom/FriendsRoomCreate",
+      "src": "app.views.FriendsRoom.FriendsRoomCreate",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoomInvite",
+      "view": "views/FriendsRoom/FriendsRoomInvite",
+      "src": "app.views.FriendsRoom.FriendsRoomInvite",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoomList",
+      "view": "views/FriendsRoom/FriendsRoomList",
+      "src": "app.views.FriendsRoom.FriendsRoomList",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "FriendsRoomOutlook",
+      "view": "views/FriendsRoom/FriendsRoomOutlook",
+      "src": "app.views.FriendsRoom.FriendsRoomOutlook",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "PKFriendsRoomLayer",
+      "view": "views/table/PK/PKFriendsRoomLayer",
+      "src": "app.table.PK.PKFriendsRoomLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "Shop",
+      "view": "views/Shop/Shop",
+      "src": "app.views.Shop.Shop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "ShopPurchase",
+      "view": "views/Shop/ShopPurchase",
+      "src": "app.views.Shop.ShopPurchase",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPurchasePackage",
+      "view": "views/Shop/ShopPurchasePackage",
+      "src": "app.views.Shop.ShopPurchasePackage",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPurchaseTheme",
+      "view": "views/Shop/ShopPurchaseTheme",
+      "src": "app.views.Shop.ShopPurchaseTheme",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPurchaseSingle",
+      "view": "views/Shop/ShopPurchaseSingle",
+      "src": "app.views.Shop.ShopPurchaseSingle",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPurchaseGiftsSkin",
+      "view": "views/Shop/ShopPurchaseGiftsSkin",
+      "src": "app.views.Shop.ShopPurchaseGiftsSkin",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopExchangeSingle",
+      "view": "views/Shop/ShopExchangeSingle",
+      "src": "app.views.Shop.ShopExchangeSingle",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopExchangeBatch",
+      "view": "views/Shop/ShopExchangeBatch",
+      "src": "app.views.Shop.ShopExchangeBatch",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopMonthlyCardPurchase",
+      "view": "views/Shop/ShopMonthlyCardPurchase",
+      "src": "app.views.Shop.ShopMonthlyCardPurchase",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopMonthlyCardReward",
+      "view": "views/Shop/ShopMonthlyCardReward",
+      "src": "app.views.Shop.ShopMonthlyCardReward",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopMonthlyCardRules",
+      "view": "views/Shop/ShopMonthlyCardRules",
+      "src": "app.views.Shop.ShopMonthlyCardRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopThemePreview",
+      "view": "views/Shop/ShopThemePreview",
+      "src": "app.views.Shop.ShopThemePreview",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "ShopMonthlyCardEffect",
+      "view": "views/Shop/ShopMonthlyCardEffect",
+      "src": "app.views.Shop.ShopMonthlyCardEffect",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPledgeExpress",
+      "view": "views/Shop/ShopPledgeExpress",
+      "src": "app.views.Shop.ShopPledgeExpress",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPushView",
+      "view": "views/Shop/ShopPushView",
+      "src": "app.views.Shop.ShopPushView",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopSayakaExclusive_popup",
+      "view": "views/Shop/ShopSayakaExclusive_popup",
+      "src": "app.views.Shop.ShopSayakaExclusive_popup",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "EmailMain",
+      "view": "views/Email/EmailMain",
+      "src": "app.views.Email.EmailMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "AllinBlinds",
+      "view": "views/Allin/AllinBlinds",
+      "src": "app.views.Allin.AllinBlinds",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "AllinSettings",
+      "view": "views/Allin/AllinSettings",
+      "src": "app.views.Allin.AllinSettings",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Setting",
+      "view": "views/Setting/Setting",
+      "src": "app.views.Setting.Setting",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingAccountDetail",
+      "view": "views/Setting/SettingAccountDetail",
+      "src": "app.views.Setting.SettingAccountDetail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingAccountRemove",
+      "view": "views/Setting/SettingAccountRemove",
+      "src": "app.views.Setting.SettingAccountRemove",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingBindEmail",
+      "view": "views/Setting/SettingBindEmail",
+      "src": "app.views.Setting.SettingBindEmail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingFeedback",
+      "view": "views/Setting/SettingFeedback",
+      "src": "app.views.Setting.SettingFeedback",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingProtocol",
+      "view": "views/Setting/SettingProtocol",
+      "src": "app.views.Setting.SettingProtocol",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingRedeemCodeView",
+      "view": "views/Setting/SettingRedeemCodeView",
+      "src": "app.views.Setting.SettingRedeemCodeView",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SettingTransferID",
+      "view": "views/Setting/SettingTransferID",
+      "src": "app.views.Setting.SettingTransferID",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Notice",
+      "view": "views/Notice/Notice",
+      "src": "app.views.Notice.Notice",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivityMain",
+      "view": "views/Activity/ActivityMain",
+      "src": "app.views.Activity.ActivityMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "ActivitySignIn",
+      "view": "views/Activity/ActivitySignIn",
+      "src": "app.views.Activity.ActivitySignIn",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivitySignInRetroactive",
+      "view": "views/Activity/ActivitySignInRetroactive",
+      "src": "app.views.Activity.ActivitySignInRetroactive",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Story",
+      "view": "views/Story/Story",
+      "src": "app.Story.Story",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "StoryRole",
+      "view": "views/Story/StoryRole",
+      "src": "app.Story.StoryRole",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "StorySkip",
+      "view": "views/Story/StorySkip",
+      "src": "app.Story.StorySkip",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "StoryRecord",
+      "view": "views/Story/StoryRecord",
+      "src": "app.Story.StoryRecord",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GuideChangeName",
+      "view": "views/Guide/GuideChangeName",
+      "src": "app.views.Guide.GuideChangeName",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GameGuide",
+      "view": "views/Guide/GameGuide",
+      "src": "app.views.Guide.GameGuide",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "TaskView",
+      "view": "views/Task/TaskView",
+      "src": "app.views.Task.TaskView",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTask",
+      "view": "views/SevenDayTask/SevenDayTask",
+      "src": "app.views.SevenDayTask.SevenDayTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTaskQuiz",
+      "view": "views/SevenDayTask/SevenDayTaskQuiz",
+      "src": "app.views.SevenDayTask.SevenDayTaskQuiz",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTaskplot",
+      "view": "views/SevenDayTask/SevenDayTaskplot",
+      "src": "app.views.SevenDayTask.SevenDayTaskplot",
+      "adapt": 0,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTaskTips",
+      "view": "views/SevenDayTask/SevenDayTaskTips",
+      "src": "app.views.SevenDayTask.SevenDayTaskTips",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTaskCertification",
+      "view": "views/SevenDayTask/SevenDayTaskCertification",
+      "src": "app.views.SevenDayTask.SevenDayTaskCertification",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTaskCertificationSign",
+      "view": "views/SevenDayTask/SevenDayTaskCertificationSign",
+      "src": "app.views.SevenDayTask.SevenDayTaskCertificationSign",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SevenDayTaskConsume",
+      "view": "views/SevenDayTask/SevenDayTaskConsume",
+      "src": "app.views.SevenDayTask.SevenDayTaskConsume",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "Level",
+      "view": "views/Level/Level",
+      "src": "app.views.Level.Level",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "LevelUnlock",
+      "view": "views/Level/LevelUnlock",
+      "src": "app.views.Level.LevelUnlock",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "LevelUpgrade",
+      "view": "views/Level/LevelUpgrade",
+      "src": "app.views.Level.LevelUpgrade",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "VIP",
+      "view": "views/VipView/VIP",
+      "src": "app.views.VipView.VIP",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "VIPDetail",
+      "view": "views/VipView/VIPDetail",
+      "src": "app.views.VipView.VIPDetail",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "VIPUpgrade",
+      "view": "views/VipView/VIPUpgrade",
+      "src": "app.views.VipView.VIPUpgrade",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "UpdateShutdown",
+      "view": "views/Update/UpdateShutdown",
+      "src": "app.views.Update.UpdateShutdown",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "UpdateVersion",
+      "view": "views/Update/UpdateVersion",
+      "src": "app.views.Update.UpdateVersion",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShareMain",
+      "view": "views/Share/ShareMain",
+      "src": "app.views.Share.ShareMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringHall",
+      "view": "views/Hotspring/HotSpringHall",
+      "src": "app.views.Hotspring.HotSpringHall",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringHallBlind",
+      "view": "views/Hotspring/HotSpringHallBlind",
+      "src": "app.views.Hotspring.HotSpringHallBlind",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringHallPlayer",
+      "view": "views/Hotspring/HotSpringHallPlayer",
+      "src": "app.views.Hotspring.HotSpringHallPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "HotSpringHallRule",
+      "view": "views/Hotspring/HotSpringHallRule",
+      "src": "app.views.Hotspring.HotSpringHallRule",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "HotSpringPlot",
+      "view": "views/Hotspring/HotSpringPlot",
+      "src": "app.views.Hotspring.HotSpringPlot",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringRule",
+      "view": "views/Hotspring/HotSpringRule",
+      "src": "app.views.Hotspring.HotSpringRule",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringShop",
+      "view": "views/Hotspring/HotSpringShop",
+      "src": "app.views.Hotspring.HotSpringShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringTask",
+      "view": "views/Hotspring/HotSpringTask",
+      "src": "app.views.Hotspring.HotSpringTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "HotSpringHallLog",
+      "view": "views/Hotspring/HotSpringHallLog",
+      "src": "app.views.Hotspring.HotSpringHallLog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "HotSpringHallSkip",
+      "view": "views/Hotspring/HotSpringHallSkip",
+      "src": "app.views.Hotspring.HotSpringHallSkip",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivityNewmanCheckin_popup",
+      "view": "views/Activitynewman/ActivityNewmanCheckin_popup",
+      "src": "app.views.Activitynewman.ActivityNewmanCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivityNewmanCheckin",
+      "view": "views/Activitynewman/ActivityNewmanCheckin",
+      "src": "app.views.Activitynewman.ActivityNewmanCheckin",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivityGalaSeasonCheckin_popup",
+      "view": "views/ActivityGalaSeasonCheckin/ActivityGalaSeasonCheckin_popup",
+      "src": "app.views.ActivityGalaSeasonCheckin.ActivityGalaSeasonCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivitySchoolCheckin_popup",
+      "view": "views/ActivitySchoolCheckin/ActivitySchoolCheckin_popup",
+      "src": "app.views.ActivitySchoolCheckin.ActivitySchoolCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivityBunnyGirlCheckin_popup",
+      "view": "views/ActivityBunnyGirlCheckin/ActivityBunnyGirlCheckin_popup",
+      "src": "app.views.ActivityBunnyGirlCheckin.ActivityBunnyGirlCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivitySportsCheckin_popup",
+      "view": "views/ActivitySportsCheckin/ActivitySportsCheckin_popup",
+      "src": "app.views.Activity.ActivitySignInPopupBase",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ActivitySayakaCheckin_popup",
+      "view": "views/ActivitySayakaCheckin/ActivitySayakaCheckin_popup",
+      "src": "app.views.Activity.ActivitySignInPopupBase",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "ShopPayment",
+      "view": "views/ShopPayment",
+      "src": "ShopPayment",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "RankingMain",
+      "view": "views/Ranking/RankingMain",
+      "src": "app.views.Ranking.RankingMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "RankingRule",
+      "view": "views/Ranking/RankingRule",
+      "src": "app.views.Ranking.RankingRule",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "RankingList",
+      "view": "views/Ranking/RankingList",
+      "src": "app.views.Ranking.RankingList",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "TournamentLobby",
+      "view": "views/Tournament/TournamentLobby",
+      "src": "app.views.Tournament.TournamentLobby",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentBlindStructure",
+      "view": "views/Tournament/TournamentBlindStructure",
+      "src": "app.views.Tournament.TournamentBlindStructure",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentPrizePoolDraw",
+      "view": "views/TournamentSNG/TournamentPrizePoolDraw",
+      "src": "app.views.TournamentSNG.TournamentPrizePoolDraw",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGDetails",
+      "view": "views/TournamentSNG/TournamentSNGDetails",
+      "src": "app.views.TournamentSNG.TournamentSNGDetails",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGlist",
+      "view": "views/TournamentSNG/TournamentSNGlist",
+      "src": "app.views.TournamentSNG.TournamentSNGlist",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGMatchmaking",
+      "view": "views/TournamentSNG/TournamentSNGMatchmaking",
+      "src": "app.views.TournamentSNG.TournamentSNGMatchmaking",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGingame",
+      "view": "views/TournamentSNG/TournamentSNGingame",
+      "src": "app.views.TournamentSNG.TournamentSNGingame",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGUILayer",
+      "view": "views/TournamentSNG/TournamentSNGUILayer",
+      "src": "app.views.TournamentSNG.TournamentSNGUILayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGShowdownWin",
+      "view": "views/TournamentSNG/TournamentSNGShowdownWin",
+      "src": "app.views.TournamentSNG.TournamentSNGShowdown",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGShowdownLose",
+      "view": "views/TournamentSNG/TournamentSNGShowdownLose",
+      "src": "app.views.TournamentSNG.TournamentSNGShowdown",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGRules",
+      "view": "views/TournamentSNG/TournamentSNGRules",
+      "src": "app.views.TournamentSNG.TournamentSNGRules",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentSNGhint",
+      "view": "views/TournamentSNG/TournamentSNGhint",
+      "src": "app.views.TournamentSNG.TournamentSNGhint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngameCount",
+      "view": "views/TournamentMTT/TournamentIngameCount",
+      "src": "app.views.TournamentMTT.TournamentIngameCount",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngameMTTRightList",
+      "view": "views/TournamentMTT/TournamentIngameMTTRightList",
+      "src": "app.views.TournamentMTT.TournamentIngameMTTRightList",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngamePopupNotice",
+      "view": "views/TournamentMTT/TournamentIngamePopupNotice",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupNotice",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngamePopupRest",
+      "view": "views/TournamentMTT/TournamentIngamePopupRest",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupRest",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngamePopupTipBubble",
+      "view": "views/TournamentMTT/TournamentIngamePopupTipBubble",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupTipBubble",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngamePopupTipRest",
+      "view": "views/TournamentMTT/TournamentIngamePopupTipRest",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupTipRest",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentIngamePopupTipSuccess",
+      "view": "views/TournamentMTT/TournamentIngamePopupTipSuccess",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupTipSuccess",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTDetails",
+      "view": "views/TournamentMTT/TournamentMTTDetails",
+      "src": "app.views.TournamentMTT.TournamentMTTDetails",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTlist",
+      "view": "views/TournamentMTT/TournamentMTTlist",
+      "src": "app.views.TournamentMTT.TournamentMTTlist",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTpayout",
+      "view": "views/TournamentMTT/TournamentMTTpayout",
+      "src": "app.views.TournamentMTT.TournamentMTTpayout",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTPrizes",
+      "view": "views/TournamentMTT/TournamentMTTPrizes",
+      "src": "app.views.TournamentMTT.TournamentMTTPrizes",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTRanks",
+      "view": "views/TournamentMTT/TournamentMTTRanks",
+      "src": "app.views.TournamentMTT.TournamentMTTRanks",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTRules",
+      "view": "views/TournamentMTT/TournamentMTTRules",
+      "src": "app.views.TournamentMTT.TournamentMTTRules",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTShowdown",
+      "view": "views/TournamentMTT/TournamentMTTShowdown",
+      "src": "app.views.TournamentMTT.TournamentMTTShowdown",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTShowdown02",
+      "view": "views/TournamentMTT/TournamentMTTShowdown02",
+      "src": "app.views.TournamentMTT.TournamentMTTShowdown02",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTShowdownLose",
+      "view": "views/TournamentMTT/TournamentMTTShowdownLose",
+      "src": "app.views.TournamentMTT.TournamentMTTShowdownLose",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTTUILayer",
+      "view": "views/TournamentMTT/TournamentMTTUILayer",
+      "src": "app.views.TournamentMTT.TournamentMTTUILayer",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "TournamentMTThint",
+      "view": "views/TournamentMTT/TournamentMTThint",
+      "src": "app.views.TournamentMTT.TournamentMTThint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonMain",
+      "view": "views/GalaSeason/GalaSeasonMain",
+      "src": "app.views.GalaSeason.GalaSeasonMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonShop",
+      "view": "views/GalaSeason/GalaSeasonShop",
+      "src": "app.views.GalaSeason.GalaSeasonShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonActivity",
+      "view": "views/GalaSeason/GalaSeasonActivity",
+      "src": "app.views.GalaSeason.GalaSeasonActivity",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonInvitation",
+      "view": "views/GalaSeason/GalaSeasonInvitation",
+      "src": "app.views.GalaSeason.GalaSeasonInvitation",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonAllin",
+      "view": "views/table/GalaSeason/GalaSeasonAllin",
+      "src": "app.table.GalaSeason.GalaSeasonAllin",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonExchange",
+      "view": "views/GalaSeason/GalaSeasonExchange",
+      "src": "app.views.GalaSeason.GalaSeasonExchange",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonHint",
+      "view": "views/GalaSeason/GalaSeasonHint",
+      "src": "app.views.GalaSeason.GalaSeasonHint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonLog",
+      "view": "views/GalaSeason/GalaSeasonLog",
+      "src": "app.views.GalaSeason.GalaSeasonLog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonPlayer",
+      "view": "views/GalaSeason/GalaSeasonPlayer",
+      "src": "app.views.GalaSeason.GalaSeasonPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonPlot",
+      "view": "views/GalaSeason/GalaSeasonPlot",
+      "src": "app.views.GalaSeason.GalaSeasonPlot",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "GalaSeasonRules",
+      "view": "views/GalaSeason/GalaSeasonRules",
+      "src": "app.views.GalaSeason.GalaSeasonRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SpringFestivalMain",
+      "view": "views/Spring/SpringFestivalMain",
+      "src": "app.views.Spring.SpringFestivalMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SpringFestivalShop",
+      "view": "views/Spring/SpringFestivalShop",
+      "src": "app.views.Spring.SpringFestivalShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SpringFestivalTask",
+      "view": "views/Spring/SpringFestivalTask",
+      "src": "app.views.Spring.SpringFestivalTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SpringFestivalRules",
+      "view": "views/Spring/SpringFestivalRules",
+      "src": "app.views.Spring.SpringFestivalRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolMain",
+      "view": "views/School/SchoolMain",
+      "src": "app.views.School.SchoolMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SchoolStory",
+      "view": "views/School/SchoolStory",
+      "src": "app.views.School.SchoolStory",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SchoolShop",
+      "view": "views/School/SchoolShop",
+      "src": "app.views.School.SchoolShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SchoolTask",
+      "view": "views/School/SchoolTask",
+      "src": "app.views.School.SchoolTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SchoolExchange",
+      "view": "views/School/SchoolExchange",
+      "src": "app.views.School.SchoolExchange",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolRules",
+      "view": "views/School/SchoolRules",
+      "src": "app.views.School.SchoolRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolPlot",
+      "view": "views/School/SchoolPlot",
+      "src": "app.views.School.SchoolPlot",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolLog",
+      "view": "views/School/SchoolLog",
+      "src": "app.views.School.SchoolLog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolHint",
+      "view": "views/School/SchoolHint",
+      "src": "app.views.School.SchoolHint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolPlayer",
+      "view": "views/School/SchoolPlayer",
+      "src": "app.views.School.SchoolPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SchoolNotice",
+      "view": "views/School/SchoolNotice",
+      "src": "app.views.School.SchoolNotice",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirl",
+      "view": "views/BunnyGirl/BunnyGirl",
+      "src": "app.views.BunnyGirl.BunnyGirl",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlStory",
+      "view": "views/BunnyGirl/BunnyGirlStory",
+      "src": "app.views.BunnyGirl.BunnyGirlStory",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlShop",
+      "view": "views/BunnyGirl/BunnyGirlShop",
+      "src": "app.views.BunnyGirl.BunnyGirlShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlTask",
+      "view": "views/BunnyGirl/BunnyGirlTask",
+      "src": "app.views.BunnyGirl.BunnyGirlTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlExchange",
+      "view": "views/BunnyGirl/BunnyGirlExchange",
+      "src": "app.views.BunnyGirl.BunnyGirlExchange",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlRules",
+      "view": "views/BunnyGirl/BunnyGirlRules",
+      "src": "app.views.BunnyGirl.BunnyGirlRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlPlot",
+      "view": "views/BunnyGirl/BunnyGirlPlot",
+      "src": "app.views.BunnyGirl.BunnyGirlPlot",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlLog",
+      "view": "views/BunnyGirl/BunnyGirlLog",
+      "src": "app.views.BunnyGirl.BunnyGirlLog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlHint",
+      "view": "views/BunnyGirl/BunnyGirlHint",
+      "src": "app.views.BunnyGirl.BunnyGirlHint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlPlayer",
+      "view": "views/BunnyGirl/BunnyGirlPlayer",
+      "src": "app.views.BunnyGirl.BunnyGirlPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlNotice",
+      "view": "views/BunnyGirl/BunnyGirlNotice",
+      "src": "app.views.BunnyGirl.BunnyGirlNotice",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "BunnyGirlPackage",
+      "view": "views/BunnyGirl/BunnyGirlPackage",
+      "src": "app.views.BunnyGirl.BunnyGirlPackage",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "DevelopmentFund",
+      "view": "views/DevelopmentFund/DevelopmentFund",
+      "src": "app.views.DevelopmentFund.DevelopmentFund",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "DevelopmentFundReward",
+      "view": "views/DevelopmentFund/DevelopmentFundReward",
+      "src": "app.views.DevelopmentFund.DevelopmentFundReward",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "AchievementMain",
+      "view": "views/Achievement/AchievementMain",
+      "src": "app.views.Achievement.AchievementMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "AchievementDetail",
+      "view": "views/Achievement/AchievementDetail",
+      "src": "app.views.Achievement.AchievementDetail",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "AchievementRecord",
+      "view": "views/Achievement/AchievementRecord",
+      "src": "app.views.Achievement.AchievementRecord",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "AchievementTips",
+      "view": "views/Achievement/AchievementTips",
+      "src": "app.views.Achievement.AchievementTips",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsMain",
+      "view": "views/Sports/SportsMain",
+      "src": "app.views.Sports.SportsMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SportsStory",
+      "view": "views/Sports/SportsStory",
+      "src": "app.views.Sports.SportsStory",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SportsShop",
+      "view": "views/Sports/SportsShop",
+      "src": "app.views.Sports.SportsShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SportsTask",
+      "view": "views/Sports/SportsTask",
+      "src": "app.views.Sports.SportsTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SportsExchange",
+      "view": "views/Sports/SportsExchange",
+      "src": "app.views.Sports.SportsExchange",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsRules",
+      "view": "views/Sports/SportsRules",
+      "src": "app.views.Sports.SportsRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsPlot",
+      "view": "views/Sports/SportsPlot",
+      "src": "app.views.Sports.SportsPlot",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsLog",
+      "view": "views/Sports/SportsLog",
+      "src": "app.views.Sports.SportsLog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsHint",
+      "view": "views/Sports/SportsHint",
+      "src": "app.views.Sports.SportsHint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsPlayer",
+      "view": "views/Sports/SportsPlayer",
+      "src": "app.views.Sports.SportsPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsNotice",
+      "view": "views/Sports/SportsNotice",
+      "src": "app.views.Sports.SportsNotice",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SportsPackage",
+      "view": "views/Sports/SportsPackage",
+      "src": "app.views.Sports.SportsPackage",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SoccerMain",
+      "view": "views/SoccerGuessing/SoccerMain",
+      "src": "app.views.SoccerGuessing.SoccerMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SoccerBet",
+      "view": "views/SoccerGuessing/SoccerBet",
+      "src": "app.views.SoccerGuessing.SoccerBet",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "DecorationList",
+      "view": "views/Decoration/DecorationList",
+      "src": "app.views.Decoration.DecorationList",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "DecorationDetails",
+      "view": "views/Decoration/DecorationDetails",
+      "src": "app.views.Decoration.DecorationDetails",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "DecorationPanel",
+      "view": "views/Decoration/DecorationPanel",
+      "src": "app.views.Decoration.DecorationPanel",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaPackage",
+      "view": "views/Sayaka/SayakaPackage",
+      "src": "app.views.Activity.ActivityPackageBase",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaMain",
+      "view": "views/Sayaka/SayakaMain",
+      "src": "app.views.Sayaka.SayakaMain",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SayakaStory",
+      "view": "views/Sayaka/SayakaStory",
+      "src": "app.views.Sayaka.SayakaStory",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SayakaShop",
+      "view": "views/Sayaka/SayakaShop",
+      "src": "app.views.Sayaka.SayakaShop",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SayakaTask",
+      "view": "views/Sayaka/SayakaTask",
+      "src": "app.views.Sayaka.SayakaTask",
+      "adapt": 1,
+      "sound": null
+    },
+    {
+      "id": "SayakaExchange",
+      "view": "views/Sayaka/SayakaExchange",
+      "src": "app.views.Sayaka.SayakaExchange",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaRules",
+      "view": "views/Sayaka/SayakaRules",
+      "src": "app.views.Sayaka.SayakaRules",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaPlot",
+      "view": "views/Sayaka/SayakaPlot",
+      "src": "app.views.Sayaka.SayakaPlot",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaLog",
+      "view": "views/Sayaka/SayakaLog",
+      "src": "app.views.Sayaka.SayakaLog",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaHint",
+      "view": "views/Sayaka/SayakaHint",
+      "src": "app.views.Sayaka.SayakaHint",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaPlayer",
+      "view": "views/Sayaka/SayakaPlayer",
+      "src": "app.views.Sayaka.SayakaPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    {
+      "id": "SayakaNotice",
+      "view": "views/Sayaka/SayakaNotice",
+      "src": "app.views.Sayaka.SayakaNotice",
+      "adapt": null,
+      "sound": null
+    }
+  ],
+  "map": {
+    "GameDebugUI": {
+      "id": "GameDebugUI",
+      "view": "views/GameDebugUI",
+      "src": "app.views.GameDebugUI",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonItemTip": {
+      "id": "CommonItemTip",
+      "view": "views/Common/CommonItemTip",
+      "src": "app.views.Common.CommonItemTip",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonItemTipLR": {
+      "id": "CommonItemTipLR",
+      "view": "views/Common/CommonItemTipLR",
+      "src": "app.views.Common.CommonItemTipLR",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonNotice": {
+      "id": "CommonNotice",
+      "view": "views/Common/CommonNotice",
+      "src": "app.views.Common.CommonNotice",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonNoticeSmall": {
+      "id": "CommonNoticeSmall",
+      "view": "views/Common/CommonNoticeSmall",
+      "src": "app.views.Common.CommonNoticeSmall",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonNoticeSmall2": {
+      "id": "CommonNoticeSmall2",
+      "view": "views/Common/CommonNoticeSmall2",
+      "src": "app.views.Common.CommonNoticeSmall2",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonNewRewards": {
+      "id": "CommonNewRewards",
+      "view": "views/Common/CommonNewRewards",
+      "src": "app.views.Common.CommonNewRewards",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonTextTipRL": {
+      "id": "CommonTextTipRL",
+      "view": "views/Common/CommonTextTipRL",
+      "src": "app.views.Common.CommonTextTipRL",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonTextTipBigRL": {
+      "id": "CommonTextTipBigRL",
+      "view": "views/Common/CommonTextTipBigRL",
+      "src": "app.views.Common.CommonTextTipRL",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonTextTipUD": {
+      "id": "CommonTextTipUD",
+      "view": "views/Common/CommonTextTipUD",
+      "src": "app.views.Common.CommonTextTipUD",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonIconTextTipUD": {
+      "id": "CommonIconTextTipUD",
+      "view": "views/Common/CommonIconTextTipUD",
+      "src": "app.views.Common.CommonIconTextTipUD",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonRules": {
+      "id": "CommonRules",
+      "view": "views/Common/CommonRules",
+      "src": "app.views.Common.CommonRules",
+      "adapt": null,
+      "sound": null
+    },
+    "CommonPackageTip": {
+      "id": "CommonPackageTip",
+      "view": "views/Common/CommonPackageTip",
+      "src": "app.views.Common.CommonPackageTip",
+      "adapt": null,
+      "sound": null
+    },
+    "LoadingLayer": {
+      "id": "LoadingLayer",
+      "view": "views/Loading/LoadingLayer",
+      "src": "app.views.Loading.LoadingLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "LoadingMask": {
+      "id": "LoadingMask",
+      "view": "views/LoadingMask",
+      "src": "app.views.LoadingMask",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginLayer": {
+      "id": "LoginLayer",
+      "view": "views/Login/LoginLayer",
+      "src": "app.views.Login.LoginLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "LoginForgotDialog": {
+      "id": "LoginForgotDialog",
+      "view": "views/Login/LoginForgotDialog",
+      "src": "app.views.Login.LoginForgotDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginRegisterDialog": {
+      "id": "LoginRegisterDialog",
+      "view": "views/Login/LoginRegisterDialog",
+      "src": "app.views.Login.LoginRegisterDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginSetPasswordDialog": {
+      "id": "LoginSetPasswordDialog",
+      "view": "views/Login/LoginSetPasswordDialog",
+      "src": "app.views.Login.LoginSetPasswordDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginStartLayer": {
+      "id": "LoginStartLayer",
+      "view": "views/Login/LoginStartLayer",
+      "src": "app.views.Login.LoginStartLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "LoginUpdateDialog": {
+      "id": "LoginUpdateDialog",
+      "view": "views/Login/LoginUpdateDialog",
+      "src": "app.views.Login.LoginUpdateDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginNoNetwordDialog": {
+      "id": "LoginNoNetwordDialog",
+      "view": "views/Login/LoginNoNetwordDialog",
+      "src": "app.views.Login.LoginNoNetwordDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginSetLanguage": {
+      "id": "LoginSetLanguage",
+      "view": "views/Login/LoginSetLanguage",
+      "src": "app.views.Login.LoginSetLanguage",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginQueue": {
+      "id": "LoginQueue",
+      "view": "views/Login/LoginQueue",
+      "src": "app.views.Login.LoginQueue",
+      "adapt": null,
+      "sound": null
+    },
+    "LoginBanTipDialog": {
+      "id": "LoginBanTipDialog",
+      "view": "views/Login/LoginBanTipDialog",
+      "src": "app.views.Login.LoginBanTipDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "Loginrepair": {
+      "id": "Loginrepair",
+      "view": "views/Login/Loginrepair",
+      "src": "app.views.Login.Loginrepair",
+      "adapt": null,
+      "sound": null
+    },
+    "Loginline": {
+      "id": "Loginline",
+      "view": "views/Login/Loginline",
+      "src": "app.views.Login.Loginline",
+      "adapt": null,
+      "sound": null
+    },
+    "LobbyLayer": {
+      "id": "LobbyLayer",
+      "view": "views/Lobby/LobbyLayer",
+      "src": "app.views.Lobby.LobbyLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "LobbyByinDialog": {
+      "id": "LobbyByinDialog",
+      "view": "views/Lobby/LobbyByinDialog",
+      "src": "app.views.Lobby.LobbyByinDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LobbyEnterDialog": {
+      "id": "LobbyEnterDialog",
+      "view": "views/Lobby/LobbyEnterDialog",
+      "src": "app.views.Lobby.LobbyEnterDialog",
+      "adapt": null,
+      "sound": null
+    },
+    "LobbyUnlockLayer": {
+      "id": "LobbyUnlockLayer",
+      "view": "views/Lobby/LobbyUnlockLayer",
+      "src": "app.views.Lobby.LobbyUnlockLayer",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameBankrupt": {
+      "id": "IngameBankrupt",
+      "view": "views/Lobby/IngameBankrupt",
+      "src": "app.views.Lobby.IngameBankrupt",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameBondsUp": {
+      "id": "IngameBondsUp",
+      "view": "views/Lobby/IngameBondsUp",
+      "src": "app.views.Lobby.IngameBondsUp",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameFeedback": {
+      "id": "IngameFeedback",
+      "view": "views/Lobby/IngameFeedback",
+      "src": "app.views.Lobby.IngameFeedback",
+      "adapt": null,
+      "sound": null
+    },
+    "OmahaBlinds": {
+      "id": "OmahaBlinds",
+      "view": "views/Lobby/OmahaBlinds",
+      "src": "app.views.Lobby.OmahaBlinds",
+      "adapt": 1,
+      "sound": null
+    },
+    "LobbyAdjustment": {
+      "id": "LobbyAdjustment",
+      "view": "views/Lobby/LobbyAdjustment",
+      "src": "app.views.Lobby.LobbyAdjustment",
+      "adapt": 1,
+      "sound": null
+    },
+    "LobbyCustomization": {
+      "id": "LobbyCustomization",
+      "view": "views/Lobby/LobbyCustomization",
+      "src": "app.views.Lobby.LobbyCustomization",
+      "adapt": null,
+      "sound": null
+    },
+    "LobbyDecorationSelect": {
+      "id": "LobbyDecorationSelect",
+      "view": "views/Lobby/LobbyDecorationSelect",
+      "src": "app.views.Lobby.LobbyDecorationSelect",
+      "adapt": null,
+      "sound": null
+    },
+    "LobbySkinSelect": {
+      "id": "LobbySkinSelect",
+      "view": "views/Lobby/LobbySkinSelect",
+      "src": "app.views.Lobby.LobbySkinSelect",
+      "adapt": 1,
+      "sound": null
+    },
+    "MusicSelect": {
+      "id": "MusicSelect",
+      "view": "views/Lobby/MusicSelect",
+      "src": "app.views.Lobby.MusicSelect",
+      "adapt": null,
+      "sound": null
+    },
+    "LobbySkinNotice": {
+      "id": "LobbySkinNotice",
+      "view": "views/Lobby/LobbySkinNotice",
+      "src": "app.views.Lobby.LobbySkinNotice",
+      "adapt": null,
+      "sound": null
+    },
+    "BackpackMain": {
+      "id": "BackpackMain",
+      "view": "views/Backpack/BackpackMain",
+      "src": "app.views.Backpack.BackpackMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "BackpackMusic": {
+      "id": "BackpackMusic",
+      "view": "views/Backpack/BackpackMusic",
+      "src": "app.views.Backpack.BackpackMusic",
+      "adapt": null,
+      "sound": null
+    },
+    "BackpackClaim": {
+      "id": "BackpackClaim",
+      "view": "views/Backpack/BackpackClaim",
+      "src": "app.views.Backpack.BackpackClaim",
+      "adapt": null,
+      "sound": null
+    },
+    "BackpackClaimResult": {
+      "id": "BackpackClaimResult",
+      "view": "views/Backpack/BackpackClaimResult",
+      "src": "app.views.Backpack.BackpackClaimResult",
+      "adapt": null,
+      "sound": null
+    },
+    "BackpackDetail": {
+      "id": "BackpackDetail",
+      "view": "views/Backpack/BackpackDetail",
+      "src": "app.views.Backpack.BackpackDetail",
+      "adapt": null,
+      "sound": null
+    },
+    "BackpackPreview": {
+      "id": "BackpackPreview",
+      "view": "views/Backpack/BackpackPreview",
+      "src": "app.views.Backpack.BackpackPreview",
+      "adapt": 1,
+      "sound": null
+    },
+    "BackpackGift": {
+      "id": "BackpackGift",
+      "view": "views/Backpack/BackpackGift",
+      "src": "app.views.Backpack.BackpackGift",
+      "adapt": null,
+      "sound": null
+    },
+    "BackpackLobbyPreview": {
+      "id": "BackpackLobbyPreview",
+      "view": "views/Backpack/BackpackLobbyPreview",
+      "src": "app.views.Backpack.BackpackLobbyPreview",
+      "adapt": 1,
+      "sound": null
+    },
+    "BackpackRecycle": {
+      "id": "BackpackRecycle",
+      "view": "views/Backpack/BackpackRecycle",
+      "src": "app.views.Backpack.BackpackRecycle",
+      "adapt": null,
+      "sound": null
+    },
+    "TableChatLayer": {
+      "id": "TableChatLayer",
+      "view": "views/table/TableChatLayer",
+      "src": "app.table.TableChatLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKTable3D": {
+      "id": "PKTable3D",
+      "view": "views/table/PK/PKTable3D",
+      "src": "app.table.PK.PKTable",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKTable3DSNG": {
+      "id": "PKTable3DSNG",
+      "view": "views/table/PK/PKTable3D",
+      "src": "app.table.PK.PKTable3DSNG",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKTable3DMTT": {
+      "id": "PKTable3DMTT",
+      "view": "views/table/PK/PKTable3D",
+      "src": "app.table.PK.PKTable3DMTT",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKUILayer": {
+      "id": "PKUILayer",
+      "view": "views/table/PK/PKUILayer",
+      "src": "app.table.PK.PKUILayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKUIRecordLayer": {
+      "id": "PKUIRecordLayer",
+      "view": "views/table/PK/PKUIRecordLayer",
+      "src": "app.table.PK.PKUIRecordLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKMenu": {
+      "id": "PKMenu",
+      "view": "views/table/PK/PKMenu",
+      "src": "app.table.PK.PKMenu",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKActionLayer": {
+      "id": "PKActionLayer",
+      "view": "views/table/PK/PKActionLayer",
+      "src": "app.table.PK.PKActionLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKActionAllinLayer": {
+      "id": "PKActionAllinLayer",
+      "view": "views/table/PK/PKActionAllinLayer",
+      "src": "app.table.PK.PKActionAllinLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameAllin": {
+      "id": "IngameAllin",
+      "view": "views/table/IngameAllin",
+      "src": "app.table.IngameAllin",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaAllin": {
+      "id": "SayakaAllin",
+      "view": "views/table/Sayaka2026/SayakaAllin",
+      "src": "app.table.IngameAllin",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameResult": {
+      "id": "IngameResult",
+      "view": "views/table/IngameResult",
+      "src": "app.table.IngameResult",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameHistory": {
+      "id": "IngameHistory",
+      "view": "views/table/IngameHistory",
+      "src": "app.table.IngameHistory",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameReplay": {
+      "id": "IngameReplay",
+      "view": "views/table/IngameReplay",
+      "src": "app.table.IngameReplay",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameRules": {
+      "id": "IngameRules",
+      "view": "views/table/IngameRules",
+      "src": "app.table.IngameRules",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameNoticeSave": {
+      "id": "IngameNoticeSave",
+      "view": "views/table/IngameNoticeSave",
+      "src": "app.table.IngameNoticeSave",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameSettings": {
+      "id": "IngameSettings",
+      "view": "views/table/IngameSettings",
+      "src": "app.table.IngameSettings",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameQuickBy": {
+      "id": "IngameQuickBy",
+      "view": "views/table/IngameQuickBy",
+      "src": "app.table.IngameQuickBy",
+      "adapt": null,
+      "sound": null
+    },
+    "IngameInvite": {
+      "id": "IngameInvite",
+      "view": "views/table/IngameInvite",
+      "src": "app.table.IngameInvite",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameSpectate": {
+      "id": "IngameSpectate",
+      "view": "views/table/IngameSpectate",
+      "src": "app.table.IngameSpectate",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameAssistant": {
+      "id": "IngameAssistant",
+      "view": "views/table/IngameAssistant",
+      "src": "app.table.IngameAssistant",
+      "adapt": 1,
+      "sound": null
+    },
+    "IngameEmoji": {
+      "id": "IngameEmoji",
+      "view": "views/table/IngameEmoji",
+      "src": "app.table.IngameEmoji",
+      "adapt": null,
+      "sound": null
+    },
+    "ColorGame": {
+      "id": "ColorGame",
+      "view": "views/ColorGame/ColorGame",
+      "src": "app.views.ColorGame.ColorGame",
+      "adapt": 1,
+      "sound": null
+    },
+    "SideGameView": {
+      "id": "SideGameView",
+      "view": "views/SideGame/SideGameView",
+      "src": "app.views.SideGame.SideGameView",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterChangeName": {
+      "id": "CharacterChangeName",
+      "view": "views/Character/CharacterChangeName",
+      "src": "app.views.Character.CharacterChangeName",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterMain": {
+      "id": "CharacterMain",
+      "view": "views/Character/CharacterMain",
+      "src": "app.views.Character.CharacterMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterMainBonds": {
+      "id": "CharacterMainBonds",
+      "view": "views/Character/CharacterMainBonds",
+      "src": "app.views.Character.CharacterMainBonds",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterMainBondsUp": {
+      "id": "CharacterMainBondsUp",
+      "view": "views/Character/CharacterMainBondsUp",
+      "src": "app.views.Character.CharacterMainBondsUp",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterMainGarments": {
+      "id": "CharacterMainGarments",
+      "view": "views/Character/CharacterMainGarments",
+      "src": "app.views.Character.CharacterMainGarments",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterMainProfile": {
+      "id": "CharacterMainProfile",
+      "view": "views/Character/CharacterMainProfile",
+      "src": "app.views.Character.CharacterMainProfile",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterMainProfileDetail": {
+      "id": "CharacterMainProfileDetail",
+      "view": "views/Character/CharacterMainProfileDetail",
+      "src": "app.views.Character.CharacterMainProfileDetail",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterAwaken": {
+      "id": "CharacterAwaken",
+      "view": "views/Character/CharacterAwaken",
+      "src": "app.views.Character.CharacterAwaken",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterGiftResult": {
+      "id": "CharacterGiftResult",
+      "view": "views/Character/CharacterGiftResult",
+      "src": "app.views.Character.CharacterGiftResult",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterView": {
+      "id": "CharacterView",
+      "view": "views/Character/CharacterView",
+      "src": "app.views.Character.CharacterView",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterViewVictory": {
+      "id": "CharacterViewVictory",
+      "view": "views/Character/CharacterViewVictory",
+      "src": "app.views.Character.CharacterViewVictory",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterItemTip": {
+      "id": "CharacterItemTip",
+      "view": "views/Character/CharacterItemTip",
+      "src": "app.views.Character.CharacterItemTip",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterOathFulfilled": {
+      "id": "CharacterOathFulfilled",
+      "view": "views/Character/CharacterOathFulfilled",
+      "src": "app.views.Character.CharacterOathFulfilled",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterItemsUnlocked": {
+      "id": "CharacterItemsUnlocked",
+      "view": "views/Character/CharacterItemsUnlocked",
+      "src": "app.views.Character.CharacterItemsUnlocked",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterCollectCharacters": {
+      "id": "CharacterCollectCharacters",
+      "view": "views/Character/CharacterCollectCharacters",
+      "src": "app.views.Character.CharacterCollectCharacters",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterMainPrompt": {
+      "id": "CharacterMainPrompt",
+      "view": "views/Character/CharacterMainPrompt",
+      "src": "app.views.Character.CharacterMainPrompt",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterRoleCanvas": {
+      "id": "CharacterRoleCanvas",
+      "view": "views/Character/CharacterRoleCanvas",
+      "src": "app.views.Character.CharacterRoleCanvas",
+      "adapt": 1,
+      "sound": null
+    },
+    "CharacterMainIntroduction": {
+      "id": "CharacterMainIntroduction",
+      "view": "views/Character/CharacterMainIntroduction",
+      "src": "app.views.Character.CharacterMainIntroduction",
+      "adapt": null,
+      "sound": null
+    },
+    "CharacterSecondOathSAYAKA": {
+      "id": "CharacterSecondOathSAYAKA",
+      "view": "views/Character/CharacterSecondOathSAYAKA",
+      "src": "app.views.Character.CharacterSecondOathBase",
+      "adapt": null,
+      "sound": null
+    },
+    "GachaMain": {
+      "id": "GachaMain",
+      "view": "views/Gacha/GachaMain",
+      "src": "app.views.Gacha.GachaMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "GachaMainDetail": {
+      "id": "GachaMainDetail",
+      "view": "views/Gacha/GachaMainDetail",
+      "src": "app.views.Gacha.GachaMainDetail",
+      "adapt": null,
+      "sound": null
+    },
+    "GachaResult": {
+      "id": "GachaResult",
+      "view": "views/Gacha/GachaResult",
+      "src": "app.views.Gacha.GachaResult",
+      "adapt": 1,
+      "sound": null
+    },
+    "GachaResultShow": {
+      "id": "GachaResultShow",
+      "view": "views/Gacha/GachaResultShow",
+      "src": "app.views.Gacha.GachaResultShow",
+      "adapt": 1,
+      "sound": null
+    },
+    "GachaWheelMask": {
+      "id": "GachaWheelMask",
+      "view": "views/Gacha/GachaWheelMask",
+      "src": "app.views.Gacha.GachaWheelMask",
+      "adapt": 1,
+      "sound": null
+    },
+    "InformationAvatar": {
+      "id": "InformationAvatar",
+      "view": "views/Info/InformationAvatar",
+      "src": "app.views.Info.InformationAvatar",
+      "adapt": null,
+      "sound": null
+    },
+    "InformationAvatarDetail": {
+      "id": "InformationAvatarDetail",
+      "view": "views/Info/InformationAvatarDetail",
+      "src": "app.views.Info.InformationAvatarDetail",
+      "adapt": null,
+      "sound": null
+    },
+    "InformationMain": {
+      "id": "InformationMain",
+      "view": "views/Info/InformationMain",
+      "src": "app.views.Info.InformationMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "InformationMainNew": {
+      "id": "InformationMainNew",
+      "view": "views/Info/InformationMainNew",
+      "src": "app.views.Info.InformationMainNew",
+      "adapt": 1,
+      "sound": null
+    },
+    "InformationRename": {
+      "id": "InformationRename",
+      "view": "views/Info/InformationRename",
+      "src": "app.views.Info.InformationRename",
+      "adapt": null,
+      "sound": null
+    },
+    "InformationManifesto": {
+      "id": "InformationManifesto",
+      "view": "views/Info/InformationManifesto",
+      "src": "app.views.Info.InformationManifesto",
+      "adapt": null,
+      "sound": null
+    },
+    "Friend": {
+      "id": "Friend",
+      "view": "views/Friend/Friend",
+      "src": "app.views.Friend.Friend",
+      "adapt": 1,
+      "sound": null
+    },
+    "FriendRemark": {
+      "id": "FriendRemark",
+      "view": "views/Friend/FriendRemark",
+      "src": "app.views.Friend.FriendRemark",
+      "adapt": null,
+      "sound": null
+    },
+    "FriendsRoom": {
+      "id": "FriendsRoom",
+      "view": "views/FriendsRoom/FriendsRoom",
+      "src": "app.views.FriendsRoom.FriendsRoom",
+      "adapt": 1,
+      "sound": null
+    },
+    "FriendsRoomBlindStructure": {
+      "id": "FriendsRoomBlindStructure",
+      "view": "views/FriendsRoom/FriendsRoomBlindStructure",
+      "src": "app.views.FriendsRoom.FriendsRoomBlindStructure",
+      "adapt": 1,
+      "sound": null
+    },
+    "FriendsRoomByin": {
+      "id": "FriendsRoomByin",
+      "view": "views/FriendsRoom/FriendsRoomByin",
+      "src": "app.views.FriendsRoom.FriendsRoomByin",
+      "adapt": null,
+      "sound": null
+    },
+    "FriendsRoomCreate": {
+      "id": "FriendsRoomCreate",
+      "view": "views/FriendsRoom/FriendsRoomCreate",
+      "src": "app.views.FriendsRoom.FriendsRoomCreate",
+      "adapt": null,
+      "sound": null
+    },
+    "FriendsRoomInvite": {
+      "id": "FriendsRoomInvite",
+      "view": "views/FriendsRoom/FriendsRoomInvite",
+      "src": "app.views.FriendsRoom.FriendsRoomInvite",
+      "adapt": 1,
+      "sound": null
+    },
+    "FriendsRoomList": {
+      "id": "FriendsRoomList",
+      "view": "views/FriendsRoom/FriendsRoomList",
+      "src": "app.views.FriendsRoom.FriendsRoomList",
+      "adapt": null,
+      "sound": null
+    },
+    "FriendsRoomOutlook": {
+      "id": "FriendsRoomOutlook",
+      "view": "views/FriendsRoom/FriendsRoomOutlook",
+      "src": "app.views.FriendsRoom.FriendsRoomOutlook",
+      "adapt": 1,
+      "sound": null
+    },
+    "PKFriendsRoomLayer": {
+      "id": "PKFriendsRoomLayer",
+      "view": "views/table/PK/PKFriendsRoomLayer",
+      "src": "app.table.PK.PKFriendsRoomLayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "Shop": {
+      "id": "Shop",
+      "view": "views/Shop/Shop",
+      "src": "app.views.Shop.Shop",
+      "adapt": 1,
+      "sound": null
+    },
+    "ShopPurchase": {
+      "id": "ShopPurchase",
+      "view": "views/Shop/ShopPurchase",
+      "src": "app.views.Shop.ShopPurchase",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPurchasePackage": {
+      "id": "ShopPurchasePackage",
+      "view": "views/Shop/ShopPurchasePackage",
+      "src": "app.views.Shop.ShopPurchasePackage",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPurchaseTheme": {
+      "id": "ShopPurchaseTheme",
+      "view": "views/Shop/ShopPurchaseTheme",
+      "src": "app.views.Shop.ShopPurchaseTheme",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPurchaseSingle": {
+      "id": "ShopPurchaseSingle",
+      "view": "views/Shop/ShopPurchaseSingle",
+      "src": "app.views.Shop.ShopPurchaseSingle",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPurchaseGiftsSkin": {
+      "id": "ShopPurchaseGiftsSkin",
+      "view": "views/Shop/ShopPurchaseGiftsSkin",
+      "src": "app.views.Shop.ShopPurchaseGiftsSkin",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopExchangeSingle": {
+      "id": "ShopExchangeSingle",
+      "view": "views/Shop/ShopExchangeSingle",
+      "src": "app.views.Shop.ShopExchangeSingle",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopExchangeBatch": {
+      "id": "ShopExchangeBatch",
+      "view": "views/Shop/ShopExchangeBatch",
+      "src": "app.views.Shop.ShopExchangeBatch",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopMonthlyCardPurchase": {
+      "id": "ShopMonthlyCardPurchase",
+      "view": "views/Shop/ShopMonthlyCardPurchase",
+      "src": "app.views.Shop.ShopMonthlyCardPurchase",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopMonthlyCardReward": {
+      "id": "ShopMonthlyCardReward",
+      "view": "views/Shop/ShopMonthlyCardReward",
+      "src": "app.views.Shop.ShopMonthlyCardReward",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopMonthlyCardRules": {
+      "id": "ShopMonthlyCardRules",
+      "view": "views/Shop/ShopMonthlyCardRules",
+      "src": "app.views.Shop.ShopMonthlyCardRules",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopThemePreview": {
+      "id": "ShopThemePreview",
+      "view": "views/Shop/ShopThemePreview",
+      "src": "app.views.Shop.ShopThemePreview",
+      "adapt": 1,
+      "sound": null
+    },
+    "ShopMonthlyCardEffect": {
+      "id": "ShopMonthlyCardEffect",
+      "view": "views/Shop/ShopMonthlyCardEffect",
+      "src": "app.views.Shop.ShopMonthlyCardEffect",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPledgeExpress": {
+      "id": "ShopPledgeExpress",
+      "view": "views/Shop/ShopPledgeExpress",
+      "src": "app.views.Shop.ShopPledgeExpress",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPushView": {
+      "id": "ShopPushView",
+      "view": "views/Shop/ShopPushView",
+      "src": "app.views.Shop.ShopPushView",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopSayakaExclusive_popup": {
+      "id": "ShopSayakaExclusive_popup",
+      "view": "views/Shop/ShopSayakaExclusive_popup",
+      "src": "app.views.Shop.ShopSayakaExclusive_popup",
+      "adapt": null,
+      "sound": null
+    },
+    "EmailMain": {
+      "id": "EmailMain",
+      "view": "views/Email/EmailMain",
+      "src": "app.views.Email.EmailMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "AllinBlinds": {
+      "id": "AllinBlinds",
+      "view": "views/Allin/AllinBlinds",
+      "src": "app.views.Allin.AllinBlinds",
+      "adapt": 1,
+      "sound": null
+    },
+    "AllinSettings": {
+      "id": "AllinSettings",
+      "view": "views/Allin/AllinSettings",
+      "src": "app.views.Allin.AllinSettings",
+      "adapt": null,
+      "sound": null
+    },
+    "Setting": {
+      "id": "Setting",
+      "view": "views/Setting/Setting",
+      "src": "app.views.Setting.Setting",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingAccountDetail": {
+      "id": "SettingAccountDetail",
+      "view": "views/Setting/SettingAccountDetail",
+      "src": "app.views.Setting.SettingAccountDetail",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingAccountRemove": {
+      "id": "SettingAccountRemove",
+      "view": "views/Setting/SettingAccountRemove",
+      "src": "app.views.Setting.SettingAccountRemove",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingBindEmail": {
+      "id": "SettingBindEmail",
+      "view": "views/Setting/SettingBindEmail",
+      "src": "app.views.Setting.SettingBindEmail",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingFeedback": {
+      "id": "SettingFeedback",
+      "view": "views/Setting/SettingFeedback",
+      "src": "app.views.Setting.SettingFeedback",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingProtocol": {
+      "id": "SettingProtocol",
+      "view": "views/Setting/SettingProtocol",
+      "src": "app.views.Setting.SettingProtocol",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingRedeemCodeView": {
+      "id": "SettingRedeemCodeView",
+      "view": "views/Setting/SettingRedeemCodeView",
+      "src": "app.views.Setting.SettingRedeemCodeView",
+      "adapt": null,
+      "sound": null
+    },
+    "SettingTransferID": {
+      "id": "SettingTransferID",
+      "view": "views/Setting/SettingTransferID",
+      "src": "app.views.Setting.SettingTransferID",
+      "adapt": null,
+      "sound": null
+    },
+    "Notice": {
+      "id": "Notice",
+      "view": "views/Notice/Notice",
+      "src": "app.views.Notice.Notice",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivityMain": {
+      "id": "ActivityMain",
+      "view": "views/Activity/ActivityMain",
+      "src": "app.views.Activity.ActivityMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "ActivitySignIn": {
+      "id": "ActivitySignIn",
+      "view": "views/Activity/ActivitySignIn",
+      "src": "app.views.Activity.ActivitySignIn",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivitySignInRetroactive": {
+      "id": "ActivitySignInRetroactive",
+      "view": "views/Activity/ActivitySignInRetroactive",
+      "src": "app.views.Activity.ActivitySignInRetroactive",
+      "adapt": null,
+      "sound": null
+    },
+    "Story": {
+      "id": "Story",
+      "view": "views/Story/Story",
+      "src": "app.Story.Story",
+      "adapt": 1,
+      "sound": null
+    },
+    "StoryRole": {
+      "id": "StoryRole",
+      "view": "views/Story/StoryRole",
+      "src": "app.Story.StoryRole",
+      "adapt": null,
+      "sound": null
+    },
+    "StorySkip": {
+      "id": "StorySkip",
+      "view": "views/Story/StorySkip",
+      "src": "app.Story.StorySkip",
+      "adapt": null,
+      "sound": null
+    },
+    "StoryRecord": {
+      "id": "StoryRecord",
+      "view": "views/Story/StoryRecord",
+      "src": "app.Story.StoryRecord",
+      "adapt": null,
+      "sound": null
+    },
+    "GuideChangeName": {
+      "id": "GuideChangeName",
+      "view": "views/Guide/GuideChangeName",
+      "src": "app.views.Guide.GuideChangeName",
+      "adapt": null,
+      "sound": null
+    },
+    "GameGuide": {
+      "id": "GameGuide",
+      "view": "views/Guide/GameGuide",
+      "src": "app.views.Guide.GameGuide",
+      "adapt": null,
+      "sound": null
+    },
+    "TaskView": {
+      "id": "TaskView",
+      "view": "views/Task/TaskView",
+      "src": "app.views.Task.TaskView",
+      "adapt": 1,
+      "sound": null
+    },
+    "SevenDayTask": {
+      "id": "SevenDayTask",
+      "view": "views/SevenDayTask/SevenDayTask",
+      "src": "app.views.SevenDayTask.SevenDayTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "SevenDayTaskQuiz": {
+      "id": "SevenDayTaskQuiz",
+      "view": "views/SevenDayTask/SevenDayTaskQuiz",
+      "src": "app.views.SevenDayTask.SevenDayTaskQuiz",
+      "adapt": 1,
+      "sound": null
+    },
+    "SevenDayTaskplot": {
+      "id": "SevenDayTaskplot",
+      "view": "views/SevenDayTask/SevenDayTaskplot",
+      "src": "app.views.SevenDayTask.SevenDayTaskplot",
+      "adapt": 0,
+      "sound": null
+    },
+    "SevenDayTaskTips": {
+      "id": "SevenDayTaskTips",
+      "view": "views/SevenDayTask/SevenDayTaskTips",
+      "src": "app.views.SevenDayTask.SevenDayTaskTips",
+      "adapt": null,
+      "sound": null
+    },
+    "SevenDayTaskCertification": {
+      "id": "SevenDayTaskCertification",
+      "view": "views/SevenDayTask/SevenDayTaskCertification",
+      "src": "app.views.SevenDayTask.SevenDayTaskCertification",
+      "adapt": 1,
+      "sound": null
+    },
+    "SevenDayTaskCertificationSign": {
+      "id": "SevenDayTaskCertificationSign",
+      "view": "views/SevenDayTask/SevenDayTaskCertificationSign",
+      "src": "app.views.SevenDayTask.SevenDayTaskCertificationSign",
+      "adapt": null,
+      "sound": null
+    },
+    "SevenDayTaskConsume": {
+      "id": "SevenDayTaskConsume",
+      "view": "views/SevenDayTask/SevenDayTaskConsume",
+      "src": "app.views.SevenDayTask.SevenDayTaskConsume",
+      "adapt": null,
+      "sound": null
+    },
+    "Level": {
+      "id": "Level",
+      "view": "views/Level/Level",
+      "src": "app.views.Level.Level",
+      "adapt": null,
+      "sound": null
+    },
+    "LevelUnlock": {
+      "id": "LevelUnlock",
+      "view": "views/Level/LevelUnlock",
+      "src": "app.views.Level.LevelUnlock",
+      "adapt": 1,
+      "sound": null
+    },
+    "LevelUpgrade": {
+      "id": "LevelUpgrade",
+      "view": "views/Level/LevelUpgrade",
+      "src": "app.views.Level.LevelUpgrade",
+      "adapt": 1,
+      "sound": null
+    },
+    "VIP": {
+      "id": "VIP",
+      "view": "views/VipView/VIP",
+      "src": "app.views.VipView.VIP",
+      "adapt": 1,
+      "sound": null
+    },
+    "VIPDetail": {
+      "id": "VIPDetail",
+      "view": "views/VipView/VIPDetail",
+      "src": "app.views.VipView.VIPDetail",
+      "adapt": null,
+      "sound": null
+    },
+    "VIPUpgrade": {
+      "id": "VIPUpgrade",
+      "view": "views/VipView/VIPUpgrade",
+      "src": "app.views.VipView.VIPUpgrade",
+      "adapt": 1,
+      "sound": null
+    },
+    "UpdateShutdown": {
+      "id": "UpdateShutdown",
+      "view": "views/Update/UpdateShutdown",
+      "src": "app.views.Update.UpdateShutdown",
+      "adapt": null,
+      "sound": null
+    },
+    "UpdateVersion": {
+      "id": "UpdateVersion",
+      "view": "views/Update/UpdateVersion",
+      "src": "app.views.Update.UpdateVersion",
+      "adapt": null,
+      "sound": null
+    },
+    "ShareMain": {
+      "id": "ShareMain",
+      "view": "views/Share/ShareMain",
+      "src": "app.views.Share.ShareMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringHall": {
+      "id": "HotSpringHall",
+      "view": "views/Hotspring/HotSpringHall",
+      "src": "app.views.Hotspring.HotSpringHall",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringHallBlind": {
+      "id": "HotSpringHallBlind",
+      "view": "views/Hotspring/HotSpringHallBlind",
+      "src": "app.views.Hotspring.HotSpringHallBlind",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringHallPlayer": {
+      "id": "HotSpringHallPlayer",
+      "view": "views/Hotspring/HotSpringHallPlayer",
+      "src": "app.views.Hotspring.HotSpringHallPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    "HotSpringHallRule": {
+      "id": "HotSpringHallRule",
+      "view": "views/Hotspring/HotSpringHallRule",
+      "src": "app.views.Hotspring.HotSpringHallRule",
+      "adapt": null,
+      "sound": null
+    },
+    "HotSpringPlot": {
+      "id": "HotSpringPlot",
+      "view": "views/Hotspring/HotSpringPlot",
+      "src": "app.views.Hotspring.HotSpringPlot",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringRule": {
+      "id": "HotSpringRule",
+      "view": "views/Hotspring/HotSpringRule",
+      "src": "app.views.Hotspring.HotSpringRule",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringShop": {
+      "id": "HotSpringShop",
+      "view": "views/Hotspring/HotSpringShop",
+      "src": "app.views.Hotspring.HotSpringShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringTask": {
+      "id": "HotSpringTask",
+      "view": "views/Hotspring/HotSpringTask",
+      "src": "app.views.Hotspring.HotSpringTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "HotSpringHallLog": {
+      "id": "HotSpringHallLog",
+      "view": "views/Hotspring/HotSpringHallLog",
+      "src": "app.views.Hotspring.HotSpringHallLog",
+      "adapt": null,
+      "sound": null
+    },
+    "HotSpringHallSkip": {
+      "id": "HotSpringHallSkip",
+      "view": "views/Hotspring/HotSpringHallSkip",
+      "src": "app.views.Hotspring.HotSpringHallSkip",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivityNewmanCheckin_popup": {
+      "id": "ActivityNewmanCheckin_popup",
+      "view": "views/Activitynewman/ActivityNewmanCheckin_popup",
+      "src": "app.views.Activitynewman.ActivityNewmanCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivityNewmanCheckin": {
+      "id": "ActivityNewmanCheckin",
+      "view": "views/Activitynewman/ActivityNewmanCheckin",
+      "src": "app.views.Activitynewman.ActivityNewmanCheckin",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivityGalaSeasonCheckin_popup": {
+      "id": "ActivityGalaSeasonCheckin_popup",
+      "view": "views/ActivityGalaSeasonCheckin/ActivityGalaSeasonCheckin_popup",
+      "src": "app.views.ActivityGalaSeasonCheckin.ActivityGalaSeasonCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivitySchoolCheckin_popup": {
+      "id": "ActivitySchoolCheckin_popup",
+      "view": "views/ActivitySchoolCheckin/ActivitySchoolCheckin_popup",
+      "src": "app.views.ActivitySchoolCheckin.ActivitySchoolCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivityBunnyGirlCheckin_popup": {
+      "id": "ActivityBunnyGirlCheckin_popup",
+      "view": "views/ActivityBunnyGirlCheckin/ActivityBunnyGirlCheckin_popup",
+      "src": "app.views.ActivityBunnyGirlCheckin.ActivityBunnyGirlCheckin_popup",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivitySportsCheckin_popup": {
+      "id": "ActivitySportsCheckin_popup",
+      "view": "views/ActivitySportsCheckin/ActivitySportsCheckin_popup",
+      "src": "app.views.Activity.ActivitySignInPopupBase",
+      "adapt": null,
+      "sound": null
+    },
+    "ActivitySayakaCheckin_popup": {
+      "id": "ActivitySayakaCheckin_popup",
+      "view": "views/ActivitySayakaCheckin/ActivitySayakaCheckin_popup",
+      "src": "app.views.Activity.ActivitySignInPopupBase",
+      "adapt": null,
+      "sound": null
+    },
+    "ShopPayment": {
+      "id": "ShopPayment",
+      "view": "views/ShopPayment",
+      "src": "ShopPayment",
+      "adapt": null,
+      "sound": null
+    },
+    "RankingMain": {
+      "id": "RankingMain",
+      "view": "views/Ranking/RankingMain",
+      "src": "app.views.Ranking.RankingMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "RankingRule": {
+      "id": "RankingRule",
+      "view": "views/Ranking/RankingRule",
+      "src": "app.views.Ranking.RankingRule",
+      "adapt": null,
+      "sound": null
+    },
+    "RankingList": {
+      "id": "RankingList",
+      "view": "views/Ranking/RankingList",
+      "src": "app.views.Ranking.RankingList",
+      "adapt": null,
+      "sound": null
+    },
+    "TournamentLobby": {
+      "id": "TournamentLobby",
+      "view": "views/Tournament/TournamentLobby",
+      "src": "app.views.Tournament.TournamentLobby",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentBlindStructure": {
+      "id": "TournamentBlindStructure",
+      "view": "views/Tournament/TournamentBlindStructure",
+      "src": "app.views.Tournament.TournamentBlindStructure",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentPrizePoolDraw": {
+      "id": "TournamentPrizePoolDraw",
+      "view": "views/TournamentSNG/TournamentPrizePoolDraw",
+      "src": "app.views.TournamentSNG.TournamentPrizePoolDraw",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGDetails": {
+      "id": "TournamentSNGDetails",
+      "view": "views/TournamentSNG/TournamentSNGDetails",
+      "src": "app.views.TournamentSNG.TournamentSNGDetails",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGlist": {
+      "id": "TournamentSNGlist",
+      "view": "views/TournamentSNG/TournamentSNGlist",
+      "src": "app.views.TournamentSNG.TournamentSNGlist",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGMatchmaking": {
+      "id": "TournamentSNGMatchmaking",
+      "view": "views/TournamentSNG/TournamentSNGMatchmaking",
+      "src": "app.views.TournamentSNG.TournamentSNGMatchmaking",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGingame": {
+      "id": "TournamentSNGingame",
+      "view": "views/TournamentSNG/TournamentSNGingame",
+      "src": "app.views.TournamentSNG.TournamentSNGingame",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGUILayer": {
+      "id": "TournamentSNGUILayer",
+      "view": "views/TournamentSNG/TournamentSNGUILayer",
+      "src": "app.views.TournamentSNG.TournamentSNGUILayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGShowdownWin": {
+      "id": "TournamentSNGShowdownWin",
+      "view": "views/TournamentSNG/TournamentSNGShowdownWin",
+      "src": "app.views.TournamentSNG.TournamentSNGShowdown",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGShowdownLose": {
+      "id": "TournamentSNGShowdownLose",
+      "view": "views/TournamentSNG/TournamentSNGShowdownLose",
+      "src": "app.views.TournamentSNG.TournamentSNGShowdown",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGRules": {
+      "id": "TournamentSNGRules",
+      "view": "views/TournamentSNG/TournamentSNGRules",
+      "src": "app.views.TournamentSNG.TournamentSNGRules",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentSNGhint": {
+      "id": "TournamentSNGhint",
+      "view": "views/TournamentSNG/TournamentSNGhint",
+      "src": "app.views.TournamentSNG.TournamentSNGhint",
+      "adapt": null,
+      "sound": null
+    },
+    "TournamentIngameCount": {
+      "id": "TournamentIngameCount",
+      "view": "views/TournamentMTT/TournamentIngameCount",
+      "src": "app.views.TournamentMTT.TournamentIngameCount",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentIngameMTTRightList": {
+      "id": "TournamentIngameMTTRightList",
+      "view": "views/TournamentMTT/TournamentIngameMTTRightList",
+      "src": "app.views.TournamentMTT.TournamentIngameMTTRightList",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentIngamePopupNotice": {
+      "id": "TournamentIngamePopupNotice",
+      "view": "views/TournamentMTT/TournamentIngamePopupNotice",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupNotice",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentIngamePopupRest": {
+      "id": "TournamentIngamePopupRest",
+      "view": "views/TournamentMTT/TournamentIngamePopupRest",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupRest",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentIngamePopupTipBubble": {
+      "id": "TournamentIngamePopupTipBubble",
+      "view": "views/TournamentMTT/TournamentIngamePopupTipBubble",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupTipBubble",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentIngamePopupTipRest": {
+      "id": "TournamentIngamePopupTipRest",
+      "view": "views/TournamentMTT/TournamentIngamePopupTipRest",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupTipRest",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentIngamePopupTipSuccess": {
+      "id": "TournamentIngamePopupTipSuccess",
+      "view": "views/TournamentMTT/TournamentIngamePopupTipSuccess",
+      "src": "app.views.TournamentMTT.TournamentIngamePopupTipSuccess",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTDetails": {
+      "id": "TournamentMTTDetails",
+      "view": "views/TournamentMTT/TournamentMTTDetails",
+      "src": "app.views.TournamentMTT.TournamentMTTDetails",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTlist": {
+      "id": "TournamentMTTlist",
+      "view": "views/TournamentMTT/TournamentMTTlist",
+      "src": "app.views.TournamentMTT.TournamentMTTlist",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTpayout": {
+      "id": "TournamentMTTpayout",
+      "view": "views/TournamentMTT/TournamentMTTpayout",
+      "src": "app.views.TournamentMTT.TournamentMTTpayout",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTPrizes": {
+      "id": "TournamentMTTPrizes",
+      "view": "views/TournamentMTT/TournamentMTTPrizes",
+      "src": "app.views.TournamentMTT.TournamentMTTPrizes",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTRanks": {
+      "id": "TournamentMTTRanks",
+      "view": "views/TournamentMTT/TournamentMTTRanks",
+      "src": "app.views.TournamentMTT.TournamentMTTRanks",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTRules": {
+      "id": "TournamentMTTRules",
+      "view": "views/TournamentMTT/TournamentMTTRules",
+      "src": "app.views.TournamentMTT.TournamentMTTRules",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTShowdown": {
+      "id": "TournamentMTTShowdown",
+      "view": "views/TournamentMTT/TournamentMTTShowdown",
+      "src": "app.views.TournamentMTT.TournamentMTTShowdown",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTShowdown02": {
+      "id": "TournamentMTTShowdown02",
+      "view": "views/TournamentMTT/TournamentMTTShowdown02",
+      "src": "app.views.TournamentMTT.TournamentMTTShowdown02",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTShowdownLose": {
+      "id": "TournamentMTTShowdownLose",
+      "view": "views/TournamentMTT/TournamentMTTShowdownLose",
+      "src": "app.views.TournamentMTT.TournamentMTTShowdownLose",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTTUILayer": {
+      "id": "TournamentMTTUILayer",
+      "view": "views/TournamentMTT/TournamentMTTUILayer",
+      "src": "app.views.TournamentMTT.TournamentMTTUILayer",
+      "adapt": 1,
+      "sound": null
+    },
+    "TournamentMTThint": {
+      "id": "TournamentMTThint",
+      "view": "views/TournamentMTT/TournamentMTThint",
+      "src": "app.views.TournamentMTT.TournamentMTThint",
+      "adapt": null,
+      "sound": null
+    },
+    "GalaSeasonMain": {
+      "id": "GalaSeasonMain",
+      "view": "views/GalaSeason/GalaSeasonMain",
+      "src": "app.views.GalaSeason.GalaSeasonMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "GalaSeasonShop": {
+      "id": "GalaSeasonShop",
+      "view": "views/GalaSeason/GalaSeasonShop",
+      "src": "app.views.GalaSeason.GalaSeasonShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "GalaSeasonActivity": {
+      "id": "GalaSeasonActivity",
+      "view": "views/GalaSeason/GalaSeasonActivity",
+      "src": "app.views.GalaSeason.GalaSeasonActivity",
+      "adapt": 1,
+      "sound": null
+    },
+    "GalaSeasonInvitation": {
+      "id": "GalaSeasonInvitation",
+      "view": "views/GalaSeason/GalaSeasonInvitation",
+      "src": "app.views.GalaSeason.GalaSeasonInvitation",
+      "adapt": 1,
+      "sound": null
+    },
+    "GalaSeasonAllin": {
+      "id": "GalaSeasonAllin",
+      "view": "views/table/GalaSeason/GalaSeasonAllin",
+      "src": "app.table.GalaSeason.GalaSeasonAllin",
+      "adapt": 1,
+      "sound": null
+    },
+    "GalaSeasonExchange": {
+      "id": "GalaSeasonExchange",
+      "view": "views/GalaSeason/GalaSeasonExchange",
+      "src": "app.views.GalaSeason.GalaSeasonExchange",
+      "adapt": null,
+      "sound": null
+    },
+    "GalaSeasonHint": {
+      "id": "GalaSeasonHint",
+      "view": "views/GalaSeason/GalaSeasonHint",
+      "src": "app.views.GalaSeason.GalaSeasonHint",
+      "adapt": null,
+      "sound": null
+    },
+    "GalaSeasonLog": {
+      "id": "GalaSeasonLog",
+      "view": "views/GalaSeason/GalaSeasonLog",
+      "src": "app.views.GalaSeason.GalaSeasonLog",
+      "adapt": null,
+      "sound": null
+    },
+    "GalaSeasonPlayer": {
+      "id": "GalaSeasonPlayer",
+      "view": "views/GalaSeason/GalaSeasonPlayer",
+      "src": "app.views.GalaSeason.GalaSeasonPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    "GalaSeasonPlot": {
+      "id": "GalaSeasonPlot",
+      "view": "views/GalaSeason/GalaSeasonPlot",
+      "src": "app.views.GalaSeason.GalaSeasonPlot",
+      "adapt": null,
+      "sound": null
+    },
+    "GalaSeasonRules": {
+      "id": "GalaSeasonRules",
+      "view": "views/GalaSeason/GalaSeasonRules",
+      "src": "app.views.GalaSeason.GalaSeasonRules",
+      "adapt": null,
+      "sound": null
+    },
+    "SpringFestivalMain": {
+      "id": "SpringFestivalMain",
+      "view": "views/Spring/SpringFestivalMain",
+      "src": "app.views.Spring.SpringFestivalMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "SpringFestivalShop": {
+      "id": "SpringFestivalShop",
+      "view": "views/Spring/SpringFestivalShop",
+      "src": "app.views.Spring.SpringFestivalShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "SpringFestivalTask": {
+      "id": "SpringFestivalTask",
+      "view": "views/Spring/SpringFestivalTask",
+      "src": "app.views.Spring.SpringFestivalTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "SpringFestivalRules": {
+      "id": "SpringFestivalRules",
+      "view": "views/Spring/SpringFestivalRules",
+      "src": "app.views.Spring.SpringFestivalRules",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolMain": {
+      "id": "SchoolMain",
+      "view": "views/School/SchoolMain",
+      "src": "app.views.School.SchoolMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "SchoolStory": {
+      "id": "SchoolStory",
+      "view": "views/School/SchoolStory",
+      "src": "app.views.School.SchoolStory",
+      "adapt": 1,
+      "sound": null
+    },
+    "SchoolShop": {
+      "id": "SchoolShop",
+      "view": "views/School/SchoolShop",
+      "src": "app.views.School.SchoolShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "SchoolTask": {
+      "id": "SchoolTask",
+      "view": "views/School/SchoolTask",
+      "src": "app.views.School.SchoolTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "SchoolExchange": {
+      "id": "SchoolExchange",
+      "view": "views/School/SchoolExchange",
+      "src": "app.views.School.SchoolExchange",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolRules": {
+      "id": "SchoolRules",
+      "view": "views/School/SchoolRules",
+      "src": "app.views.School.SchoolRules",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolPlot": {
+      "id": "SchoolPlot",
+      "view": "views/School/SchoolPlot",
+      "src": "app.views.School.SchoolPlot",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolLog": {
+      "id": "SchoolLog",
+      "view": "views/School/SchoolLog",
+      "src": "app.views.School.SchoolLog",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolHint": {
+      "id": "SchoolHint",
+      "view": "views/School/SchoolHint",
+      "src": "app.views.School.SchoolHint",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolPlayer": {
+      "id": "SchoolPlayer",
+      "view": "views/School/SchoolPlayer",
+      "src": "app.views.School.SchoolPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    "SchoolNotice": {
+      "id": "SchoolNotice",
+      "view": "views/School/SchoolNotice",
+      "src": "app.views.School.SchoolNotice",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirl": {
+      "id": "BunnyGirl",
+      "view": "views/BunnyGirl/BunnyGirl",
+      "src": "app.views.BunnyGirl.BunnyGirl",
+      "adapt": 1,
+      "sound": null
+    },
+    "BunnyGirlStory": {
+      "id": "BunnyGirlStory",
+      "view": "views/BunnyGirl/BunnyGirlStory",
+      "src": "app.views.BunnyGirl.BunnyGirlStory",
+      "adapt": 1,
+      "sound": null
+    },
+    "BunnyGirlShop": {
+      "id": "BunnyGirlShop",
+      "view": "views/BunnyGirl/BunnyGirlShop",
+      "src": "app.views.BunnyGirl.BunnyGirlShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "BunnyGirlTask": {
+      "id": "BunnyGirlTask",
+      "view": "views/BunnyGirl/BunnyGirlTask",
+      "src": "app.views.BunnyGirl.BunnyGirlTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "BunnyGirlExchange": {
+      "id": "BunnyGirlExchange",
+      "view": "views/BunnyGirl/BunnyGirlExchange",
+      "src": "app.views.BunnyGirl.BunnyGirlExchange",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlRules": {
+      "id": "BunnyGirlRules",
+      "view": "views/BunnyGirl/BunnyGirlRules",
+      "src": "app.views.BunnyGirl.BunnyGirlRules",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlPlot": {
+      "id": "BunnyGirlPlot",
+      "view": "views/BunnyGirl/BunnyGirlPlot",
+      "src": "app.views.BunnyGirl.BunnyGirlPlot",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlLog": {
+      "id": "BunnyGirlLog",
+      "view": "views/BunnyGirl/BunnyGirlLog",
+      "src": "app.views.BunnyGirl.BunnyGirlLog",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlHint": {
+      "id": "BunnyGirlHint",
+      "view": "views/BunnyGirl/BunnyGirlHint",
+      "src": "app.views.BunnyGirl.BunnyGirlHint",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlPlayer": {
+      "id": "BunnyGirlPlayer",
+      "view": "views/BunnyGirl/BunnyGirlPlayer",
+      "src": "app.views.BunnyGirl.BunnyGirlPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlNotice": {
+      "id": "BunnyGirlNotice",
+      "view": "views/BunnyGirl/BunnyGirlNotice",
+      "src": "app.views.BunnyGirl.BunnyGirlNotice",
+      "adapt": null,
+      "sound": null
+    },
+    "BunnyGirlPackage": {
+      "id": "BunnyGirlPackage",
+      "view": "views/BunnyGirl/BunnyGirlPackage",
+      "src": "app.views.BunnyGirl.BunnyGirlPackage",
+      "adapt": null,
+      "sound": null
+    },
+    "DevelopmentFund": {
+      "id": "DevelopmentFund",
+      "view": "views/DevelopmentFund/DevelopmentFund",
+      "src": "app.views.DevelopmentFund.DevelopmentFund",
+      "adapt": 1,
+      "sound": null
+    },
+    "DevelopmentFundReward": {
+      "id": "DevelopmentFundReward",
+      "view": "views/DevelopmentFund/DevelopmentFundReward",
+      "src": "app.views.DevelopmentFund.DevelopmentFundReward",
+      "adapt": null,
+      "sound": null
+    },
+    "AchievementMain": {
+      "id": "AchievementMain",
+      "view": "views/Achievement/AchievementMain",
+      "src": "app.views.Achievement.AchievementMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "AchievementDetail": {
+      "id": "AchievementDetail",
+      "view": "views/Achievement/AchievementDetail",
+      "src": "app.views.Achievement.AchievementDetail",
+      "adapt": 1,
+      "sound": null
+    },
+    "AchievementRecord": {
+      "id": "AchievementRecord",
+      "view": "views/Achievement/AchievementRecord",
+      "src": "app.views.Achievement.AchievementRecord",
+      "adapt": null,
+      "sound": null
+    },
+    "AchievementTips": {
+      "id": "AchievementTips",
+      "view": "views/Achievement/AchievementTips",
+      "src": "app.views.Achievement.AchievementTips",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsMain": {
+      "id": "SportsMain",
+      "view": "views/Sports/SportsMain",
+      "src": "app.views.Sports.SportsMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "SportsStory": {
+      "id": "SportsStory",
+      "view": "views/Sports/SportsStory",
+      "src": "app.views.Sports.SportsStory",
+      "adapt": 1,
+      "sound": null
+    },
+    "SportsShop": {
+      "id": "SportsShop",
+      "view": "views/Sports/SportsShop",
+      "src": "app.views.Sports.SportsShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "SportsTask": {
+      "id": "SportsTask",
+      "view": "views/Sports/SportsTask",
+      "src": "app.views.Sports.SportsTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "SportsExchange": {
+      "id": "SportsExchange",
+      "view": "views/Sports/SportsExchange",
+      "src": "app.views.Sports.SportsExchange",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsRules": {
+      "id": "SportsRules",
+      "view": "views/Sports/SportsRules",
+      "src": "app.views.Sports.SportsRules",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsPlot": {
+      "id": "SportsPlot",
+      "view": "views/Sports/SportsPlot",
+      "src": "app.views.Sports.SportsPlot",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsLog": {
+      "id": "SportsLog",
+      "view": "views/Sports/SportsLog",
+      "src": "app.views.Sports.SportsLog",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsHint": {
+      "id": "SportsHint",
+      "view": "views/Sports/SportsHint",
+      "src": "app.views.Sports.SportsHint",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsPlayer": {
+      "id": "SportsPlayer",
+      "view": "views/Sports/SportsPlayer",
+      "src": "app.views.Sports.SportsPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsNotice": {
+      "id": "SportsNotice",
+      "view": "views/Sports/SportsNotice",
+      "src": "app.views.Sports.SportsNotice",
+      "adapt": null,
+      "sound": null
+    },
+    "SportsPackage": {
+      "id": "SportsPackage",
+      "view": "views/Sports/SportsPackage",
+      "src": "app.views.Sports.SportsPackage",
+      "adapt": null,
+      "sound": null
+    },
+    "SoccerMain": {
+      "id": "SoccerMain",
+      "view": "views/SoccerGuessing/SoccerMain",
+      "src": "app.views.SoccerGuessing.SoccerMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "SoccerBet": {
+      "id": "SoccerBet",
+      "view": "views/SoccerGuessing/SoccerBet",
+      "src": "app.views.SoccerGuessing.SoccerBet",
+      "adapt": null,
+      "sound": null
+    },
+    "DecorationList": {
+      "id": "DecorationList",
+      "view": "views/Decoration/DecorationList",
+      "src": "app.views.Decoration.DecorationList",
+      "adapt": 1,
+      "sound": null
+    },
+    "DecorationDetails": {
+      "id": "DecorationDetails",
+      "view": "views/Decoration/DecorationDetails",
+      "src": "app.views.Decoration.DecorationDetails",
+      "adapt": 1,
+      "sound": null
+    },
+    "DecorationPanel": {
+      "id": "DecorationPanel",
+      "view": "views/Decoration/DecorationPanel",
+      "src": "app.views.Decoration.DecorationPanel",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaPackage": {
+      "id": "SayakaPackage",
+      "view": "views/Sayaka/SayakaPackage",
+      "src": "app.views.Activity.ActivityPackageBase",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaMain": {
+      "id": "SayakaMain",
+      "view": "views/Sayaka/SayakaMain",
+      "src": "app.views.Sayaka.SayakaMain",
+      "adapt": 1,
+      "sound": null
+    },
+    "SayakaStory": {
+      "id": "SayakaStory",
+      "view": "views/Sayaka/SayakaStory",
+      "src": "app.views.Sayaka.SayakaStory",
+      "adapt": 1,
+      "sound": null
+    },
+    "SayakaShop": {
+      "id": "SayakaShop",
+      "view": "views/Sayaka/SayakaShop",
+      "src": "app.views.Sayaka.SayakaShop",
+      "adapt": 1,
+      "sound": null
+    },
+    "SayakaTask": {
+      "id": "SayakaTask",
+      "view": "views/Sayaka/SayakaTask",
+      "src": "app.views.Sayaka.SayakaTask",
+      "adapt": 1,
+      "sound": null
+    },
+    "SayakaExchange": {
+      "id": "SayakaExchange",
+      "view": "views/Sayaka/SayakaExchange",
+      "src": "app.views.Sayaka.SayakaExchange",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaRules": {
+      "id": "SayakaRules",
+      "view": "views/Sayaka/SayakaRules",
+      "src": "app.views.Sayaka.SayakaRules",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaPlot": {
+      "id": "SayakaPlot",
+      "view": "views/Sayaka/SayakaPlot",
+      "src": "app.views.Sayaka.SayakaPlot",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaLog": {
+      "id": "SayakaLog",
+      "view": "views/Sayaka/SayakaLog",
+      "src": "app.views.Sayaka.SayakaLog",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaHint": {
+      "id": "SayakaHint",
+      "view": "views/Sayaka/SayakaHint",
+      "src": "app.views.Sayaka.SayakaHint",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaPlayer": {
+      "id": "SayakaPlayer",
+      "view": "views/Sayaka/SayakaPlayer",
+      "src": "app.views.Sayaka.SayakaPlayer",
+      "adapt": null,
+      "sound": null
+    },
+    "SayakaNotice": {
+      "id": "SayakaNotice",
+      "view": "views/Sayaka/SayakaNotice",
+      "src": "app.views.Sayaka.SayakaNotice",
+      "adapt": null,
+      "sound": null
+    }
+  }
+}

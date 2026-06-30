@@ -1,0 +1,623 @@
+{
+  "_meta": {
+    "source": "tpl_backpack.lua",
+    "format": "keys_bodys",
+    "count": 22
+  },
+  "list": [
+    {
+      "id": 1,
+      "name": "LAB_BACKPACK_TAB_1",
+      "sub_page": null,
+      "props_type": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        109,
+        301,
+        112,
+        113,
+        114
+      ],
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_01]",
+      "red_name": "BackPackProp",
+      "show_num": 1
+    },
+    {
+      "id": 2,
+      "name": "LAB_BACKPACK_TAB_2",
+      "sub_page": [
+        15,
+        16
+      ],
+      "props_type": null,
+      "tab_type": 1,
+      "show_type": 2,
+      "page_icon": "Backpack[backpack_tab_icon_02]",
+      "red_name": "BackPackGift",
+      "show_num": null
+    },
+    {
+      "id": 3,
+      "name": "LAB_BACKPACK_TAB_3",
+      "sub_page": null,
+      "props_type": [
+        107,
+        108
+      ],
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_03]",
+      "red_name": "BackPackAwaken",
+      "show_num": null
+    },
+    {
+      "id": 4,
+      "name": "LAB_BACKPACK_TAB_4",
+      "sub_page": [
+        20,
+        5,
+        6,
+        14,
+        7,
+        17
+      ],
+      "props_type": null,
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_04]",
+      "red_name": "BackpackDecorate",
+      "show_num": null
+    },
+    {
+      "id": 5,
+      "name": "LAB_BACKPACK_TAB_5",
+      "sub_page": null,
+      "props_type": [
+        205
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackCardBack",
+      "show_num": null
+    },
+    {
+      "id": 6,
+      "name": "LAB_BACKPACK_TAB_6",
+      "sub_page": null,
+      "props_type": [
+        206
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackTable",
+      "show_num": null
+    },
+    {
+      "id": 7,
+      "name": "LAB_BACKPACK_TAB_7",
+      "sub_page": [
+        8,
+        9
+      ],
+      "props_type": null,
+      "tab_type": 2,
+      "show_type": 2,
+      "page_icon": null,
+      "red_name": "BackpackMusic",
+      "show_num": null
+    },
+    {
+      "id": 8,
+      "name": "LAB_BACKPACK_TAB_8",
+      "sub_page": null,
+      "props_type": [
+        207
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 9,
+      "name": "LAB_BACKPACK_TAB_9",
+      "sub_page": null,
+      "props_type": [
+        208
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 10,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        201
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 11,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        202
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 12,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        203
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 13,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        204
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 14,
+      "name": "LAB_BACKPACK_TAB_10",
+      "sub_page": null,
+      "props_type": [
+        209
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackScene",
+      "show_num": null
+    },
+    {
+      "id": 15,
+      "name": "LAB_BACKPACK_TAB_11",
+      "sub_page": null,
+      "props_type": [
+        303,
+        302
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 16,
+      "name": "LAB_BACKPACK_TAB_2",
+      "sub_page": null,
+      "props_type": [
+        106
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 17,
+      "name": "LAB_BACKPACK_TAB_12",
+      "sub_page": [
+        18,
+        19,
+        22
+      ],
+      "props_type": null,
+      "tab_type": 2,
+      "show_type": 2,
+      "page_icon": null,
+      "red_name": "BackpackEff",
+      "show_num": null
+    },
+    {
+      "id": 18,
+      "name": "LAB_BACKPACK_TAB_13",
+      "sub_page": null,
+      "props_type": [
+        210
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 19,
+      "name": "LAB_BACKPACK_TAB_14",
+      "sub_page": null,
+      "props_type": [
+        211
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    {
+      "id": 20,
+      "name": "LAB_BACKPACK_TAB_15",
+      "sub_page": null,
+      "props_type": [
+        212
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackCardFace",
+      "show_num": null
+    },
+    {
+      "id": 21,
+      "name": "LAB_GAME_EMOJI_01",
+      "sub_page": null,
+      "props_type": [
+        401
+      ],
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_05]",
+      "red_name": "BackpackEmoji",
+      "show_num": null
+    },
+    {
+      "id": 22,
+      "name": "LAB_BACKPACK_TAB_16",
+      "sub_page": null,
+      "props_type": [
+        213
+      ],
+      "tab_type": 3,
+      "show_type": 2,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    }
+  ],
+  "map": {
+    "1": {
+      "id": 1,
+      "name": "LAB_BACKPACK_TAB_1",
+      "sub_page": null,
+      "props_type": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        109,
+        301,
+        112,
+        113,
+        114
+      ],
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_01]",
+      "red_name": "BackPackProp",
+      "show_num": 1
+    },
+    "2": {
+      "id": 2,
+      "name": "LAB_BACKPACK_TAB_2",
+      "sub_page": [
+        15,
+        16
+      ],
+      "props_type": null,
+      "tab_type": 1,
+      "show_type": 2,
+      "page_icon": "Backpack[backpack_tab_icon_02]",
+      "red_name": "BackPackGift",
+      "show_num": null
+    },
+    "3": {
+      "id": 3,
+      "name": "LAB_BACKPACK_TAB_3",
+      "sub_page": null,
+      "props_type": [
+        107,
+        108
+      ],
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_03]",
+      "red_name": "BackPackAwaken",
+      "show_num": null
+    },
+    "4": {
+      "id": 4,
+      "name": "LAB_BACKPACK_TAB_4",
+      "sub_page": [
+        20,
+        5,
+        6,
+        14,
+        7,
+        17
+      ],
+      "props_type": null,
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_04]",
+      "red_name": "BackpackDecorate",
+      "show_num": null
+    },
+    "5": {
+      "id": 5,
+      "name": "LAB_BACKPACK_TAB_5",
+      "sub_page": null,
+      "props_type": [
+        205
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackCardBack",
+      "show_num": null
+    },
+    "6": {
+      "id": 6,
+      "name": "LAB_BACKPACK_TAB_6",
+      "sub_page": null,
+      "props_type": [
+        206
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackTable",
+      "show_num": null
+    },
+    "7": {
+      "id": 7,
+      "name": "LAB_BACKPACK_TAB_7",
+      "sub_page": [
+        8,
+        9
+      ],
+      "props_type": null,
+      "tab_type": 2,
+      "show_type": 2,
+      "page_icon": null,
+      "red_name": "BackpackMusic",
+      "show_num": null
+    },
+    "8": {
+      "id": 8,
+      "name": "LAB_BACKPACK_TAB_8",
+      "sub_page": null,
+      "props_type": [
+        207
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "9": {
+      "id": 9,
+      "name": "LAB_BACKPACK_TAB_9",
+      "sub_page": null,
+      "props_type": [
+        208
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "10": {
+      "id": 10,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        201
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "11": {
+      "id": 11,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        202
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "12": {
+      "id": 12,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        203
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "13": {
+      "id": 13,
+      "name": null,
+      "sub_page": null,
+      "props_type": [
+        204
+      ],
+      "tab_type": 0,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "14": {
+      "id": 14,
+      "name": "LAB_BACKPACK_TAB_10",
+      "sub_page": null,
+      "props_type": [
+        209
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackScene",
+      "show_num": null
+    },
+    "15": {
+      "id": 15,
+      "name": "LAB_BACKPACK_TAB_11",
+      "sub_page": null,
+      "props_type": [
+        303,
+        302
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "16": {
+      "id": 16,
+      "name": "LAB_BACKPACK_TAB_2",
+      "sub_page": null,
+      "props_type": [
+        106
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "17": {
+      "id": 17,
+      "name": "LAB_BACKPACK_TAB_12",
+      "sub_page": [
+        18,
+        19,
+        22
+      ],
+      "props_type": null,
+      "tab_type": 2,
+      "show_type": 2,
+      "page_icon": null,
+      "red_name": "BackpackEff",
+      "show_num": null
+    },
+    "18": {
+      "id": 18,
+      "name": "LAB_BACKPACK_TAB_13",
+      "sub_page": null,
+      "props_type": [
+        210
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "19": {
+      "id": 19,
+      "name": "LAB_BACKPACK_TAB_14",
+      "sub_page": null,
+      "props_type": [
+        211
+      ],
+      "tab_type": 3,
+      "show_type": null,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    },
+    "20": {
+      "id": 20,
+      "name": "LAB_BACKPACK_TAB_15",
+      "sub_page": null,
+      "props_type": [
+        212
+      ],
+      "tab_type": 2,
+      "show_type": 1,
+      "page_icon": null,
+      "red_name": "BackpackCardFace",
+      "show_num": null
+    },
+    "21": {
+      "id": 21,
+      "name": "LAB_GAME_EMOJI_01",
+      "sub_page": null,
+      "props_type": [
+        401
+      ],
+      "tab_type": 1,
+      "show_type": 1,
+      "page_icon": "Backpack[backpack_tab_icon_05]",
+      "red_name": "BackpackEmoji",
+      "show_num": null
+    },
+    "22": {
+      "id": 22,
+      "name": "LAB_BACKPACK_TAB_16",
+      "sub_page": null,
+      "props_type": [
+        213
+      ],
+      "tab_type": 3,
+      "show_type": 2,
+      "page_icon": null,
+      "red_name": null,
+      "show_num": null
+    }
+  }
+}

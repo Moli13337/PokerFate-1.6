@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "source": "tpl_icebreaker_pack.lua",
+    "format": "keys_bodys",
+    "count": 1
+  },
+  "list": [
+    {
+      "id": 10001,
+      "shop_type": 15,
+      "name": "TAB_ICEBREAKER_PACK_2",
+      "icon": "Icon[icon_gift_pack_break_ice]",
+      "display_pic": "pic_1",
+      "props": [
+        3,
+        100105,
+        1,
+        1,
+        10200002,
+        1,
+        1,
+        10100001,
+        100000
+      ],
+      "buy_id": 1500001,
+      "limit_type": 4,
+      "limit_count": 1
+    }
+  ],
+  "map": {
+    "10001": {
+      "id": 10001,
+      "shop_type": 15,
+      "name": "TAB_ICEBREAKER_PACK_2",
+      "icon": "Icon[icon_gift_pack_break_ice]",
+      "display_pic": "pic_1",
+      "props": [
+        3,
+        100105,
+        1,
+        1,
+        10200002,
+        1,
+        1,
+        10100001,
+        100000
+      ],
+      "buy_id": 1500001,
+      "limit_type": 4,
+      "limit_count": 1
+    }
+  }
+}
